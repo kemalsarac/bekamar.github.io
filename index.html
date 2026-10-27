@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try{if(!sessionStorage.getItem("bekamarBrandIntroSeen")&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("splash-pending")}catch{}</script>
+<title>BEKAMAR — Doğal Taş, Porselen ve Kuvars Yüzeyler</title>
+<meta name="description" content="Doğal taş, porselen ve kuvars yüzeylerde estetik, kalite ve sürdürülebilir çözümler.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/splash.css">
+</head>
+<body>
+  <div class="brand-splash" id="brandSplash" role="img" aria-label="BEKAMAR">
+    <div class="brand-splash__group" id="brandSplashGroup">
+      <img class="brand-splash__mark" src="assets/images/bekamarlogo-transparent.png" alt="">
+      <img class="brand-splash__wordmark" src="assets/images/bekamarlogo-transparent.png" alt="">
+    </div>
+    <p class="brand-splash__tagline">Do&#287;an&#305;n kal&#305;c&#305;l&#305;&#287;&#305;, Bekamar'&#305;n imzas&#305;.</p>
+  </div>
+<div class="wrap">
+
+<!-- HERO -->
+<section class="hero" aria-label="Öne çıkan">
+  <video class="hero__video" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1">
+    <source src="assets/videos/bekamar-onyx-hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <header class="site-header pad">
+    <a class="brand" href="#" aria-label="BEKAMAR ana sayfa"><img src="assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" id="nav" aria-label="Ana menü">
+      <a href="#urunler">ANASAYFA</a>
+      <a href="sirketimiz/index.html" data-menu="corporate" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KURUMSAL</a>
+      <a href="granit/index.html" data-menu="natural" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">DOĞAL TAŞLAR</a>
+      <a href="https://bekamar.com/kompoze-urunler" data-menu="engineered" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KOMPOZE ÜRÜNLER</a>
+      <a href="blog/index.html">BLOG</a>
+      <a href="kataloglar/index.html" data-menu="media" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">MEDYA</a>
+      <a href="bize-ulasin/index.html">&#304;LET&#304;&#350;&#304;M</a>
+      <div class="mobile-submenus" id="mobileSubmenus"></div>
+    </nav>
+    <div class="header-end">
+      <button class="lang" aria-label="Dil seç">TR ⌄</button>
+      <a class="btn btn--sm" href="#iletisim">Teklif Al →</a>
+      <button class="round menu-btn" id="menuBtn" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+  <div class="hero__body pad">
+    <p class="label">Doğanın Zamansız Gücü</p>
+    <h1 class="serif h-xl">Mekanlara Değer Katan Doğal Seçimler</h1>
+    <p class="body">Doğal taş, porselen ve kuvars yüzeylerde estetik, kalite ve sürdürülebilir çözümler.</p>
+    <a class="btn" href="#urunler">Koleksiyonları Keşfet →</a>
+  </div>
+</section>
+
+<div class="mega-menu" id="megaMenu" aria-label="Alt menü" aria-hidden="true"></div>
+
+<!-- CATEGORIES -->
+<section class="cats pad" id="urunler" aria-label="Ürün kategorileri"></section>
+
+<!-- COLLECTION -->
+<section class="split" id="koleksiyon">
+  <div class="collection__stage">
+    <div class="media" id="colBg"></div>
+    <div class="collection__shade"></div>
+    <div>
+      <p class="label">Yeni Koleksiyon</p>
+      <h2 class="serif h-lg">Doğallığın Modern Yorumu</h2>
+      <p class="body">Dünyanın en özel taşlarını, modern yaşam alanlarıyla buluşturan seçkin koleksiyonumuzu keşfedin.</p>
+      <a class="btn" href="#iletisim">Koleksiyonu İncele →</a>
+    </div>
+    <div class="thumbs">
+      <button class="round" id="cPrev" aria-label="Önceki koleksiyon">←</button>
+      <span id="thumbs" style="display:flex;gap:14px;flex-wrap:wrap"></span>
+      <button class="round" id="cNext" aria-label="Sonraki koleksiyon">→</button>
+    </div>
+  </div>
+  <aside class="panel">
+    <div class="count" id="colIdx"></div>
+    <img class="panel__image" id="colApplication" alt="Bal Onyx uygulama örneği" hidden>
+    <div>
+      <h3 class="serif" id="colName"></h3>
+      <p id="colNote" aria-live="polite"></p>
+      <a class="btn btn--ink" href="#iletisim">Detayları Gör →</a>
+    </div>
+  </aside>
+</section>
+
+<!-- APPLICATIONS -->
+<section class="split apps" id="uygulamalar">
+  <div class="apps__intro">
+    <p class="label">Uygulama Alanları</p>
+    <h2 class="serif h-md">Her Mekanda Zamansız Şıklık</h2>
+    <p class="copy">Doğal taşların eşsiz dokusunu yaşam alanlarınızın her köşesinde keşfedin.</p>
+    <a class="btn btn--dark" href="#projeler">Uygulama Alanlarını İncele →</a>
+  </div>
+  <div class="apps__grid" id="apps"></div>
+</section>
+
+<!-- BRANDS -->
+<section class="brands pad" id="markalar">
+  <div class="media" id="quarryBg"></div>
+  <div>
+    <p class="label">Küresel Kaynaklar · Güçlü Tedarik Ağı</p>
+    <h2 class="serif h-md">Dünya Markalarını Sizinle Buluşturuyoruz</h2>
+    <p class="body">Kalitesi ve tasarımıyla fark yaratan global markaların seçkin koleksiyonlarını keşfedin.</p>
+    <div class="brands__row">
+      <a class="btn" href="#iletisim">Markaları Keşfet →</a>
+      <div class="brands__logos" id="brands"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKIN3 EXPERIENCE -->
+<section class="skin3 light" id="projeler" aria-labelledby="skin3Title">
+  <div class="skin3__art" aria-hidden="true">
+    <div class="skin3__slab"><img src="assets/images/bal-onyx_536_485.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="skin3__slab"><img src="assets/images/pandawhite.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="skin3__slab"><img src="assets/images/elazıg_visne.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="skin3__slab"><img src="assets/images/carrarawhite.png" alt="" loading="lazy" decoding="async"></div>
+    <div class="skin3__slab"><img src="assets/images/avakadourun.png" alt="" loading="lazy" decoding="async"></div>
+  </div>
+  <div class="skin3__copy">
+    <div class="skin3__brand" id="skin3Title" role="img" aria-label="BEKAMAR">
+      <img class="skin3__brand-mark" src="assets/images/bekamarlogo-transparent.png" alt="" aria-hidden="true">
+      <img class="skin3__brand-word" src="assets/images/bekamarlogo-transparent.png" alt="" aria-hidden="true">
+    </div>
+    <p class="skin3__description">Milyarlarca yılda şekillenen, doğanın eşsiz zarafeti.</p>
+    <a class="skin3__discover" href="#koleksiyon">Discover</a>
+  </div>
+</section>
+
+<!-- STORY / İBRAHİM HOŞ -->
+<section class="split story" id="hakkimizda" aria-label="İbrahim Hoş, Yönetim Kurulu Başkanı">
+  <div class="story__img"><div class="media" data-bg="story"></div></div>
+  <div class="story__text">
+    <div class="story__quote">
+      <img class="story__portrait" src="assets/images/ibrahim-hos_150_150.jpg" alt="İbrahim Hoş" loading="lazy" decoding="async">
+      <blockquote>
+        <p>“Amacımız; siz değerli meslektaşlarımıza ve yol arkadaşlarımıza kaliteli ürünler ve daha iyi hizmet sunabilmektir. <strong>Ege Bölgesi</strong> başta olmak üzere yakın bölge ve illerdeki inşaat sektörünün ihtiyaç duyduğu <strong>kompoze taş ve granit</strong> taleplerinin karşılanmasında firmamız önemli bir misyon yüklenmiştir.”</p>
+        <footer class="story__attribution"><span aria-hidden="true">“</span><strong>İBRAHİM HOŞ</strong><i aria-hidden="true">/</i> Yönetim Kurulu Başkanı</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWROOMS & CONTACT -->
+<section class="showrooms light pad" id="subeler">
+  <div>
+    <p class="label">Showroom &amp; İletişim</p>
+    <h2 class="serif h-lg">Her Zaman Daha Yakınınızda</h2>
+    <div class="contact" id="iletisim"><strong>MERKEZ</strong><br>85. Yıl Cumhuriyet Mahallesi Ankara Caddesi No:434 Kemalpaşa / İZMİR TÜRKİYE<br><strong>E-POSTA</strong><br><a href="mailto:info@bekamar.com">info@bekamar.com</a><br><strong>TELEFON</strong><br><a href="tel:+902328804044">+90 232 880 40 44</a></div>
+    <a class="btn btn--dark" href="mailto:info@bekamar.com">Teklif Al →</a>
+  </div>
+  <div>
+    <p class="label">Merkez Konum</p>
+    <div class="map-frame">
+      <iframe title="BEKAMAR merkez subesi haritasi" src="https://maps.google.com/maps?q=85.%20Y%C4%B1l%20Cumhuriyet%20Mahallesi%20Ankara%20Caddesi%20No%3A434%2C%20Kemalpa%C5%9Fa%2C%20%C4%B0zmir&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer pad">
+  <a class="brand brand--footer" href="#" aria-label="BEKAMAR ana sayfa"><img src="assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+  <nav class="nav" aria-label="Alt men&#252;">
+    <a href="#urunler">ANASAYFA</a><a href="sirketimiz/index.html">KURUMSAL</a>
+    <a href="granit/index.html">DO&#286;AL TA&#350;LAR</a><a href="https://bekamar.com/kompoze-urunler">KOMPOZE &#220;R&#220;NLER</a>
+    <a href="blog/index.html">BLOG</a><a href="kataloglar/index.html">MEDYA</a><a href="bize-ulasin/index.html">&#304;LET&#304;&#350;&#304;M</a>
+  </nav>
+  <small>[Sosyal bağlantılar] · © BEKAMAR</small>
+</footer>
+</div>
+
+  <script src="js/navigation.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  <script src="js/splash.js" defer></script>
+</body>
+</html>

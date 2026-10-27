@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try{if(!sessionStorage.getItem("bekamarBrandIntroSeen")&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("splash-pending")}catch{}</script>
+  <title>Haberler | Bekamar</title>
+  <meta name="description" content="Bekamar'dan haberler, etkinlikler ve şirket gelişmeleri.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/company.css">
+  <link rel="stylesheet" href="../css/news.css">
+  <link rel="stylesheet" href="../css/splash.css">
+</head>
+<body class="company-page news-page" data-asset-prefix="../" data-company-path="../sirketimiz/index.html">
+  <div class="brand-splash" id="brandSplash" role="img" aria-label="BEKAMAR">
+    <div class="brand-splash__group" id="brandSplashGroup">
+      <img class="brand-splash__mark" src="../assets/images/bekamarlogo-transparent.png" alt="">
+      <img class="brand-splash__wordmark" src="../assets/images/bekamarlogo-transparent.png" alt="">
+    </div>
+    <p class="brand-splash__tagline">Do&#287;an&#305;n kal&#305;c&#305;l&#305;&#287;&#305;, Bekamar'&#305;n imzas&#305;.</p>
+  </div>
+  <header class="site-header pad">
+    <a class="brand" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" id="nav" aria-label="Ana menü">
+      <a href="../index.html#urunler">ANASAYFA</a>
+      <a href="../sirketimiz/index.html" data-menu="corporate" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KURUMSAL</a>
+      <a href="https://bekamar.com/dogal-taslar" data-menu="natural" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">DOĞAL TAŞLAR</a>
+      <a href="https://bekamar.com/kompoze-urunler" data-menu="engineered" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KOMPOZE ÜRÜNLER</a>
+      <a href="../blog/index.html">BLOG</a>
+      <a href="../kataloglar/index.html" data-menu="media" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">MEDYA</a>
+      <a href="../bize-ulasin/index.html">İLETİŞİM</a>
+      <div class="mobile-submenus" id="mobileSubmenus"></div>
+    </nav>
+    <div class="header-end">
+      <a class="btn btn--sm" href="../bize-ulasin/index.html">Bize Ulaşın <span aria-hidden="true">→</span></a>
+      <button class="round menu-btn" id="menuBtn" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+  <div class="mega-menu" id="megaMenu" aria-label="Alt menü" aria-hidden="true"></div>
+
+  <main class="news-main">
+    <section class="news-intro" aria-labelledby="newsTitle">
+      <div>
+        <p class="company-eyebrow">BEKAMAR · GÜNCEL</p>
+        <h1 class="serif" id="newsTitle">Hikâyemizden<br><em>haberler.</em></h1>
+      </div>
+      <p>Fuarlar, gelişmeler ve Bekamar’dan haberler.</p>
+    </section>
+
+    <section class="news-listing" aria-label="Bekamar haberleri">
+      <div class="news-toolbar">
+        <p>HABER ARŞİVİ <span id="newsCount">05</span></p>
+        <div class="news-filters" role="group" aria-label="Haberleri filtrele">
+          <button type="button" class="is-active" data-news-filter="all" aria-pressed="true">TÜMÜ</button>
+          <button type="button" data-news-filter="fair" aria-pressed="false">FUARLAR</button>
+          <button type="button" data-news-filter="company" aria-pressed="false">BEKAMAR’DAN</button>
+        </div>
+      </div>
+
+      <div class="news-grid">
+        <article class="news-card news-card--featured" data-news-card data-category="fair">
+          <button class="news-card__open" type="button" data-news-open aria-controls="newsDetail" aria-expanded="false"
+            data-title="25. Uluslararası Mermer ve Doğaltaş Fuarı"
+            data-meta="FUARLAR · 2019"
+            data-body="Yeni ürünlerimiz büyük ilgi gördü."
+            data-image="../assets/images/dogaltaslar.png"
+            aria-label="25. Uluslararası Mermer ve Doğaltaş Fuarı haberini incele">
+            <img src="../assets/images/dogaltaslar.png" alt="Doğal taşın açık ve koyu damar detayları" loading="lazy" decoding="async">
+            <span class="news-card__veil"></span>
+            <span class="news-card__meta">FUARLAR <i>·</i> 2019</span>
+            <span class="news-card__title serif">25. Uluslararası Mermer ve Doğaltaş Fuarı</span>
+            <span class="news-card__excerpt">Yeni ürünlerimiz büyük ilgi gördü.</span>
+            <span class="news-card__action">HABERİ İNCELE <i aria-hidden="true">↗</i></span>
+          </button>
+        </article>
+        <article class="news-card" data-news-card data-category="company">
+          <button class="news-card__open" type="button" data-news-open aria-controls="newsDetail" aria-expanded="false"
+            data-title="Mermer-Granit Sektörünün Öncüsü BEKAMAR"
+            data-meta="BEKAMAR’DAN"
+            data-body=""
+            data-image="../assets/images/şubemerkez2.png"
+            aria-label="Mermer-Granit Sektörünün Öncüsü Bekamar haberini incele">
+            <img src="../assets/images/şubemerkez2.png" alt="Bekamar merkez ve doğal taş stok sahası" loading="lazy" decoding="async">
+            <span class="news-card__veil"></span>
+            <span class="news-card__meta">BEKAMAR’DAN</span>
+            <span class="news-card__title serif">Mermer-Granit Sektörünün Öncüsü BEKAMAR</span>
+            <span class="news-card__action">HABERİ İNCELE <i aria-hidden="true">↗</i></span>
+          </button>
+        </article>
+        <article class="news-card" data-news-card data-category="company">
+          <button class="news-card__open news-card__open--placeholder" type="button" data-news-open aria-controls="newsDetail" aria-expanded="false"
+            data-title="Yeni haber yakında"
+            data-meta="BEKAMAR’DAN"
+            data-body="Bu haberin içeriği hazırlanıyor."
+            data-image="../assets/images/avakadourun.png"
+            aria-label="Yeni haber taslağını incele">
+            <img src="../assets/images/avakadourun.png" alt="Yeşil doğal taş dokusu" loading="lazy" decoding="async">
+            <span class="news-card__veil"></span><span class="news-card__meta">BEKAMAR’DAN</span>
+            <span class="news-card__title serif">Yeni haber yakında</span>
+            <span class="news-card__excerpt">Yeni içerik eklenecek.</span>
+            <span class="news-card__action">ÖN İZLEME <i aria-hidden="true">↗</i></span>
+          </button>
+        </article>
+        <article class="news-card" data-news-card data-category="fair">
+          <button class="news-card__open news-card__open--placeholder" type="button" data-news-open aria-controls="newsDetail" aria-expanded="false"
+            data-title="Yeni fuar haberi yakında"
+            data-meta="FUARLAR"
+            data-body="Fuar haberi ve ayrıntıları eklenecek."
+            data-image="../assets/images/porselenurunler.png"
+            aria-label="Yeni fuar haberi taslağını incele">
+            <img src="../assets/images/porselenurunler.png" alt="Doğal damar desenli porselen yüzey" loading="lazy" decoding="async">
+            <span class="news-card__veil"></span><span class="news-card__meta">FUARLAR</span>
+            <span class="news-card__title serif">Yeni fuar haberi yakında</span>
+            <span class="news-card__excerpt">Yeni içerik eklenecek.</span>
+            <span class="news-card__action">ÖN İZLEME <i aria-hidden="true">↗</i></span>
+          </button>
+        </article>
+        <article class="news-card" data-news-card data-category="company">
+          <button class="news-card__open news-card__open--placeholder" type="button" data-news-open aria-controls="newsDetail" aria-expanded="false"
+            data-title="Bekamar’dan yeni gelişmeler"
+            data-meta="BEKAMAR’DAN"
+            data-body="Haber ayrıntıları eklenecek."
+            data-image="../assets/images/şubemerkez1.png"
+            aria-label="Bekamar'dan yeni gelişmeler taslağını incele">
+            <img src="../assets/images/şubemerkez1.png" alt="Bekamar şube ve depo alanı" loading="lazy" decoding="async">
+            <span class="news-card__veil"></span><span class="news-card__meta">BEKAMAR’DAN</span>
+            <span class="news-card__title serif">Bekamar’dan yeni gelişmeler</span>
+            <span class="news-card__excerpt">Yeni içerik eklenecek.</span>
+            <span class="news-card__action">ÖN İZLEME <i aria-hidden="true">↗</i></span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="news-detail" id="newsDetail" aria-labelledby="newsDetailTitle" aria-live="polite" hidden>
+      <div class="news-detail__image-wrap"><img class="news-detail__image" src="" alt="" loading="lazy" decoding="async"></div>
+      <div class="news-detail__copy">
+        <p class="company-eyebrow" data-news-detail-meta></p>
+        <h2 class="serif" id="newsDetailTitle"></h2>
+        <div class="news-detail__body" data-news-detail-body></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer pad company-footer">
+    <a class="brand brand--footer" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" aria-label="Alt menü">
+      <a href="../index.html#urunler">ANASAYFA</a><a href="../sirketimiz/index.html">KURUMSAL</a><a href="index.html" aria-current="page">HABERLER</a>
+      <a href="https://bekamar.com/dogal-taslar">DOĞAL TAŞLAR</a><a href="https://bekamar.com/kompoze-urunler">KOMPOZE ÜRÜNLER</a>
+      <a href="../kataloglar/index.html">MEDYA</a><a href="../bize-ulasin/index.html">İLETİŞİM</a>
+    </nav>
+    <small>© BEKAMAR</small>
+  </footer>
+  <script src="../js/navigation.js" defer></script>
+  <script src="../js/news.js" defer></script>
+  <script src="../js/splash.js" defer></script>
+</body>
+</html>

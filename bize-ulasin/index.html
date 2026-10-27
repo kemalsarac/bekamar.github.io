@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171715">
+  <title>Bize Ulaşın | BEKAMAR</title>
+  <meta name="description" content="Bekamar doğal taş koleksiyonları ve projelerinize özel çözümler hakkında bizimle iletişime geçin.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/company.css">
+  <link rel="stylesheet" href="../css/splash.css">
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body class="company-page contact-page" data-asset-prefix="../" data-company-path="../sirketimiz/index.html">
+  <div class="brand-splash" id="brandSplash" role="img" aria-label="BEKAMAR">
+    <div class="brand-splash__group" id="brandSplashGroup"><img class="brand-splash__mark" src="../assets/images/bekamarlogo-transparent.png" alt=""><img class="brand-splash__wordmark" src="../assets/images/bekamarlogo-transparent.png" alt=""></div>
+    <p class="brand-splash__tagline">Do&#287;an&#305;n kal&#305;c&#305;l&#305;&#287;&#305;, Bekamar'&#305;n imzas&#305;.</p>
+  </div>
+  <header class="site-header pad">
+    <a class="brand" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" id="nav" aria-label="Ana menü">
+      <a href="../index.html#urunler">ANASAYFA</a><a href="../sirketimiz/index.html" data-menu="corporate" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KURUMSAL</a>
+      <a href="../granit/index.html" data-menu="natural" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">DOĞAL TAŞLAR</a><a href="https://bekamar.com/kompoze-urunler" data-menu="engineered" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KOMPOZE ÜRÜNLER</a>
+      <a href="../blog/index.html">BLOG</a><a href="../kataloglar/index.html" data-menu="media" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">MEDYA</a><a href="index.html" aria-current="page">İLETİŞİM</a><div class="mobile-submenus" id="mobileSubmenus"></div>
+    </nav>
+    <div class="header-end"><a class="btn btn--sm" href="#contact-form">İletişime Geçin <span aria-hidden="true">→</span></a><button class="round menu-btn" id="menuBtn" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">☰</button></div>
+  </header>
+  <div class="mega-menu" id="megaMenu" aria-label="Alt menü" aria-hidden="true"></div>
+
+  <main>
+
+    <section class="contact-form-section" id="contact-form" aria-labelledby="form-title">
+      <div class="contact-form-section__intro"><p class="company-eyebrow">PROJENİZİ KONUŞALIM</p><h2 class="serif" id="form-title">Size nasıl<br>yardımcı<br><em>olabiliriz?</em></h2><p>Ürünlerimiz, uygulama seçenekleri veya projenize uygun doğal taş çözümleri hakkında ekibimizle görüşebilirsiniz.</p>
+        <dl class="contact-details">
+          <div><dt>TELEFON</dt><dd><a href="tel:+902328804044">+90 232 880 40 44</a></dd></div>
+          <div><dt>E-POSTA</dt><dd><a href="mailto:info@bekamar.com">info@bekamar.com</a></dd></div>
+          <div><dt>MERKEZ</dt><dd>85. Yıl Cumhuriyet Mahallesi Ankara Caddesi No:434<br>Kemalpaşa / İzmir, Türkiye</dd></div>
+        </dl>
+      </div>
+      <div class="contact-form-card">
+        <p class="company-eyebrow">BİZE YAZIN</p>
+        <form id="contactForm" novalidate>
+          <div class="contact-fields">
+            <label>Ad Soyad <span>*</span><input name="name" type="text" autocomplete="name" required aria-describedby="name-error"><small class="field-error" id="name-error"></small></label>
+            <label>E-posta <span>*</span><input name="email" type="email" autocomplete="email" required aria-describedby="email-error"><small class="field-error" id="email-error"></small></label>
+            <label>Telefon <em>(isteğe bağlı)</em><input name="phone" type="tel" autocomplete="tel" inputmode="tel"></label>
+            <label>İlgilendiğiniz konu<select name="topic"><option value="Doğal taş ürünleri">Doğal taş ürünleri</option><option value="Proje ve fiyat teklifi">Proje ve fiyat teklifi</option><option value="Showroom ziyareti">Showroom ziyareti</option><option value="Bayilik ve iş ortaklığı">Bayilik ve iş ortaklığı</option><option value="Diğer">Diğer</option></select></label>
+            <label class="contact-fields__wide">Mesajınız <span>*</span><textarea name="message" rows="4" required aria-describedby="message-error"></textarea><small class="field-error" id="message-error"></small></label>
+          </div>
+          <p class="privacy-placeholder"><span aria-hidden="true">ⓘ</span> Gizlilik ve kişisel verilerin işlenmesine ilişkin onay metni Bekamar tarafından sağlandığında bu alana eklenecektir.</p>
+          <button class="contact-submit" type="submit"><span>Mesajınızı gönderin</span><span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+          <p class="form-note">Gönderim, cihazınızdaki e-posta uygulamasında açılacak taslak üzerinden tamamlanır.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="showroom-section" id="showroom" aria-labelledby="showroom-title">
+      <figure class="showroom-section__image"><img src="../assets/images/şubemerkez2.png" alt="Bekamar Kemalpaşa merkez binası ve doğal taş stok alanı" loading="lazy" decoding="async"></figure>
+      <div class="showroom-section__copy"><p class="company-eyebrow">KEMALPAŞA · İZMİR</p><h2 class="serif" id="showroom-title">Bekamar’ı<br><em>yakından keşfedin.</em></h2><p>Doğal taş seçeneklerimizi yakından incelemek ve projeniz için en uygun yüzeyi değerlendirmek üzere bizimle iletişime geçin.</p><address>85. Yıl Cumhuriyet Mahallesi<br>Ankara Caddesi No:434<br>Kemalpaşa / İzmir, Türkiye</address><div class="showroom-section__links"><a class="contact-action" href="https://maps.google.com/maps?q=85.%20Y%C4%B1l%20Cumhuriyet%20Mahallesi%20Ankara%20Caddesi%20No%3A434%2C%20Kemalpa%C5%9Fa%2C%20%C4%B0zmir" target="_blank" rel="noopener noreferrer">Yol tarifi alın <span aria-hidden="true">↗</span></a><a href="tel:+902328804044">+90 232 880 40 44</a></div></div>
+    </section>
+    <div class="contact-map"><iframe title="Bekamar Kemalpaşa merkez konumu" src="https://maps.google.com/maps?q=85.%20Y%C4%B1l%20Cumhuriyet%20Mahallesi%20Ankara%20Caddesi%20No%3A434%2C%20Kemalpa%C5%9Fa%2C%20%C4%B0zmir&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    <section class="contact-close" aria-labelledby="contact-close-title"><p class="company-eyebrow">BEKAMAR · DOĞAL TAŞ</p><h2 class="serif" id="contact-close-title">Her proje, doğru<br>malzemeyle <em>başlar.</em></h2><p>Doğal taş koleksiyonlarımızı keşfedin; projenize uygun seçenekleri birlikte değerlendirelim.</p><a class="contact-action" href="../index.html#urunler">Ürünlerimizi keşfedin <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer pad company-footer"><a class="brand brand--footer" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a><nav class="nav" aria-label="Alt menü"><a href="../index.html#urunler">ANASAYFA</a><a href="../sirketimiz/index.html">KURUMSAL</a><a href="../granit/index.html">DOĞAL TAŞLAR</a><a href="https://bekamar.com/kompoze-urunler">KOMPOZE ÜRÜNLER</a><a href="../blog/index.html">BLOG</a><a href="../kataloglar/index.html">MEDYA</a><a href="index.html" aria-current="page">İLETİŞİM</a></nav><small>© BEKAMAR</small></footer>
+  <script src="../js/navigation.js" defer></script><script src="../js/splash.js" defer></script><script src="../js/contact.js" defer></script>
+</body>
+</html>

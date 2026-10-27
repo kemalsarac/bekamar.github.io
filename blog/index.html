@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try{if(!sessionStorage.getItem("bekamarBrandIntroSeen")&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("splash-pending")}catch{}</script>
+  <title>Blog | Taşın Hikâyesi — Bekamar</title>
+  <meta name="description" content="Doğal taş dünyasına dair ilham veren içerikler, uzman görüşleri ve projeler. Bekamar Blog'u keşfedin.">
+  <meta name="theme-color" content="#f2f0ea">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/company.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="stylesheet" href="../css/splash.css">
+</head>
+<body class="company-page blog-page" data-asset-prefix="../" data-company-path="../sirketimiz/index.html">
+  <div class="brand-splash" id="brandSplash" role="img" aria-label="BEKAMAR">
+    <div class="brand-splash__group" id="brandSplashGroup">
+      <img class="brand-splash__mark" src="../assets/images/bekamarlogo-transparent.png" alt="">
+      <img class="brand-splash__wordmark" src="../assets/images/bekamarlogo-transparent.png" alt="">
+    </div>
+    <p class="brand-splash__tagline">Do&#287;an&#305;n kal&#305;c&#305;l&#305;&#287;&#305;, Bekamar'&#305;n imzas&#305;.</p>
+  </div>
+  <header class="site-header pad">
+    <a class="brand" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" id="nav" aria-label="Ana menü">
+      <a href="../index.html#urunler">ANASAYFA</a>
+      <a href="../sirketimiz/index.html" data-menu="corporate" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KURUMSAL</a>
+      <a href="https://bekamar.com/dogal-taslar" data-menu="natural" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">DOĞAL TAŞLAR</a>
+      <a href="https://bekamar.com/kompoze-urunler" data-menu="engineered" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">KOMPOZE ÜRÜNLER</a>
+      <a href="index.html" aria-current="page">BLOG</a>
+      <a href="../kataloglar/index.html" data-menu="media" aria-haspopup="true" aria-expanded="false" aria-controls="megaMenu">MEDYA</a>
+      <a href="../bize-ulasin/index.html">İLETİŞİM</a>
+      <div class="mobile-submenus" id="mobileSubmenus"></div>
+    </nav>
+    <div class="header-end">
+      <a class="btn btn--sm" href="../bize-ulasin/index.html">Bize Ulaşın <span aria-hidden="true">→</span></a>
+      <button class="round menu-btn" id="menuBtn" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+  <div class="mega-menu" id="megaMenu" aria-label="Alt menü" aria-hidden="true"></div>
+
+  <main class="blog-main">
+    <section class="blog-hero" aria-labelledby="blogTitle">
+      <img class="blog-hero__image" src="../assets/images/mutfak.png" alt="Doğal taş yüzeyli modern Bekamar mutfağı" fetchpriority="high">
+      <div class="blog-hero__veil" aria-hidden="true"></div>
+      <div class="blog-hero__copy">
+        <p class="blog-eyebrow">BEKAMAR · BLOG</p>
+        <h1 class="serif" id="blogTitle">Taşın<br><em>Hikâyesi.</em></h1>
+        <p>Doğal taş dünyasına dair ilham veren içerikler, uzman görüşleri ve projeler.</p>
+      </div>
+      <span class="blog-hero__index" aria-hidden="true">DOĞAL TAŞ · MİMARİ · YAŞAM</span>
+    </section>
+
+    <section class="blog-journal" aria-label="Blog yazıları">
+      <div class="blog-toolbar">
+        <div class="blog-categories" role="group" aria-label="Yazıları kategoriye göre filtrele">
+          <button type="button" class="is-active" data-blog-filter="all" aria-pressed="true">Tümü</button>
+          <button type="button" data-blog-filter="guide" aria-pressed="false">Doğal Taş Rehberi</button>
+          <button type="button" data-blog-filter="applications" aria-pressed="false">Uygulama Örnekleri</button>
+          <button type="button" data-blog-filter="design" aria-pressed="false">Mimari ve Tasarım</button>
+          <button type="button" data-blog-filter="industry" aria-pressed="false">Sektör Haberleri</button>
+        </div>
+        <label class="blog-search">
+          <span class="sr-only">Blog yazılarında ara</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <input type="search" id="blogSearch" placeholder="Yazılarda ara" autocomplete="off">
+        </label>
+      </div>
+
+      <div class="blog-results" id="blogResults" aria-live="polite">
+        <article class="blog-feature" id="blogFeatured"></article>
+
+<div class="blog-grid" id="blogGrid"></div>
+        <p class="blog-empty" id="blogEmpty" hidden>Aramanızla eşleşen bir yazı bulunamadı. Başka bir kelime deneyin.</p>
+        <section class="blog-reader" id="blogReader" tabindex="-1" aria-labelledby="blogReaderTitle" hidden>
+          <div class="blog-reader__image"><img src="" alt="" loading="lazy" decoding="async"></div>
+          <div class="blog-reader__copy">
+            <div class="blog-reader__top"><p class="blog-card__category" data-reader-category></p><button class="blog-reader__close" type="button" data-blog-close aria-label="Yazıyı kapat">KAPAT <span aria-hidden="true">×</span></button></div>
+            <h2 class="serif" id="blogReaderTitle"></h2>
+            <div class="blog-reader__body" data-reader-body></div>
+          </div>
+        </section>
+      </div>
+      <p class="blog-count"><span id="blogCount">20</span> YAZI <i aria-hidden="true"></i> BEKAMAR BLOG</p>
+    </section>
+
+    <section class="blog-contact" aria-labelledby="blogContactTitle">
+      <div><p class="blog-eyebrow">BEKAMAR BLOG</p><h2 class="serif" id="blogContactTitle">Taşla başlayan<br><em>iyi fikirler.</em></h2></div>
+      <div class="blog-contact__copy"><p>Projeniz için doğru yüzeyi ve çözümü birlikte değerlendirelim.</p><a class="btn btn--sm" href="../bize-ulasin/index.html">BİZE ULAŞIN <span aria-hidden="true">→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer pad company-footer blog-footer">
+    <a class="brand brand--footer" href="../index.html" aria-label="Bekamar ana sayfa"><img src="../assets/images/bekamarlogo-transparent.png" alt="BEKAMAR"></a>
+    <nav class="nav" aria-label="Alt menü">
+      <a href="../index.html#urunler">ANASAYFA</a><a href="../sirketimiz/index.html">KURUMSAL</a><a href="index.html" aria-current="page">BLOG</a>
+      <a href="https://bekamar.com/dogal-taslar">DOĞAL TAŞLAR</a><a href="https://bekamar.com/kompoze-urunler">KOMPOZE ÜRÜNLER</a>
+      <a href="../kataloglar/index.html">MEDYA</a><a href="../bize-ulasin/index.html">İLETİŞİM</a>
+    </nav>
+    <small>© BEKAMAR</small>
+  </footer>
+  <script src="../js/navigation.js" defer></script>
+  <script src="../js/blog.js" defer></script>
+  <script src="../js/splash.js" defer></script>
+</body>
+</html>
