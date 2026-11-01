@@ -18,7 +18,7 @@ This is a reorganized version of the supplied Claude HTML prototype.
 4. Install the **Live Server** extension if you do not already have it.
 5. Right-click `index.html` and choose **Open with Live Server**.
 
-You can also open `index.html` directly in a browser, but Live Server is more convenient while developing.
+Serve the site over HTTP with Live Server. The T-ONE catalog loads its static JSON data with `fetch`, which browsers block when a page is opened directly as `file://`.
 
 ## Add real images
 

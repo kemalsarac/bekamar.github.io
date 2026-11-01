@@ -35,9 +35,9 @@ if (navRoot && megaMenu && mobileSubmenus) {
     media: {
       label: 'MEDYA', simple: true,
       groups: [{ heading: 'MEDYA', items: [
-        { label: 'Kataloglar', href: `${assetPrefix}kataloglar/index.html` }, { label: 'Logolar', href: 'https://bekamar.com/logolar' },
-        { label: 'Do\u011Fa Foto\u011Fraflar\u0131', href: 'https://bekamar.com/doga-fotograflari' },
-        { label: 'Video Galeri', href: 'https://bekamar.com/video-galeri' }
+        { label: 'Kataloglar', href: `${assetPrefix}kataloglar/index.html` }, { label: 'Logolar', href: `${assetPrefix}index.html#markalar` },
+        { label: 'Do\u011Fa Foto\u011Fraflar\u0131', href: `${assetPrefix}sirketimiz/index.html#urunlerimiz` },
+        { label: 'Video Galeri', href: `${assetPrefix}index.html#koleksiyon` }
       ] }]
     }
   };

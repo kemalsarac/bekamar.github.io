@@ -1,0 +1,2099 @@
+{
+  "products": [
+    {
+      "id": "tone-001",
+      "slug": "alaska-white",
+      "name": "Alaska White",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Alaska White_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/alaska-white-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/alaska-white-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/alaska-white-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/alaska-white-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/alaska-white-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-002",
+      "slug": "black-swan",
+      "name": "Black Swan",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Black Swan_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/black-swan-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/black-swan-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/black-swan-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/black-swan-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/black-swan-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Black-Swan.jpg",
+          "thumbnail": "assets/optimized/tone/applications/black-swan-1200.webp",
+          "thumbnailWidth": 1050,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/black-swan-800.webp",
+          "smallThumbnailWidth": 700,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1399,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/black-swan-800.webp 700w, assets/optimized/tone/applications/black-swan-1200.webp 1050w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/black-swan-1600.webp",
+          "width": 1458,
+          "height": 1667
+        }
+      ]
+    },
+    {
+      "id": "tone-003",
+      "slug": "borgogna-stone-bone",
+      "name": "Borgogna Stone Bone",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Borgogna Stone Bone_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/borgogna-stone-bone-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 519,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/borgogna-stone-bone-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 346,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 692,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/borgogna-stone-bone-162x323cm-12mm-800.webp 346w, assets/optimized/tone/products/borgogna-stone-bone-162x323cm-12mm-1200.webp 519w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/borgogna-stone-bone-162x323cm-12mm-1600.webp",
+        "width": 7913,
+        "height": 18307
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Borgogna-Stone-Bone.jpg",
+          "thumbnail": "assets/optimized/tone/applications/borgogna-stone-bone-1200.webp",
+          "thumbnailWidth": 1000,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/borgogna-stone-bone-800.webp",
+          "smallThumbnailWidth": 667,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1333,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/borgogna-stone-bone-800.webp 667w, assets/optimized/tone/applications/borgogna-stone-bone-1200.webp 1000w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/borgogna-stone-bone-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/borgogna-stone-bone-1600.webp",
+          "width": 3333,
+          "height": 4000
+        }
+      ]
+    },
+    {
+      "id": "tone-004",
+      "slug": "borgogna-stone-natural",
+      "name": "Borgogna Stone Natural",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Borgogna Stone Natural_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/borgogna-stone-natural-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/borgogna-stone-natural-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/borgogna-stone-natural-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/borgogna-stone-natural-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/borgogna-stone-natural-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-005",
+      "slug": "bronze-line",
+      "name": "Bronze Line",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Bronze Line_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/bronze-line-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/bronze-line-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/bronze-line-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/bronze-line-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/bronze-line-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-006",
+      "slug": "calacatta-caldia",
+      "name": "Calacatta Caldia",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Caldia_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-caldia-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-caldia-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-caldia-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-caldia-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-caldia-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Calacatta-Caldia.jpg",
+          "thumbnail": "assets/optimized/tone/applications/calacatta-caldia-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/calacatta-caldia-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1600,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/calacatta-caldia-800.webp 800w, assets/optimized/tone/applications/calacatta-caldia-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/calacatta-caldia-1600.webp",
+          "width": 5500,
+          "height": 5500
+        }
+      ]
+    },
+    {
+      "id": "tone-007",
+      "slug": "calacatta-extra-vein",
+      "name": "Calacatta Extra Vein",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Extra Vein_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-extra-vein-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-extra-vein-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-extra-vein-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-extra-vein-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-extra-vein-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-008",
+      "slug": "calacatta-gold",
+      "name": "Calacatta Gold",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Gold_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-gold-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-gold-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-gold-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-gold-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-gold-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Calacatta-Gold-v2.jpg",
+          "thumbnail": "assets/optimized/tone/applications/calacatta-gold-v2-1200.webp",
+          "thumbnailWidth": 1058,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/calacatta-gold-v2-800.webp",
+          "smallThumbnailWidth": 705,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1411,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/calacatta-gold-v2-800.webp 705w, assets/optimized/tone/applications/calacatta-gold-v2-1200.webp 1058w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/calacatta-gold-v2-1600.webp",
+          "width": 5209,
+          "height": 5906
+        },
+        {
+          "source": "assets/MekanGörselleri/Calacatta-Gold.jpg",
+          "thumbnail": "assets/optimized/tone/applications/calacatta-gold-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/calacatta-gold-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/calacatta-gold-800.webp 600w, assets/optimized/tone/applications/calacatta-gold-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/calacatta-gold-1600.webp",
+          "width": 1440,
+          "height": 1920
+        }
+      ]
+    },
+    {
+      "id": "tone-009",
+      "slug": "calacatta-oro-vein",
+      "name": "Calacatta Oro Vein",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Oro Vein_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-oro-vein-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-oro-vein-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-oro-vein-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-oro-vein-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-oro-vein-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-010",
+      "slug": "calacatta-unique",
+      "name": "Calacatta Unique",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Unique_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-unique-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-unique-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-unique-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-unique-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-unique-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Calacatta-Unique.jpg",
+          "thumbnail": "assets/optimized/tone/applications/calacatta-unique-1200.webp",
+          "thumbnailWidth": 960,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/calacatta-unique-800.webp",
+          "smallThumbnailWidth": 640,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1279,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/calacatta-unique-800.webp 640w, assets/optimized/tone/applications/calacatta-unique-1200.webp 960w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/calacatta-unique-1600.webp",
+          "width": 1333,
+          "height": 1667
+        }
+      ]
+    },
+    {
+      "id": "tone-011",
+      "slug": "calacatta-viola",
+      "name": "Calacatta Viola",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calacatta Viola_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calacatta-viola-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calacatta-viola-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calacatta-viola-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calacatta-viola-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calacatta-viola-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-012",
+      "slug": "calcario-collection-greige",
+      "name": "Calcario Collection Greige",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calcario Collection Greige_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calcario-collection-greige-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calcario-collection-greige-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calcario-collection-greige-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calcario-collection-greige-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calcario-collection-greige-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-013",
+      "slug": "calcario-collection-light-greige",
+      "name": "Calcario Collection Light Greige",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Calcario Collection Light Greige_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/calcario-collection-light-greige-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/calcario-collection-light-greige-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/calcario-collection-light-greige-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/calcario-collection-light-greige-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/calcario-collection-light-greige-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-014",
+      "slug": "cityscape-2-0",
+      "name": "Cityscape 2.0",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Cityscape 2.0_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/cityscape-2-0-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/cityscape-2-0-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/cityscape-2-0-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/cityscape-2-0-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/cityscape-2-0-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-015",
+      "slug": "constantinople-vein",
+      "name": "Constantinople Vein",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Constantinople Vein_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-1600.avif",
+        "detailWebp": "assets/optimized/tone/products/constantinople-vein-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Constantinople-Vein-v2.jpg",
+          "thumbnail": "assets/optimized/tone/applications/constantinople-vein-v2-1200.webp",
+          "thumbnailWidth": 982,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/constantinople-vein-v2-800.webp",
+          "smallThumbnailWidth": 655,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1309,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/constantinople-vein-v2-800.webp 655w, assets/optimized/tone/applications/constantinople-vein-v2-1200.webp 982w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/constantinople-vein-v2-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/constantinople-vein-v2-1600.webp",
+          "width": 3682,
+          "height": 4500
+        },
+        {
+          "source": "assets/MekanGörselleri/Constantinople-Vein.jpg",
+          "thumbnail": "assets/optimized/tone/applications/constantinople-vein-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 975,
+          "smallThumbnail": "assets/optimized/tone/applications/constantinople-vein-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 650,
+          "detailWidth": 1600,
+          "detailHeight": 1300,
+          "srcset": "assets/optimized/tone/applications/constantinople-vein-800.webp 800w, assets/optimized/tone/applications/constantinople-vein-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/constantinople-vein-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/constantinople-vein-1600.webp",
+          "width": 7013,
+          "height": 5698
+        }
+      ]
+    },
+    {
+      "id": "tone-016",
+      "slug": "crystallus",
+      "name": "Crystallus",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Crystallus_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/crystallus-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 1200,
+        "thumbnailHeight": 600,
+        "smallThumbnail": "assets/optimized/tone/products/crystallus-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 800,
+        "smallThumbnailHeight": 400,
+        "detailWidth": 1600,
+        "detailHeight": 800,
+        "srcset": "assets/optimized/tone/products/crystallus-162x323cm-12mm-800.webp 800w, assets/optimized/tone/products/crystallus-162x323cm-12mm-1200.webp 1200w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/crystallus-162x323cm-12mm-1600.webp",
+        "width": 12599,
+        "height": 6299
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-017",
+      "slug": "denise",
+      "name": "Denise",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Denise_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/denise-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/denise-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/denise-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/denise-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/denise-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-018",
+      "slug": "dreamy-red-vein",
+      "name": "Dreamy Red Vein",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Dreamy Red Vein_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/dreamy-red-vein-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/dreamy-red-vein-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/dreamy-red-vein-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/dreamy-red-vein-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/dreamy-red-vein-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Dreamy-Red-Vein.jpg",
+          "thumbnail": "assets/optimized/tone/applications/dreamy-red-vein-1200.webp",
+          "thumbnailWidth": 960,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/dreamy-red-vein-800.webp",
+          "smallThumbnailWidth": 640,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1280,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/dreamy-red-vein-800.webp 640w, assets/optimized/tone/applications/dreamy-red-vein-1200.webp 960w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/dreamy-red-vein-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/dreamy-red-vein-1600.webp",
+          "width": 3200,
+          "height": 4000
+        }
+      ]
+    },
+    {
+      "id": "tone-019",
+      "slug": "earth-rapolano-ivory",
+      "name": "Earth Rapolano Ivory",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Earth Rapolano Ivory_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/earth-rapolano-ivory-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/earth-rapolano-ivory-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/earth-rapolano-ivory-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/earth-rapolano-ivory-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/earth-rapolano-ivory-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Earth-Rapolano-Ivory.jpg",
+          "thumbnail": "assets/optimized/tone/applications/earth-rapolano-ivory-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/earth-rapolano-ivory-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/earth-rapolano-ivory-800.webp 600w, assets/optimized/tone/applications/earth-rapolano-ivory-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/earth-rapolano-ivory-1600.webp",
+          "width": 1250,
+          "height": 1667
+        }
+      ]
+    },
+    {
+      "id": "tone-020",
+      "slug": "earth-rapolano-silver",
+      "name": "Earth Rapolano Silver",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Earth Rapolano Silver_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/earth-rapolano-silver-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/earth-rapolano-silver-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/earth-rapolano-silver-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/earth-rapolano-silver-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/earth-rapolano-silver-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-021",
+      "slug": "earth-travertine-ivory",
+      "name": "Earth Travertine Ivory",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Earth Travertine Ivory_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/earth-travertine-ivory-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/earth-travertine-ivory-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/earth-travertine-ivory-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/earth-travertine-ivory-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/earth-travertine-ivory-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-022",
+      "slug": "earth-travertine-silver",
+      "name": "Earth Travertine Silver",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Earth Travertine Silver_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/earth-travertine-silver-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/earth-travertine-silver-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/earth-travertine-silver-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/earth-travertine-silver-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/earth-travertine-silver-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Earth-Travertine-Silver-v2.jpg",
+          "thumbnail": "assets/optimized/tone/applications/earth-travertine-silver-v2-1200.webp",
+          "thumbnailWidth": 1140,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/earth-travertine-silver-v2-800.webp",
+          "smallThumbnailWidth": 760,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1520,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/earth-travertine-silver-v2-800.webp 760w, assets/optimized/tone/applications/earth-travertine-silver-v2-1200.webp 1140w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/earth-travertine-silver-v2-1600.webp",
+          "width": 3325,
+          "height": 3500
+        },
+        {
+          "source": "assets/MekanGörselleri/Earth-Travertine-Silver.jpg",
+          "thumbnail": "assets/optimized/tone/applications/earth-travertine-silver-1200.webp",
+          "thumbnailWidth": 1140,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/earth-travertine-silver-800.webp",
+          "smallThumbnailWidth": 760,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1520,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/earth-travertine-silver-800.webp 760w, assets/optimized/tone/applications/earth-travertine-silver-1200.webp 1140w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/earth-travertine-silver-1600.webp",
+          "width": 4750,
+          "height": 5000
+        }
+      ]
+    },
+    {
+      "id": "tone-023",
+      "slug": "fiori-di-bosco",
+      "name": "Fiori Di Bosco",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Fiori Di Bosco_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/fiori-di-bosco-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/fiori-di-bosco-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/fiori-di-bosco-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/fiori-di-bosco-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/fiori-di-bosco-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Fiori-Di-Bosco.jpg",
+          "thumbnail": "assets/optimized/tone/applications/fiori-di-bosco-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 1143,
+          "smallThumbnail": "assets/optimized/tone/applications/fiori-di-bosco-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 762,
+          "detailWidth": 1600,
+          "detailHeight": 1524,
+          "srcset": "assets/optimized/tone/applications/fiori-di-bosco-800.webp 800w, assets/optimized/tone/applications/fiori-di-bosco-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/fiori-di-bosco-1600.webp",
+          "width": 5000,
+          "height": 4761
+        }
+      ]
+    },
+    {
+      "id": "tone-024",
+      "slug": "florence",
+      "name": "Florence",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Florence_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/florence-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/florence-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 787,
+        "detailHeight": 1575,
+        "srcset": "assets/optimized/tone/products/florence-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/florence-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/florence-162x323cm-12mm-1600.webp",
+        "width": 787,
+        "height": 1575
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Florence.jpg",
+          "thumbnail": "assets/optimized/tone/applications/florence-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/florence-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/florence-800.webp 600w, assets/optimized/tone/applications/florence-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/florence-1600.webp",
+          "width": 4500,
+          "height": 6000
+        }
+      ]
+    },
+    {
+      "id": "tone-025",
+      "slug": "golden-hour",
+      "name": "Golden Hour",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Golden Hour_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/golden-hour-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/golden-hour-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 787,
+        "detailHeight": 1575,
+        "srcset": "assets/optimized/tone/products/golden-hour-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/golden-hour-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/golden-hour-162x323cm-12mm-1600.webp",
+        "width": 787,
+        "height": 1575
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-026",
+      "slug": "highway-bone",
+      "name": "Highway Bone",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Highway Bone_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/highway-bone-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/highway-bone-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/highway-bone-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/highway-bone-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/highway-bone-162x323cm-12mm-1600.webp",
+        "width": 7087,
+        "height": 14173
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-027",
+      "slug": "hollywood-brown",
+      "name": "Hollywood Brown",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Hollywood Brown_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/hollywood-brown-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/hollywood-brown-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/hollywood-brown-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/hollywood-brown-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/hollywood-brown-162x323cm-12mm-1600.webp",
+        "width": 787,
+        "height": 2362
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Hollywood-Brown.jpg",
+          "thumbnail": "assets/optimized/tone/applications/hollywood-brown-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/hollywood-brown-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1583,
+          "detailHeight": 1583,
+          "srcset": "assets/optimized/tone/applications/hollywood-brown-800.webp 800w, assets/optimized/tone/applications/hollywood-brown-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/hollywood-brown-1600.webp",
+          "width": 1583,
+          "height": 1583
+        }
+      ]
+    },
+    {
+      "id": "tone-028",
+      "slug": "imperiale-brown",
+      "name": "Imperiale Brown",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Imperiale Brown_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/imperiale-brown-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/imperiale-brown-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/imperiale-brown-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/imperiale-brown-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/imperiale-brown-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-029",
+      "slug": "industrial",
+      "name": "Industrial",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Industrial_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/industrial-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 503,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/industrial-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 335,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 670,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/industrial-162x323cm-12mm-800.webp 335w, assets/optimized/tone/products/industrial-162x323cm-12mm-1200.webp 503w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/industrial-162x323cm-12mm-1600.webp",
+        "width": 3798,
+        "height": 9068
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-030",
+      "slug": "innovation-black",
+      "name": "Innovation Black",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Innovation Black_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/innovation-black-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/innovation-black-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/innovation-black-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/innovation-black-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/innovation-black-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-031",
+      "slug": "innovation-extra-white",
+      "name": "Innovation Extra White",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Innovation Extra White_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/innovation-extra-white-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/innovation-extra-white-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/innovation-extra-white-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/innovation-extra-white-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/innovation-extra-white-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 7875
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-032",
+      "slug": "innovation-mega-black",
+      "name": "Innovation Mega Black",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Innovation Mega Black_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/innovation-mega-black-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/innovation-mega-black-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/innovation-mega-black-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/innovation-mega-black-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/innovation-mega-black-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-033",
+      "slug": "innovation-white",
+      "name": "Innovation White",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Innovation White_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/innovation-white-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/innovation-white-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/innovation-white-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/innovation-white-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/innovation-white-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 7875
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-034",
+      "slug": "intonaco-anthracite",
+      "name": "Intonaco Anthracite",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Intonaco Anthracite_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/intonaco-anthracite-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 514,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/intonaco-anthracite-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 343,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 686,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/intonaco-anthracite-162x323cm-12mm-800.webp 343w, assets/optimized/tone/products/intonaco-anthracite-162x323cm-12mm-1200.webp 514w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/intonaco-anthracite-162x323cm-12mm-1600.webp",
+        "width": 7087,
+        "height": 16535
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-035",
+      "slug": "intonaco-beige",
+      "name": "Intonaco Beige",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Intonaco Beige_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/intonaco-beige-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 514,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/intonaco-beige-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 343,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 686,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/intonaco-beige-162x323cm-12mm-800.webp 343w, assets/optimized/tone/products/intonaco-beige-162x323cm-12mm-1200.webp 514w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/intonaco-beige-162x323cm-12mm-1600.webp",
+        "width": 7087,
+        "height": 16535
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-036",
+      "slug": "intonaco-grey",
+      "name": "Intonaco Grey",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Intonaco Grey_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/intonaco-grey-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 514,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/intonaco-grey-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 343,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 686,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/intonaco-grey-162x323cm-12mm-800.webp 343w, assets/optimized/tone/products/intonaco-grey-162x323cm-12mm-1200.webp 514w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/intonaco-grey-162x323cm-12mm-1600.webp",
+        "width": 7087,
+        "height": 16535
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-037",
+      "slug": "intonaco-light-grey",
+      "name": "Intonaco Light Grey",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Intonaco Light Grey_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/intonaco-light-grey-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 514,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/intonaco-light-grey-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 343,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 686,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/intonaco-light-grey-162x323cm-12mm-800.webp 343w, assets/optimized/tone/products/intonaco-light-grey-162x323cm-12mm-1200.webp 514w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/intonaco-light-grey-162x323cm-12mm-1600.webp",
+        "width": 1714,
+        "height": 4000
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-038",
+      "slug": "intonaco-white",
+      "name": "Intonaco White",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Intonaco White_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/intonaco-white-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 514,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/intonaco-white-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 343,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 686,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/intonaco-white-162x323cm-12mm-800.webp 343w, assets/optimized/tone/products/intonaco-white-162x323cm-12mm-1200.webp 514w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/intonaco-white-162x323cm-12mm-1600.webp",
+        "width": 7087,
+        "height": 16535
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Intonaco-White.jpg",
+          "thumbnail": "assets/optimized/tone/applications/intonaco-white-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 844,
+          "smallThumbnail": "assets/optimized/tone/applications/intonaco-white-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 563,
+          "detailWidth": 1600,
+          "detailHeight": 1125,
+          "srcset": "assets/optimized/tone/applications/intonaco-white-800.webp 800w, assets/optimized/tone/applications/intonaco-white-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/intonaco-white-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/intonaco-white-1600.webp",
+          "width": 4000,
+          "height": 2813
+        }
+      ]
+    },
+    {
+      "id": "tone-039",
+      "slug": "luxury-cement-cemento",
+      "name": "Luxury Cement Cemento",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Luxury Cement Cemento_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/luxury-cement-cemento-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/luxury-cement-cemento-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/luxury-cement-cemento-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/luxury-cement-cemento-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/luxury-cement-cemento-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-040",
+      "slug": "luxury-cement-white",
+      "name": "Luxury Cement White",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Luxury Cement White_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/luxury-cement-white-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/luxury-cement-white-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/luxury-cement-white-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/luxury-cement-white-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/luxury-cement-white-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-041",
+      "slug": "marble-statuario",
+      "name": "Marble Statuario",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Marble Statuario_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/marble-statuario-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/marble-statuario-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/marble-statuario-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/marble-statuario-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/marble-statuario-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Marble-Statuario.jpg",
+          "thumbnail": "assets/optimized/tone/applications/marble-statuario-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 900,
+          "smallThumbnail": "assets/optimized/tone/applications/marble-statuario-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 600,
+          "detailWidth": 1600,
+          "detailHeight": 1200,
+          "srcset": "assets/optimized/tone/applications/marble-statuario-800.webp 800w, assets/optimized/tone/applications/marble-statuario-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/marble-statuario-1600.webp",
+          "width": 5500,
+          "height": 4125
+        }
+      ]
+    },
+    {
+      "id": "tone-042",
+      "slug": "massive",
+      "name": "Massive",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Massive_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/massive-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/massive-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/massive-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/massive-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/massive-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-043",
+      "slug": "mayfair-vein",
+      "name": "Mayfair Vein",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Mayfair Vein_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/mayfair-vein-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/mayfair-vein-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/mayfair-vein-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/mayfair-vein-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/mayfair-vein-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Mayfair-Vein.jpg",
+          "thumbnail": "assets/optimized/tone/applications/mayfair-vein-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/mayfair-vein-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1600,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/mayfair-vein-800.webp 800w, assets/optimized/tone/applications/mayfair-vein-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/mayfair-vein-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/mayfair-vein-1600.webp",
+          "width": 4100,
+          "height": 4100
+        }
+      ]
+    },
+    {
+      "id": "tone-044",
+      "slug": "metallic-anthracite",
+      "name": "Metallic-Anthracite",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Metallic-Anthracite_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-1600.avif",
+        "detailWebp": "assets/optimized/tone/products/metallic-anthracite-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-045",
+      "slug": "olimpo",
+      "name": "Olimpo",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Olimpo_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/olimpo-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/olimpo-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/olimpo-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/olimpo-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/olimpo-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Olimpo.jpg",
+          "thumbnail": "assets/optimized/tone/applications/olimpo-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/olimpo-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/olimpo-800.webp 600w, assets/optimized/tone/applications/olimpo-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/olimpo-1600.webp",
+          "width": 1250,
+          "height": 1667
+        }
+      ]
+    },
+    {
+      "id": "tone-046",
+      "slug": "palissandro",
+      "name": "Palissandro",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Palissandro_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/palissandro-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/palissandro-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/palissandro-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/palissandro-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/palissandro-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Palissandro-v2.jpg",
+          "thumbnail": "assets/optimized/tone/applications/palissandro-v2-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/palissandro-v2-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/palissandro-v2-800.webp 600w, assets/optimized/tone/applications/palissandro-v2-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/palissandro-v2-1600.webp",
+          "width": 3975,
+          "height": 5300
+        },
+        {
+          "source": "assets/MekanGörselleri/Palissandro-v3.jpg",
+          "thumbnail": "assets/optimized/tone/applications/palissandro-v3-1200.webp",
+          "thumbnailWidth": 960,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/palissandro-v3-800.webp",
+          "smallThumbnailWidth": 640,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1280,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/palissandro-v3-800.webp 640w, assets/optimized/tone/applications/palissandro-v3-1200.webp 960w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/palissandro-v3-1600.webp",
+          "width": 3600,
+          "height": 4500
+        },
+        {
+          "source": "assets/MekanGörselleri/Palissandro.jpg",
+          "thumbnail": "assets/optimized/tone/applications/palissandro-1200.webp",
+          "thumbnailWidth": 1029,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/palissandro-800.webp",
+          "smallThumbnailWidth": 686,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1143,
+          "detailHeight": 1333,
+          "srcset": "assets/optimized/tone/applications/palissandro-800.webp 686w, assets/optimized/tone/applications/palissandro-1200.webp 1029w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/palissandro-1600.webp",
+          "width": 1143,
+          "height": 1333
+        }
+      ]
+    },
+    {
+      "id": "tone-047",
+      "slug": "patagonia-flower",
+      "name": "Patagonia Flower",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Patagonia Flower_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/patagonia-flower-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/patagonia-flower-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/patagonia-flower-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/patagonia-flower-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/patagonia-flower-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-048",
+      "slug": "patagonia",
+      "name": "Patagonia",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Patagonia_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/patagonia-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/patagonia-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/patagonia-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/patagonia-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/patagonia-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-049",
+      "slug": "pietra-nero",
+      "name": "Pietra Nero",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Pietra Nero_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/pietra-nero-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 400,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/pietra-nero-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 267,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 533,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/pietra-nero-162x323cm-12mm-800.webp 267w, assets/optimized/tone/products/pietra-nero-162x323cm-12mm-1200.webp 400w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/pietra-nero-162x323cm-12mm-1600.webp",
+        "width": 3937,
+        "height": 11811
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Pietra-Nero.jpg",
+          "thumbnail": "assets/optimized/tone/applications/pietra-nero-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 900,
+          "smallThumbnail": "assets/optimized/tone/applications/pietra-nero-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 600,
+          "detailWidth": 1600,
+          "detailHeight": 1200,
+          "srcset": "assets/optimized/tone/applications/pietra-nero-800.webp 800w, assets/optimized/tone/applications/pietra-nero-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/pietra-nero-1600.webp",
+          "width": 5000,
+          "height": 3750
+        }
+      ]
+    },
+    {
+      "id": "tone-050",
+      "slug": "port-laurent",
+      "name": "Port Laurent",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Port Laurent_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/port-laurent-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/port-laurent-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/port-laurent-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/port-laurent-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/port-laurent-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Port-Laurent.jpg",
+          "thumbnail": "assets/optimized/tone/applications/port-laurent-1200.webp",
+          "thumbnailWidth": 1022,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/port-laurent-800.webp",
+          "smallThumbnailWidth": 681,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1278,
+          "detailHeight": 1500,
+          "srcset": "assets/optimized/tone/applications/port-laurent-800.webp 681w, assets/optimized/tone/applications/port-laurent-1200.webp 1022w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/port-laurent-1600.webp",
+          "width": 1278,
+          "height": 1500
+        }
+      ]
+    },
+    {
+      "id": "tone-051",
+      "slug": "quarzite-j-adore",
+      "name": "Quarzite J adore",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Quarzite J_adore_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-052",
+      "slug": "reve-travertine",
+      "name": "Reve Travertine",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Reve Travertine_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/reve-travertine-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/reve-travertine-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/reve-travertine-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/reve-travertine-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/reve-travertine-162x323cm-12mm-1600.webp",
+        "width": 9449,
+        "height": 18898
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "tone-053",
+      "slug": "rosso-lepanto",
+      "name": "Rosso Lepanto",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Rosso Lepanto_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/rosso-lepanto-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 597,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/rosso-lepanto-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 398,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 796,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/rosso-lepanto-162x323cm-12mm-800.webp 398w, assets/optimized/tone/products/rosso-lepanto-162x323cm-12mm-1200.webp 597w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/rosso-lepanto-162x323cm-12mm-1600.webp",
+        "width": 10512,
+        "height": 21142
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Rosso-Lepanto.jpg",
+          "thumbnail": "assets/optimized/tone/applications/rosso-lepanto-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/rosso-lepanto-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1200,
+          "detailHeight": 1600,
+          "srcset": "assets/optimized/tone/applications/rosso-lepanto-800.webp 600w, assets/optimized/tone/applications/rosso-lepanto-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": "assets/optimized/tone/applications/rosso-lepanto-1600.avif",
+          "detailWebp": "assets/optimized/tone/applications/rosso-lepanto-1600.webp",
+          "width": 4500,
+          "height": 6000
+        }
+      ]
+    },
+    {
+      "id": "tone-054",
+      "slug": "sarrancolin",
+      "name": "Sarrancolin",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Sarrancolin_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/sarrancolin-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/sarrancolin-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/sarrancolin-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/sarrancolin-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/sarrancolin-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Sarrancolin.jpg",
+          "thumbnail": "assets/optimized/tone/applications/sarrancolin-1200.webp",
+          "thumbnailWidth": 900,
+          "thumbnailHeight": 1200,
+          "smallThumbnail": "assets/optimized/tone/applications/sarrancolin-800.webp",
+          "smallThumbnailWidth": 600,
+          "smallThumbnailHeight": 800,
+          "detailWidth": 1125,
+          "detailHeight": 1500,
+          "srcset": "assets/optimized/tone/applications/sarrancolin-800.webp 600w, assets/optimized/tone/applications/sarrancolin-1200.webp 900w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/sarrancolin-1600.webp",
+          "width": 1125,
+          "height": 1500
+        }
+      ]
+    },
+    {
+      "id": "tone-055",
+      "slug": "silver-roots",
+      "name": "Silver Roots",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Silver Roots_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/silver-roots-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/silver-roots-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/silver-roots-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/silver-roots-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/silver-roots-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Silver-Roots.jpg",
+          "thumbnail": "assets/optimized/tone/applications/silver-roots-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 900,
+          "smallThumbnail": "assets/optimized/tone/applications/silver-roots-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 600,
+          "detailWidth": 1600,
+          "detailHeight": 1200,
+          "srcset": "assets/optimized/tone/applications/silver-roots-800.webp 800w, assets/optimized/tone/applications/silver-roots-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/silver-roots-1600.webp",
+          "width": 2000,
+          "height": 1500
+        }
+      ]
+    },
+    {
+      "id": "tone-056",
+      "slug": "taj-mahal",
+      "name": "Taj Mahal",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Taj Mahal_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/taj-mahal-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/taj-mahal-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/taj-mahal-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/taj-mahal-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/taj-mahal-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12598
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": [
+        {
+          "source": "assets/MekanGörselleri/Taj-Mahal.jpg",
+          "thumbnail": "assets/optimized/tone/applications/taj-mahal-1200.webp",
+          "thumbnailWidth": 1200,
+          "thumbnailHeight": 900,
+          "smallThumbnail": "assets/optimized/tone/applications/taj-mahal-800.webp",
+          "smallThumbnailWidth": 800,
+          "smallThumbnailHeight": 600,
+          "detailWidth": 1600,
+          "detailHeight": 1200,
+          "srcset": "assets/optimized/tone/applications/taj-mahal-800.webp 800w, assets/optimized/tone/applications/taj-mahal-1200.webp 1200w",
+          "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+          "detailAvif": null,
+          "detailWebp": "assets/optimized/tone/applications/taj-mahal-1600.webp",
+          "width": 6500,
+          "height": 4875
+        }
+      ]
+    },
+    {
+      "id": "tone-057",
+      "slug": "terra-rossa",
+      "name": "Terra Rossa",
+      "mainImage": {
+        "source": "assets/Vesikalıklar/Terra Rossa_162x323cm_12mm.jpg",
+        "thumbnail": "assets/optimized/tone/products/terra-rossa-162x323cm-12mm-1200.webp",
+        "thumbnailWidth": 600,
+        "thumbnailHeight": 1200,
+        "smallThumbnail": "assets/optimized/tone/products/terra-rossa-162x323cm-12mm-800.webp",
+        "smallThumbnailWidth": 400,
+        "smallThumbnailHeight": 800,
+        "detailWidth": 800,
+        "detailHeight": 1600,
+        "srcset": "assets/optimized/tone/products/terra-rossa-162x323cm-12mm-800.webp 400w, assets/optimized/tone/products/terra-rossa-162x323cm-12mm-1200.webp 600w",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": null,
+        "detailWebp": "assets/optimized/tone/products/terra-rossa-162x323cm-12mm-1600.webp",
+        "width": 6299,
+        "height": 12599
+      },
+      "description": "",
+      "specifications": {
+        "dimensions": "162 × 323 cm",
+        "thickness": "12 mm"
+      },
+      "applications": []
+    }
+  ]
+}
