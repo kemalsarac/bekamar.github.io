@@ -55,17 +55,23 @@ def main() -> None:
                 continue
 
             stem = slugify(source.stem)
-            thumb_path = OUTPUT / category / f"{stem}-1200.webp"
-            small_thumb_path = OUTPUT / category / f"{stem}-800.webp"
-            avif_path = OUTPUT / category / f"{stem}-1600.avif"
-            webp_path = OUTPUT / category / f"{stem}-1600.webp"
+            portrait_product = category == "products" and stem == "crystallus-162x323cm-12mm"
+            variant_stem = f"{stem}-portrait" if portrait_product else stem
+            thumb_path = OUTPUT / category / f"{variant_stem}-1200.webp"
+            small_thumb_path = OUTPUT / category / f"{variant_stem}-800.webp"
+            avif_path = OUTPUT / category / f"{variant_stem}-1600.avif"
+            webp_path = OUTPUT / category / f"{variant_stem}-1600.webp"
             with Image.open(source) as original:
                 width, height = original.size
                 if original.getexif().get(274) in {6, 8}:
                     width, height = height, width
+                if portrait_product and width > height:
+                    width, height = height, width
                 complete = thumb_path.is_file() and webp_path.is_file()
                 if not complete:
                     image = ImageOps.exif_transpose(original).convert("RGB")
+                    if portrait_product and image.width > image.height:
+                        image = image.rotate(90, expand=True)
                     width, height = image.size
                     thumb = image.copy()
                     thumb.thumbnail((THUMBNAIL_MAX_EDGE, THUMBNAIL_MAX_EDGE), Image.Resampling.LANCZOS)
@@ -114,6 +120,7 @@ def main() -> None:
                 "cardSizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
                 "detailAvif": avif_url,
                 "detailWebp": detail_url,
+                **({"orientation": "portrait"} if portrait_product else {}),
             })
             print(f"Optimized {category}: {source.name}")
 

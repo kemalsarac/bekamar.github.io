@@ -1,0 +1,1076 @@
+{
+  "assets/images/avakadourun.png": {
+    "source": "assets/images/avakadourun.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 3644220,
+    "webp": [
+      {
+        "path": "assets/optimized/site/avakadourun-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 145228
+      },
+      {
+        "path": "assets/optimized/site/avakadourun-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 469922
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/avakadourun-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 51695
+      },
+      {
+        "path": "assets/optimized/site/avakadourun-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 166646
+      }
+    ]
+  },
+  "assets/images/avakadouygulama.png": {
+    "source": "assets/images/avakadouygulama.png",
+    "width": 1024,
+    "height": 1536,
+    "sourceBytes": 2642002,
+    "webp": [
+      {
+        "path": "assets/optimized/site/avakadouygulama-800.webp",
+        "width": 533,
+        "height": 800,
+        "bytes": 77764
+      },
+      {
+        "path": "assets/optimized/site/avakadouygulama-1536.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 226512
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/avakadouygulama-800.avif",
+        "width": 533,
+        "height": 800,
+        "bytes": 28422
+      },
+      {
+        "path": "assets/optimized/site/avakadouygulama-1536.avif",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 85946
+      }
+    ]
+  },
+  "assets/images/bal-onyx_536_485.jpg": {
+    "source": "assets/images/bal-onyx_536_485.jpg",
+    "width": 536,
+    "height": 485,
+    "sourceBytes": 221221,
+    "webp": [
+      {
+        "path": "assets/optimized/site/bal-onyx-536-485-536.webp",
+        "width": 536,
+        "height": 485,
+        "bytes": 59454
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/bal-onyx-536-485-536.avif",
+        "width": 536,
+        "height": 485,
+        "bytes": 22250
+      }
+    ]
+  },
+  "assets/images/banyo.png": {
+    "source": "assets/images/banyo.png",
+    "width": 1312,
+    "height": 1199,
+    "sourceBytes": 2962530,
+    "webp": [
+      {
+        "path": "assets/optimized/site/banyo-800.webp",
+        "width": 800,
+        "height": 731,
+        "bytes": 130242
+      },
+      {
+        "path": "assets/optimized/site/banyo-1312.webp",
+        "width": 1312,
+        "height": 1199,
+        "bytes": 291512
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/banyo-800.avif",
+        "width": 800,
+        "height": 731,
+        "bytes": 47017
+      },
+      {
+        "path": "assets/optimized/site/banyo-1312.avif",
+        "width": 1312,
+        "height": 1199,
+        "bytes": 109207
+      }
+    ]
+  },
+  "assets/images/bekamarlogo-transparent.png": {
+    "source": "assets/images/bekamarlogo-transparent.png",
+    "width": 1983,
+    "height": 793,
+    "sourceBytes": 304382,
+    "webp": [
+      {
+        "path": "assets/optimized/site/bekamarlogo-transparent-800.webp",
+        "width": 800,
+        "height": 320,
+        "bytes": 25594
+      },
+      {
+        "path": "assets/optimized/site/bekamarlogo-transparent-1600.webp",
+        "width": 1600,
+        "height": 640,
+        "bytes": 78438
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/bekamarlogo-transparent-800.avif",
+        "width": 800,
+        "height": 320,
+        "bytes": 8292
+      },
+      {
+        "path": "assets/optimized/site/bekamarlogo-transparent-1600.avif",
+        "width": 1600,
+        "height": 640,
+        "bytes": 21018
+      }
+    ]
+  },
+  "assets/images/bekamarlogo.png": {
+    "source": "assets/images/bekamarlogo.png",
+    "width": 1983,
+    "height": 793,
+    "sourceBytes": 532763,
+    "webp": [
+      {
+        "path": "assets/optimized/site/bekamarlogo-800.webp",
+        "width": 800,
+        "height": 320,
+        "bytes": 7450
+      },
+      {
+        "path": "assets/optimized/site/bekamarlogo-1600.webp",
+        "width": 1600,
+        "height": 640,
+        "bytes": 15654
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/bekamarlogo-800.avif",
+        "width": 800,
+        "height": 320,
+        "bytes": 3804
+      },
+      {
+        "path": "assets/optimized/site/bekamarlogo-1600.avif",
+        "width": 1600,
+        "height": 640,
+        "bytes": 8108
+      }
+    ]
+  },
+  "assets/images/belvedere_502_290.jpg": {
+    "source": "assets/images/belvedere_502_290.jpg",
+    "width": 502,
+    "height": 290,
+    "sourceBytes": 89070,
+    "webp": [
+      {
+        "path": "assets/optimized/site/belvedere-502-290-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 18094
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/belvedere-502-290-502.avif",
+        "width": 502,
+        "height": 290,
+        "bytes": 9164
+      }
+    ]
+  },
+  "assets/images/calisco-transparent.png": {
+    "source": "assets/images/calisco-transparent.png",
+    "width": 2170,
+    "height": 725,
+    "sourceBytes": 514296,
+    "webp": [
+      {
+        "path": "assets/optimized/site/calisco-transparent-800.webp",
+        "width": 800,
+        "height": 267,
+        "bytes": 33396
+      },
+      {
+        "path": "assets/optimized/site/calisco-transparent-1600.webp",
+        "width": 1600,
+        "height": 535,
+        "bytes": 80812
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/calisco-transparent-800.avif",
+        "width": 800,
+        "height": 267,
+        "bytes": 12463
+      },
+      {
+        "path": "assets/optimized/site/calisco-transparent-1600.avif",
+        "width": 1600,
+        "height": 535,
+        "bytes": 28636
+      }
+    ]
+  },
+  "assets/images/carrarawhite.png": {
+    "source": "assets/images/carrarawhite.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 2335101,
+    "webp": [
+      {
+        "path": "assets/optimized/site/carrarawhite-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 47982
+      },
+      {
+        "path": "assets/optimized/site/carrarawhite-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 125250
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/carrarawhite-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 24716
+      },
+      {
+        "path": "assets/optimized/site/carrarawhite-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 66936
+      }
+    ]
+  },
+  "assets/images/carrarawhiteuygulama.png": {
+    "source": "assets/images/carrarawhiteuygulama.png",
+    "width": 1024,
+    "height": 1536,
+    "sourceBytes": 2584405,
+    "webp": [
+      {
+        "path": "assets/optimized/site/carrarawhiteuygulama-800.webp",
+        "width": 533,
+        "height": 800,
+        "bytes": 63320
+      },
+      {
+        "path": "assets/optimized/site/carrarawhiteuygulama-1536.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 192676
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/carrarawhiteuygulama-800.avif",
+        "width": 533,
+        "height": 800,
+        "bytes": 25284
+      },
+      {
+        "path": "assets/optimized/site/carrarawhiteuygulama-1536.avif",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 77537
+      }
+    ]
+  },
+  "assets/images/dişmekan.png": {
+    "source": "assets/images/dişmekan.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 3048229,
+    "webp": [
+      {
+        "path": "assets/optimized/site/dismekan-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 102042
+      },
+      {
+        "path": "assets/optimized/site/dismekan-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 322654
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/dismekan-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 35982
+      },
+      {
+        "path": "assets/optimized/site/dismekan-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 117734
+      }
+    ]
+  },
+  "assets/images/dogaltaslar.png": {
+    "source": "assets/images/dogaltaslar.png",
+    "width": 1366,
+    "height": 1152,
+    "sourceBytes": 3149202,
+    "webp": [
+      {
+        "path": "assets/optimized/site/dogaltaslar-800.webp",
+        "width": 800,
+        "height": 675,
+        "bytes": 143426
+      },
+      {
+        "path": "assets/optimized/site/dogaltaslar-1366.webp",
+        "width": 1366,
+        "height": 1152,
+        "bytes": 336050
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/dogaltaslar-800.avif",
+        "width": 800,
+        "height": 675,
+        "bytes": 50975
+      },
+      {
+        "path": "assets/optimized/site/dogaltaslar-1366.avif",
+        "width": 1366,
+        "height": 1152,
+        "bytes": 127100
+      }
+    ]
+  },
+  "assets/images/elazıg_visne.png": {
+    "source": "assets/images/elazıg_visne.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 3760736,
+    "webp": [
+      {
+        "path": "assets/optimized/site/elazig-visne-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 185730
+      },
+      {
+        "path": "assets/optimized/site/elazig-visne-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 540654
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/elazig-visne-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 76967
+      },
+      {
+        "path": "assets/optimized/site/elazig-visne-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 214721
+      }
+    ]
+  },
+  "assets/images/elazıgvisne_uygulama.png": {
+    "source": "assets/images/elazıgvisne_uygulama.png",
+    "width": 1024,
+    "height": 1536,
+    "sourceBytes": 2706699,
+    "webp": [
+      {
+        "path": "assets/optimized/site/elazigvisne-uygulama-800.webp",
+        "width": 533,
+        "height": 800,
+        "bytes": 84706
+      },
+      {
+        "path": "assets/optimized/site/elazigvisne-uygulama-1536.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 257118
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/elazigvisne-uygulama-800.avif",
+        "width": 533,
+        "height": 800,
+        "bytes": 31887
+      },
+      {
+        "path": "assets/optimized/site/elazigvisne-uygulama-1536.avif",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 100078
+      }
+    ]
+  },
+  "assets/images/florim-logo-transparent.png": {
+    "source": "assets/images/florim-logo-transparent.png",
+    "width": 1958,
+    "height": 803,
+    "sourceBytes": 425735,
+    "webp": [
+      {
+        "path": "assets/optimized/site/florim-logo-transparent-800.webp",
+        "width": 800,
+        "height": 328,
+        "bytes": 19994
+      },
+      {
+        "path": "assets/optimized/site/florim-logo-transparent-1600.webp",
+        "width": 1600,
+        "height": 656,
+        "bytes": 48590
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/florim-logo-transparent-800.avif",
+        "width": 800,
+        "height": 328,
+        "bytes": 6464
+      },
+      {
+        "path": "assets/optimized/site/florim-logo-transparent-1600.avif",
+        "width": 1600,
+        "height": 656,
+        "bytes": 13412
+      }
+    ]
+  },
+  "assets/images/florim-logo.png": {
+    "source": "assets/images/florim-logo.png",
+    "width": 2048,
+    "height": 584,
+    "sourceBytes": 65914,
+    "webp": [
+      {
+        "path": "assets/optimized/site/florim-logo-800.webp",
+        "width": 800,
+        "height": 228,
+        "bytes": 14594
+      },
+      {
+        "path": "assets/optimized/site/florim-logo-1600.webp",
+        "width": 1600,
+        "height": 456,
+        "bytes": 28494
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/florim-logo-800.avif",
+        "width": 800,
+        "height": 228,
+        "bytes": 6414
+      },
+      {
+        "path": "assets/optimized/site/florim-logo-1600.avif",
+        "width": 1600,
+        "height": 456,
+        "bytes": 11609
+      }
+    ]
+  },
+  "assets/images/iranian-blue-onyx_502_290.jpg": {
+    "source": "assets/images/iranian-blue-onyx_502_290.jpg",
+    "width": 502,
+    "height": 290,
+    "sourceBytes": 91148,
+    "webp": [
+      {
+        "path": "assets/optimized/site/iranian-blue-onyx-502-290-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 11238
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/iranian-blue-onyx-502-290-502.avif",
+        "width": 502,
+        "height": 290,
+        "bytes": 6229
+      }
+    ]
+  },
+  "assets/images/içmekan.png": {
+    "source": "assets/images/içmekan.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 2791111,
+    "webp": [
+      {
+        "path": "assets/optimized/site/icmekan-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 77826
+      },
+      {
+        "path": "assets/optimized/site/icmekan-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 237596
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/icmekan-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 28702
+      },
+      {
+        "path": "assets/optimized/site/icmekan-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 92172
+      }
+    ]
+  },
+  "assets/images/kuvarsurunler.png": {
+    "source": "assets/images/kuvarsurunler.png",
+    "width": 1366,
+    "height": 1151,
+    "sourceBytes": 2769671,
+    "webp": [
+      {
+        "path": "assets/optimized/site/kuvarsurunler-800.webp",
+        "width": 800,
+        "height": 674,
+        "bytes": 74840
+      },
+      {
+        "path": "assets/optimized/site/kuvarsurunler-1366.webp",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 190450
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/kuvarsurunler-800.avif",
+        "width": 800,
+        "height": 674,
+        "bytes": 31475
+      },
+      {
+        "path": "assets/optimized/site/kuvarsurunler-1366.avif",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 88144
+      }
+    ]
+  },
+  "assets/images/mutfak.png": {
+    "source": "assets/images/mutfak.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 2887918,
+    "webp": [
+      {
+        "path": "assets/optimized/site/mutfak-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 96552
+      },
+      {
+        "path": "assets/optimized/site/mutfak-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 292182
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/mutfak-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 34565
+      },
+      {
+        "path": "assets/optimized/site/mutfak-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 103917
+      }
+    ]
+  },
+  "assets/images/onyx_uygulama.png": {
+    "source": "assets/images/onyx_uygulama.png",
+    "width": 1382,
+    "height": 1138,
+    "sourceBytes": 2745557,
+    "webp": [
+      {
+        "path": "assets/optimized/site/onyx-uygulama-800.webp",
+        "width": 800,
+        "height": 659,
+        "bytes": 109084
+      },
+      {
+        "path": "assets/optimized/site/onyx-uygulama-1382.webp",
+        "width": 1382,
+        "height": 1138,
+        "bytes": 268178
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/onyx-uygulama-800.avif",
+        "width": 800,
+        "height": 659,
+        "bytes": 38915
+      },
+      {
+        "path": "assets/optimized/site/onyx-uygulama-1382.avif",
+        "width": 1382,
+        "height": 1138,
+        "bytes": 98587
+      }
+    ]
+  },
+  "assets/images/ozelurunler.png": {
+    "source": "assets/images/ozelurunler.png",
+    "width": 1366,
+    "height": 1151,
+    "sourceBytes": 4139671,
+    "webp": [
+      {
+        "path": "assets/optimized/site/ozelurunler-800.webp",
+        "width": 800,
+        "height": 674,
+        "bytes": 224450
+      },
+      {
+        "path": "assets/optimized/site/ozelurunler-1366.webp",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 549566
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/ozelurunler-800.avif",
+        "width": 800,
+        "height": 674,
+        "bytes": 75023
+      },
+      {
+        "path": "assets/optimized/site/ozelurunler-1366.avif",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 182353
+      }
+    ]
+  },
+  "assets/images/pandauygulama.jpg": {
+    "source": "assets/images/pandauygulama.jpg",
+    "width": 1347,
+    "height": 1679,
+    "sourceBytes": 204947,
+    "webp": [
+      {
+        "path": "assets/optimized/site/pandauygulama-800.webp",
+        "width": 642,
+        "height": 800,
+        "bytes": 72982
+      },
+      {
+        "path": "assets/optimized/site/pandauygulama-1600.webp",
+        "width": 1284,
+        "height": 1600,
+        "bytes": 162544
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/pandauygulama-800.avif",
+        "width": 642,
+        "height": 800,
+        "bytes": 31153
+      },
+      {
+        "path": "assets/optimized/site/pandauygulama-1600.avif",
+        "width": 1284,
+        "height": 1600,
+        "bytes": 75057
+      }
+    ]
+  },
+  "assets/images/pandawhite.png": {
+    "source": "assets/images/pandawhite.png",
+    "width": 1536,
+    "height": 1024,
+    "sourceBytes": 3676615,
+    "webp": [
+      {
+        "path": "assets/optimized/site/pandawhite-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 141866
+      },
+      {
+        "path": "assets/optimized/site/pandawhite-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 419270
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/pandawhite-800.avif",
+        "width": 800,
+        "height": 533,
+        "bytes": 54568
+      },
+      {
+        "path": "assets/optimized/site/pandawhite-1536.avif",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 152413
+      }
+    ]
+  },
+  "assets/images/pandawhite_uygulama.png": {
+    "source": "assets/images/pandawhite_uygulama.png",
+    "width": 1316,
+    "height": 1195,
+    "sourceBytes": 2879058,
+    "webp": [
+      {
+        "path": "assets/optimized/site/pandawhite-uygulama-800.webp",
+        "width": 800,
+        "height": 726,
+        "bytes": 125368
+      },
+      {
+        "path": "assets/optimized/site/pandawhite-uygulama-1316.webp",
+        "width": 1316,
+        "height": 1195,
+        "bytes": 268088
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/pandawhite-uygulama-800.avif",
+        "width": 800,
+        "height": 726,
+        "bytes": 47711
+      },
+      {
+        "path": "assets/optimized/site/pandawhite-uygulama-1316.avif",
+        "width": 1316,
+        "height": 1195,
+        "bytes": 104889
+      }
+    ]
+  },
+  "assets/images/porselenurunler.png": {
+    "source": "assets/images/porselenurunler.png",
+    "width": 1366,
+    "height": 1151,
+    "sourceBytes": 3207953,
+    "webp": [
+      {
+        "path": "assets/optimized/site/porselenurunler-800.webp",
+        "width": 800,
+        "height": 674,
+        "bytes": 140338
+      },
+      {
+        "path": "assets/optimized/site/porselenurunler-1366.webp",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 331420
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/porselenurunler-800.avif",
+        "width": 800,
+        "height": 674,
+        "bytes": 48519
+      },
+      {
+        "path": "assets/optimized/site/porselenurunler-1366.avif",
+        "width": 1366,
+        "height": 1151,
+        "bytes": 126076
+      }
+    ]
+  },
+  "assets/images/sirketimizimage-clean.png": {
+    "source": "assets/images/sirketimizimage-clean.png",
+    "width": 954,
+    "height": 1649,
+    "sourceBytes": 2498773,
+    "webp": [
+      {
+        "path": "assets/optimized/site/sirketimizimage-clean-800.webp",
+        "width": 463,
+        "height": 800,
+        "bytes": 76470
+      },
+      {
+        "path": "assets/optimized/site/sirketimizimage-clean-1600.webp",
+        "width": 926,
+        "height": 1600,
+        "bytes": 200508
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/sirketimizimage-clean-800.avif",
+        "width": 463,
+        "height": 800,
+        "bytes": 27412
+      },
+      {
+        "path": "assets/optimized/site/sirketimizimage-clean-1600.avif",
+        "width": 926,
+        "height": 1600,
+        "bytes": 77531
+      }
+    ]
+  },
+  "assets/images/sirketimizimage.png": {
+    "source": "assets/images/sirketimizimage.png",
+    "width": 954,
+    "height": 1648,
+    "sourceBytes": 2564187,
+    "webp": [
+      {
+        "path": "assets/optimized/site/sirketimizimage-800.webp",
+        "width": 463,
+        "height": 800,
+        "bytes": 79290
+      },
+      {
+        "path": "assets/optimized/site/sirketimizimage-1600.webp",
+        "width": 926,
+        "height": 1600,
+        "bytes": 216544
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/sirketimizimage-800.avif",
+        "width": 463,
+        "height": 800,
+        "bytes": 28629
+      },
+      {
+        "path": "assets/optimized/site/sirketimizimage-1600.avif",
+        "width": 926,
+        "height": 1600,
+        "bytes": 82594
+      }
+    ]
+  },
+  "assets/images/star-galaxy_502_290.jpg": {
+    "source": "assets/images/star-galaxy_502_290.jpg",
+    "width": 502,
+    "height": 290,
+    "sourceBytes": 155966,
+    "webp": [
+      {
+        "path": "assets/optimized/site/star-galaxy-502-290-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 45292
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/star-galaxy-502-290-502.avif",
+        "width": 502,
+        "height": 290,
+        "bytes": 17608
+      }
+    ]
+  },
+  "assets/images/t-one-brand.png": {
+    "source": "assets/images/t-one-brand.png",
+    "width": 1033,
+    "height": 412,
+    "sourceBytes": 117790,
+    "webp": [
+      {
+        "path": "assets/optimized/site/t-one-brand-800.webp",
+        "width": 800,
+        "height": 319,
+        "bytes": 21864
+      },
+      {
+        "path": "assets/optimized/site/t-one-brand-1033.webp",
+        "width": 1033,
+        "height": 412,
+        "bytes": 30764
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/t-one-brand-800.avif",
+        "width": 800,
+        "height": 319,
+        "bytes": 6187
+      },
+      {
+        "path": "assets/optimized/site/t-one-brand-1033.avif",
+        "width": 1033,
+        "height": 412,
+        "bytes": 7491
+      }
+    ]
+  },
+  "assets/images/t-one-transparent.png": {
+    "source": "assets/images/t-one-transparent.png",
+    "width": 1254,
+    "height": 1254,
+    "sourceBytes": 151067,
+    "webp": [
+      {
+        "path": "assets/optimized/site/t-one-transparent-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 18062
+      },
+      {
+        "path": "assets/optimized/site/t-one-transparent-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 33810
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/t-one-transparent-800.avif",
+        "width": 800,
+        "height": 800,
+        "bytes": 5423
+      },
+      {
+        "path": "assets/optimized/site/t-one-transparent-1254.avif",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 8417
+      }
+    ]
+  },
+  "assets/images/şubemerkez1.png": {
+    "source": "assets/images/şubemerkez1.png",
+    "width": 1586,
+    "height": 992,
+    "sourceBytes": 3632081,
+    "webp": [
+      {
+        "path": "assets/optimized/site/subemerkez1-800.webp",
+        "width": 800,
+        "height": 500,
+        "bytes": 150866
+      },
+      {
+        "path": "assets/optimized/site/subemerkez1-1586.webp",
+        "width": 1586,
+        "height": 992,
+        "bytes": 459408
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/subemerkez1-800.avif",
+        "width": 800,
+        "height": 500,
+        "bytes": 50329
+      },
+      {
+        "path": "assets/optimized/site/subemerkez1-1586.avif",
+        "width": 1586,
+        "height": 992,
+        "bytes": 154566
+      }
+    ]
+  },
+  "assets/images/şubemerkez2.png": {
+    "source": "assets/images/şubemerkez2.png",
+    "width": 1586,
+    "height": 992,
+    "sourceBytes": 3025312,
+    "webp": [
+      {
+        "path": "assets/optimized/site/subemerkez2-800.webp",
+        "width": 800,
+        "height": 500,
+        "bytes": 110774
+      },
+      {
+        "path": "assets/optimized/site/subemerkez2-1586.webp",
+        "width": 1586,
+        "height": 992,
+        "bytes": 335328
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/subemerkez2-800.avif",
+        "width": 800,
+        "height": 500,
+        "bytes": 38979
+      },
+      {
+        "path": "assets/optimized/site/subemerkez2-1586.avif",
+        "width": 1586,
+        "height": 992,
+        "bytes": 120916
+      }
+    ]
+  }
+}

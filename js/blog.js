@@ -1406,11 +1406,12 @@
     button.setAttribute('aria-expanded', 'false');
     button.setAttribute('aria-label', `${article.title} yazısını aç`);
     const image = document.createElement('img');
-    image.src = imagePath(article);
     image.alt = article.alt;
     image.loading = featuredImage ? 'eager' : 'lazy';
     image.decoding = 'async';
-    button.append(image);
+    if (window.BekamarSiteImages) window.BekamarSiteImages.attach(image, `assets/images/${article.image}`, '../', featuredImage ? '(max-width:700px) 100vw, 60vw' : '(max-width:700px) 100vw, 34vw');
+    else image.src = imagePath(article);
+    button.append(image.parentElement?.matches('picture') ? image.parentElement : image);
     if (featuredImage) button.append(makeElement('span', 'blog-image-note', 'YAZIYI KEŞFEDİN'));
     return button;
   }
@@ -1488,8 +1489,9 @@
     activeOpener = button || document.querySelector(`[data-blog-open="${article.id}"]`);
     readerTitle.textContent = article.title;
     readerCategory.textContent = article.categoryLabel;
-    readerImage.src = imagePath(article);
     readerImage.alt = article.alt;
+    if (window.BekamarSiteImages) window.BekamarSiteImages.attach(readerImage, `assets/images/${article.image}`, '../', '(max-width:700px) 100vw, 40vw');
+    else readerImage.src = imagePath(article);
     const contentBlocks = article.blocks || article.paragraphs.map((text) => ({ type: 'paragraph', text }));
     readerBody.replaceChildren(...contentBlocks.map((block) => {
       if (block.type === 'heading') {

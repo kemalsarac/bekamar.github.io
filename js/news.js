@@ -47,7 +47,8 @@ if (newsDetail) {
 
       title.textContent = button.dataset.title || '';
       meta.textContent = button.dataset.meta || '';
-      image.src = button.dataset.image || '';
+      if (window.BekamarSiteImages) window.BekamarSiteImages.attach(image, button.dataset.image || '', '../', '(max-width:700px) 100vw, 72vw');
+      else image.src = button.dataset.image || '';
       image.alt = button.querySelector('img')?.alt || '';
       body.replaceChildren(...(button.dataset.body || '').split('\n').filter(Boolean).map(text => {
         const paragraph = document.createElement('p');

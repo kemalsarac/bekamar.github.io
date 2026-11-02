@@ -2,7 +2,8 @@
    img yoksa taş dokulu yer tutucu gradyan gösterilir. */
 const stone = (a, base, vein, end) =>
   `repeating-linear-gradient(${a}deg,transparent 0 38px,${vein} 38px 40px,transparent 40px 97px),linear-gradient(${a + 50}deg,${base},${end})`;
-const bg = o => o.img ? `url("${o.img}") center/cover` : o.bg;
+const siteImages = window.BekamarSiteImages;
+const bg = o => o.img ? `${siteImages ? siteImages.background(o.img) : `url("${o.img}")`} center/cover` : o.bg;
 
 const stones = [
   { name:'Bal Onyx', note:'Zamansız zarafetiyle mekânlara benzersiz bir karakter kazandırır.', img:'assets/images/bal-onyx_536_485.jpg', applicationImg:'assets/images/onyx_uygulama.png', bg:stone(65,'#d9c9b0','rgba(110,80,50,.55)','#a89478') },
@@ -34,9 +35,10 @@ const art = {
   story:{img:'assets/images/\u015fubemerkez2.png',bg:''}
 };
 const brandLogos = [
-  { name:'FLORIM', src:'assets/images/florim-logo-transparent.png' },
+  { name:'FLORIM', src:'assets/images/florim-logo.png' },
   { name:'CALISCO', src:'assets/images/calisco-transparent.png' },
-  { name:'T-ONE', src:'assets/images/t-one-transparent.png' }
+  { name:'CIMSTONE', src:'assets/images/cimstone-logo.png' },
+  { name:'T-ONE', src:'assets/images/t-one-brand.png' }
 ];
 const branchNames = ['Şube 01 — [ŞEHİR]','Şube 02 — [ŞEHİR]','Şube 03 — [ŞEHİR]'];
 
@@ -44,20 +46,10 @@ const $ = id => document.getElementById(id);
 const mod = (i, n) => (i + n) % n;
 const el = (tag, props = {}, html = '') => Object.assign(document.createElement(tag), props, html && { innerHTML: html });
 
-const heroVideo = document.querySelector('.hero__video');
-const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-function syncHeroVideoMotion() {
-  if (reduceMotion.matches) heroVideo.pause();
-  else heroVideo.play().catch(() => heroVideo.classList.add('is-unavailable'));
-}
-heroVideo.addEventListener('error', () => heroVideo.classList.add('is-unavailable'));
-heroVideo.addEventListener('playing', () => heroVideo.classList.remove('is-unavailable'));
-if (reduceMotion.addEventListener) reduceMotion.addEventListener('change', syncHeroVideoMotion);
-syncHeroVideoMotion();
-
 /* Categories */
 $('urunler').append(...cats.map(([t, d], i) => {
-  const a = el('a', { className:'cat', href:'#koleksiyon' }, `<img class="cat__sw" src="${catImages[i]}" alt="" loading="lazy" decoding="async"><div><h3 class="serif">${t}</h3><p class="body">${d}</p><span>→</span></div>`);
+  const imageMarkup = siteImages ? siteImages.markup(catImages[i], {className:'cat__sw', alt:'', sizes:'(max-width:680px) 46vw, 100px', loading:'lazy'}) : `<img class="cat__sw" src="${catImages[i]}" alt="" loading="lazy" decoding="async">`;
+  const a = el('a', { className:'cat', href:'#koleksiyon' }, `${imageMarkup}<div><h3 class="serif">${t}</h3><p class="body">${d}</p><span>?</span></div>`);
   return a;
 }));
 /* Collection */
@@ -65,14 +57,14 @@ let c = 0;
 const thumbsEl = $('thumbs');
 stones.forEach((s, i) => {
   const b = el('button', { className:'thumb', ariaLabel:s.name, onclick:() => { c = i; renderCol(); } });
-  b.style.background = bg(s); thumbsEl.append(b);
+  b.style.background = s.img && siteImages ? `${siteImages.background(s.img, '', true)} center/cover` : bg(s); thumbsEl.append(b);
 });
 function renderCol() {
   const s = stones[c];
   $('colBg').style.background = bg(s);
   const application = $('colApplication');
   application.hidden = !s.applicationImg;
-  if (s.applicationImg) { application.src = s.applicationImg; application.alt = s.name + ' uygulama örneği'; }
+  if (s.applicationImg) { application.alt = s.name + ' uygulama \u00f6rne\u011fi'; application.loading = 'lazy'; if (siteImages) siteImages.attach(application, s.applicationImg, '', '(max-width:700px) 100vw, 45vw'); else application.src = s.applicationImg; }
   $('colName').textContent = s.name; $('colNote').textContent = s.note; $('colIdx').textContent = `0${c + 1} / 0${stones.length}`;
   [...thumbsEl.children].forEach((b, i) => b.setAttribute('aria-current', i === c));
 }
@@ -82,16 +74,28 @@ $('cNext').onclick = () => { c = mod(c + 1, stones.length); renderCol(); };
 /* Applications */
 $('apps').append(...apps.map(a => {
   const t = el('a', { className:'tile', href:'#projeler' }, `<div class="media"></div><div class="tile__cap"><h3 class="serif">${a.t}</h3><small>Keşfet →</small></div>`);
-  t.querySelector('.media').style.background = bg(a); return t;
+  const media = t.querySelector('.media');
+  media.dataset.backgroundImage = a.img || '';
+  if (!a.img) media.style.background = a.bg;
+  return t;
 }));
 
 /* Brands and projects */
 $('brands').append(...brandLogos.map(({ name, src }) => {
   const item = el('div', { className:'brands__logo' });
-  item.append(el('img', { src, alt:name, loading:'lazy', decoding:'async' }));
+  item.append(el('img', { src:siteImages ? siteImages.path(src) : src, alt:name, width:120, height:48, className:`brands__logo-image brands__logo-image--${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`, loading:'lazy', decoding:'async' }));
   return item;
 }));
-document.querySelectorAll('[data-bg]').forEach(m => { m.style.background = bg(art[m.dataset.bg]); });
+const deferredBackgrounds = [...document.querySelectorAll('.media[data-background-image]')].concat([...document.querySelectorAll('[data-bg]')]);
+const backgroundsObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+  if (!entry.isIntersecting) return;
+  const element = entry.target;
+  backgroundsObserver.unobserve(element);
+  const image = element.dataset.backgroundImage || art[element.dataset.bg]?.img;
+  if (image) element.style.background = `${siteImages ? siteImages.background(image) : `url("${image}")`} center/cover`;
+  else if (art[element.dataset.bg]) element.style.background = art[element.dataset.bg].bg;
+}), {rootMargin:'240px'});
+deferredBackgrounds.forEach(element => backgroundsObserver.observe(element));
 const skin3Section = $('projeler');
 let skin3OpenTimeout = null;
 const skin3Observer = new IntersectionObserver(entries => {

@@ -37,6 +37,7 @@ def image_record(record: dict[str, object]) -> dict[str, object]:
         "sizes": record["cardSizes"],
         "detailAvif": record["detailAvif"],
         "detailWebp": record["detailWebp"],
+        **({"orientation": record["orientation"]} if record.get("orientation") else {}),
         "width": record["width"],
         "height": record["height"],
     }
