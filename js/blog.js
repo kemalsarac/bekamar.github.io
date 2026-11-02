@@ -25,8 +25,8 @@
       "guide"
     ],
     "categoryLabel": "UYGULAMA ÖRNEKLERİ · DOĞAL TAŞ REHBERİ",
-    "image": "mutfak.png",
-    "alt": "Doğal taş tezgâhlı modern Bekamar mutfağı",
+    "image": "Mermer Tezgâhta Modern Mutfak Natürmortu.png",
+    "alt": "Doğal taş tezgâhlı modern mutfakta mermer sunum ve mutfak gereçleri",
     "excerpt": "Mutfağınızın Işığına Dikkat Edin!",
     "blocks": [
       {
@@ -69,8 +69,8 @@
       "design"
     ],
     "categoryLabel": "MİMARİ VE TASARIM",
-    "image": "pandawhite.png",
-    "alt": "Siyah ve beyaz damarları bir araya getiren mermer yüzey",
+    "image": "Siyah Beyaz Mermerin Zarif Dansı.png",
+    "alt": "Siyah ve beyaz mermer yüzeylerle tasarlanmış modern banyo",
     "excerpt": "Zıtlıkların Uyumu: Mermerin Zamansız Estetiği",
     "blocks": [
       {
@@ -99,8 +99,8 @@
       "design"
     ],
     "categoryLabel": "UYGULAMA ÖRNEKLERİ · MİMARİ VE TASARIM",
-    "image": "dişmekan.png",
-    "alt": "Doğal taş döşemeli açık hava yaşam alanı",
+    "image": "Güneşli Traverten Teras Köşesi.png",
+    "alt": "Traverten duvar kaplamalı güneşli teras ve oturma alanı",
     "excerpt": "Doğanın Dokusu, Yaşam Alanlarının Bir Parçası",
     "blocks": [
       {
@@ -139,8 +139,8 @@
       "design"
     ],
     "categoryLabel": "UYGULAMA ÖRNEKLERİ · MİMARİ VE TASARIM",
-    "image": "banyo.png",
-    "alt": "Mermer kaplamalı modern banyo tasarımı",
+    "image": "Lüks Mermer Banyoda Altın Detaylar.png",
+    "alt": "Mermer kaplamalı modern banyoda altın renkli batarya detayları",
     "excerpt": "Geçmişten Günümüze Banyo Tasarımında Mermerin Zamansız Etkisi",
     "blocks": [
       {
@@ -219,8 +219,8 @@
       "design"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ · MİMARİ VE TASARIM",
-    "image": "bal-onyx_536_485.jpg",
-    "alt": "Bal Onyx taşının sıcak ve yarı saydam renk tonları",
+    "image": "Aydınlık Oniks Duvarlı Lüks Salon.png",
+    "alt": "Oniks taş duvarın aydınlattığı lüks salon",
     "excerpt": "Onyx: Işığın Doğal Taşla Buluştuğu Zamansız Tasarımlar",
     "blocks": [
       {
@@ -299,8 +299,8 @@
       "design"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ · MİMARİ VE TASARIM",
-    "image": "belvedere_502_290.jpg",
-    "alt": "Doğal taş yüzeyinde belirgin damarların oluşturduğu desen",
+    "image": "Dünya Harikaları Üçlü Kolajı.png",
+    "alt": "Kolezyum, Çin Seddi ve Tac Mahal’den mimari kolaj",
     "excerpt": "Taşın Hafızası: Dünya Mimarisinde İz Bırakan Üç Anıtsal Yapı",
     "blocks": [
       {
@@ -478,8 +478,8 @@
       "applications"
     ],
     "categoryLabel": "MİMARİ VE TASARIM · UYGULAMA ÖRNEKLERİ",
-    "image": "içmekan.png",
-    "alt": "Doğal taş dokularıyla tasarlanmış çağdaş iç mekân",
+    "image": "Mermer Masalı Lüks Yönetici Ofisi.png",
+    "alt": "Mermer yüzeylerin öne çıktığı modern yönetici ofisi",
     "excerpt": "Ofis Tasarımlarında Mermerin Zamansız Estetiği",
     "blocks": [
       {
@@ -533,8 +533,8 @@
       "design"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ",
-    "image": "star-galaxy_502_290.jpg",
-    "alt": "Kristal taneleriyle benekli koyu granit yüzey",
+    "image": "Granitin Zamansız Mimarisi.png",
+    "alt": "Granit tezgâhı ile antik taş mimarisini buluşturan mutfak sahnesi",
     "excerpt": "",
     "blocks": [
       {
@@ -583,8 +583,8 @@
       "design"
     ],
     "categoryLabel": "UYGULAMA ÖRNEKLERİ · MİMARİ VE TASARIM",
-    "image": "avakadouygulama.png",
-    "alt": "Doğal taş yüzey kullanılan modern iç mekân uygulaması",
+    "image": "Traverten Duvarlı Modern Salon.png",
+    "alt": "Traverten duvar kaplaması ve sehpası bulunan aydınlık modern salon",
     "excerpt": "İç Mekân Tasarımlarında Doğal Taşın Zamansız Etkisi",
     "blocks": [
       {
@@ -638,8 +638,8 @@
       "applications"
     ],
     "categoryLabel": "MİMARİ VE TASARIM",
-    "image": "avakadourun.png",
-    "alt": "Yeşil doğal taşın belirgin damar yapısı",
+    "image": "Akdeniz Esintili Alaçatı Terası.png",
+    "alt": "Alaçatı taş evinde traverten duvarlar ve doğal taş teraslı Akdeniz stili",
     "excerpt": "Alaçatı'nın Zamansız Estetiğini Doğal Taşlarla Yaşam Alanlarınıza Taşıyın",
     "blocks": [
       {
@@ -757,8 +757,8 @@
       "applications"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ · YÜZEYLER",
-    "image": "kuvarsurunler.png",
-    "alt": "Kuvars yüzeylerin açık renkli ve doğal desenli dokusu",
+    "image": "Modern Mutfakta Sıcak Şıklık.png",
+    "alt": "Koyu kuvars tezgâhlı, sıcak ahşap tonlarında modern mutfak",
     "excerpt": "Calisco Kuvars: Modern Yaşam Alanlarında Estetik ve Dayanıklılık",
     "blocks": [
       {
@@ -821,8 +821,8 @@
       "guide"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ",
-    "image": "star-galaxy_502_290.jpg",
-    "alt": "Koyu renk kristal dokulu granit yüzey",
+    "image": "Granitler Hakkında Radon Radyasyon.png",
+    "alt": "Granit tezgâh üzerinde radon ölçüm cihazı",
     "excerpt": "Granit, Radon ve Radyasyon: Doğal Taşlar Hakkında Bilinmesi Gerekenler",
     "blocks": [
       {
@@ -1005,8 +1005,8 @@
       "guide"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ",
-    "image": "dogaltaslar.png",
-    "alt": "Açık renk doğal taş yüzeyinde altın ve gri damarlar",
+    "image": "dogal-taslarin-bakimi-nasil-olmali-home_502_290.jpg",
+    "alt": "Eldivenli bir kişinin taş yüzeyi mikrofiber bezle temizlemesi",
     "excerpt": "Doğal Taşların Bakımı ve Temizliği: Uzun Ömürlü Kullanımın İpuçları",
     "blocks": [
       {
@@ -1140,8 +1140,8 @@
       "design"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ · MİMARİ VE TASARIM",
-    "image": "pandawhite_uygulama.png",
-    "alt": "Mermer yüzeyin iç mekândaki uygulama görünümü",
+    "image": "Honlu Mermer ile Cilalı Mermer.png",
+    "alt": "Antik mermer sütunları ve işlenmiş taş mimari detaylar",
     "excerpt": "",
     "blocks": [
       {
@@ -1280,8 +1280,8 @@
       "design"
     ],
     "categoryLabel": "DOĞAL TAŞ REHBERİ · MİMARİ VE TASARIM",
-    "image": "star-galaxy_502_290.jpg",
-    "alt": "Koyu ve benekli granit yüzey",
+    "image": "Granitin Zamansız Şıklığı.png",
+    "alt": "Kırmızı kahverengi granit tezgâhı ve doğal ışık alan modern mutfak",
     "excerpt": "Minimalist Tasarımlarda Granitin Etkisi",
     "blocks": [
       {
@@ -1490,7 +1490,7 @@
     readerTitle.textContent = article.title;
     readerCategory.textContent = article.categoryLabel;
     readerImage.alt = article.alt;
-    if (window.BekamarSiteImages) window.BekamarSiteImages.attach(readerImage, `assets/images/${article.image}`, '../', '(max-width:700px) 100vw, 40vw');
+    if (window.BekamarSiteImages) window.BekamarSiteImages.original(readerImage, `assets/images/${article.image}`, '../');
     else readerImage.src = imagePath(article);
     const contentBlocks = article.blocks || article.paragraphs.map((text) => ({ type: 'paragraph', text }));
     readerBody.replaceChildren(...contentBlocks.map((block) => {

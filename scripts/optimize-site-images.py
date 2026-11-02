@@ -89,6 +89,16 @@ window.BekamarSiteImages = (() => {
     picture.append(image);
     return picture;
   }
+  function original(image, source, prefix = '') {
+    const key = keyFor(source), entry = images[key];
+    const picture = image.parentElement?.matches('picture.site-image-picture') ? image.parentElement : null;
+    if (picture) picture.replaceChildren(image);
+    image.src = prefixed(key, prefix);
+    if (entry) { image.width = entry.width; image.height = entry.height; }
+    image.decoding = 'async';
+    image.loading = 'eager';
+    return image;
+  }
   function markup(source, {prefix = '', className = '', alt = '', sizes = '100vw', loading = 'lazy'} = {}) {
     const image = document.createElement('img');
     image.className = className; image.alt = alt; image.loading = loading;
@@ -108,7 +118,7 @@ window.BekamarSiteImages = (() => {
     const preferred = avif ? `url("${prefixed(avif[0], prefix)}") type("image/avif"), ` : '';
     return `image-set(${preferred}url("${fallback}") type("image/webp"))`;
   }
-  return {attach, markup, path, background};
+  return {attach, original, markup, path, background};
 })();
 '''.replace('__IMAGE_DATA__',json.dumps(client,ensure_ascii=False,separators=(',',':')))
     (ROOT/'js'/'site-images.js').write_text(helper,encoding='utf-8')

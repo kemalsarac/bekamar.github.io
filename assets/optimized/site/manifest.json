@@ -1,4 +1,38 @@
 {
+  "assets/images/Akdeniz Esintili Alaçatı Terası.png": {
+    "source": "assets/images/Akdeniz Esintili Alaçatı Terası.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 3094308,
+    "webp": [
+      {
+        "path": "assets/optimized/site/akdeniz-esintili-alacati-terasi-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 119604
+      },
+      {
+        "path": "assets/optimized/site/akdeniz-esintili-alacati-terasi-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 339844
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/akdeniz-esintili-alacati-terasi-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 40172
+      },
+      {
+        "path": "assets/optimized/site/akdeniz-esintili-alacati-terasi-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 124246
+      }
+    ]
+  },
   "assets/images/avakadourun.png": {
     "source": "assets/images/avakadourun.png",
     "width": 1536,
@@ -64,6 +98,40 @@
         "width": 1024,
         "height": 1536,
         "bytes": 85946
+      }
+    ]
+  },
+  "assets/images/Aydınlık Oniks Duvarlı Lüks Salon.png": {
+    "source": "assets/images/Aydınlık Oniks Duvarlı Lüks Salon.png",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2552879,
+    "webp": [
+      {
+        "path": "assets/optimized/site/aydinlik-oniks-duvarli-luks-salon-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 74872
+      },
+      {
+        "path": "assets/optimized/site/aydinlik-oniks-duvarli-luks-salon-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 217720
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/aydinlik-oniks-duvarli-luks-salon-800.avif",
+        "width": 800,
+        "height": 450,
+        "bytes": 26870
+      },
+      {
+        "path": "assets/optimized/site/aydinlik-oniks-duvarli-luks-salon-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 85153
       }
     ]
   },
@@ -349,6 +417,28 @@
       }
     ]
   },
+  "assets/images/dogal-taslarin-bakimi-nasil-olmali-home_502_290.jpg": {
+    "source": "assets/images/dogal-taslarin-bakimi-nasil-olmali-home_502_290.jpg",
+    "width": 502,
+    "height": 290,
+    "sourceBytes": 87455,
+    "webp": [
+      {
+        "path": "assets/optimized/site/dogal-taslarin-bakimi-nasil-olmali-home-502-290-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 14666
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/dogal-taslarin-bakimi-nasil-olmali-home-502-290-502.avif",
+        "width": 502,
+        "height": 290,
+        "bytes": 6636
+      }
+    ]
+  },
   "assets/images/dogaltaslar.png": {
     "source": "assets/images/dogaltaslar.png",
     "width": 1366,
@@ -380,6 +470,40 @@
         "width": 1366,
         "height": 1152,
         "bytes": 127100
+      }
+    ]
+  },
+  "assets/images/Dünya Harikaları Üçlü Kolajı.png": {
+    "source": "assets/images/Dünya Harikaları Üçlü Kolajı.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 3053855,
+    "webp": [
+      {
+        "path": "assets/optimized/site/dunya-harikalari-uclu-kolaji-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 100264
+      },
+      {
+        "path": "assets/optimized/site/dunya-harikalari-uclu-kolaji-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 313774
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/dunya-harikalari-uclu-kolaji-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 34242
+      },
+      {
+        "path": "assets/optimized/site/dunya-harikalari-uclu-kolaji-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 114227
       }
     ]
   },
@@ -519,6 +643,176 @@
       }
     ]
   },
+  "assets/images/Granitin Zamansız Mimarisi.png": {
+    "source": "assets/images/Granitin Zamansız Mimarisi.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 2519850,
+    "webp": [
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-mimarisi-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 82420
+      },
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-mimarisi-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 204824
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-mimarisi-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 29382
+      },
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-mimarisi-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 77220
+      }
+    ]
+  },
+  "assets/images/Granitin Zamansız Şıklığı.png": {
+    "source": "assets/images/Granitin Zamansız Şıklığı.png",
+    "width": 1672,
+    "height": 941,
+    "sourceBytes": 2726963,
+    "webp": [
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-sikligi-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 71574
+      },
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-sikligi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 216370
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-sikligi-800.avif",
+        "width": 800,
+        "height": 450,
+        "bytes": 26714
+      },
+      {
+        "path": "assets/optimized/site/granitin-zamansiz-sikligi-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 86951
+      }
+    ]
+  },
+  "assets/images/Granitler Hakkında Radon Radyasyon.png": {
+    "source": "assets/images/Granitler Hakkında Radon Radyasyon.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 2464549,
+    "webp": [
+      {
+        "path": "assets/optimized/site/granitler-hakkinda-radon-radyasyon-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 72686
+      },
+      {
+        "path": "assets/optimized/site/granitler-hakkinda-radon-radyasyon-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 193264
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/granitler-hakkinda-radon-radyasyon-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 28256
+      },
+      {
+        "path": "assets/optimized/site/granitler-hakkinda-radon-radyasyon-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 81860
+      }
+    ]
+  },
+  "assets/images/Güneşli Traverten Teras Köşesi.png": {
+    "source": "assets/images/Güneşli Traverten Teras Köşesi.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 3315792,
+    "webp": [
+      {
+        "path": "assets/optimized/site/gunesli-traverten-teras-kosesi-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 106490
+      },
+      {
+        "path": "assets/optimized/site/gunesli-traverten-teras-kosesi-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 342628
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/gunesli-traverten-teras-kosesi-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 35415
+      },
+      {
+        "path": "assets/optimized/site/gunesli-traverten-teras-kosesi-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 124521
+      }
+    ]
+  },
+  "assets/images/Honlu Mermer ile Cilalı Mermer.png": {
+    "source": "assets/images/Honlu Mermer ile Cilalı Mermer.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 3528386,
+    "webp": [
+      {
+        "path": "assets/optimized/site/honlu-mermer-ile-cilali-mermer-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 131810
+      },
+      {
+        "path": "assets/optimized/site/honlu-mermer-ile-cilali-mermer-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 407260
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/honlu-mermer-ile-cilali-mermer-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 42612
+      },
+      {
+        "path": "assets/optimized/site/honlu-mermer-ile-cilali-mermer-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 142408
+      }
+    ]
+  },
   "assets/images/iranian-blue-onyx_502_290.jpg": {
     "source": "assets/images/iranian-blue-onyx_502_290.jpg",
     "width": 502,
@@ -606,6 +900,142 @@
         "width": 1366,
         "height": 1151,
         "bytes": 88144
+      }
+    ]
+  },
+  "assets/images/Lüks Mermer Banyoda Altın Detaylar.png": {
+    "source": "assets/images/Lüks Mermer Banyoda Altın Detaylar.png",
+    "width": 1648,
+    "height": 954,
+    "sourceBytes": 2287910,
+    "webp": [
+      {
+        "path": "assets/optimized/site/luks-mermer-banyoda-altin-detaylar-800.webp",
+        "width": 800,
+        "height": 463,
+        "bytes": 42540
+      },
+      {
+        "path": "assets/optimized/site/luks-mermer-banyoda-altin-detaylar-1600.webp",
+        "width": 1600,
+        "height": 926,
+        "bytes": 125278
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/luks-mermer-banyoda-altin-detaylar-800.avif",
+        "width": 800,
+        "height": 463,
+        "bytes": 17170
+      },
+      {
+        "path": "assets/optimized/site/luks-mermer-banyoda-altin-detaylar-1600.avif",
+        "width": 1600,
+        "height": 926,
+        "bytes": 55297
+      }
+    ]
+  },
+  "assets/images/Mermer Masalı Lüks Yönetici Ofisi.png": {
+    "source": "assets/images/Mermer Masalı Lüks Yönetici Ofisi.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 2275857,
+    "webp": [
+      {
+        "path": "assets/optimized/site/mermer-masali-luks-yonetici-ofisi-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 62586
+      },
+      {
+        "path": "assets/optimized/site/mermer-masali-luks-yonetici-ofisi-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 165036
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/mermer-masali-luks-yonetici-ofisi-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 24719
+      },
+      {
+        "path": "assets/optimized/site/mermer-masali-luks-yonetici-ofisi-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 72392
+      }
+    ]
+  },
+  "assets/images/Mermer Tezgâhta Modern Mutfak Natürmortu.png": {
+    "source": "assets/images/Mermer Tezgâhta Modern Mutfak Natürmortu.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 2807387,
+    "webp": [
+      {
+        "path": "assets/optimized/site/mermer-tezgahta-modern-mutfak-naturmortu-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 83912
+      },
+      {
+        "path": "assets/optimized/site/mermer-tezgahta-modern-mutfak-naturmortu-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 240980
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/mermer-tezgahta-modern-mutfak-naturmortu-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 30376
+      },
+      {
+        "path": "assets/optimized/site/mermer-tezgahta-modern-mutfak-naturmortu-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 86548
+      }
+    ]
+  },
+  "assets/images/Modern Mutfakta Sıcak Şıklık.png": {
+    "source": "assets/images/Modern Mutfakta Sıcak Şıklık.png",
+    "width": 1254,
+    "height": 1254,
+    "sourceBytes": 3231486,
+    "webp": [
+      {
+        "path": "assets/optimized/site/modern-mutfakta-sicak-siklik-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 144512
+      },
+      {
+        "path": "assets/optimized/site/modern-mutfakta-sicak-siklik-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 285004
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/modern-mutfakta-sicak-siklik-800.avif",
+        "width": 800,
+        "height": 800,
+        "bytes": 42726
+      },
+      {
+        "path": "assets/optimized/site/modern-mutfakta-sicak-siklik-1254.avif",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 96655
       }
     ]
   },
@@ -915,6 +1345,40 @@
       }
     ]
   },
+  "assets/images/Siyah Beyaz Mermerin Zarif Dansı.png": {
+    "source": "assets/images/Siyah Beyaz Mermerin Zarif Dansı.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 1943345,
+    "webp": [
+      {
+        "path": "assets/optimized/site/siyah-beyaz-mermerin-zarif-dansi-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 36210
+      },
+      {
+        "path": "assets/optimized/site/siyah-beyaz-mermerin-zarif-dansi-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 98998
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/siyah-beyaz-mermerin-zarif-dansi-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 17532
+      },
+      {
+        "path": "assets/optimized/site/siyah-beyaz-mermerin-zarif-dansi-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 50196
+      }
+    ]
+  },
   "assets/images/star-galaxy_502_290.jpg": {
     "source": "assets/images/star-galaxy_502_290.jpg",
     "width": 502,
@@ -1002,6 +1466,40 @@
         "width": 1254,
         "height": 1254,
         "bytes": 8417
+      }
+    ]
+  },
+  "assets/images/Traverten Duvarlı Modern Salon.png": {
+    "source": "assets/images/Traverten Duvarlı Modern Salon.png",
+    "width": 1650,
+    "height": 953,
+    "sourceBytes": 2774370,
+    "webp": [
+      {
+        "path": "assets/optimized/site/traverten-duvarli-modern-salon-800.webp",
+        "width": 800,
+        "height": 462,
+        "bytes": 83090
+      },
+      {
+        "path": "assets/optimized/site/traverten-duvarli-modern-salon-1600.webp",
+        "width": 1600,
+        "height": 924,
+        "bytes": 232676
+      }
+    ],
+    "avif": [
+      {
+        "path": "assets/optimized/site/traverten-duvarli-modern-salon-800.avif",
+        "width": 800,
+        "height": 462,
+        "bytes": 28468
+      },
+      {
+        "path": "assets/optimized/site/traverten-duvarli-modern-salon-1600.avif",
+        "width": 1600,
+        "height": 924,
+        "bytes": 92156
       }
     ]
   },
