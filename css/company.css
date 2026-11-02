@@ -1,6 +1,6 @@
 .site-image-picture{display:contents}
 /* Company page editorial layout — isolated to .company-page. */
-.company-page{min-height:100vh;background:#f4f1eb;color:#292723;overflow-x:hidden}
+.company-page{min-height:100vh;background:#f4f1eb;color:#292723}
 .company-page .site-header{position:relative;inset:auto;z-index:30;min-height:88px;padding-top:20px;padding-bottom:20px;background:#171715;color:var(--ivory)}
 .company-page .site-header .nav a[aria-current="page"]{color:var(--beige);opacity:1}
 .company-page .mega-menu{z-index:29}

@@ -180,6 +180,9 @@ a{color:inherit}
   .skin3.is-open .skin3__slab:nth-child(4){transform:translate(-50%,-50%) translateX(105px) rotateY(-11deg) rotateZ(2deg) scale(.98)}
   .skin3.is-open .skin3__slab:nth-child(5){transform:translate(-50%,-50%) translateX(210px) rotateY(-21deg) rotateZ(4deg) scale(.95)}
 }
+@media (max-width:1100px){
+  .brands__logos{width:min(100%,840px)}
+}
 @media (max-width:480px){
   .brands__logos{grid-template-columns:repeat(2,minmax(0,1fr))}
   .hero{padding-top:102px}

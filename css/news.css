@@ -9,7 +9,7 @@
 .news-toolbar>p{margin:0;color:#756f64;font:600 9px var(--sans);letter-spacing:.18em}
 .news-toolbar>p span{margin-left:8px;color:#9a805b}
 .news-filters{display:flex;flex-wrap:wrap;gap:8px}
-.news-filters button{padding:9px 12px;border:1px solid transparent;background:transparent;color:#756f64;font:600 8px var(--sans);letter-spacing:.12em;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.news-filters button{min-height:44px;padding:9px 12px;border:1px solid transparent;background:transparent;color:#756f64;font:600 8px var(--sans);letter-spacing:.12em;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
 .news-filters button:hover,.news-filters button.is-active{border-color:#b49a70;color:#302e29}
 .news-filters button.is-active{background:#e8e1d5}
 .news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
