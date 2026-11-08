@@ -109,7 +109,7 @@ def main() -> None:
     catalogs = []
     shared_catalogs = ROOT / "assets" / "catalog"
     for path in sorted((item for item in [*SOURCE.rglob("*"), *shared_catalogs.glob("*")] if item.is_file() and item.suffix.casefold() == ".pdf" and "florim" in item.stem.casefold()), key=lambda item: item.name.casefold()):
-        preview = next((cover for cover in shared_catalogs.glob("*") if "florim" in cover.stem.casefold() and "görsel" in cover.stem.casefold()), None)
+        preview = shared_catalogs / "florim-catalog-cover.webp"
         catalogs.append({
             "title": "Florim Stone 2026 Kataloğu",
             "file": path.relative_to(ROOT).as_posix(),
