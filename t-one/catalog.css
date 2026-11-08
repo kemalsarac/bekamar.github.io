@@ -68,3 +68,22 @@
 @media(max-width:1000px){.tone-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:680px){.tone-catalog-promo{padding:44px 20px 52px}.tone-catalog-promo__link{grid-template-columns:1fr;gap:30px}.tone-catalog-promo__title{font-size:clamp(48px,13vw,66px)}.tone-catalog-promo__visual{min-height:390px}.tone-catalog-promo__visual picture{height:390px;padding:18px}.tone-catalog-promo__visual img{max-height:354px}.tone-catalog{padding:68px 20px}.tone-catalog__head{display:block}.tone-catalog__lead{margin-top:18px}.tone-catalog__toolbar{align-items:flex-end}.tone-catalog__search{width:62%}.tone-catalog__count{max-width:38%;text-align:right;font-size:9px}.tone-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 12px}.tone-product-card__meta{align-items:flex-start;flex-direction:column;gap:7px}.tone-detail__layout{grid-template-columns:1fr}.tone-detail__main{max-height:52vh}.tone-detail__gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.tone-pagination{gap:16px;font-size:9px}}
 @media(prefers-reduced-motion:reduce){.tone-catalog-promo__visual img,.tone-catalog-promo__action span,.tone-product-card__image img,.tone-detail__gallery img{transition:none}}
+
+.catalog-document{display:flex;align-items:center;gap:13px}.catalog-document img{width:54px;height:66px;object-fit:cover;box-shadow:0 5px 14px rgba(0,0,0,.14)}.catalog-document b{margin-left:12px}
+
+/* Shared catalog-first opening used by Florim, Calisco and Cimstone. */
+.florim-catalog-promo,.calisco-catalog-promo,.cimstone-catalog-promo{min-height:calc(100svh - 84px);display:flex;align-items:center;padding:clamp(48px,7vw,92px) clamp(22px,8vw,120px);background:#e9e6dc;color:#292723}
+.florim-catalog-promo__layout,.calisco-catalog-promo__layout,.cimstone-catalog-promo__layout{width:100%;max-width:1320px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(350px,.92fr);align-items:center;gap:clamp(42px,8vw,120px)}
+.florim-catalog-promo .tone-catalog-promo__copy,.calisco-catalog-promo .tone-catalog-promo__copy,.cimstone-catalog-promo .tone-catalog-promo__copy{align-items:flex-start}
+.florim-catalog-promo .tone-catalog-promo__eyebrow,.calisco-catalog-promo .tone-catalog-promo__eyebrow,.cimstone-catalog-promo .tone-catalog-promo__eyebrow{color:#756248;font-size:9px;letter-spacing:.2em}
+.florim-catalog-promo .tone-catalog-promo__title,.calisco-catalog-promo .tone-catalog-promo__title,.cimstone-catalog-promo .tone-catalog-promo__title{margin:22px 0 18px;font-size:clamp(50px,5.7vw,78px);line-height:.94;color:#292723}
+.florim-catalog-promo .tone-catalog-promo__title em,.calisco-catalog-promo .tone-catalog-promo__title em,.cimstone-catalog-promo .tone-catalog-promo__title em{color:#95836b}
+.florim-catalog-promo .tone-catalog-promo__description,.calisco-catalog-promo .tone-catalog-promo__description,.cimstone-catalog-promo .tone-catalog-promo__description{max-width:370px;margin:0;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-catalog-promo .tone-catalog-promo__action,.calisco-catalog-promo .tone-catalog-promo__action,.cimstone-catalog-promo .tone-catalog-promo__action{margin-top:32px;padding:0 0 11px;border-bottom:1px solid #9c8c74;color:#292723;font:600 9px var(--sans);letter-spacing:.13em;text-decoration:none}
+.catalog-cover{position:relative;display:grid;place-items:center;min-height:clamp(440px,47vw,620px);padding:clamp(26px,3.2vw,48px);overflow:hidden;background:#d7d0c2}
+.catalog-cover .catalog-document{position:relative;display:grid;place-items:center;width:100%;height:100%;text-decoration:none}
+.catalog-cover .catalog-document img{display:block;width:auto;height:clamp(330px,36vw,540px);max-width:78%;object-fit:contain;box-shadow:0 22px 54px rgba(41,39,35,.17)}
+.catalog-cover .catalog-document span{position:absolute;right:0;bottom:-34px;display:inline-flex;align-items:center;gap:10px;padding:13px 15px;background:#171715;color:#f2f0ea;font:500 8px var(--sans);letter-spacing:.14em}
+.catalog-cover .catalog-document b{font-weight:400}
+.catalog-cover .catalog-document:focus-visible{outline:2px solid #756248;outline-offset:6px}
+@media(max-width:760px){.florim-catalog-promo,.calisco-catalog-promo,.cimstone-catalog-promo{min-height:0;padding:56px 22px 62px}.florim-catalog-promo__layout,.calisco-catalog-promo__layout,.cimstone-catalog-promo__layout{grid-template-columns:1fr;gap:34px}.catalog-cover{min-height:400px;padding:24px}.catalog-cover .catalog-document img{height:330px;max-width:82%}.catalog-cover .catalog-document span{right:0;bottom:-24px}}
