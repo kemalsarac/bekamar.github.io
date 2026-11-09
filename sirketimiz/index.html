@@ -165,15 +165,10 @@
       <p class="company-eyebrow">PROJENİZİ KONUŞALIM</p>
       <h2 class="serif" id="contactTitle">Birlikte<br><em>başlayalım.</em></h2>
       <p class="company-contact__intro">Yüzey seçiminiz ve proje ihtiyaçlarınız için bize ulaşın.</p>
-      <form class="company-contact__form" id="companyContactForm">
-        <label>Ad Soyad<input name="name" type="text" autocomplete="name" required></label>
-        <label>E-posta<input name="email" type="email" autocomplete="email" required></label>
-        <label>Konu<input name="subject" type="text" required></label>
-        <label>Mesajınız<textarea name="message" rows="3" required></textarea></label>
-        <button class="company-contact__submit" type="submit">GÖNDER <span aria-hidden="true">↗</span></button>
-        <p class="company-contact__notice">Bu form şu anda e-posta göndermez; mesajınızı Bekamar’ın resmi iletişim kanalı üzerinden iletebilirsiniz.</p>
-        <p class="company-contact__feedback" id="contactFormFeedback" role="status" aria-live="polite"></p>
-      </form>
+      <div class="company-contact__form" role="group" aria-label="İletişim bilgisi">
+        <p class="company-contact__notice">Bu sayfadaki form henüz etkin değil ve mesaj göndermez. Bize ulaşmak için iletişim sayfamızı kullanın.</p>
+        <a class="company-contact__submit" href="../bize-ulasin/index.html">İletişim sayfasına geçin <span aria-hidden="true">&#8599;</span></a>
+      </div>
     </div>
     <aside class="company-contact__details" data-reveal>
       <p class="company-eyebrow">BEKAMAR İLE İLETİŞİM</p>

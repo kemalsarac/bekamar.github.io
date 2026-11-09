@@ -130,13 +130,3 @@ if (stonePhotoStack) {
   showSlide(0);
   syncTimer();
 })();
-
-const companyContactForm = document.getElementById('companyContactForm');
-if (companyContactForm) {
-  companyContactForm.addEventListener('submit', event => {
-    event.preventDefault();
-    const feedback = document.getElementById('contactFormFeedback');
-    if (!companyContactForm.reportValidity() || !feedback) return;
-    feedback.textContent = 'Mesaj bu sayfadan gönderilmedi. Lütfen Bekamar’ın resmi iletişim sayfasını kullanın.';
-  });
-}

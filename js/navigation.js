@@ -36,12 +36,14 @@ if (navRoot && megaMenu && mobileSubmenus) {
       label: 'MEDYA', simple: true,
       groups: [{ heading: 'MEDYA', items: [
         { label: 'Kataloglar', href: `${assetPrefix}kataloglar/index.html` }, { label: 'Logolar', href: `${assetPrefix}index.html#markalar` },
-        { label: 'Do\u011Fa Foto\u011Fraflar\u0131', href: `${assetPrefix}sirketimiz/index.html#urunlerimiz` },
-        { label: 'Video Galeri', href: `${assetPrefix}index.html#koleksiyon` }
+        { label: '\u015Eube Foto\u011Fraflar\u0131', href: `${assetPrefix}sirketimiz/index.html#branchGallery` },
+        { label: 'Video Galeri', unavailable: true }
       ] }]
     }
   };
-  const renderItems = items => items.map(item => `<a href="${item.href}">${item.label}</a>`).join('');
+  const renderItems = items => items.map(item => item.unavailable
+    ? `<span class="menu-link--unavailable">${item.label}<small>Yak\u0131nda</small></span>`
+    : `<a href="${item.href}">${item.label}</a>`).join('');
   const renderGroups = key => menuData[key].groups.map(group =>
     `<section class="mega-menu__group"><h2>${group.heading}</h2><div class="mega-menu__links">${renderItems(group.items)}</div></section>`
   ).join('');
