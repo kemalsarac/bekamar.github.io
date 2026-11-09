@@ -6,8 +6,8 @@
 }
 .site-image-picture{display:contents}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;overflow-x:clip}
-body{margin:0;background:var(--charcoal);color:var(--ivory);font-family:var(--sans)}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{width:100%;margin:0;overflow-x:hidden;background:var(--charcoal);color:var(--ivory);font-family:var(--sans)}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
 .wrap{width:100%;max-width:none;margin:0}
