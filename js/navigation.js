@@ -70,10 +70,10 @@ if (navRoot && megaMenu && mobileSubmenus) {
   }
   const deferClose = () => { clearTimeout(closeTimer); closeTimer = setTimeout(closeMenu, 140); };
   navRoot.querySelectorAll('[data-menu]').forEach(link => {
-    link.addEventListener('mouseenter', () => { if (matchMedia('(min-width: 861px)').matches) openMenu(link.dataset.menu); });
-    link.addEventListener('focus', () => { if (matchMedia('(min-width: 861px)').matches) openMenu(link.dataset.menu); });
+    link.addEventListener('mouseenter', () => { if (matchMedia('(min-width: 1101px)').matches) openMenu(link.dataset.menu); });
+    link.addEventListener('focus', () => { if (matchMedia('(min-width: 1101px)').matches) openMenu(link.dataset.menu); });
     link.addEventListener('click', event => {
-      if (matchMedia('(min-width: 861px) and (hover: none)').matches) {
+      if (matchMedia('(min-width: 1101px) and (hover: none)').matches) {
         event.preventDefault(); event.stopPropagation();
         if (link.getAttribute('aria-expanded') === 'true') closeMenu(); else openMenu(link.dataset.menu);
       }
@@ -87,7 +87,7 @@ if (navRoot && megaMenu && mobileSubmenus) {
   megaMenu.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
-      if (matchMedia('(max-width: 860px)').matches) {
+      if (matchMedia('(max-width: 1100px)').matches) {
         navRoot.querySelectorAll('.mobile-submenu__toggle[aria-expanded="true"]').forEach(button => {
           button.setAttribute('aria-expanded', 'false');
           document.getElementById(button.getAttribute('aria-controls'))?.classList.remove('is-open');
@@ -130,7 +130,7 @@ if (navRoot && megaMenu && mobileSubmenus) {
       menuButton.setAttribute('aria-expanded', String(expanded));
     });
     navRoot.addEventListener('click', event => {
-      if (event.target.closest('a') && matchMedia('(max-width: 860px)').matches) {
+      if (event.target.closest('a') && matchMedia('(max-width: 1100px)').matches) {
         navRoot.classList.remove('open');
         menuButton.setAttribute('aria-expanded', 'false');
       }

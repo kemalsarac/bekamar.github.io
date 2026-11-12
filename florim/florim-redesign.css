@@ -1,0 +1,208 @@
+/* Florim content redesign */
+.florim-page{--florim-gold:#c9bba8;--florim-dark:#171715;scroll-padding-top:112px}
+.florim-page [id]{scroll-margin-top:112px}
+.florim-hero{position:relative;isolation:isolate;min-height:650px;height:min(82vh,880px);overflow:hidden;background:#222;color:#f4f1eb}
+.florim-hero__picture,.florim-hero__picture img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.florim-hero__picture img{object-fit:cover;object-position:center 54%;filter:brightness(.62)}
+.florim-hero__veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,18,16,.82),rgba(17,18,16,.35) 58%,rgba(17,18,16,.04)),linear-gradient(0deg,rgba(17,18,16,.34),transparent 54%)}
+.florim-hero__copy{position:absolute;z-index:1;left:clamp(26px,12vw,180px);top:50%;width:min(620px,76vw);transform:translateY(-43%)}
+.florim-page .florim-hero h1{margin:18px 0 0;font:400 clamp(72px,11vw,142px)/.78 var(--serif);letter-spacing:-.045em}
+.florim-hero__tagline{margin:25px 0 0;color:#e1d2bd;font:500 clamp(17px,2.2vw,24px)/1.2 var(--serif)}
+.florim-hero__intro{max-width:510px;margin:16px 0 0;color:rgba(244,241,235,.84);font:400 13px/1.85 var(--sans)}
+.florim-hero__link{display:inline-flex;align-items:center;gap:24px;margin-top:27px;padding:0 0 9px;border-bottom:1px solid rgba(244,241,235,.62);color:inherit;text-decoration:none;font:600 9px var(--sans);letter-spacing:.13em;text-transform:uppercase}
+.florim-hero__link span{color:#d3c1a7;font-size:15px}
+.florim-hero__index{position:absolute;right:clamp(24px,6vw,90px);bottom:31px;display:flex;align-items:center;gap:13px;color:#f4f1eb;font:500 9px var(--sans);letter-spacing:.16em}
+.florim-hero__index i{width:48px;height:1px;background:#d1c4b2}
+.florim-section-nav{position:sticky;z-index:20;top:0;display:flex;justify-content:center;gap:clamp(17px,2.2vw,34px);padding:16px 24px;background:rgba(244,241,235,.96);border-bottom:1px solid rgba(41,39,35,.13);backdrop-filter:blur(12px);overflow-x:auto;scrollbar-width:thin}
+.florim-section-nav a{flex:none;color:#514c43;text-decoration:none;font:600 9px var(--sans);letter-spacing:.09em;text-transform:uppercase}
+.florim-section-nav a:hover,.florim-section-nav a:focus-visible{color:#92764f}
+.content-section{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:clamp(36px,7vw,108px);padding:clamp(76px,10vw,145px) clamp(24px,10vw,150px);scroll-margin-top:108px}
+.content-section--dark{background:#171715;color:#f2f0ea}
+.section-copy{min-width:0;max-width:720px}
+.section-copy h2,.florim-faq h2{margin:17px 0 24px;font:400 clamp(44px,5.3vw,72px)/.94 var(--serif);letter-spacing:-.025em}
+.section-copy h3{margin:28px 0 8px;color:#92764f;font:600 10px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.content-section--dark .section-copy h3{color:#c9bba8}
+.section-copy h4{margin:0 0 10px;color:#292723;font:400 clamp(23px,2.7vw,34px)/1 var(--serif)}
+.content-section--dark .section-copy h4{color:#f2f0ea}
+.section-copy p:not(.eyebrow),.florim-closing p:not(.eyebrow){color:#625e57;font:400 13px/1.9 var(--sans)}
+.content-section--dark .section-copy p:not(.eyebrow),.content-section--dark .florim-closing p:not(.eyebrow){color:rgba(242,240,234,.73)}
+.section-deck{margin:0 0 24px;color:#8e7a5d!important;font:400 clamp(21px,2.5vw,30px)/1.2 var(--serif)!important}
+.source-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(23px,3vw,42px) clamp(24px,4vw,58px);align-items:start}
+.source-topic{min-width:0;break-inside:avoid}
+.source-topic h3:first-child{margin-top:0}
+.section-copy--full{grid-column:1/-1;max-width:none}
+.section-copy--full>.source-topics{margin-top:35px}
+.section-image{position:relative;min-width:0;overflow:hidden;background:#e5e0d6}
+.section-image img{display:block;width:100%;height:100%;min-height:390px;object-fit:cover}
+.section-image--brand{padding:28px;background:#e7e3db}
+.section-image--brand img{height:auto;min-height:0;object-fit:contain}
+.section-image--brand span{display:block;margin-top:42px;color:#8e7a5d;font:500 9px var(--sans);letter-spacing:.18em}
+.section-image--branch a{position:absolute;right:16px;bottom:16px;padding:13px 16px;background:#171715;color:#f2f0ea;text-decoration:none;font:500 9px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.section-copy--full .source-topics{grid-template-columns:repeat(3,minmax(0,1fr))}
+.florim-collections{grid-template-columns:1fr;gap:44px;background:#e9e5dc}
+.florim-collections .wide-image{margin:0;overflow:hidden;max-height:590px}
+.wide-image img{display:block;width:100%;height:min(55vw,590px);min-height:320px;object-fit:cover}
+.florim-technical{background:#f4f1eb}
+.florim-technical .source-topics{grid-template-columns:repeat(3,minmax(0,1fr))}
+.florim-technical .source-topic{padding-top:20px;border-top:1px solid rgba(41,39,35,.18)}
+.florim-applications{grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:#e9e5dc}
+.section-image--application img{min-height:520px}
+.florim-applications .source-topics{grid-template-columns:1fr}
+.florim-story .source-topics,.florim-turkiye .source-topics{grid-template-columns:1fr}
+.florim-why .source-topics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.florim-archive-wrap{border-top:1px solid rgba(201,187,168,.25)}
+.florim-catalog-wrap .florim-catalog-promo{min-height:0}
+.florim-catalog-wrap .tone-catalog-promo__title{font:400 clamp(42px,5vw,68px)/.94 var(--serif)}
+.florim-faq{grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);align-items:start;background:#e9e5dc}
+.florim-faq__items details{border-top:1px solid rgba(41,39,35,.2)}
+.florim-faq__items details:last-child{border-bottom:1px solid rgba(41,39,35,.2)}
+.florim-faq__items summary{position:relative;padding:19px 42px 19px 0;cursor:pointer;list-style:none;font:400 clamp(20px,2.3vw,28px)/1.15 var(--serif)}
+.florim-faq__items summary::-webkit-details-marker{display:none}
+.florim-faq__items summary::after{content:'+';position:absolute;right:4px;top:15px;color:#92764f;font:300 22px var(--sans)}
+.florim-faq__items details[open] summary::after{content:'−'}
+.florim-faq__items details p{max-width:720px;margin:0;padding:0 35px 20px 0;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-faq__items a{color:#715d40}
+.florim-closing{grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.florim-closing h2{max-width:800px}
+.florim-closing .source-topics{max-width:850px}
+.florim-closing .florim-hero__link{white-space:nowrap}
+@media(max-width:900px){.florim-section-nav{justify-content:flex-start}.content-section{gap:32px;padding-inline:7vw}.section-copy--full .source-topics,.florim-technical .source-topics{grid-template-columns:repeat(2,minmax(0,1fr))}.florim-closing{grid-template-columns:1fr}.florim-closing .florim-hero__link{justify-self:start}}
+@media(max-width:680px){.florim-page{scroll-padding-top:60px}.florim-page [id]{scroll-margin-top:64px}.florim-hero{height:76svh;min-height:540px;max-height:760px}.florim-hero__picture img{object-position:58% center}.florim-hero__copy{left:24px;right:22px;width:auto;transform:translateY(-42%)}.florim-hero h1{font-size:clamp(76px,19vw,112px)}.florim-hero__intro{font-size:12px}.florim-section-nav{gap:22px;padding:14px 20px}.florim-section-nav a{font-size:8px}.content-section{grid-template-columns:1fr;gap:28px;padding:68px 23px}.section-copy h2,.florim-faq h2{font-size:clamp(43px,12vw,58px)}.source-topics,.section-copy--full .source-topics,.florim-technical .source-topics,.florim-why .source-topics{grid-template-columns:1fr;gap:23px}.section-copy h3{margin-top:22px}.section-image img,.section-image--application img{min-height:280px;max-height:420px}.section-image--brand{padding:22px}.section-image--brand span{margin-top:24px}.florim-collections{gap:30px}.wide-image img{height:300px;min-height:0}.florim-applications .section-image{grid-row:1}.florim-faq{grid-template-columns:1fr;gap:10px}.florim-faq__items summary{font-size:23px}.florim-catalog-wrap .florim-catalog-promo__layout{grid-template-columns:1fr}.florim-closing{gap:20px}.florim-closing h2{font-size:clamp(42px,11vw,55px)}}
+@media(prefers-reduced-motion:reduce){.florim-hero__link,.florim-section-nav a{transition:none}}
+
+/* Product-first Florim page and optional editorial information */
+.florim-hero__actions{display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center}
+.florim-hero__link--secondary{color:#e3d9ca}
+.florim-info{padding:clamp(70px,9vw,118px) clamp(24px,10vw,150px);background:#f4f1eb}
+.florim-info__heading{max-width:760px;margin:0 auto clamp(34px,5vw,64px);text-align:center}
+.florim-info__heading h2{margin:17px 0;font:400 clamp(44px,5.5vw,72px)/.95 var(--serif);letter-spacing:-.025em}
+.florim-info__heading>p:last-child{margin:0;color:#706b62;font:400 13px/1.8 var(--sans)}
+.florim-info__list{max-width:1120px;margin:auto;border-top:1px solid rgba(41,39,35,.24)}
+.florim-info-item{border-bottom:1px solid rgba(41,39,35,.24)}
+.florim-info-item>summary{display:grid;grid-template-columns:52px 1fr 28px;align-items:center;gap:12px;padding:23px 4px;cursor:pointer;list-style:none;color:#292723;font:400 clamp(27px,3.2vw,42px)/1.05 var(--serif);transition:color .2s ease,padding .2s ease}
+.florim-info-item>summary::-webkit-details-marker{display:none}
+.florim-info-item>summary::after{content:'+';justify-self:end;color:#92764f;font:300 23px/1 var(--sans)}
+.florim-info-item[open]>summary::after{content:'−'}
+.florim-info-item>summary:hover{color:#92764f}
+.florim-info-item>summary:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-info-item__number{color:#92764f;font:500 9px var(--sans);letter-spacing:.14em}
+.florim-info-panel{padding:0 4px 32px}
+.florim-info-panel>.content-section{padding:clamp(28px,4vw,56px) 0 8px;scroll-margin-top:24px}
+.florim-info-panel>.content-section:not(.content-section--dark){background:transparent}
+.florim-info-panel .section-image{max-height:470px}
+.florim-info-panel .section-image--brand img{min-height:0}
+.florim-info-panel .wide-image img{height:min(42vw,480px);min-height:280px}
+.florim-info-panel .section-copy--full>.source-topics{margin-top:25px}
+.florim-info-panel .source-topics{gap:20px 36px}
+.florim-info-panel .source-topic h3{margin-top:18px}
+.florim-info-panel .source-topic h3:first-child{margin-top:0}
+.florim-info-panel .content-section--dark{margin-inline:calc(clamp(24px,10vw,150px)*-1);padding-inline:clamp(24px,10vw,150px)}
+.florim-info-panel .content-section--technical{margin-inline:calc(clamp(24px,10vw,150px)*-1);padding-inline:clamp(24px,10vw,150px)}
+.florim-info-item[open] .florim-info-panel{animation:florim-panel-in .32s ease both}
+@keyframes florim-panel-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.florim-hero__actions{align-items:flex-start;flex-direction:column;gap:0}.florim-info{padding:64px 22px}.florim-info__heading{text-align:left;margin-bottom:28px}.florim-info-item>summary{grid-template-columns:32px 1fr 24px;gap:8px;padding:20px 0;font-size:clamp(25px,7vw,32px)}.florim-info-panel{padding:0 0 22px}.florim-info-panel>.content-section{padding:30px 0 4px}.florim-info-panel .content-section--dark,.florim-info-panel .content-section--technical{margin-inline:-22px;padding-inline:22px}.florim-info-panel .source-topics,.florim-info-panel .section-copy--full .source-topics,.florim-info-panel .florim-technical .source-topics{grid-template-columns:1fr}.florim-info-panel .section-image img{min-height:240px;max-height:360px}.florim-info-panel .wide-image img{height:260px;min-height:0}}
+@media(prefers-reduced-motion:reduce){.florim-info-item>summary,.florim-info-item[open] .florim-info-panel{transition:none;animation:none}}
+
+/* Compact long copy selectively; keep headings and paragraphs together. */
+.florim-info-panel .florim-story .source-topic,
+.florim-info-panel .florim-why .source-topic{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;align-content:start}
+.florim-info-panel .florim-story .source-topic h3,
+.florim-info-panel .florim-story .source-topic h4,
+.florim-info-panel .florim-why .source-topic h3,
+.florim-info-panel .florim-why .source-topic h4{grid-column:1/-1}
+.florim-info-panel .source-topic p{margin:0 0 10px}
+.florim-info-panel .source-topic p:only-child{grid-column:1/-1}
+.florim-info__heading{max-width:1120px;text-align:left}
+.florim-info__heading h2{max-width:1040px}
+.florim-info__heading>p:last-child{max-width:1040px}
+.florim-info-panel .florim-applications{max-width:1200px;margin:0 auto;padding:clamp(48px,7vw,88px) clamp(20px,3vw,36px) clamp(62px,8vw,104px);color:var(--ink)}
+.florim-applications__intro{max-width:1120px;margin:0 auto clamp(34px,5vw,58px)}
+.florim-applications__intro h2{max-width:1080px;margin:14px 0 18px;font:400 clamp(42px,5.4vw,70px)/.98 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+.florim-applications__intro .section-deck{margin:0 0 23px;color:#8e7a5d;font:400 clamp(20px,2.3vw,28px)/1.2 var(--serif)}
+.florim-applications__intro-copy{max-width:1080px}
+.florim-applications__intro-copy p{margin:0 0 11px;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-applications__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(28px,4vw,48px) clamp(28px,4.4vw,60px);align-items:start}
+.florim-application-card{min-width:0;border-top:1px solid rgba(41,39,35,.2);padding-top:20px}
+.florim-application-card__copy{max-width:66ch}
+.florim-application-card__copy .eyebrow{margin:0 0 9px;font-size:9px;letter-spacing:.17em}
+.florim-application-card__copy h4{max-width:27ch;margin:0 0 15px;color:var(--ink);font:400 clamp(26px,3vw,37px)/1.03 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.florim-application-card__copy p{margin:0 0 12px;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-application-card--image{padding-top:0;border-top:0}
+.florim-application-card--image picture{display:block;margin:0 0 20px;overflow:hidden;background:#e9e5dc}
+.florim-application-card--image picture img{display:block;width:100%;height:clamp(220px,25vw,320px);object-fit:cover}
+@media(max-width:760px){
+  .florim-info-panel .florim-story .source-topic,
+  .florim-info-panel .florim-why .source-topic{grid-template-columns:1fr}
+}
+@media(max-width:900px){.florim-applications__grid{grid-template-columns:1fr}.florim-application-card__copy{max-width:74ch}.florim-application-card__copy h4{max-width:36ch}}
+@media(max-width:760px){.florim-info-panel .florim-applications{padding:38px 0 58px}.florim-applications__intro{margin-bottom:32px}.florim-applications__intro h2{font-size:clamp(39px,10vw,54px);line-height:1}.florim-applications__intro-copy p,.florim-application-card__copy p{font-size:13px;line-height:1.8}.florim-application-card__copy h4{font-size:30px}.florim-application-card--image picture img{height:230px}}
+
+/* Florim Türkiye editorial spread */
+.florim-info-panel .florim-turkiye{margin:0 calc(clamp(24px,10vw,150px)*-1);padding:clamp(50px,7vw,86px) clamp(24px,10vw,150px) clamp(60px,8vw,100px);background:#171715;color:#f2f0ea}
+.florim-turkiye__lead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.92fr);align-items:start;gap:clamp(32px,5vw,72px);max-width:1200px;margin:0 auto clamp(44px,6vw,72px)}
+.florim-turkiye__lead-copy{min-width:0}
+.florim-turkiye__lead-copy>h2{max-width:650px;margin:17px 0 24px;font:400 clamp(42px,5vw,66px)/.96 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+.florim-turkiye__lead-copy>.eyebrow{color:#c9bba8}
+.florim-turkiye__lead-text>h3{margin:0 0 16px;color:#c9bba8;font:600 9px/1.4 var(--sans);letter-spacing:.17em;text-transform:uppercase}
+.florim-turkiye__lead-text .source-topic h3{margin:0 0 9px;color:#f2f0ea;font:400 clamp(24px,2.7vw,34px)/1.06 var(--serif);letter-spacing:0;text-transform:none}
+.florim-turkiye__lead-text .source-topic p,.florim-turkiye__card p{max-width:68ch;margin:0 0 12px;color:rgba(242,240,234,.76);font:400 13px/1.82 var(--sans)}
+.florim-turkiye .section-image--branch{width:100%;max-height:390px;align-self:start}
+.florim-turkiye .section-image--branch picture{display:block;height:100%}
+.florim-turkiye .section-image--branch img{display:block;width:100%;height:clamp(270px,29vw,370px);min-height:0;object-fit:cover}
+.florim-turkiye .section-image--branch a{font-size:8px}
+.florim-turkiye__topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(32px,5vw,70px);align-items:start;max-width:1200px;margin:0 auto}
+.florim-turkiye__card{min-width:0;max-width:none;padding:23px 0 25px;border-top:1px solid rgba(201,187,168,.27)}
+.florim-info-panel .florim-turkiye__card h3{margin:0 0 7px;color:#c9bba8;font:600 9px/1.4 var(--sans);letter-spacing:.15em;text-transform:uppercase}
+.florim-turkiye__card h4{max-width:38ch;margin:0 0 13px;color:#f2f0ea;font:400 clamp(24px,2.7vw,34px)/1.05 var(--serif);text-wrap:balance}
+@media(max-width:900px){.florim-turkiye__lead{grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:26px}.florim-turkiye__topics{column-gap:30px}.florim-turkiye .section-image--branch img{height:300px}}
+@media(max-width:760px){.florim-info-panel .florim-turkiye{margin-inline:-22px;padding:44px 22px 58px}.florim-turkiye__lead{grid-template-columns:1fr;gap:24px;margin-bottom:34px}.florim-turkiye__lead-copy>h2{font-size:clamp(39px,10vw,54px)}.florim-turkiye .section-image--branch img{height:240px}.florim-turkiye__topics{grid-template-columns:1fr;gap:0}.florim-turkiye__card{padding:20px 0}.florim-turkiye__card h4{font-size:29px}}
+
+/* Florim brand story: full-width introduction and balanced subtopic grid */
+.florim-info-panel .florim-story{max-width:1200px;margin:0 auto;padding:clamp(48px,7vw,86px) clamp(20px,3vw,36px) clamp(60px,8vw,100px);color:var(--ink)}
+.florim-story__intro{display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:start;gap:clamp(28px,5vw,70px);margin-bottom:clamp(42px,6vw,72px)}
+.florim-story__intro-copy{min-width:0}
+.florim-story__intro-copy h2{max-width:1000px;margin:15px 0 20px;font:400 clamp(44px,5.4vw,72px)/.96 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+.florim-story__lead{max-width:1000px}
+.florim-story__lead p{margin:0 0 13px;color:#625e57;font:400 13px/1.86 var(--sans)}
+.florim-story__brand-mark{padding-top:42px;text-align:center}
+.florim-story__brand-mark img{display:block;width:100%;height:auto;padding:12px;background:#f4f1eb}
+.florim-story__brand-mark span{display:block;margin-top:16px;color:#8e7a5d;font:500 8px var(--sans);letter-spacing:.18em}
+.florim-story__design{padding-top:27px;border-top:1px solid rgba(41,39,35,.2)}
+.florim-story__design>h3{margin:0 0 12px;font:400 clamp(32px,4vw,48px)/1 var(--serif);letter-spacing:-.015em}
+.florim-story__design>p{max-width:100ch;margin:0 0 12px;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-story__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(32px,5vw,68px);align-items:start;margin-top:30px}
+.florim-story__card{min-width:0;padding:22px 0 24px;border-top:1px solid rgba(41,39,35,.16)}
+.florim-story__card:last-child{grid-column:1/-1}
+.florim-story__card h4{max-width:42ch;margin:0 0 13px;color:var(--ink);font:400 clamp(25px,2.8vw,36px)/1.05 var(--serif);text-wrap:balance}
+.florim-story__card p{max-width:72ch;margin:0 0 11px;color:#625e57;font:400 13px/1.84 var(--sans)}
+@media(max-width:900px){.florim-story__intro{grid-template-columns:minmax(0,1fr) 150px;gap:28px}.florim-story__grid{column-gap:34px}}
+@media(max-width:760px){.florim-info-panel .florim-story{padding:38px 0 58px}.florim-story__intro{grid-template-columns:1fr;gap:22px;margin-bottom:38px}.florim-story__intro-copy h2{font-size:clamp(40px,10vw,56px)}.florim-story__brand-mark{justify-self:start;display:flex;align-items:center;gap:14px;padding:0;text-align:left}.florim-story__brand-mark img{width:126px;padding:8px}.florim-story__brand-mark span{margin:0}.florim-story__grid{grid-template-columns:1fr;gap:0;margin-top:20px}.florim-story__card:last-child{grid-column:auto}.florim-story__card{padding:20px 0}.florim-story__card h4{font-size:30px}}
+/* Keep the surface finishes introduction and its existing image together. */
+.florim-collections .florim-surface-topic{grid-column:1/-1;max-width:none;padding-top:24px;border-top:1px solid rgba(41,39,35,.18)}
+.florim-surface-feature{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(240px,.88fr);align-items:center;gap:clamp(26px,5vw,64px);margin-bottom:28px}
+.florim-surface-feature__copy{max-width:72ch}
+.florim-surface-feature__copy h3{margin:0 0 10px;color:#92764f;font:600 9px/1.4 var(--sans);letter-spacing:.15em}
+.florim-surface-feature__copy h4{margin:0 0 12px;font:400 clamp(27px,3.2vw,40px)/1.05 var(--serif)}
+.florim-surface-feature__copy p,.florim-surface-detail p,.florim-surface-topic>p{margin:0;color:#625e57;font:400 13px/1.85 var(--sans)}
+.florim-surface-feature__image{margin:0;overflow:hidden;background:#e5e0d6}
+.florim-surface-feature__image img{display:block;width:100%;height:clamp(190px,22vw,290px);min-height:0;object-fit:cover}
+.florim-surface-details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 34px;align-items:start}
+.florim-surface-detail{min-width:0;padding-top:17px;border-top:1px solid rgba(41,39,35,.15)}
+.florim-surface-detail h4{margin:0 0 9px;font:400 clamp(22px,2.4vw,29px)/1.08 var(--serif)}
+.florim-surface-topic>.florim-surface-details>p{grid-column:1/-1;max-width:90ch;margin:0;color:#625e57;font:400 13px/1.85 var(--sans)}
+@media(max-width:900px){.florim-surface-feature{grid-template-columns:minmax(0,1fr) minmax(200px,.8fr);gap:24px}.florim-surface-details{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.florim-surface-feature{grid-template-columns:1fr;gap:18px}.florim-surface-feature__image{grid-row:2}.florim-surface-feature__image img{height:240px}.florim-surface-details{grid-template-columns:1fr;gap:18px}.florim-surface-topic>.florim-surface-details>p{grid-column:auto}}
+/* Use the shared light surface for every expandable information panel. */
+.florim-info-panel .content-section--dark,
+.florim-info-panel .florim-turkiye{background:var(--paper);color:var(--ink)}
+.florim-info-panel .content-section--dark .section-copy h3,
+.florim-info-panel .florim-turkiye__lead-copy>.eyebrow,
+.florim-info-panel .florim-turkiye__lead-text>h3,
+.florim-info-panel .florim-turkiye__card h3{color:#92764f}
+.florim-info-panel .content-section--dark .section-copy h4,
+.florim-info-panel .florim-turkiye__lead-text .source-topic h3,
+.florim-info-panel .florim-turkiye__card h4{color:var(--ink)}
+.florim-info-panel .content-section--dark .section-copy p:not(.eyebrow),
+.florim-info-panel .florim-turkiye__lead-text .source-topic p,
+.florim-info-panel .florim-turkiye__card p{color:#625e57}
+.florim-info-panel .florim-turkiye__card{border-color:rgba(41,39,35,.16)}

@@ -1,6 +1,6 @@
 .blog-page{background:#f2f0ea;color:#292826}
-.blog-page .site-header{position:relative;inset:auto;z-index:30;min-height:82px;padding-top:18px;padding-bottom:18px;background:#171715;color:var(--ivory)}
-.blog-page .site-header .nav a[aria-current="page"]{color:var(--beige);opacity:1}
+
+
 .blog-page .mega-menu{z-index:29}
 .blog-main{background:#f2f0ea;color:#292826}
 .blog-hero{position:relative;isolation:isolate;min-height:clamp(420px,46vw,610px);margin:0;overflow:hidden;background:#272622;color:#f7f5f0}
@@ -93,7 +93,7 @@
   .blog-reader__image{min-height:300px}
 }
 @media(max-width:767px){
-  .blog-page .site-header{min-height:78px;padding-top:17px;padding-bottom:17px}
+
   .blog-hero{min-height:510px}
   .blog-hero__image{object-position:60% center}
   .blog-hero__veil{background:linear-gradient(90deg,rgba(20,19,17,.76),rgba(20,19,17,.32)),linear-gradient(0deg,rgba(20,19,17,.45),transparent 65%)}

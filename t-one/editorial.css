@@ -1,0 +1,48 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tone-info{padding:clamp(70px,9vw,118px) clamp(24px,10vw,150px);background:var(--paper)}
+.tone-info .florim-info__heading{max-width:1120px;margin:0 auto clamp(34px,5vw,64px);text-align:left}
+.tone-info .florim-info__heading h2{margin:17px 0;font:400 clamp(44px,5.5vw,72px)/.95 var(--serif);letter-spacing:-.025em}
+.tone-info .florim-info__heading>p:last-child{margin:0;color:var(--muted);font:400 13px/1.8 var(--sans)}
+.tone-info .florim-info__list{max-width:1120px;margin:auto;border-top:1px solid rgba(41,39,35,.24)}
+.tone-info .florim-info-item{border-bottom:1px solid rgba(41,39,35,.24)}
+.tone-info .florim-info-item>summary{display:grid;grid-template-columns:52px 1fr 28px;align-items:center;gap:12px;padding:23px 4px;cursor:pointer;list-style:none;color:var(--ink);font:400 clamp(27px,3.2vw,42px)/1.05 var(--serif);transition:color .2s ease}
+.tone-info .florim-info-item>summary::-webkit-details-marker{display:none}
+.tone-info .florim-info-item>summary::after{content:'+';justify-self:end;color:#92764f;font:300 23px/1 var(--sans)}
+.tone-info .florim-info-item[open]>summary::after{content:'\2212'}
+.tone-info .florim-info-item>summary:hover{color:#92764f}
+.tone-info .florim-info-item>summary:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.tone-info .florim-info-item__number{color:#92764f;font:500 9px var(--sans);letter-spacing:.14em}
+.tone-info .florim-info-panel{padding:0 4px 32px}
+.tone-info .florim-info-item[open] .florim-info-panel{animation:tone-panel-in .32s ease both}
+@keyframes tone-panel-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+.tone-info .florim-info__heading{max-width:1120px}
+.tone-editorial-section{max-width:1200px;margin:0 auto;padding:clamp(34px,5vw,58px) clamp(20px,3vw,36px) clamp(42px,6vw,70px);color:var(--ink)}
+.tone-editorial-section__head{margin-bottom:clamp(28px,4vw,46px)}
+.tone-editorial-section__head .eyebrow{font-size:9px}
+.tone-editorial-section__head h2{max-width:1000px;margin:14px 0 0;font:400 clamp(38px,5vw,62px)/.98 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+.tone-editorial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(30px,5vw,66px);align-items:start}
+.tone-editorial-card{min-width:0;padding:20px 0 24px;border-top:1px solid rgba(41,39,35,.18)}
+.tone-editorial-card:only-child{grid-column:1/-1;max-width:90ch}
+.tone-editorial-card h3{max-width:38ch;margin:0 0 12px;color:var(--ink);font:400 clamp(25px,3vw,36px)/1.06 var(--serif);letter-spacing:-.01em;text-wrap:balance}
+.tone-editorial-card p{max-width:72ch;margin:0 0 12px;color:#625e57;font:400 13px/1.85 var(--sans)}
+.tone-closing{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:34px;padding:clamp(64px,8vw,106px) clamp(24px,10vw,150px);background:#e9e5dc}
+.tone-closing>div{max-width:850px}.tone-closing h2{margin:17px 0 18px;font:400 clamp(40px,5vw,64px)/.96 var(--serif);letter-spacing:-.025em}
+.tone-closing p:not(.eyebrow){max-width:740px;margin:0 0 11px;color:#625e57;font:400 13px/1.85 var(--sans)}
+.tone-closing__link{display:inline-flex;align-items:center;gap:18px;padding-bottom:9px;border-bottom:1px solid #9c8c74;text-decoration:none;font:600 9px var(--sans);letter-spacing:.12em}
+.tone-closing__link span{color:#92764f;font-size:14px}
+@media(max-width:900px){.tone-closing{grid-template-columns:1fr}.tone-closing__link{justify-self:start}}
+@media(max-width:760px){.tone-info{padding:64px 22px}.tone-info .florim-info__heading{margin-bottom:28px}.tone-info .florim-info-item>summary{grid-template-columns:32px 1fr 24px;gap:8px;padding:20px 0;font-size:clamp(25px,7vw,32px)}.tone-info .florim-info-panel{padding:0 0 22px}.tone-editorial-section{padding:30px 0 44px}.tone-editorial-section__head h2{font-size:clamp(36px,10vw,52px)}.tone-editorial-grid{grid-template-columns:1fr;gap:0}.tone-editorial-card,.tone-editorial-card:only-child{grid-column:auto;max-width:none;padding:18px 0 20px}.tone-editorial-card h3{font-size:29px}.tone-editorial-card p{font-size:13px;line-height:1.8}.tone-closing{gap:24px;padding:58px 24px}.tone-closing h2{font-size:clamp(38px,10vw,52px)}}
