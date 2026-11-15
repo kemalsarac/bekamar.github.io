@@ -95,7 +95,8 @@
     requestAnimationFrame(() => group.classList.add('is-visible'));
   });
 
-  taglineTimer = window.setTimeout(() => overlay.classList.add('is-tagline-visible'), 1510);
+  const isHomePage = document.body.classList.contains('home-page');
+  taglineTimer = window.setTimeout(() => overlay.classList.add('is-tagline-visible'), isHomePage ? 650 : 1510);
   moveTimer = window.setTimeout(() => {
     if (finished) return;
     overlay.classList.add('is-tagline-leaving');
@@ -105,8 +106,8 @@
       return;
     }
     moveTimer = window.setTimeout(finish, 1120);
-  }, 2650);
-  fallbackTimer = window.setTimeout(finish, 5200);
+  }, isHomePage ? 1250 : 2650);
+  fallbackTimer = window.setTimeout(finish, isHomePage ? 3200 : 5200);
   window.addEventListener('resize', reposition, { passive: true });
   window.visualViewport?.addEventListener('resize', reposition, { passive: true });
   reduceMotion.addEventListener?.('change', onMotionChange);

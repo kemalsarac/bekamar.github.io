@@ -206,3 +206,9 @@
 .florim-info-panel .florim-turkiye__lead-text .source-topic p,
 .florim-info-panel .florim-turkiye__card p{color:#625e57}
 .florim-info-panel .florim-turkiye__card{border-color:rgba(41,39,35,.16)}
+
+/* Keep the Florim closing copy concise and readable on its dark surface. */
+.florim-page .florim-closing{background:#171715;color:#f2f0ea}
+.florim-page .florim-closing .section-deck{color:#c9bba8!important}
+.florim-page .florim-closing .source-topic p{color:rgba(242,240,234,.78)}
+.florim-page .florim-closing .eyebrow{color:#c9bba8}

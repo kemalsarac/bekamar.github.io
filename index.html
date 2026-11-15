@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="css/splash.css">
 </head>
-<body>
+<body class="home-page">
   <div class="brand-splash" id="brandSplash" role="img" aria-label="BEKAMAR">
     <div class="brand-splash__group" id="brandSplashGroup">
       <picture class="site-image-picture"><source type="image/avif" srcset="assets/optimized/site/bekamarlogo-transparent-800.avif 800w, assets/optimized/site/bekamarlogo-transparent-1600.avif 1600w" sizes="180px"><source type="image/webp" srcset="assets/optimized/site/bekamarlogo-transparent-800.webp 800w, assets/optimized/site/bekamarlogo-transparent-1600.webp 1600w" sizes="180px"><img class="brand-splash__mark" src="assets/images/bekamarlogo-transparent.png" alt="" width="1983" height="793" decoding="async"></picture>
@@ -25,7 +25,7 @@
 
 <!-- HERO -->
 <section class="hero" aria-label="Öne çıkan">
-  <video class="hero__video" data-hero-video muted loop playsinline preload="none" poster="assets/optimized/site/onyx-uygulama-1382.webp" aria-hidden="true" tabindex="-1">
+  <video class="hero__video" data-hero-video muted loop playsinline preload="none" poster="assets/optimized/site/bal-onyx-536-485-536.webp" aria-hidden="true" tabindex="-1">
     <source src="assets/videos/bekamar-onyx-hero.mp4" type="video/mp4">
   </video>
   <div class="hero__overlay" aria-hidden="true"></div>
@@ -69,7 +69,7 @@
       <p class="label">Yeni Koleksiyon</p>
       <h2 class="serif h-lg">Doğallığın Modern Yorumu</h2>
       <p class="body">Dünyanın en özel taşlarını, modern yaşam alanlarıyla buluşturan seçkin koleksiyonumuzu keşfedin.</p>
-      <a class="btn" href="#iletisim">Koleksiyonu İncele →</a>
+      <a class="btn" id="collectionCta" href="onyx/index.html">Koleksiyonu İncele →</a>
     </div>
     <div class="thumbs">
       <button class="round" id="cPrev" aria-label="Önceki koleksiyon">←</button>
@@ -94,7 +94,7 @@
     <p class="label">Uygulama Alanları</p>
     <h2 class="serif h-md">Her Mekanda Zamansız Şıklık</h2>
     <p class="copy">Doğal taşların eşsiz dokusunu yaşam alanlarınızın her köşesinde keşfedin.</p>
-    <a class="btn btn--dark" href="#projeler">Uygulama Alanlarını İncele →</a>
+    <a class="btn btn--dark" href="uygulama-alanlari/index.html">Uygulama Alanlarını İncele →</a>
   </div>
   <div class="apps__grid" id="apps"></div>
 </section>
@@ -107,7 +107,7 @@
     <h2 class="serif h-md">Dünya Markalarını Sizinle Buluşturuyoruz</h2>
     <p class="body">Kalitesi ve tasarımıyla fark yaratan global markaların seçkin koleksiyonlarını keşfedin.</p>
     <div class="brands__row">
-      <a class="btn" href="#iletisim">Markaları Keşfet →</a>
+      <a class="btn" href="#markalar">Markaları Keşfet →</a>
       <div class="brands__logos" id="brands"></div>
     </div>
   </div>
@@ -128,7 +128,7 @@
       <picture class="site-image-picture"><source type="image/avif" srcset="assets/optimized/site/bekamarlogo-transparent-800.avif 800w, assets/optimized/site/bekamarlogo-transparent-1600.avif 1600w" sizes="180px"><source type="image/webp" srcset="assets/optimized/site/bekamarlogo-transparent-800.webp 800w, assets/optimized/site/bekamarlogo-transparent-1600.webp 1600w" sizes="180px"><img class="skin3__brand-word" src="assets/images/bekamarlogo-transparent.png" alt="" aria-hidden="true" width="1983" height="793" decoding="async" loading="lazy"></picture>
     </div>
     <p class="skin3__description">Milyarlarca yılda şekillenen, doğanın eşsiz zarafeti.</p>
-    <a class="skin3__discover" href="#koleksiyon">Ke&#351;fet</a>
+    <a class="skin3__discover" href="granit/index.html">Ke&#351;fet</a>
   </div>
 </section>
 
@@ -152,7 +152,7 @@
     <p class="label">Showroom &amp; İletişim</p>
     <h2 class="serif h-lg">Her Zaman Daha Yakınınızda</h2>
     <div class="contact" id="iletisim"><strong>MERKEZ</strong><br>85. Yıl Cumhuriyet Mahallesi Ankara Caddesi No:434 Kemalpaşa / İZMİR TÜRKİYE<br><strong>E-POSTA</strong><br><a href="mailto:info@bekamar.com">info@bekamar.com</a><br><strong>TELEFON</strong><br><a href="tel:+902328804044">+90 232 880 40 44</a></div>
-    <a class="btn btn--dark" href="mailto:info@bekamar.com">Teklif Al →</a>
+    <a class="btn btn--dark" href="bize-ulasin/index.html">Teklif Al →</a>
   </div>
   <div>
     <p class="label">Merkez Konum</p>
@@ -180,5 +180,5 @@
   <script src="js/main.js" defer></script>
 
   <script src="js/splash.js" defer></script>
-</body>
+<script src="js/bekamar-highlight.js" defer></script></body>
 </html>

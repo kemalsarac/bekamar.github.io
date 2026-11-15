@@ -1,3 +1,5 @@
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+window.addEventListener('pageshow', event => { if (performance.getEntriesByType('navigation')[0]?.type === 'reload') window.scrollTo(0, 0); });
 const navRoot = document.getElementById('nav');
 const megaMenu = document.getElementById('megaMenu');
 const mobileSubmenus = document.getElementById('mobileSubmenus');

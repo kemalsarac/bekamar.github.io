@@ -6,11 +6,11 @@ const siteImages = window.BekamarSiteImages;
 const bg = o => o.img ? `${siteImages ? siteImages.background(o.img) : `url("${o.img}")`} center/cover` : o.bg;
 
 const stones = [
-  { name:'Bal Onyx', note:'Zamansız zarafetiyle mekânlara benzersiz bir karakter kazandırır.', img:'assets/images/bal-onyx_536_485.jpg', applicationImg:'assets/images/onyx_uygulama.png', bg:stone(65,'#d9c9b0','rgba(110,80,50,.55)','#a89478') },
-  { name:'Panda White', note:'Sıcak tonları ve doğal gözenekli dokusuyla ferah mekânlar yaratır.', img:'assets/images/pandawhite.png', applicationImg:'assets/images/pandawhite_uygulama.png', bg:stone(95,'#d8c7a8','rgba(150,120,80,.4)','#b49c78') },
-  { name:'Elazığ Vişne',     note:'Derin zemini ve ince damarlarıyla dramatik bir sahne kurar.',        img:'assets/images/elazıg_visne.png', applicationImg:'assets/images/elazıgvisne_uygulama.png', bg:stone(70,'#2b2a28','rgba(220,210,190,.35)','#555049') },
-  { name:'Carrara',       note:'Yumuşak geçişleriyle sakin ve zarif yüzeyler sunar.',                img:'assets/images/carrarawhite.png', applicationImg:'assets/images/carrarawhiteuygulama.png', bg:stone(120,'#e0d5c3','rgba(130,110,85,.3)','#bfae94') },
-  { name:'Avakado',      note:'Işığı geçiren yoğun dokusuyla özel projelere değer katar.',          img:'assets/images/avakadourun.png', applicationImg:'assets/images/avakadouygulama.png', bg:stone(50,'#46564b','rgba(210,225,205,.35)','#2c382f') }
+  { name:'Panda White', note:'Sıcak tonları ve doğal gözenekli dokusuyla ferah mekânlar yaratır.', img:'assets/images/pandawhite.png', applicationImg:'assets/optimized/site/new-pandawhite-1448.webp', bg:stone(95,'#d8c7a8','rgba(150,120,80,.4)','#b49c78') },
+  { name:'Elazığ Vişne', note:'Derin zemini ve ince damarlarıyla dramatik bir sahne kurar.', img:'assets/images/elazıg_visne.png', applicationImg:'assets/optimized/site/new-elazig-visne-1402.webp', bg:stone(70,'#2b2a28','rgba(220,210,190,.35)','#555049') },
+  { name:'Carrara', note:'Yumuşak geçişleriyle sakin ve zarif yüzeyler sunar.', img:'assets/images/carrarawhite.png', applicationImg:'assets/optimized/site/new-carrara-1534.webp', bg:stone(120,'#e0d5c3','rgba(130,110,85,.3)','#bfae94') },
+  { name:'Avakado', note:'Işığı geçiren yoğun dokusuyla özel projelere değer katar.', img:'assets/images/avakadourun.png', applicationImg:'assets/optimized/site/new-avacado-1412.webp', bg:stone(50,'#46564b','rgba(210,225,205,.35)','#2c382f') },
+  { name:'Bal Onyx', note:'Zamansız zarafetiyle mekânlara benzersiz bir karakter kazandırır.', img:'assets/images/bal-onyx_536_485.jpg', applicationImg:'assets/optimized/site/new-onyx-1448.webp', bg:stone(65,'#d9c9b0','rgba(110,80,50,.55)','#a89478') }
 ];
 const cats = [
   ['Doğal Taşlar','Mermer, Traverten, Granit ve daha fazlası',0], ['Porselen Yüzeyler','Estetik ve dayanıklılığı buluşturan modern çözümler',3],
@@ -49,7 +49,8 @@ const el = (tag, props = {}, html = '') => Object.assign(document.createElement(
 /* Categories */
 $('urunler').append(...cats.map(([t, d], i) => {
   const imageMarkup = siteImages ? siteImages.markup(catImages[i], {className:'cat__sw', alt:'', sizes:'(max-width:680px) 46vw, 100px', loading:'lazy'}) : `<img class="cat__sw" src="${catImages[i]}" alt="" loading="lazy" decoding="async">`;
-  const a = el('a', { className:'cat', href:'#koleksiyon' }, `${imageMarkup}<div><h3 class="serif">${t}</h3><p class="body">${d}</p><span>?</span></div>`);
+  const categoryTargets = ['granit/index.html', 'florim/index.html', 'cimstone/index.html', 't-one/index.html'];
+  const a = el('a', { className:'cat', href:categoryTargets[i] }, `${imageMarkup}<div><h3 class="serif">${t}</h3><p class="body">${d}</p><span aria-hidden="true">→</span></div>`);
   return a;
 }));
 /* Collection */
@@ -61,10 +62,12 @@ stones.forEach((s, i) => {
 });
 function renderCol() {
   const s = stones[c];
+  const collectionTargets = ['mermer/index.html', 'mermer/index.html', 'mermer/index.html', 'mermer/index.html', 'onyx/index.html'];
+  $('collectionCta').href = collectionTargets[c];
   $('colBg').style.background = bg(s);
   const application = $('colApplication');
   application.hidden = !s.applicationImg;
-  if (s.applicationImg) { application.alt = s.name + ' uygulama \u00f6rne\u011fi'; application.loading = 'lazy'; if (siteImages) siteImages.attach(application, s.applicationImg, '', '(max-width:700px) 100vw, 45vw'); else application.src = s.applicationImg; }
+  if (s.applicationImg) { application.alt = s.name + ' uygulama \u00f6rne\u011fi'; application.loading = 'lazy'; application.src = s.applicationImg; if (siteImages) siteImages.attach(application, s.applicationImg, '', '(max-width:700px) 100vw, 45vw'); }
   $('colName').textContent = s.name; $('colNote').textContent = s.note; $('colIdx').textContent = `0${c + 1} / 0${stones.length}`;
   [...thumbsEl.children].forEach((b, i) => b.setAttribute('aria-current', i === c));
 }
@@ -73,7 +76,7 @@ $('cNext').onclick = () => { c = mod(c + 1, stones.length); renderCol(); };
 
 /* Applications */
 $('apps').append(...apps.map(a => {
-  const t = el('a', { className:'tile', href:'#projeler' }, `<div class="media"></div><div class="tile__cap"><h3 class="serif">${a.t}</h3><small>Keşfet →</small></div>`);
+  const t = el('a', { className:'tile', href:'uygulama-alanlari/index.html' }, `<div class="media"></div><div class="tile__cap"><h3 class="serif">${a.t}</h3><small>Keşfet →</small></div>`);
   const media = t.querySelector('.media');
   media.dataset.backgroundImage = a.img || '';
   if (!a.img) media.style.background = a.bg;
@@ -82,7 +85,8 @@ $('apps').append(...apps.map(a => {
 
 /* Brands and projects */
 $('brands').append(...brandLogos.map(({ name, src }) => {
-  const item = el('div', { className:'brands__logo' });
+  const destinations = { FLORIM:'florim/index.html', CALISCO:'calisco/index.html', CIMSTONE:'cimstone/index.html', 'T-ONE':'t-one/index.html' };
+  const item = el('a', { className:'brands__logo', href:destinations[name], 'aria-label':`${name} marka detay sayfasi` });
   item.append(el('img', { src:siteImages ? siteImages.path(src) : src, alt:name, width:120, height:48, className:`brands__logo-image brands__logo-image--${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`, loading:'lazy', decoding:'async' }));
   return item;
 }));

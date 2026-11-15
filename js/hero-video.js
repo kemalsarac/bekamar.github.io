@@ -16,14 +16,13 @@
     });
   };
   if (!('IntersectionObserver' in window)) {
-    videos.forEach(video => setTimeout(() => loadVideo(video), 900));
+    videos.forEach(video => setTimeout(() => loadVideo(video), 120));
     return;
   }
   const observer = new IntersectionObserver(entries => entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     observer.unobserve(entry.target);
-    const schedule = window.requestIdleCallback || (callback => setTimeout(callback, 700));
-    schedule(() => { if (entry.target.isConnected) loadVideo(entry.target); }, {timeout: 1800});
+    loadVideo(entry.target);
   }), {rootMargin: '120px'});
   videos.forEach(video => observer.observe(video));
 })();
