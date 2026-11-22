@@ -1,0 +1,3230 @@
+[
+  {
+    "source": "assets/catalog/bayi-katalog.jpg",
+    "sourceBytes": 57427,
+    "width": 350,
+    "height": 400,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bayi-katalog-8a420d7f-400.webp",
+        "width": 350,
+        "height": 400,
+        "bytes": 7638
+      }
+    ]
+  },
+  {
+    "source": "assets/catalog/mimari-katalog.jpg",
+    "sourceBytes": 46603,
+    "width": 350,
+    "height": 400,
+    "webp": [
+      {
+        "path": "assets/optimized/media/mimari-katalog-7baa0923-400.webp",
+        "width": 350,
+        "height": 400,
+        "bytes": 6944
+      }
+    ]
+  },
+  {
+    "source": "assets/catalog/t-one-katalog-vesika.png",
+    "sourceBytes": 641191,
+    "width": 628,
+    "height": 895,
+    "webp": [
+      {
+        "path": "assets/optimized/media/t-one-katalog-vesika-e85d17b3-800.webp",
+        "width": 561,
+        "height": 800,
+        "bytes": 51160
+      },
+      {
+        "path": "assets/optimized/media/t-one-katalog-vesika-e85d17b3-895.webp",
+        "width": 628,
+        "height": 895,
+        "bytes": 59808
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/aqua-florim-porselen-tezgah_502_290.jpeg",
+    "sourceBytes": 27505,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/aqua-florim-porselen-tezgah-502-290-de46450b-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 16124
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/cement/751290_cement.light.gray.matte_1024x768 (1).jpg",
+    "sourceBytes": 35769,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/751290-cement-light-gray-matte-1024x768-1-28f2d1aa-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 7476
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/cement/751296_cement.dark.gray.velvet_1024x768.jpg",
+    "sourceBytes": 38324,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/751296-cement-dark-gray-velvet-1024x768-d5806aac-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 8298
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/cement/759792_cement.ivory.matte_1024x768.jpg",
+    "sourceBytes": 23439,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/759792-cement-ivory-matte-1024x768-9b55e18e-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 4110
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/color/791731_Solid Black_1024x768.jpg",
+    "sourceBytes": 90816,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791731-solid-black-1024x768-d290ae4e-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 63688
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751320_marble.statuario.A.matte_1024x768.jpg",
+    "sourceBytes": 28257,
+    "width": 385,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/751320-marble-statuario-a-matte-1024x768-295facd0-768.webp",
+        "width": 385,
+        "height": 768,
+        "bytes": 8300
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751350_marble.calacatta.gold.A.glossy_1024x768.jpg",
+    "sourceBytes": 33119,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/751350-marble-calacatta-gold-a-glossy-1024x768-3849657d-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 8548
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751386_marble.marquinia.glossy_1024x768.jpg",
+    "sourceBytes": 50514,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/751386-marble-marquinia-glossy-1024x768-0362c85a-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 17038
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/759763_marble.laurent.matte_1024x768.jpg",
+    "sourceBytes": 90586,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/759763-marble-laurent-matte-1024x768-e900f3d6-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 50844
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768746_marble.breach.A.matte_1024x768.jpg",
+    "sourceBytes": 55631,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/768746-marble-breach-a-matte-1024x768-c415c419-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 24446
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768753_eternal.gold.B.matte_1024x768.jpg",
+    "sourceBytes": 51933,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/768753-eternal-gold-b-matte-1024x768-1b8202e6-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 23180
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768792_marble.calacatta.A.matte_1024x768.jpg",
+    "sourceBytes": 37831,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/768792-marble-calacatta-a-matte-1024x768-9ea360d4-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 12346
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/772942_marble.capraia.matte_1024x768.jpg",
+    "sourceBytes": 78875,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/772942-marble-capraia-matte-1024x768-4b5379e8-768.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 43550
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785570_arena bianco antico_1024x768.jpg",
+    "sourceBytes": 52413,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785570-arena-bianco-antico-1024x768-b124cc8c-768.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 21874
+      }
+    ]
+  },
+  {
+    "source": "assets/images/ibrahim-hos_150_150.jpg",
+    "sourceBytes": 14679,
+    "width": 150,
+    "height": 150,
+    "webp": [
+      {
+        "path": "assets/optimized/media/ibrahim-hos-150-150-0e9d6697-150.webp",
+        "width": 150,
+        "height": 150,
+        "bytes": 2310
+      }
+    ]
+  },
+  {
+    "source": "assets/onyx/bal-onyx_502_290.jpg",
+    "sourceBytes": 134704,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bal-onyx-502-290-a64a38e2-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 25620
+      }
+    ]
+  },
+  {
+    "source": "assets/traverten/turkiye-traverten_502_290.jpg",
+    "sourceBytes": 140868,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/turkiye-traverten-502-290-7421a6b8-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 29666
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/azure-florim-porselen-yuzey_502_290.jpeg",
+    "sourceBytes": 28150,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/azure-florim-porselen-yuzey-502-290-4d86ab86-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 15632
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/bianco-lasa_502_290.jpg",
+    "sourceBytes": 13434,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bianco-lasa-502-290-19c8fb42-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 4976
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/cement-dark-gray-florim-porselen-yuzey_502_290.jpeg",
+    "sourceBytes": 14052,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/cement-dark-gray-florim-porselen-yuzey-502-290-82d87723-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 5426
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/eternal-gold-florim-porselen-yuzey_502_290.jpeg",
+    "sourceBytes": 24450,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/eternal-gold-florim-porselen-yuzey-502-290-bf606959-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 13654
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/marble-breach-florim-seramik-yuzey_502_290.jpeg",
+    "sourceBytes": 24307,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marble-breach-florim-seramik-yuzey-502-290-184816e1-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 14114
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/marble-calacatta-florim-porselen-yuzey_502_290.jpeg",
+    "sourceBytes": 17372,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marble-calacatta-florim-porselen-yuzey-502-290-c833e6a7-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 7866
+      }
+    ]
+  },
+  {
+    "source": "assets/florim/marble-gray-florim-porselen-tezgah_502_290.jpeg",
+    "sourceBytes": 25002,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marble-gray-florim-porselen-tezgah-502-290-64f160b6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 15654
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/absolute-black-cilali_502_290.jpg",
+    "sourceBytes": 87770,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/absolute-black-cilali-502-290-20bc41a0-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 13922
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/absolute-black-patinatolu_502_290.jpg",
+    "sourceBytes": 109150,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/absolute-black-patinatolu-502-290-cd5d0474-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 22914
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/ash-black_502_290.jpg",
+    "sourceBytes": 103353,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/ash-black-502-290-5cd1bed3-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 20494
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/baltic-brown_502_290.jpg",
+    "sourceBytes": 156962,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/baltic-brown-502-290-4ea4bfbc-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 39982
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/belvedere_502_290.jpg",
+    "sourceBytes": 89070,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/belvedere-502-290-5be5d86c-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 16898
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/bergama-gri_502_290.jpg",
+    "sourceBytes": 162960,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bergama-gri-502-290-7b42afc1-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 51022
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/bianco-nublado_502_290.jpg",
+    "sourceBytes": 167348,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bianco-nublado-502-290-bff96de9-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 48142
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/black-marinace_502_290.jpg",
+    "sourceBytes": 151395,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/black-marinace-502-290-8ab19e3e-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 40492
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/black-pearl_502_290.jpg",
+    "sourceBytes": 134001,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/black-pearl-502-290-199f91a6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 32210
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/blue-pearl_502_290.jpg",
+    "sourceBytes": 158892,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/blue-pearl-502-290-af0b5f21-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 46048
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/coral-black_502_290.jpg",
+    "sourceBytes": 148519,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/coral-black-502-290-64091eed-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 41280
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/crema-perla_502_290.jpg",
+    "sourceBytes": 158790,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/crema-perla-502-290-d66fedcc-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 42780
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/emerald-pearl_502_290.jpg",
+    "sourceBytes": 122386,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/emerald-pearl-502-290-d587b51a-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 24784
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/ezine-gri_502_290.jpg",
+    "sourceBytes": 194283,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/ezine-gri-502-290-3b7d2ad9-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 60934
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/giallo-ornamental_502_290.jpg",
+    "sourceBytes": 146402,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/giallo-ornamental-502-290-a37c3811-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 34864
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/green-butterfly_502_290.jpg",
+    "sourceBytes": 143826,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/green-butterfly-502-290-401868d5-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 37474
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/green-marinace_502_290.jpg",
+    "sourceBytes": 164571,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/green-marinace-502-290-aff9ad1e-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 49042
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/griss-messi_502_290.jpg",
+    "sourceBytes": 170629,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/griss-messi-502-290-4f3f8fa2-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 50186
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/labrador-hq_502_290.jpg",
+    "sourceBytes": 170623,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/labrador-hq-502-290-84ea8726-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 48364
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/magic-black_502_290.jpg",
+    "sourceBytes": 160366,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/magic-black-502-290-ac03480b-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 46980
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/nero-turka_502_290.jpg",
+    "sourceBytes": 151919,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/nero-turka-502-290-1e8d6bba-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 42078
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/nero-zimbabwe-patinatolu_502_290.jpg",
+    "sourceBytes": 97040,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/nero-zimbabwe-patinatolu-502-290-78b468fd-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 18234
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/platinum-white_502_290.jpg",
+    "sourceBytes": 163674,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/platinum-white-502-290-94be6b4d-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 47918
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/rain-white_502_290.jpg",
+    "sourceBytes": 159156,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/rain-white-502-290-bde1f3bd-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 42782
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/rosa-beta_502_290.jpg",
+    "sourceBytes": 171996,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/rosa-beta-502-290-06330aa6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 52098
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/rosa-minho_502_290.jpg",
+    "sourceBytes": 167399,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/rosa-minho-502-290-670512e5-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 48854
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/rosa-porino_502_290.jpg",
+    "sourceBytes": 142746,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/rosa-porino-502-290-a9c00cee-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 33830
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/star-galaxy_502_290.jpg",
+    "sourceBytes": 155966,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/star-galaxy-502-290-048a353e-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 42368
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/tan-brown_502_290.jpg",
+    "sourceBytes": 151236,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/tan-brown-502-290-0c39a728-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 39990
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/violet_502_290.jpg",
+    "sourceBytes": 164181,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/violet-502-290-5f3fe59d-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 47336
+      }
+    ]
+  },
+  {
+    "source": "assets/granit/white-pearl_502_290.jpg",
+    "sourceBytes": 158573,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/white-pearl-502-290-9ef4ea0c-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 44898
+      }
+    ]
+  },
+  {
+    "source": "assets/images/calisco.jpg",
+    "sourceBytes": 21573,
+    "width": 738,
+    "height": 237,
+    "webp": [
+      {
+        "path": "assets/optimized/media/calisco-790df56e-738.webp",
+        "width": 738,
+        "height": 237,
+        "bytes": 12000
+      }
+    ]
+  },
+  {
+    "source": "assets/images/cimstone-logo.png",
+    "sourceBytes": 10084,
+    "width": 600,
+    "height": 138,
+    "webp": [
+      {
+        "path": "assets/optimized/media/cimstone-logo-b063f144-600.webp",
+        "width": 600,
+        "height": 138,
+        "bytes": 4326
+      }
+    ]
+  },
+  {
+    "source": "assets/images/cimstone-transparent.png",
+    "sourceBytes": 6981,
+    "width": 258,
+    "height": 145,
+    "webp": [
+      {
+        "path": "assets/optimized/media/cimstone-transparent-d74230e0-258.webp",
+        "width": 258,
+        "height": 145,
+        "bytes": 4408
+      }
+    ]
+  },
+  {
+    "source": "assets/images/logo-calisco.png",
+    "sourceBytes": 4615,
+    "width": 70,
+    "height": 16,
+    "webp": [
+      {
+        "path": "assets/optimized/media/logo-calisco-976e1661-70.webp",
+        "width": 70,
+        "height": 16,
+        "bytes": 1364
+      }
+    ]
+  },
+  {
+    "source": "assets/images/logo-tone.png",
+    "sourceBytes": 3000,
+    "width": 224,
+    "height": 66,
+    "webp": [
+      {
+        "path": "assets/optimized/media/logo-tone-8fcffd7d-224.webp",
+        "width": 224,
+        "height": 66,
+        "bytes": 1644
+      }
+    ]
+  },
+  {
+    "source": "assets/images/t-one.jpg",
+    "sourceBytes": 8475,
+    "width": 300,
+    "height": 300,
+    "webp": [
+      {
+        "path": "assets/optimized/media/t-one-af92ebb6-300.webp",
+        "width": 300,
+        "height": 300,
+        "bytes": 2260
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/amazonia_502_290.jpg",
+    "sourceBytes": 139387,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/amazonia-502-290-0156d807-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 31228
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/arabescato_502_290.jpg",
+    "sourceBytes": 110539,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/arabescato-502-290-beacab1a-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 23334
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/bruno-perla_502_290.jpg",
+    "sourceBytes": 94868,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/bruno-perla-502-290-388990c6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 16166
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/calacatta-gold_502_290.jpg",
+    "sourceBytes": 64212,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/calacatta-gold-502-290-f729ae8b-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 9682
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/calacatta_502_290.jpg",
+    "sourceBytes": 82540,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/calacatta-502-290-ec48a8de-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 13700
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/carrara-gioia_502_290.jpg",
+    "sourceBytes": 67121,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/carrara-gioia-502-290-4f6252be-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 8148
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/carrara-statuario_502_290.jpg",
+    "sourceBytes": 45425,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/carrara-statuario-502-290-0b088c18-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 5784
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/elazig-visne_502_290.jpg",
+    "sourceBytes": 149622,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/elazig-visne-502-290-d1ddf548-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 35304
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/emperador-dark-light_502_290.jpg",
+    "sourceBytes": 149213,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/emperador-dark-light-502-290-841d2344-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 37164
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/emperador-dark-spain_502_290.jpg",
+    "sourceBytes": 146289,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/emperador-dark-spain-502-290-027f7e84-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 32862
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/emperador-dark_502_290.jpg",
+    "sourceBytes": 153010,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/emperador-dark-502-290-1620fe67-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 41848
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/forest-brown-patinatolu_502_290.jpg",
+    "sourceBytes": 158723,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/forest-brown-patinatolu-502-290-e2b9adfc-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 39664
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/forest-green-patinatolu_502_290.jpg",
+    "sourceBytes": 180466,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/forest-green-patinatolu-502-290-4842ce2c-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 53546
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/grizio_502_290.jpg",
+    "sourceBytes": 139621,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/grizio-502-290-fcd956f5-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 33018
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/marmara_502_290.jpg",
+    "sourceBytes": 96587,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marmara-502-290-cda4efe3-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 13592
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/olive-maron_502_290.jpg",
+    "sourceBytes": 132952,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/olive-maron-502-290-ec00fda4-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 27932
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/panda-white_502_290.jpg",
+    "sourceBytes": 94493,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/panda-white-502-290-41df82a6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 16998
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/pietra-grey_502_290.jpg",
+    "sourceBytes": 79553,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/pietra-grey-502-290-bd7e63d6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 9722
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/toros-black_502_290.jpg",
+    "sourceBytes": 102469,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/toros-black-502-290-136174c4-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 22622
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/tundra-grey_502_290.jpg",
+    "sourceBytes": 102422,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/tundra-grey-502-290-c98e71b6-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 20980
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/verde-guatemala_502_290.jpg",
+    "sourceBytes": 150453,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/verde-guatemala-502-290-45479785-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 38130
+      }
+    ]
+  },
+  {
+    "source": "assets/marble/volakas_502_290.jpg",
+    "sourceBytes": 70339,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/volakas-502-290-4245dde2-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 7718
+      }
+    ]
+  },
+  {
+    "source": "assets/new-collection-picture/avacado.png",
+    "sourceBytes": 2180351,
+    "width": 1114,
+    "height": 1412,
+    "webp": [
+      {
+        "path": "assets/optimized/media/avacado-11fe699b-800.webp",
+        "width": 631,
+        "height": 800,
+        "bytes": 52086
+      },
+      {
+        "path": "assets/optimized/media/avacado-11fe699b-1412.webp",
+        "width": 1114,
+        "height": 1412,
+        "bytes": 119316
+      }
+    ]
+  },
+  {
+    "source": "assets/new-collection-picture/carrara.png",
+    "sourceBytes": 2409014,
+    "width": 1025,
+    "height": 1534,
+    "webp": [
+      {
+        "path": "assets/optimized/media/carrara-08c6dc00-800.webp",
+        "width": 535,
+        "height": 800,
+        "bytes": 50768
+      },
+      {
+        "path": "assets/optimized/media/carrara-08c6dc00-1534.webp",
+        "width": 1025,
+        "height": 1534,
+        "bytes": 133636
+      }
+    ]
+  },
+  {
+    "source": "assets/new-collection-picture/elazıgvisne.png",
+    "sourceBytes": 2842437,
+    "width": 1122,
+    "height": 1402,
+    "webp": [
+      {
+        "path": "assets/optimized/media/elazgvisne-509b871b-800.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 93624
+      },
+      {
+        "path": "assets/optimized/media/elazgvisne-509b871b-1402.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 238822
+      }
+    ]
+  },
+  {
+    "source": "assets/new-collection-picture/onyx.png",
+    "sourceBytes": 2772368,
+    "width": 1086,
+    "height": 1448,
+    "webp": [
+      {
+        "path": "assets/optimized/media/onyx-101021bd-800.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 103736
+      },
+      {
+        "path": "assets/optimized/media/onyx-101021bd-1448.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 253266
+      }
+    ]
+  },
+  {
+    "source": "assets/new-collection-picture/pandawhite-1.png",
+    "sourceBytes": 2181148,
+    "width": 1086,
+    "height": 1448,
+    "webp": [
+      {
+        "path": "assets/optimized/media/pandawhite-1-de3d6906-800.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 45132
+      },
+      {
+        "path": "assets/optimized/media/pandawhite-1-de3d6906-1448.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 100244
+      }
+    ]
+  },
+  {
+    "source": "assets/onyx/iranian-blue-onyx_502_290.jpg",
+    "sourceBytes": 91148,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/iranian-blue-onyx-502-290-d16f656c-502.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 10052
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/admira-2101_502_290.jpeg",
+    "sourceBytes": 9981,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/admira-2101-502-290-1ab9b814.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 2304
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/aymina-3001_502_290.jpeg",
+    "sourceBytes": 4297,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/aymina-3001-502-290-a43d03c3.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 808
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/caramela-2005_502_290.jpeg",
+    "sourceBytes": 9706,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/caramela-2005-502-290-45c8df77.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 2750
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/cordelia-2001_502_290.jpeg",
+    "sourceBytes": 7989,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/cordelia-2001-502-290-ea0e513a.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 2164
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/daisy-4001_502_290.jpeg",
+    "sourceBytes": 5297,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/daisy-4001-502-290-8751c5a8.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 774
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/elatris-4004_502_290.jpeg",
+    "sourceBytes": 25162,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/elatris-4004-502-290-cba06219.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 18990
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/lusetia-white-5601_502_290.jpeg",
+    "sourceBytes": 26916,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/lusetia-white-5601-502-290-22ba25f3.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 19592
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/lusida-black-5701_502_290.jpeg",
+    "sourceBytes": 21058,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/lusida-black-5701-502-290-512e2064.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 11486
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/lusida-grey-5702_502_290.jpeg",
+    "sourceBytes": 28682,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/lusida-grey-5702-502-290-332f1a6a.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 22714
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/mivera-3201_502_290.jpeg",
+    "sourceBytes": 8408,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/mivera-3201-502-290-b1ce09d1.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 2144
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/rugiada-2209_502_290.jpeg",
+    "sourceBytes": 5124,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/rugiada-2209-502-290-2e29b201.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 644
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/sadira-2210_502_290.jpg",
+    "sourceBytes": 15739,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/sadira-2210-502-290-6044de8f.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 6790
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/sima-2103_502_290.jpeg",
+    "sourceBytes": 7395,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/sima-2103-502-290-d61f7279.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 1394
+      }
+    ]
+  },
+  {
+    "source": "assets/calisco/visendra-2102_502_290.jpeg",
+    "sourceBytes": 6180,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/visendra-2102-502-290-1f64a440.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 1154
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/100-hierapolis-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 2953,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/100-hierapolis-cimstone-tezgah-502-290-569606eb.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 630
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/160-amanos_502_290.jpeg",
+    "sourceBytes": 29815,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/160-amanos-502-290-7d659a11.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 23296
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/170-etna-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 13092,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/170-etna-cimstone-tezgah-502-290-2b3a43f7.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 3830
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/230-meis_502_290.jpeg",
+    "sourceBytes": 5326,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/230-meis-502-290-beb6f450.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 1824
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/260-petra_502_290.jpeg",
+    "sourceBytes": 9168,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/260-petra-502-290-279193d8.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 2710
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/295-milos_502_290.jpeg",
+    "sourceBytes": 20559,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/295-milos-502-290-6ac8ebb8.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 10760
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/333-alpin_502_290.jpeg",
+    "sourceBytes": 16446,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/333-alpin-502-290-f0b311d5.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 7430
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/350-apollon_502_290.jpeg",
+    "sourceBytes": 8313,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/350-apollon-502-290-5496f1fe.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 1628
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/425-piastra-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 15453,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/425-piastra-cimstone-tezgah-502-290-c6404d89.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 8374
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/435-ararat-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 18158,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/435-ararat-cimstone-tezgah-502-290-83961736.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 8580
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/488-katanya-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 16910,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/488-katanya-cimstone-tezgah-502-290-8e15d223.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 8194
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/546-piran-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 26568,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/546-piran-cimstone-tezgah-502-290-1572d288.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 18554
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/555-neopolis-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 28360,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/555-neopolis-cimstone-tezgah-502-290-b7de597d.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 21358
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/591-tiber-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 14227,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/591-tiber-cimstone-tezgah-502-290-b6e4d330.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 6088
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/613-soli-cimstone-tezgah_502_290.jpeg",
+    "sourceBytes": 11900,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/613-soli-cimstone-tezgah-502-290-6f5c89c1.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 3778
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/660-sinasos-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 5099,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/660-sinasos-cimstone-tezgah-502-290-d50419df.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 1594
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/717-laranda-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 22438,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/717-laranda-cimstone-tezgah-502-290-9b900e0b.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 13952
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/820-serrone-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 19799,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/820-serrone-cimstone-tezgah-502-290-8fd070ce.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 10352
+      }
+    ]
+  },
+  {
+    "source": "assets/cimstone/970-thyra-cimstone-tezgah_502_290.jpg",
+    "sourceBytes": 10066,
+    "width": 502,
+    "height": 290,
+    "webp": [
+      {
+        "path": "assets/optimized/media/970-thyra-cimstone-tezgah-502-290-d77f944f.webp",
+        "width": 502,
+        "height": 290,
+        "bytes": 3760
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-alfred.jpg",
+    "sourceBytes": 678678,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-alfred-58b79e44.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 376250
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-ambrogio.jpg",
+    "sourceBytes": 279618,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-ambrogio-0abdb020.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 108560
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-cross.jpg",
+    "sourceBytes": 718567,
+    "width": 2000,
+    "height": 2000,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-cross-4661c22d.webp",
+        "width": 2000,
+        "height": 2000,
+        "bytes": 451854
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-filo.jpg",
+    "sourceBytes": 220836,
+    "width": 2000,
+    "height": 1331,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-filo-1519de23.webp",
+        "width": 2000,
+        "height": 1331,
+        "bytes": 60730
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-hector.jpg",
+    "sourceBytes": 385360,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-hector-cb25ec3c.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 216742
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-kairos.jpg",
+    "sourceBytes": 220858,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-kairos-574ccd13.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 78572
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-komos.jpg",
+    "sourceBytes": 300581,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-komos-3de72ce5.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 121658
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-magnum.jpg",
+    "sourceBytes": 243544,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-magnum-3059a9da.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 91986
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-mr-big.jpg",
+    "sourceBytes": 252516,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-mr-big-7bfd363c.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 107730
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-origine.jpg",
+    "sourceBytes": 327059,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-origine-20fe885d.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 174242
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-oto-pop-reverse.jpg",
+    "sourceBytes": 217022,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-oto-pop-reverse-09e4ed79.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 87142
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-oto-pop.jpg",
+    "sourceBytes": 219533,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-oto-pop-1ab166a0.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 80612
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-oto-rock.jpg",
+    "sourceBytes": 211790,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-oto-rock-4965dfd4.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 78940
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-spider.jpg",
+    "sourceBytes": 355809,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-spider-5132826e.webp",
+        "width": 2000,
+        "height": 1415,
+        "bytes": 196610
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-series-source/superfici/superfici-torii.jpg",
+    "sourceBytes": 315728,
+    "width": 2000,
+    "height": 1829,
+    "webp": [
+      {
+        "path": "assets/optimized/media/superfici-torii-7b6bd5d4.webp",
+        "width": 2000,
+        "height": 1829,
+        "bytes": 123458
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777595_B.tundra.matte_1024x768.jpg",
+    "sourceBytes": 122177,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777595-b-tundra-matte-1024x768-bcde5902.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 62116
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777596_verde.alpi.matte_1024x768.jpg",
+    "sourceBytes": 117881,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777596-verde-alpi-matte-1024x768-6b499fc0.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 83238
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777613_stone.marfil.matte_1024x768.jpg",
+    "sourceBytes": 54176,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777613-stone-marfil-matte-1024x768-676aa379.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 15628
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784102_marble yamuna moka matte_1024x768.jpg",
+    "sourceBytes": 93647,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784102-marble-yamuna-moka-matte-1024x768-493d183d.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 61984
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784104_marble mahal_1024x768.jpg",
+    "sourceBytes": 56893,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784104-marble-mahal-1024x768-b6c0802d.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 24550
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784106_marble brun_1024x768.jpg",
+    "sourceBytes": 61704,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784106-marble-brun-1024x768-b94c68fb.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 28360
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784107_marble sequoia_1024x768.jpg",
+    "sourceBytes": 69810,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784107-marble-sequoia-1024x768-5d693894.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 34464
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784108_marble yamuna opal matte_1024x768.jpg",
+    "sourceBytes": 85315,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784108-marble-yamuna-opal-matte-1024x768-2e186574.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 54634
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784532_18_Yamuna_1024x768.jpg",
+    "sourceBytes": 85438,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784532-18-yamuna-1024x768-44bc7483.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 40682
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791690_APUANO ORO _1024x768.jpg",
+    "sourceBytes": 43369,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791690-apuano-oro--1024x768-ab4b73c3.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 13674
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791726_BRONZE FANTASY_1024x768.jpg",
+    "sourceBytes": 101839,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791726-bronze-fantasy-1024x768-734f82db.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 67596
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791727_DUSTY ROSE_1024x768.jpg",
+    "sourceBytes": 120917,
+    "width": 383,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791727-dusty-rose-1024x768-acf565ab.webp",
+        "width": 383,
+        "height": 768,
+        "bytes": 88144
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791730_BAROQUE RED_1024x768.jpg",
+    "sourceBytes": 123181,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791730-baroque-red-1024x768-e23100ce.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 84660
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/Marble-Stone_01.png",
+    "sourceBytes": 694134,
+    "width": 988,
+    "height": 496,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marble-stone-01-e49a5870.webp",
+        "width": 988,
+        "height": 496,
+        "bytes": 12474
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/metal/759806_metal.burnished_1024x768.jpg",
+    "sourceBytes": 68146,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/759806-metal-burnished-1024x768-dfc4fc17.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 36308
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/759760_stone.gris_1024x768.jpg",
+    "sourceBytes": 62975,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/759760-stone-gris-1024x768-49b1a7c8.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 31548
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/777614.sahara.noir.glossy_1024x768.jpg",
+    "sourceBytes": 56687,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777614-sahara-noir-glossy-1024x768-8f0272eb.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 19840
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780434_stone montpellier_1024x768.jpg",
+    "sourceBytes": 54500,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780434-stone-montpellier-1024x768-288dbd44.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 22462
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780435_stone dordogne_1024x768.jpg",
+    "sourceBytes": 52075,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780435-stone-dordogne-1024x768-cd0bab69.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 18866
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780436_stone chablis_1024x768.jpg",
+    "sourceBytes": 55096,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780436-stone-chablis-1024x768-1eac663d.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 23598
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780437_pearl travertine_1024x768.jpg",
+    "sourceBytes": 44952,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780437-pearl-travertine-1024x768-f5395a10.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 14544
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780438_shake travertine_1024x768.jpg",
+    "sourceBytes": 40162,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780438-shake-travertine-1024x768-8ce7bef1.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 10400
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780440_gold travertine_1024x768.jpg",
+    "sourceBytes": 52735,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780440-gold-travertine-1024x768-8e754259.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 21000
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/791733_NUT TRAVERTINE_1024x768.jpg",
+    "sourceBytes": 64492,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/791733-nut-travertine-1024x768-fcba207b.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 29714
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/780968_pearl  travertine_1024x768.jpg",
+    "sourceBytes": 58444,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780968-pearl--travertine-1024x768-2315b03e.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 21114
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781006_marble nuage_1024x768.jpg",
+    "sourceBytes": 71901,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/781006-marble-nuage-1024x768-69741088.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 26936
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781019_gold travertine_1024x768.jpg",
+    "sourceBytes": 67588,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/781019-gold-travertine-1024x768-be07bb77.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 29728
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/biotech/779016_stonewood_1024x768.jpg",
+    "sourceBytes": 50739,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/779016-stonewood-1024x768-7b569473.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 15528
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/compatta/777971_pise limo_1024x768.jpg",
+    "sourceBytes": 74591,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777971-pise-limo-1024x768-b2e56537.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 39624
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/compatta/777972_pise melange_1024x768.jpg",
+    "sourceBytes": 67837,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/777972-pise-melange-1024x768-d6264b5a.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 31180
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/compatta/Pise Giaia.PNG",
+    "sourceBytes": 178557,
+    "width": 203,
+    "height": 409,
+    "webp": [
+      {
+        "path": "assets/optimized/media/pise-giaia-a43096ca.webp",
+        "width": 203,
+        "height": 409,
+        "bytes": 20536
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/757777_sage_1024x768.jpg",
+    "sourceBytes": 32214,
+    "width": 349,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/757777-sage-1024x768-be05b3d1.webp",
+        "width": 349,
+        "height": 768,
+        "bytes": 5290
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778820_smoky black_1024x768.jpg",
+    "sourceBytes": 30780,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/778820-smoky-black-1024x768-ab6e0a38.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 5952
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778821_cloudy white_1024x768.jpg",
+    "sourceBytes": 27269,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/778821-cloudy-white-1024x768-2ab301e7.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 5492
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778822_almond_1024x768.jpg",
+    "sourceBytes": 79007,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/778822-almond-1024x768-0c97b548.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 34678
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778824_caramel_1024x768.jpg",
+    "sourceBytes": 118541,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/778824-caramel-1024x768-a6958fbf.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 67892
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778825_mint_1024x768.jpg",
+    "sourceBytes": 127307,
+    "width": 329,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/778825-mint-1024x768-c8bbb982.webp",
+        "width": 329,
+        "height": 768,
+        "bytes": 75370
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/flowtech/757908_russet_1024x768.jpg",
+    "sourceBytes": 86870,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/757908-russet-1024x768-41f32aef.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 40410
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/flowtech/757909_aged bronze_1024x768.jpg",
+    "sourceBytes": 74751,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/757909-aged-bronze-1024x768-70fba2fc.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 30106
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/784121_marble mahal_1024x768.jpg",
+    "sourceBytes": 56893,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784121-marble-mahal-1024x768-b6c0802d.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 24550
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/DUSTYROSE_6_1024x768.jpg",
+    "sourceBytes": 106427,
+    "width": 347,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/dustyrose-6-1024x768-7d06da45.webp",
+        "width": 347,
+        "height": 768,
+        "bytes": 79714
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/Forest_Green_1_120x280_1024x768.jpg",
+    "sourceBytes": 84691,
+    "width": 334,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/forest-green-1-120x280-1024x768-e28aed50.webp",
+        "width": 334,
+        "height": 768,
+        "bytes": 56110
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/MARBLE_BAROQUE RED_3_120x280 copia_1024x768.jpg",
+    "sourceBytes": 106910,
+    "width": 351,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/marble-baroque-red-3-120x280-copia-1024x768-69637b49.webp",
+        "width": 351,
+        "height": 768,
+        "bytes": 74144
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/OROSEI_CRUST_3_120x280 _1024x768.jpg",
+    "sourceBytes": 46571,
+    "width": 347,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/orosei-crust-3-120x280--1024x768-f23186a8.webp",
+        "width": 347,
+        "height": 768,
+        "bytes": 16404
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/heritage luxe/774700_heritage emerald_1024x768.jpg",
+    "sourceBytes": 111696,
+    "width": 347,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/774700-heritage-emerald-1024x768-908f9c59.webp",
+        "width": 347,
+        "height": 768,
+        "bytes": 66846
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/industrial/757774_ivory_1024x768.jpg",
+    "sourceBytes": 33392,
+    "width": 349,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/757774-ivory-1024x768-08631a83.webp",
+        "width": 349,
+        "height": 768,
+        "bytes": 5330
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/breche capraia.jfif",
+    "sourceBytes": 22019,
+    "width": 447,
+    "height": 447,
+    "webp": [
+      {
+        "path": "assets/optimized/media/breche-capraia-6cf2d1d3.webp",
+        "width": 447,
+        "height": 447,
+        "bytes": 19932
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/jaspe rouge.jpg",
+    "sourceBytes": 1229446,
+    "width": 1417,
+    "height": 2838,
+    "webp": [
+      {
+        "path": "assets/optimized/media/jaspe-rouge-452f4033.webp",
+        "width": 1417,
+        "height": 2838,
+        "bytes": 1056016
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/ombre de caravage.jpg",
+    "sourceBytes": 127250,
+    "width": 800,
+    "height": 800,
+    "webp": [
+      {
+        "path": "assets/optimized/media/ombre-de-caravage-b06af1f0.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 76868
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/sodalite bleu.jfif",
+    "sourceBytes": 59739,
+    "width": 302,
+    "height": 662,
+    "webp": [
+      {
+        "path": "assets/optimized/media/sodalite-bleu-b5147e54.webp",
+        "width": 302,
+        "height": 662,
+        "bytes": 72820
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/nature mood/774872_mountain peak_1024x768.jpg",
+    "sourceBytes": 150234,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/774872-mountain-peak-1024x768-93655a59.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 99936
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/nature mood/774873_tundra_1024x768.jpg",
+    "sourceBytes": 128355,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/774873-tundra-1024x768-2b2899b4.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 71062
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/769918_reve perle_1024x768.jpg",
+    "sourceBytes": 35312,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/769918-reve-perle-1024x768-afdb663b.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 7918
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/769937_reve choco_1024x768.jpg",
+    "sourceBytes": 66656,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/769937-reve-choco-1024x768-c63698be.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 24564
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/769938_reve noisette_1024x768.jpg",
+    "sourceBytes": 64633,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/769938-reve-noisette-1024x768-a3dc48f0.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 23592
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/769940_reve bleu_1024x768.jpg",
+    "sourceBytes": 50764,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/769940-reve-bleu-1024x768-68ac5e06.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 15538
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/774485_reve jade_1024x768.jpg",
+    "sourceBytes": 65008,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/774485-reve-jade-1024x768-c81f6e72.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 23482
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/774489_reve rose_1024x768.jpg",
+    "sourceBytes": 54097,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/774489-reve-rose-1024x768-9598ccdb.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 16304
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/reves/794080_eucalypto_1024x768.jpg",
+    "sourceBytes": 54043,
+    "width": 345,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/794080-eucalypto-1024x768-a57cae3f.webp",
+        "width": 345,
+        "height": 768,
+        "bytes": 23398
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785586_modulo pietra_1024x768.jpg",
+    "sourceBytes": 90835,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785586-modulo-pietra-1024x768-9d2d275b.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 61266
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785587_modulo lichene_1024x768.jpg",
+    "sourceBytes": 80970,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785587-modulo-lichene-1024x768-3ff16d13.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 50222
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785588_modulo conchuglia_1024x768.jpg",
+    "sourceBytes": 83641,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785588-modulo-conchuglia-1024x768-6e9e97fb.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 52688
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785589_modulo platino_1024x768.jpg",
+    "sourceBytes": 77675,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785589-modulo-platino-1024x768-09d4d5bc.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 46224
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785602_tesserae platino_1024x768.jpg",
+    "sourceBytes": 54975,
+    "width": 347,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/785602-tesserae-platino-1024x768-29d56cc9.webp",
+        "width": 347,
+        "height": 768,
+        "bytes": 21930
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/781494_Carbone grana_1024x768.jpg",
+    "sourceBytes": 82789,
+    "width": 385,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/781494-carbone-grana-1024x768-60b4f239.webp",
+        "width": 385,
+        "height": 768,
+        "bytes": 55998
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782412_grana rosato_1024x768.jpg",
+    "sourceBytes": 116973,
+    "width": 385,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/782412-grana-rosato-1024x768-2e71d359.webp",
+        "width": 385,
+        "height": 768,
+        "bytes": 72764
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782423_sabbia grana_1024x768.jpg",
+    "sourceBytes": 65730,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/782423-sabbia-grana-1024x768-35f2f779.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 21942
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782425_grana mattone_1024x768.jpg",
+    "sourceBytes": 75895,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/782425-grana-mattone-1024x768-d1ea6e09.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 44572
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782426_amaranto grana_1024x768.jpg",
+    "sourceBytes": 87737,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/782426-amaranto-grana-1024x768-614058da.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 46352
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/784119_stone grana cotone_1024x768.jpg",
+    "sourceBytes": 58175,
+    "width": 384,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/784119-stone-grana-cotone-1024x768-51fba5db.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 26512
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780658_stone dordogne_1024x768.jpg",
+    "sourceBytes": 52437,
+    "width": 314,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780658-stone-dordogne-1024x768-b039314f.webp",
+        "width": 314,
+        "height": 768,
+        "bytes": 17554
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780659_stone chablis_1024x768.jpg",
+    "sourceBytes": 51663,
+    "width": 314,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780659-stone-chablis-1024x768-12d4b76c.webp",
+        "width": 314,
+        "height": 768,
+        "bytes": 21490
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780661_cement white_1024x768.jpg",
+    "sourceBytes": 21534,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780661-cement-white-1024x768-fc351f99.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 2912
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780662_cement ivory_1024x768.jpg",
+    "sourceBytes": 23446,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780662-cement-ivory-1024x768-1726a632.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 3460
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780663_cement light gray_1024x768.jpg",
+    "sourceBytes": 25344,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780663-cement-light-gray-1024x768-d0d81bc6.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 3758
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780664_cement dark gray_1024x768.jpg",
+    "sourceBytes": 36913,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780664-cement-dark-gray-1024x768-10071d66.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 9286
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780667_metal burnished_1024x768.jpg",
+    "sourceBytes": 48626,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780667-metal-burnished-1024x768-e8eb5203.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 14762
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780668metal corten_1024x768.jpg",
+    "sourceBytes": 41590,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780668metal-corten-1024x768-7d7099e9.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 8468
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780669_metal bronze_1024x768.jpg",
+    "sourceBytes": 32832,
+    "width": 314,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780669-metal-bronze-1024x768-bf0cd183.webp",
+        "width": 314,
+        "height": 768,
+        "bytes": 4004
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/780670_marble statuario_1024x768.jpg",
+    "sourceBytes": 22325,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/780670-marble-statuario-1024x768-77253932.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 6484
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/skin/dust brown.jpg",
+    "sourceBytes": 41053,
+    "width": 326,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/dust-brown-3d3b1a37.webp",
+        "width": 326,
+        "height": 768,
+        "bytes": 11954
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/stones&more/757759_stone marfil_1024x768.jpg",
+    "sourceBytes": 42164,
+    "width": 347,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/757759-stone-marfil-1024x768-84f25e1e.webp",
+        "width": 347,
+        "height": 768,
+        "bytes": 8528
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/trav3rse life/792661_bone vein_1024x768.jpg",
+    "sourceBytes": 46294,
+    "width": 333,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/792661-bone-vein-1024x768-5f6dae68.webp",
+        "width": 333,
+        "height": 768,
+        "bytes": 19336
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/trav3rse life/trav3rse life hay vein.PNG",
+    "sourceBytes": 581174,
+    "width": 539,
+    "height": 538,
+    "webp": [
+      {
+        "path": "assets/optimized/media/trav3rse-life-hay-vein-7e934054.webp",
+        "width": 539,
+        "height": 538,
+        "bytes": 30912
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776443_cotton_1024x768.jpg",
+    "sourceBytes": 46068,
+    "width": 336,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/776443-cotton-1024x768-ab253ed6.webp",
+        "width": 336,
+        "height": 768,
+        "bytes": 11756
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776444_dove_1024x768.jpg",
+    "sourceBytes": 52702,
+    "width": 336,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/776444-dove-1024x768-6b9f9b60.webp",
+        "width": 336,
+        "height": 768,
+        "bytes": 18504
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776445_bark_1024x768.jpg",
+    "sourceBytes": 59306,
+    "width": 336,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/776445-bark-1024x768-aca0a64a.webp",
+        "width": 336,
+        "height": 768,
+        "bytes": 29090
+      }
+    ]
+  },
+  {
+    "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776447_storm_1024x768.jpg",
+    "sourceBytes": 56346,
+    "width": 336,
+    "height": 768,
+    "webp": [
+      {
+        "path": "assets/optimized/media/776447-storm-1024x768-8df206a8.webp",
+        "width": 336,
+        "height": 768,
+        "bytes": 24810
+      }
+    ]
+  }
+]

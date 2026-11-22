@@ -1,0 +1,26 @@
+[
+  {
+    "name": "bekamar-onyx-hero.mp4",
+    "originalBytes": 2615672,
+    "optimizedBytes": 1246652,
+    "savedBytes": 1369020,
+    "frames": 240,
+    "durationSeconds": 10.0
+  },
+  {
+    "name": "Rinascenza_H1JS78.mp4",
+    "originalBytes": 10772357,
+    "optimizedBytes": 7083752,
+    "savedBytes": 3688605,
+    "frames": 839,
+    "durationSeconds": 33.56
+  },
+  {
+    "name": "stargalaxy_video.mp4",
+    "originalBytes": 5005535,
+    "optimizedBytes": 2059062,
+    "savedBytes": 2946473,
+    "frames": 240,
+    "durationSeconds": 10.0
+  }
+]

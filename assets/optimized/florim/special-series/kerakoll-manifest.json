@@ -1,0 +1,562 @@
+{
+  "series-oblio-main": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789565741/2316/",
+    "sourceBytes": 1915948,
+    "sourceWidth": 4155,
+    "sourceHeight": 2550,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-main-800.webp",
+        "width": 800,
+        "height": 491,
+        "bytes": 79670
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-main-1600.webp",
+        "width": 1600,
+        "height": 982,
+        "bytes": 287778
+      }
+    ]
+  },
+  "series-oblio-detail-2": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789565741/2318/",
+    "sourceBytes": 2042476,
+    "sourceWidth": 4155,
+    "sourceHeight": 2550,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-detail-2-800.webp",
+        "width": 800,
+        "height": 491,
+        "bytes": 85012
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-detail-2-1600.webp",
+        "width": 1600,
+        "height": 982,
+        "bytes": 298654
+      }
+    ]
+  },
+  "series-oblio-detail-3": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789636282/2325/",
+    "sourceBytes": 344020,
+    "sourceWidth": 1170,
+    "sourceHeight": 1170,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-detail-3-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 134836
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-oblio-detail-3-1170.webp",
+        "width": 1170,
+        "height": 1170,
+        "bytes": 251534
+      }
+    ]
+  },
+  "series-superfici-main": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1759490446/1739/",
+    "sourceBytes": 385360,
+    "sourceWidth": 2000,
+    "sourceHeight": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-main-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 45554
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-main-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 157438
+      }
+    ]
+  },
+  "series-superfici-detail-2": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1759490448/1751/",
+    "sourceBytes": 279618,
+    "sourceWidth": 2000,
+    "sourceHeight": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-detail-2-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 22300
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-detail-2-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 71648
+      }
+    ]
+  },
+  "series-superfici-detail-3": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1759490448/1753/",
+    "sourceBytes": 252516,
+    "sourceWidth": 2000,
+    "sourceHeight": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-detail-3-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 24758
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-superfici-detail-3-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 78576
+      }
+    ]
+  },
+  "series-elitique-main": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1747125507/1586/",
+    "sourceBytes": 237480,
+    "sourceWidth": 2000,
+    "sourceHeight": 1500,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-main-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 17582
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-main-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 62820
+      }
+    ]
+  },
+  "series-elitique-detail-2": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1747126215/1592/",
+    "sourceBytes": 645884,
+    "sourceWidth": 1500,
+    "sourceHeight": 2000,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-detail-2-600.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 88708
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-detail-2-1200.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 308596
+      }
+    ]
+  },
+  "series-elitique-detail-3": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1747125640/1590/",
+    "sourceBytes": 187672,
+    "sourceWidth": 2000,
+    "sourceHeight": 1398,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-detail-3-800.webp",
+        "width": 800,
+        "height": 559,
+        "bytes": 15418
+      },
+      {
+        "path": "assets/optimized/florim/special-series/series-elitique-detail-3-1600.webp",
+        "width": 1600,
+        "height": 1118,
+        "bytes": 41276
+      }
+    ]
+  },
+  "kerakoll-hero": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789480377/2293/",
+    "sourceBytes": 5494,
+    "sourceWidth": 636,
+    "sourceHeight": 93,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-hero-636.webp",
+        "width": 636,
+        "height": 93,
+        "bytes": 472
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-hero-636.webp",
+        "width": 636,
+        "height": 93,
+        "bytes": 472
+      }
+    ]
+  },
+  "kerakoll-project": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544847/2296/",
+    "sourceBytes": 748836,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-project-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 27696
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-project-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 60814
+      }
+    ]
+  },
+  "kerakoll-colour-story": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789480935/2295/",
+    "sourceBytes": 1005982,
+    "sourceWidth": 4400,
+    "sourceHeight": 4400,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-colour-story-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 38634
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-colour-story-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 127346
+      }
+    ]
+  },
+  "sensicolore-feature": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789546237/2311/",
+    "sourceBytes": 9806917,
+    "sourceWidth": 5000,
+    "sourceHeight": 3070,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/sensicolore-feature-800.webp",
+        "width": 800,
+        "height": 491,
+        "bytes": 41630
+      },
+      {
+        "path": "assets/optimized/florim/special-series/sensicolore-feature-1600.webp",
+        "width": 1600,
+        "height": 982,
+        "bytes": 144748
+      }
+    ]
+  },
+  "kerakoll-kk-1422": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544847/2296/",
+    "sourceBytes": 748836,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1422-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 27696
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1422-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 60814
+      }
+    ]
+  },
+  "kerakoll-kk-1424": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2299/",
+    "sourceBytes": 876366,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1424-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 22380
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1424-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 51528
+      }
+    ]
+  },
+  "kerakoll-kk-1339": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544847/2297/",
+    "sourceBytes": 777587,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1339-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 36138
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1339-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 77114
+      }
+    ]
+  },
+  "kerakoll-kk-4092": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2305/",
+    "sourceBytes": 906328,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-4092-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 25096
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-4092-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 56766
+      }
+    ]
+  },
+  "kerakoll-kk-6216": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2309/",
+    "sourceBytes": 762632,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-6216-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 25484
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-6216-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 59758
+      }
+    ]
+  },
+  "kerakoll-kk-8368": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2310/",
+    "sourceBytes": 909102,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-8368-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 46070
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-8368-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 95996
+      }
+    ]
+  },
+  "kerakoll-kk-5249": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2306/",
+    "sourceBytes": 879593,
+    "sourceWidth": 1336,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-5249-641.webp",
+        "width": 641,
+        "height": 800,
+        "bytes": 39652
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-5249-1282.webp",
+        "width": 1282,
+        "height": 1600,
+        "bytes": 84506
+      }
+    ]
+  },
+  "kerakoll-kk-5190": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2307/",
+    "sourceBytes": 916358,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-5190-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 29162
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-5190-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 66062
+      }
+    ]
+  },
+  "kerakoll-kk-6161": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544849/2308/",
+    "sourceBytes": 850864,
+    "sourceWidth": 1339,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-6161-643.webp",
+        "width": 643,
+        "height": 800,
+        "bytes": 45442
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-6161-1285.webp",
+        "width": 1285,
+        "height": 1600,
+        "bytes": 93970
+      }
+    ]
+  },
+  "kerakoll-kk-3424": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2304/",
+    "sourceBytes": 938918,
+    "sourceWidth": 1339,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3424-643.webp",
+        "width": 643,
+        "height": 800,
+        "bytes": 36404
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3424-1285.webp",
+        "width": 1285,
+        "height": 1600,
+        "bytes": 79452
+      }
+    ]
+  },
+  "kerakoll-kk-3458": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2303/",
+    "sourceBytes": 814126,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3458-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 29668
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3458-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 70518
+      }
+    ]
+  },
+  "kerakoll-kk-3069": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2302/",
+    "sourceBytes": 908169,
+    "sourceWidth": 1344,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3069-645.webp",
+        "width": 645,
+        "height": 800,
+        "bytes": 45740
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-3069-1290.webp",
+        "width": 1290,
+        "height": 1600,
+        "bytes": 93854
+      }
+    ]
+  },
+  "kerakoll-kk-1123": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544847/2298/",
+    "sourceBytes": 845985,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1123-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 22358
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-1123-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 52214
+      }
+    ]
+  },
+  "kerakoll-kk-2307": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2300/",
+    "sourceBytes": 790853,
+    "sourceWidth": 1333,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-2307-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 29302
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-2307-1279.webp",
+        "width": 1279,
+        "height": 1600,
+        "bytes": 66486
+      }
+    ]
+  },
+  "kerakoll-kk-2490": {
+    "sourceUrl": "https://www.florim.com/d/filer/canonical/1789544848/2301/",
+    "sourceBytes": 915295,
+    "sourceWidth": 1339,
+    "sourceHeight": 1667,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-2490-643.webp",
+        "width": 643,
+        "height": 800,
+        "bytes": 51706
+      },
+      {
+        "path": "assets/optimized/florim/special-series/kerakoll-kk-2490-1285.webp",
+        "width": 1285,
+        "height": 1600,
+        "bytes": 108538
+      }
+    ]
+  }
+}

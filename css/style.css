@@ -64,7 +64,7 @@ a{color:inherit}
 .cat h3{font-size:26px;margin-bottom:8px;transition:color .3s}
 .cat:hover h3{color:var(--beige)}
 .cat .body{font-size:13px;margin-bottom:12px}
-.cat span{color:var(--bronze);font-size:18px}
+.cat .cat__action{color:var(--bronze);font:600 9px/1 var(--sans);letter-spacing:.14em}
 
 /* ---------- Collection ---------- */
 .split{display:flex;flex-wrap:wrap}
@@ -276,3 +276,4 @@ body:not(.company-page) .site-header{position:absolute;inset:0 0 auto}
   .site-header .menu-btn{width:40px;height:40px}
   .site-header .nav{left:14px;right:14px;padding-inline:18px}
 }
+.brands__wordmark{font:500 15px/1 var(--sans,Arial,sans-serif);letter-spacing:.17em;color:#59544b}

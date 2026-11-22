@@ -1,0 +1,42 @@
+.natural-stones-page{--natural-ink:#171715;--natural-paper:#efede7;--natural-gold:#c3a777;background:var(--natural-ink);color:var(--natural-paper);font-family:var(--sans,'Manrope',Arial,sans-serif)}
+.natural-stones-page .site-header{background:#171715;color:var(--natural-paper)}
+.natural-stones-page .site-header .nav a{color:#eee}
+.natural-editorial{overflow:hidden}
+.natural-intro{position:relative;display:flex;min-height:min(690px,76vh);flex-direction:column;justify-content:center;padding:100px clamp(24px,12vw,180px) 90px;background:radial-gradient(ellipse at 78% 52%,rgba(195,167,119,.11),transparent 35%),#171715;animation:natural-rise .9s both}
+.natural-stones-page .eyebrow{margin:0;color:var(--natural-gold);font-size:10px;letter-spacing:.2em}
+.natural-intro h1{max-width:1000px;margin:30px 0 24px;font:400 clamp(58px,9.7vw,138px)/.83 var(--serif,Georgia,serif);letter-spacing:-.045em}
+.natural-intro h1 em,.natural-outro>p:not(.eyebrow) em{color:#b7a88f;font-weight:400}
+.natural-intro>p:not(.eyebrow){max-width:530px;margin:0;color:#b8b5ae;font-size:14px;line-height:1.9}
+.natural-intro__scroll{display:flex;align-items:center;gap:20px;width:max-content;margin-top:52px;color:#eee;text-decoration:none;font-size:9px;letter-spacing:.16em}
+.natural-intro__scroll span{color:var(--natural-gold);font-size:18px;transition:transform .25s ease}.natural-intro__scroll:hover span{transform:translateY(4px)}
+.natural-intro__index{position:absolute;right:clamp(24px,8vw,120px);bottom:42px;color:#918b80;font-size:9px;letter-spacing:.18em}
+.stone-story{position:relative;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(340px,.88fr);min-height:650px;background:#1b1b19}
+.stone-story__image{position:relative;min-height:650px;overflow:hidden;background:#282722}
+.stone-story__image:after{position:absolute;inset:0;content:"";background:linear-gradient(90deg,transparent 68%,rgba(23,23,21,.35))}
+.stone-story__image img{display:block;width:100%;height:100%;min-height:650px;object-fit:cover;transform:scale(1.015);transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.stone-story.is-visible .stone-story__image img{transform:scale(1)}
+.stone-story__copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:clamp(46px,7vw,104px) clamp(30px,6vw,90px);opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.stone-story.is-visible .stone-story__copy{opacity:1;transform:translateY(0)}
+.stone-story__copy h2{margin:23px 0 20px;font:400 clamp(56px,7vw,100px)/.85 var(--serif,Georgia,serif);letter-spacing:-.035em}
+.stone-story__copy>p:not(.eyebrow){max-width:480px;margin:0;color:#b8b5ae;font-size:13px;line-height:2}
+.stone-link{display:flex;align-items:center;justify-content:space-between;gap:24px;width:min(100%,360px);margin-top:34px;padding:15px 0;border-bottom:1px solid rgba(195,167,119,.65);color:#eee;text-decoration:none;font-size:9px;font-weight:600;letter-spacing:.12em;transition:color .2s,border-color .2s}
+.stone-link span{color:var(--natural-gold);font-size:17px;transition:transform .25s}.stone-link:hover{color:var(--natural-gold);border-color:#eee}.stone-link:hover span{transform:translate(3px,-3px)}
+.stone-story--marble{grid-template-columns:minmax(340px,.9fr) minmax(0,1.1fr);background:#e8e4dc;color:#25231f}
+.stone-story--marble .stone-story__image{grid-column:2;grid-row:1;min-height:720px}.stone-story--marble .stone-story__image img{min-height:720px}
+.stone-story--marble .stone-story__image:after{background:linear-gradient(270deg,transparent 72%,rgba(232,228,220,.35))}
+.stone-story--marble .stone-story__copy{grid-column:1;grid-row:1;padding-left:clamp(28px,9vw,132px)}
+.stone-story--marble .stone-story__copy>p:not(.eyebrow){color:#625e55}.stone-story--marble .stone-story__copy h2{color:#282621}.stone-story--marble .stone-link{color:#25231f;border-color:#a58c67}.stone-story--marble .stone-link:hover{color:#8d704a;border-color:#8d704a}
+.stone-story__side-note{position:absolute;right:28px;bottom:22px;z-index:1;color:rgba(255,255,255,.78);font-size:8px;letter-spacing:.18em;writing-mode:vertical-rl}
+.stone-story--travertine{grid-template-columns:minmax(0,1fr) minmax(360px,.86fr);background:#29251f}
+.stone-story--travertine .stone-story__image{min-height:590px}.stone-story--travertine .stone-story__image img{min-height:590px}
+.stone-story--travertine .stone-story__image:after{background:linear-gradient(90deg,transparent 65%,#29251f)}
+.natural-outro{display:flex;min-height:420px;flex-direction:column;align-items:center;justify-content:center;padding:80px 24px;text-align:center;background:#efede7;color:#24221e}
+.natural-outro>p:not(.eyebrow){margin:22px 0 26px;font:400 clamp(42px,6vw,76px)/.95 var(--serif,Georgia,serif);letter-spacing:-.03em}
+.natural-outro>p:not(.eyebrow) em{color:#8a795f}
+.natural-outro>a{display:flex;align-items:center;gap:18px;color:#27241f;text-decoration:none;font-size:9px;font-weight:600;letter-spacing:.14em}
+.natural-outro>a span{color:#987a51;font-size:17px;transition:transform .25s}.natural-outro>a:hover span{transform:translate(3px,-3px)}
+.natural-stones-page .site-footer{background:#171715}
+@keyframes natural-rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.stone-story,.stone-story--marble,.stone-story--travertine{grid-template-columns:minmax(0,1fr) minmax(280px,.9fr);min-height:570px}.stone-story__image,.stone-story__image img,.stone-story--marble .stone-story__image,.stone-story--marble .stone-story__image img,.stone-story--travertine .stone-story__image,.stone-story--travertine .stone-story__image img{min-height:570px}.stone-story__copy,.stone-story--marble .stone-story__copy{padding:46px 30px}.stone-story__copy h2{font-size:64px}}
+@media(max-width:700px){.natural-intro{min-height:570px;padding:96px 26px 82px}.natural-intro h1{font-size:clamp(57px,13vw,82px)}.natural-intro>p:not(.eyebrow){font-size:12px}.natural-intro__index{right:26px;bottom:27px}.stone-story,.stone-story--marble,.stone-story--travertine{display:flex;flex-direction:column;min-height:0}.stone-story__image,.stone-story__image img,.stone-story--marble .stone-story__image,.stone-story--marble .stone-story__image img,.stone-story--travertine .stone-story__image,.stone-story--travertine .stone-story__image img{width:100%;height:62vw;min-height:260px;max-height:440px}.stone-story--marble .stone-story__image{order:0}.stone-story__image:after,.stone-story--marble .stone-story__image:after,.stone-story--travertine .stone-story__image:after{background:linear-gradient(0deg,rgba(23,23,21,.22),transparent 36%)}.stone-story__copy,.stone-story--marble .stone-story__copy{padding:38px 25px 50px;opacity:1;transform:none}.stone-story__copy h2{margin:17px 0 15px;font-size:64px}.stone-story__copy>p:not(.eyebrow){font-size:12px;line-height:1.85}.stone-link{margin-top:26px}.stone-story__side-note{right:16px;bottom:14px;font-size:7px}.natural-outro{min-height:350px}.natural-outro>p:not(.eyebrow){font-size:clamp(42px,10vw,60px)}.natural-stones-page .site-footer .nav{display:none}}
+@media(prefers-reduced-motion:reduce){.natural-editorial,.stone-story__copy{animation:none;transition:none}.stone-story__image img,.stone-link,.stone-link span,.natural-intro__scroll span,.natural-outro>a span{transition:none}}

@@ -84,7 +84,7 @@ window.BekamarSiteImages = (() => {
     const webp = document.createElement('source');
     webp.type = 'image/webp'; webp.srcset = sourceSet(entry.webp, prefix); webp.sizes = sizes;
     picture.append(webp);
-    image.src = prefixed(key, prefix);
+    image.src = prefixed(entry.webp[entry.webp.length - 1][0], prefix);
     image.width = entry.width; image.height = entry.height; image.decoding = 'async';
     picture.append(image);
     return picture;
@@ -93,7 +93,7 @@ window.BekamarSiteImages = (() => {
     const key = keyFor(source), entry = images[key];
     const picture = image.parentElement?.matches('picture.site-image-picture') ? image.parentElement : null;
     if (picture) picture.replaceChildren(image);
-    image.src = prefixed(key, prefix);
+    image.src = prefixed(entry ? entry.webp[entry.webp.length - 1][0] : key, prefix);
     if (entry) { image.width = entry.width; image.height = entry.height; }
     image.decoding = 'async';
     image.loading = 'eager';

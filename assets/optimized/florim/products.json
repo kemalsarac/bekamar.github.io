@@ -2,210 +2,2858 @@
   "products": [
     {
       "id": "florim-001",
-      "slug": "aqua",
-      "name": "Aqua",
-      "collection": "",
+      "slug": "12mm-cement-light-gray-matte-florim-001",
+      "name": "Cement Light Gray Matte",
+      "collection": "12 mm · cement",
       "mainImage": {
-        "source": "assets/florim/aqua-florim-porselen-tezgah_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/aqua-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/aqua-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/aqua-400.webp 400w, assets/optimized/florim/products/aqua-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/cement/751290_cement.light.gray.matte_1024x768 (1).jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/751290_cement.light.gray.matte_1024x768 (1).jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/751290_cement.light.gray.matte_1024x768 (1).jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/aqua-502.avif",
-        "detailWebp": "assets/optimized/florim/products/aqua-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/cement/751290_cement.light.gray.matte_1024x768 (1).jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-002",
-      "slug": "azure",
-      "name": "Azure",
-      "collection": "",
+      "slug": "12mm-cement-dark-gray-velvet-florim-002",
+      "name": "Cement Dark Gray Velvet",
+      "collection": "12 mm · cement",
       "mainImage": {
-        "source": "assets/florim/azure-florim-porselen-yuzey_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/azure-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/azure-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/azure-400.webp 400w, assets/optimized/florim/products/azure-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/cement/751296_cement.dark.gray.velvet_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/751296_cement.dark.gray.velvet_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/751296_cement.dark.gray.velvet_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/azure-502.avif",
-        "detailWebp": "assets/optimized/florim/products/azure-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/cement/751296_cement.dark.gray.velvet_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-003",
-      "slug": "bianco-lasa",
-      "name": "Bianco Lasa",
-      "collection": "",
+      "slug": "12mm-cement-a-vory-matte-florim-003",
+      "name": "Cement Ivory Matte",
+      "collection": "12 mm · cement",
       "mainImage": {
-        "source": "assets/florim/bianco-lasa_502_290.jpg",
-        "thumbnail": "assets/optimized/florim/products/bianco-lasa-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/bianco-lasa-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/bianco-lasa-400.webp 400w, assets/optimized/florim/products/bianco-lasa-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/cement/759792_cement.ivory.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/759792_cement.ivory.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/cement/759792_cement.ivory.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/bianco-lasa-502.avif",
-        "detailWebp": "assets/optimized/florim/products/bianco-lasa-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/cement/759792_cement.ivory.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-004",
-      "slug": "cement-dark-gray",
-      "name": "Cement Dark Gray",
-      "collection": "",
+      "slug": "12mm-solid-black-florim-004",
+      "name": "Solid Black",
+      "collection": "12 mm · color",
       "mainImage": {
-        "source": "assets/florim/cement-dark-gray-florim-porselen-yuzey_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/cement-dark-gray-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/cement-dark-gray-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/cement-dark-gray-400.webp 400w, assets/optimized/florim/products/cement-dark-gray-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/color/791731_Solid Black_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/color/791731_Solid Black_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/color/791731_Solid Black_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/cement-dark-gray-502.avif",
-        "detailWebp": "assets/optimized/florim/products/cement-dark-gray-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/color/791731_Solid Black_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-005",
-      "slug": "eternal-gold",
-      "name": "Eternal Gold",
-      "collection": "",
+      "slug": "12mm-marble-statuario-a-matte-florim-005",
+      "name": "Marble Statuario A Matte",
+      "collection": "12 mm · Marble",
       "mainImage": {
-        "source": "assets/florim/eternal-gold-florim-porselen-yuzey_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/eternal-gold-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/eternal-gold-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/eternal-gold-400.webp 400w, assets/optimized/florim/products/eternal-gold-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751320_marble.statuario.A.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751320_marble.statuario.A.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751320_marble.statuario.A.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/eternal-gold-502.avif",
-        "detailWebp": "assets/optimized/florim/products/eternal-gold-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/751320_marble.statuario.A.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-006",
-      "slug": "marble-breach",
-      "name": "Marble Breach",
-      "collection": "",
+      "slug": "12mm-marble-calacatta-gold-a-glossy-florim-006",
+      "name": "Marble Calacatta Gold A Glossy",
+      "collection": "12 mm · Marble",
       "mainImage": {
-        "source": "assets/florim/marble-breach-florim-seramik-yuzey_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/marble-breach-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/marble-breach-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/marble-breach-400.webp 400w, assets/optimized/florim/products/marble-breach-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751350_marble.calacatta.gold.A.glossy_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751350_marble.calacatta.gold.A.glossy_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751350_marble.calacatta.gold.A.glossy_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/marble-breach-502.avif",
-        "detailWebp": "assets/optimized/florim/products/marble-breach-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/751350_marble.calacatta.gold.A.glossy_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-007",
-      "slug": "marble-calacatta",
-      "name": "Marble Calacatta",
-      "collection": "",
+      "slug": "12mm-marble-marquinia-glossy-florim-007",
+      "name": "Marble Marquinia Glossy",
+      "collection": "12 mm · Marble",
       "mainImage": {
-        "source": "assets/florim/marble-calacatta-florim-porselen-yuzey_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/marble-calacatta-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/marble-calacatta-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/marble-calacatta-400.webp 400w, assets/optimized/florim/products/marble-calacatta-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/751386_marble.marquinia.glossy_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751386_marble.marquinia.glossy_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/751386_marble.marquinia.glossy_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/marble-calacatta-502.avif",
-        "detailWebp": "assets/optimized/florim/products/marble-calacatta-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/751386_marble.marquinia.glossy_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
       "applications": []
     },
     {
       "id": "florim-008",
-      "slug": "marble-gray",
-      "name": "Marble Gray",
-      "collection": "",
+      "slug": "12mm-marble-laurent-matte-florim-008",
+      "name": "Marble Laurent Matte",
+      "collection": "12 mm · Marble",
       "mainImage": {
-        "source": "assets/florim/marble-gray-florim-porselen-tezgah_502_290.jpeg",
-        "thumbnail": "assets/optimized/florim/products/marble-gray-502.webp",
-        "thumbnailWidth": 502,
-        "thumbnailHeight": 290,
-        "smallThumbnail": "assets/optimized/florim/products/marble-gray-400.webp",
-        "smallThumbnailWidth": 400,
-        "smallThumbnailHeight": 231,
-        "detailWidth": 502,
-        "detailHeight": 290,
-        "srcset": "assets/optimized/florim/products/marble-gray-400.webp 400w, assets/optimized/florim/products/marble-gray-502.webp 502w",
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/759763_marble.laurent.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/759763_marble.laurent.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/759763_marble.laurent.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
         "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
-        "detailAvif": "assets/optimized/florim/products/marble-gray-502.avif",
-        "detailWebp": "assets/optimized/florim/products/marble-gray-502.webp",
-        "width": 502,
-        "height": 290
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/759763_marble.laurent.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
       },
       "description": "",
-      "specifications": {},
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-009",
+      "slug": "12mm-marble-breach-a-matte-florim-009",
+      "name": "Marble Breach A Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768746_marble.breach.A.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768746_marble.breach.A.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768746_marble.breach.A.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/768746_marble.breach.A.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-010",
+      "slug": "12mm-eternal-gold-b-matte-florim-010",
+      "name": "Eternal Gold B Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768753_eternal.gold.B.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768753_eternal.gold.B.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768753_eternal.gold.B.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/768753_eternal.gold.B.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-011",
+      "slug": "12mm-marble-calacatta-a-matte-florim-011",
+      "name": "Marble Calacatta A Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/768792_marble.calacatta.A.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768792_marble.calacatta.A.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/768792_marble.calacatta.A.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/768792_marble.calacatta.A.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-012",
+      "slug": "12mm-marble-capraia-matte-florim-012",
+      "name": "Marble Capraia Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/772942_marble.capraia.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/772942_marble.capraia.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/772942_marble.capraia.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/772942_marble.capraia.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-013",
+      "slug": "12mm-b-tundra-matte-florim-013",
+      "name": "B Tundra Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777595_B.tundra.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777595_B.tundra.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777595_B.tundra.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/777595_B.tundra.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-014",
+      "slug": "12mm-verde-alpi-matte-florim-014",
+      "name": "Verde Alpi Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777596_verde.alpi.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777596_verde.alpi.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777596_verde.alpi.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/777596_verde.alpi.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-015",
+      "slug": "12mm-stone-marfil-matte-florim-015",
+      "name": "Stone Marfil Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/777613_stone.marfil.matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777613_stone.marfil.matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/777613_stone.marfil.matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/777613_stone.marfil.matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-016",
+      "slug": "12mm-marble-yamuna-moka-matte-florim-016",
+      "name": "Marble Yamuna Moka Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784102_marble yamuna moka matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784102_marble yamuna moka matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784102_marble yamuna moka matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784102_marble yamuna moka matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-017",
+      "slug": "12mm-marble-mahal-florim-017",
+      "name": "Marble Mahal",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784104_marble mahal_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784104_marble mahal_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784104_marble mahal_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784104_marble mahal_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-018",
+      "slug": "12mm-marble-brun-florim-018",
+      "name": "Marble Brun",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784106_marble brun_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784106_marble brun_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784106_marble brun_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784106_marble brun_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-019",
+      "slug": "12mm-marble-sequoia-florim-019",
+      "name": "Marble Sequoia",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784107_marble sequoia_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784107_marble sequoia_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784107_marble sequoia_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784107_marble sequoia_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-020",
+      "slug": "12mm-marble-yamuna-opal-matte-florim-020",
+      "name": "Marble Yamuna Opal Matte",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784108_marble yamuna opal matte_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784108_marble yamuna opal matte_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784108_marble yamuna opal matte_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784108_marble yamuna opal matte_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-021",
+      "slug": "12mm-18-yamuna-florim-021",
+      "name": "18 Yamuna",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/784532_18_Yamuna_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784532_18_Yamuna_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/784532_18_Yamuna_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/784532_18_Yamuna_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-022",
+      "slug": "12mm-apuano-oro-florim-022",
+      "name": "Apuano Oro",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791690_APUANO ORO _1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791690_APUANO ORO _1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791690_APUANO ORO _1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/791690_APUANO ORO _1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-023",
+      "slug": "12mm-bronze-fantasy-florim-023",
+      "name": "Bronze Fantasy",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791726_BRONZE FANTASY_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791726_BRONZE FANTASY_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791726_BRONZE FANTASY_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/791726_BRONZE FANTASY_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-024",
+      "slug": "12mm-dusty-rose-florim-024",
+      "name": "Dusty Rose",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791727_DUSTY ROSE_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791727_DUSTY ROSE_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791727_DUSTY ROSE_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/791727_DUSTY ROSE_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-025",
+      "slug": "12mm-baroque-red-florim-025",
+      "name": "Baroque Red",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/791730_BAROQUE RED_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791730_BAROQUE RED_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/791730_BAROQUE RED_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/791730_BAROQUE RED_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-026",
+      "slug": "12mm-marble-stone-01-florim-026",
+      "name": "Marble-Stone 01",
+      "collection": "12 mm · Marble",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Marble/Marble-Stone_01.png",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/Marble-Stone_01.png",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Marble/Marble-Stone_01.png",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Marble/Marble-Stone_01.png",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-027",
+      "slug": "12mm-metal-burnished-florim-027",
+      "name": "Metal Burnished",
+      "collection": "12 mm · metal",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/metal/759806_metal.burnished_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/metal/759806_metal.burnished_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/metal/759806_metal.burnished_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/metal/759806_metal.burnished_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-028",
+      "slug": "12mm-stone-gris-florim-028",
+      "name": "Stone Gris",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/759760_stone.gris_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/759760_stone.gris_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/759760_stone.gris_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/759760_stone.gris_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-029",
+      "slug": "12mm-sahara-noir-glossy-florim-029",
+      "name": "Sahara Noir Glossy",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/777614.sahara.noir.glossy_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/777614.sahara.noir.glossy_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/777614.sahara.noir.glossy_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/777614.sahara.noir.glossy_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-030",
+      "slug": "12mm-stone-montpellier-florim-030",
+      "name": "Stone Montpellier",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780434_stone montpellier_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780434_stone montpellier_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780434_stone montpellier_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780434_stone montpellier_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-031",
+      "slug": "12mm-stone-dordogne-florim-031",
+      "name": "Stone Dordogne",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780435_stone dordogne_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780435_stone dordogne_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780435_stone dordogne_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780435_stone dordogne_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-032",
+      "slug": "12mm-stone-chablis-florim-032",
+      "name": "Stone Chablis",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780436_stone chablis_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780436_stone chablis_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780436_stone chablis_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780436_stone chablis_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-033",
+      "slug": "12mm-pearl-travertine-florim-033",
+      "name": "Pearl Travertine",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780437_pearl travertine_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780437_pearl travertine_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780437_pearl travertine_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780437_pearl travertine_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-034",
+      "slug": "12mm-shake-travertine-florim-034",
+      "name": "Shake Travertine",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780438_shake travertine_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780438_shake travertine_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780438_shake travertine_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780438_shake travertine_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-035",
+      "slug": "12mm-gold-travertine-florim-035",
+      "name": "Gold Travertine",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/780440_gold travertine_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780440_gold travertine_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/780440_gold travertine_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/780440_gold travertine_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-036",
+      "slug": "12mm-stone-lucania-florim-036",
+      "name": "Stone Lucania",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/784098_stone lucania_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/784098_stone lucania_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/784098_stone lucania_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/784098_stone lucania_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-037",
+      "slug": "12mm-nut-travertine-florim-037",
+      "name": "Nut Travertine",
+      "collection": "12 mm · Stone",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/791733_NUT TRAVERTINE_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/791733_NUT TRAVERTINE_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller 12 mm/Stone/791733_NUT TRAVERTINE_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller 12 mm/Stone/791733_NUT TRAVERTINE_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "12 mm"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-038",
+      "slug": "ince-pearl-travertine-florim-038",
+      "name": "Pearl Travertine",
+      "collection": "İnce · authentic luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/780968_pearl  travertine_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/780968_pearl  travertine_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/780968_pearl  travertine_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/authentic luxe/780968_pearl  travertine_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-039",
+      "slug": "ince-marble-nuage-florim-039",
+      "name": "Marble Nuage",
+      "collection": "İnce · authentic luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781006_marble nuage_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781006_marble nuage_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781006_marble nuage_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781006_marble nuage_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-040",
+      "slug": "ince-gold-travertine-florim-040",
+      "name": "Gold Travertine",
+      "collection": "İnce · authentic luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781019_gold travertine_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781019_gold travertine_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781019_gold travertine_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/authentic luxe/781019_gold travertine_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-041",
+      "slug": "ince-stonewood-florim-041",
+      "name": "Stonewood",
+      "collection": "İnce · biotech",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/biotech/779016_stonewood_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/biotech/779016_stonewood_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/biotech/779016_stonewood_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/biotech/779016_stonewood_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-042",
+      "slug": "ince-pise-limo-florim-042",
+      "name": "Pise Limo",
+      "collection": "İnce · compatta",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/compatta/777971_pise limo_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/777971_pise limo_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/777971_pise limo_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/compatta/777971_pise limo_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-043",
+      "slug": "ince-pise-melange-florim-043",
+      "name": "Pise Melange",
+      "collection": "İnce · compatta",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/compatta/777972_pise melange_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/777972_pise melange_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/777972_pise melange_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/compatta/777972_pise melange_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-044",
+      "slug": "ince-pise-giaia-florim-044",
+      "name": "Pise Giaia",
+      "collection": "İnce · compatta",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/compatta/Pise Giaia.PNG",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/Pise Giaia.PNG",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/compatta/Pise Giaia.PNG",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/compatta/Pise Giaia.PNG",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-045",
+      "slug": "ince-sage-florim-045",
+      "name": "Sage",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/757777_sage_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/757777_sage_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/757777_sage_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/757777_sage_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-046",
+      "slug": "ince-smoky-black-florim-046",
+      "name": "Smoky Black",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778820_smoky black_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778820_smoky black_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778820_smoky black_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778820_smoky black_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-047",
+      "slug": "ince-cloudy-white-florim-047",
+      "name": "Cloudy White",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778821_cloudy white_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778821_cloudy white_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778821_cloudy white_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778821_cloudy white_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-048",
+      "slug": "ince-almond-florim-048",
+      "name": "Almond",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778822_almond_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778822_almond_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778822_almond_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778822_almond_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-049",
+      "slug": "ince-caramel-florim-049",
+      "name": "Caramel",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778824_caramel_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778824_caramel_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778824_caramel_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778824_caramel_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-050",
+      "slug": "ince-mint-florim-050",
+      "name": "Mint",
+      "collection": "İnce · eccentric lux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778825_mint_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778825_mint_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778825_mint_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/eccentric lux/778825_mint_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-051",
+      "slug": "ince-russet-florim-051",
+      "name": "Russet",
+      "collection": "İnce · flowtech",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/flowtech/757908_russet_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/flowtech/757908_russet_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/flowtech/757908_russet_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/flowtech/757908_russet_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-052",
+      "slug": "ince-aged-bronze-florim-052",
+      "name": "Aged Bronze",
+      "collection": "İnce · flowtech",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/flowtech/757909_aged bronze_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/flowtech/757909_aged bronze_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/flowtech/757909_aged bronze_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/flowtech/757909_aged bronze_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-053",
+      "slug": "ince-marble-mahal-florim-053",
+      "name": "Marble Mahal",
+      "collection": "İnce · glam luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/784121_marble mahal_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/784121_marble mahal_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/784121_marble mahal_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/glam luxe/784121_marble mahal_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-054",
+      "slug": "ince-dustyrose-6-florim-054",
+      "name": "Dustyrose 6",
+      "collection": "İnce · glam luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/DUSTYROSE_6_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/DUSTYROSE_6_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/DUSTYROSE_6_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/glam luxe/DUSTYROSE_6_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-055",
+      "slug": "ince-forest-green-1-120x280-florim-055",
+      "name": "Forest Green 1 120X280",
+      "collection": "İnce · glam luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/Forest_Green_1_120x280_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/Forest_Green_1_120x280_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/Forest_Green_1_120x280_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/glam luxe/Forest_Green_1_120x280_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-056",
+      "slug": "ince-marble-baroque-red-3-120x280-copia-florim-056",
+      "name": "Marble Baroque Red 3 120X280 Copia",
+      "collection": "İnce · glam luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/MARBLE_BAROQUE RED_3_120x280 copia_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/MARBLE_BAROQUE RED_3_120x280 copia_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/MARBLE_BAROQUE RED_3_120x280 copia_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/glam luxe/MARBLE_BAROQUE RED_3_120x280 copia_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-057",
+      "slug": "ince-orosei-crust-3-120x280-florim-057",
+      "name": "Orosei Crust 3 120X280",
+      "collection": "İnce · glam luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/glam luxe/OROSEI_CRUST_3_120x280 _1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/OROSEI_CRUST_3_120x280 _1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/glam luxe/OROSEI_CRUST_3_120x280 _1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/glam luxe/OROSEI_CRUST_3_120x280 _1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-058",
+      "slug": "ince-heritage-emerald-florim-058",
+      "name": "Heritage Emerald",
+      "collection": "İnce · heritage luxe",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/heritage luxe/774700_heritage emerald_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/heritage luxe/774700_heritage emerald_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/heritage luxe/774700_heritage emerald_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/heritage luxe/774700_heritage emerald_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-059",
+      "slug": "ince-a-vory-florim-059",
+      "name": "Ivory",
+      "collection": "İnce · industrial",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/industrial/757774_ivory_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/industrial/757774_ivory_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/industrial/757774_ivory_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/industrial/757774_ivory_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-060",
+      "slug": "ince-breche-capraia-florim-060",
+      "name": "Breche Capraia",
+      "collection": "İnce · les bijoux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/breche capraia.jfif",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/breche capraia.jfif",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/breche capraia.jfif",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/les bijoux/breche capraia.jfif",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-061",
+      "slug": "ince-jaspe-rouge-florim-061",
+      "name": "Jaspe Rouge",
+      "collection": "İnce · les bijoux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/jaspe rouge.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/jaspe rouge.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/jaspe rouge.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/les bijoux/jaspe rouge.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-062",
+      "slug": "ince-ombre-de-caravage-florim-062",
+      "name": "Ombre De Caravage",
+      "collection": "İnce · les bijoux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/ombre de caravage.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/ombre de caravage.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/ombre de caravage.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/les bijoux/ombre de caravage.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-063",
+      "slug": "ince-sodalite-bleu-florim-063",
+      "name": "Sodalite Bleu",
+      "collection": "İnce · les bijoux",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/les bijoux/sodalite bleu.jfif",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/sodalite bleu.jfif",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/les bijoux/sodalite bleu.jfif",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/les bijoux/sodalite bleu.jfif",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-064",
+      "slug": "ince-mountain-peak-florim-064",
+      "name": "Mountain Peak",
+      "collection": "İnce · nature mood",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/nature mood/774872_mountain peak_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/nature mood/774872_mountain peak_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/nature mood/774872_mountain peak_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/nature mood/774872_mountain peak_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-065",
+      "slug": "ince-tundra-florim-065",
+      "name": "Tundra",
+      "collection": "İnce · nature mood",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/nature mood/774873_tundra_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/nature mood/774873_tundra_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/nature mood/774873_tundra_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/nature mood/774873_tundra_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-066",
+      "slug": "ince-reve-perle-florim-066",
+      "name": "Reve Perle",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/769918_reve perle_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769918_reve perle_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769918_reve perle_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/769918_reve perle_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-067",
+      "slug": "ince-reve-choco-florim-067",
+      "name": "Reve Choco",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/769937_reve choco_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769937_reve choco_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769937_reve choco_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/769937_reve choco_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-068",
+      "slug": "ince-reve-noisette-florim-068",
+      "name": "Reve Noisette",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/769938_reve noisette_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769938_reve noisette_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769938_reve noisette_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/769938_reve noisette_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-069",
+      "slug": "ince-reve-bleu-florim-069",
+      "name": "Reve Bleu",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/769940_reve bleu_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769940_reve bleu_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/769940_reve bleu_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/769940_reve bleu_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-070",
+      "slug": "ince-reve-jade-florim-070",
+      "name": "Reve Jade",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/774485_reve jade_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/774485_reve jade_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/774485_reve jade_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/774485_reve jade_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-071",
+      "slug": "ince-reve-rose-florim-071",
+      "name": "Reve Rose",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/774489_reve rose_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/774489_reve rose_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/774489_reve rose_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/774489_reve rose_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-072",
+      "slug": "ince-eucalypto-florim-072",
+      "name": "Eucalypto",
+      "collection": "İnce · reves",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/reves/794080_eucalypto_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/reves/794080_eucalypto_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/reves/794080_eucalypto_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/reves/794080_eucalypto_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-073",
+      "slug": "ince-arena-bianco-antico-florim-073",
+      "name": "Arena Bianco Antico",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785570_arena bianco antico_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785570_arena bianco antico_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785570_arena bianco antico_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785570_arena bianco antico_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-074",
+      "slug": "ince-modulo-pietra-florim-074",
+      "name": "Modulo Pietra",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785586_modulo pietra_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785586_modulo pietra_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785586_modulo pietra_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785586_modulo pietra_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-075",
+      "slug": "ince-modulo-lichene-florim-075",
+      "name": "Modulo Lichene",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785587_modulo lichene_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785587_modulo lichene_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785587_modulo lichene_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785587_modulo lichene_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-076",
+      "slug": "ince-modulo-conchuglia-florim-076",
+      "name": "Modulo Conchuglia",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785588_modulo conchuglia_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785588_modulo conchuglia_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785588_modulo conchuglia_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785588_modulo conchuglia_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-077",
+      "slug": "ince-modulo-platino-florim-077",
+      "name": "Modulo Platino",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785589_modulo platino_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785589_modulo platino_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785589_modulo platino_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785589_modulo platino_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-078",
+      "slug": "ince-tesserae-platino-florim-078",
+      "name": "Tesserae Platino",
+      "collection": "İnce · rinascenza",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/rinascenza/785602_tesserae platino_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785602_tesserae platino_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/rinascenza/785602_tesserae platino_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/rinascenza/785602_tesserae platino_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-079",
+      "slug": "ince-carbone-grana-florim-079",
+      "name": "Carbone Grana",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/781494_Carbone grana_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/781494_Carbone grana_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/781494_Carbone grana_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/781494_Carbone grana_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-080",
+      "slug": "ince-grana-rosato-florim-080",
+      "name": "Grana Rosato",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782412_grana rosato_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782412_grana rosato_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782412_grana rosato_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/782412_grana rosato_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-081",
+      "slug": "ince-sabbia-grana-florim-081",
+      "name": "Sabbia Grana",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782423_sabbia grana_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782423_sabbia grana_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782423_sabbia grana_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/782423_sabbia grana_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-082",
+      "slug": "ince-grana-mattone-florim-082",
+      "name": "Grana Mattone",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782425_grana mattone_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782425_grana mattone_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782425_grana mattone_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/782425_grana mattone_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-083",
+      "slug": "ince-amaranto-grana-florim-083",
+      "name": "Amaranto Grana",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/782426_amaranto grana_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782426_amaranto grana_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/782426_amaranto grana_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/782426_amaranto grana_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-084",
+      "slug": "ince-stone-grana-cotone-florim-084",
+      "name": "Stone Grana Cotone",
+      "collection": "İnce · sensi terre",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/sensi terre/784119_stone grana cotone_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/784119_stone grana cotone_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/sensi terre/784119_stone grana cotone_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/sensi terre/784119_stone grana cotone_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-085",
+      "slug": "ince-stone-dordogne-florim-085",
+      "name": "Stone Dordogne",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780658_stone dordogne_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780658_stone dordogne_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780658_stone dordogne_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780658_stone dordogne_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-086",
+      "slug": "ince-stone-chablis-florim-086",
+      "name": "Stone Chablis",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780659_stone chablis_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780659_stone chablis_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780659_stone chablis_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780659_stone chablis_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-087",
+      "slug": "ince-cement-white-florim-087",
+      "name": "Cement White",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780661_cement white_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780661_cement white_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780661_cement white_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780661_cement white_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-088",
+      "slug": "ince-cement-a-vory-florim-088",
+      "name": "Cement Ivory",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780662_cement ivory_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780662_cement ivory_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780662_cement ivory_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780662_cement ivory_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-089",
+      "slug": "ince-cement-light-gray-florim-089",
+      "name": "Cement Light Gray",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780663_cement light gray_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780663_cement light gray_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780663_cement light gray_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780663_cement light gray_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-090",
+      "slug": "ince-cement-dark-gray-florim-090",
+      "name": "Cement Dark Gray",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780664_cement dark gray_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780664_cement dark gray_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780664_cement dark gray_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780664_cement dark gray_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-091",
+      "slug": "ince-metal-burnished-florim-091",
+      "name": "Metal Burnished",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780667_metal burnished_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780667_metal burnished_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780667_metal burnished_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780667_metal burnished_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-092",
+      "slug": "ince-metal-corten-florim-092",
+      "name": "Metal Corten",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780668metal corten_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780668metal corten_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780668metal corten_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780668metal corten_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-093",
+      "slug": "ince-metal-bronze-florim-093",
+      "name": "Metal Bronze",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780669_metal bronze_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780669_metal bronze_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780669_metal bronze_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780669_metal bronze_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-094",
+      "slug": "ince-marble-statuario-florim-094",
+      "name": "Marble Statuario",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/780670_marble statuario_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780670_marble statuario_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/780670_marble statuario_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/780670_marble statuario_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-095",
+      "slug": "ince-dust-brown-florim-095",
+      "name": "Dust Brown",
+      "collection": "İnce · skin",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/skin/dust brown.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/skin/dust brown.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/skin/dust brown.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/skin/dust brown.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-096",
+      "slug": "ince-stone-marfil-florim-096",
+      "name": "Stone Marfil",
+      "collection": "İnce · stones&more",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/stones&more/757759_stone marfil_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/stones&more/757759_stone marfil_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/stones&more/757759_stone marfil_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/stones&more/757759_stone marfil_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-097",
+      "slug": "ince-bone-vein-florim-097",
+      "name": "Bone Vein",
+      "collection": "İnce · trav3rse life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/trav3rse life/792661_bone vein_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/trav3rse life/792661_bone vein_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/trav3rse life/792661_bone vein_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/trav3rse life/792661_bone vein_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-098",
+      "slug": "ince-trav3rse-life-hay-vein-florim-098",
+      "name": "Trav3rse Life Hay Vein",
+      "collection": "İnce · trav3rse life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/trav3rse life/trav3rse life hay vein.PNG",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/trav3rse life/trav3rse life hay vein.PNG",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/trav3rse life/trav3rse life hay vein.PNG",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/trav3rse life/trav3rse life hay vein.PNG",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-099",
+      "slug": "ince-cotton-florim-099",
+      "name": "Cotton",
+      "collection": "İnce · woodslate life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776443_cotton_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776443_cotton_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776443_cotton_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/woodslate life/776443_cotton_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-100",
+      "slug": "ince-dove-florim-100",
+      "name": "Dove",
+      "collection": "İnce · woodslate life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776444_dove_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776444_dove_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776444_dove_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/woodslate life/776444_dove_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-101",
+      "slug": "ince-bark-florim-101",
+      "name": "Bark",
+      "collection": "İnce · woodslate life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776445_bark_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776445_bark_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776445_bark_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/woodslate life/776445_bark_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
+      "applications": []
+    },
+    {
+      "id": "florim-102",
+      "slug": "ince-storm-florim-102",
+      "name": "Storm",
+      "collection": "İnce · woodslate life",
+      "mainImage": {
+        "source": "assets/florim-ürünler/florim görseller inceler/woodslate life/776447_storm_1024x768.jpg",
+        "thumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776447_storm_1024x768.jpg",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "smallThumbnail": "assets/florim-ürünler/florim görseller inceler/woodslate life/776447_storm_1024x768.jpg",
+        "smallThumbnailWidth": 1024,
+        "smallThumbnailHeight": 768,
+        "detailWidth": 1024,
+        "detailHeight": 768,
+        "srcset": "",
+        "sizes": "(max-width: 680px) 46vw, (max-width: 1000px) 31vw, 22vw",
+        "detailAvif": "",
+        "detailWebp": "assets/florim-ürünler/florim görseller inceler/woodslate life/776447_storm_1024x768.jpg",
+        "width": 1024,
+        "height": 768
+      },
+      "description": "",
+      "specifications": {
+        "thickness": "İnce"
+      },
       "applications": []
     }
   ],

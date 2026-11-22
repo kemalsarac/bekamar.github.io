@@ -1,0 +1,128 @@
+{
+  "aterna-smoke": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/3101007007897/7b8f7bdd-2d2e-41d5-9f75-105b5e081bb2/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/aterna-smoke-mat-porselen-karo-310100700789",
+    "sourceWidth": 1000,
+    "sourceHeight": 2000,
+    "sourceBytes": 933554,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/aterna-smoke-400.webp",
+        "width": 400,
+        "height": 800,
+        "bytes": 92502
+      },
+      {
+        "path": "assets/optimized/kale/products/aterna-smoke-800.webp",
+        "width": 800,
+        "height": 1600,
+        "bytes": 479298
+      }
+    ]
+  },
+  "pietra-di-gre-cream": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/3101007007925/8c77dc11-6856-4091-932e-910997153350/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/pietra-di-gre-cream-mat-porselen-karo-310100700792",
+    "sourceWidth": 1000,
+    "sourceHeight": 2000,
+    "sourceBytes": 735896,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/pietra-di-gre-cream-400.webp",
+        "width": 400,
+        "height": 800,
+        "bytes": 70542
+      },
+      {
+        "path": "assets/optimized/kale/products/pietra-di-gre-cream-800.webp",
+        "width": 800,
+        "height": 1600,
+        "bytes": 348250
+      }
+    ]
+  },
+  "berry-brown-marble": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/3101008007926/5D464921-908F-4F69-A4AC-A4FC7861625F/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/berry-brown-marble-parlak-porselen-karo-310100800792",
+    "sourceWidth": 1000,
+    "sourceHeight": 2000,
+    "sourceBytes": 643895,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/berry-brown-marble-400.webp",
+        "width": 400,
+        "height": 800,
+        "bytes": 40782
+      },
+      {
+        "path": "assets/optimized/kale/products/berry-brown-marble-800.webp",
+        "width": 800,
+        "height": 1600,
+        "bytes": 174562
+      }
+    ]
+  },
+  "zero-2-0-ada-oval-lavabo": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/310200200826/7d206476-6818-4c35-a6c2-e850c56a4cbe/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/zero-2-0-ada-oval-canak-lavabo-mat-latte-60x40cm-310200200826",
+    "sourceWidth": 2000,
+    "sourceHeight": 2000,
+    "sourceBytes": 196614,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/zero-2-0-ada-oval-lavabo-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 8148
+      },
+      {
+        "path": "assets/optimized/kale/products/zero-2-0-ada-oval-lavabo-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 21368
+      }
+    ]
+  },
+  "fold-pro-set": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/6101002016004/9313504c-36b2-4c5e-9546-ca5343064f29/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/fold-pro-set-mat-vizon-100-cm-610100201600",
+    "sourceWidth": 2000,
+    "sourceHeight": 1428,
+    "sourceBytes": 538709,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/fold-pro-set-800.webp",
+        "width": 800,
+        "height": 571,
+        "bytes": 39938
+      },
+      {
+        "path": "assets/optimized/kale/products/fold-pro-set-1600.webp",
+        "width": 1600,
+        "height": 1142,
+        "bytes": 125996
+      }
+    ]
+  },
+  "tandem-lavabo-bataryasi": {
+    "sourceUrl": "https://cdn-pim-ks.lidiacommerce.com/10/9/410200505712/db151f40-4bc2-4977-b797-30a16dc106d0/2000/0",
+    "productUrl": "https://www.kale.com.tr/urunler/tandem-lavabo-bataryasi-gun-grey-410200505712",
+    "sourceWidth": 2000,
+    "sourceHeight": 2000,
+    "sourceBytes": 211084,
+    "webp": [
+      {
+        "path": "assets/optimized/kale/products/tandem-lavabo-bataryasi-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 7212
+      },
+      {
+        "path": "assets/optimized/kale/products/tandem-lavabo-bataryasi-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 22292
+      }
+    ]
+  }
+}

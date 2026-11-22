@@ -62,6 +62,30 @@ test("client cannot override sender or recipient", async () => {
   assert.equal(calls.length, 0);
 });
 
+test("Florim catalog and sample requests preserve their structured fields", async () => {
+  const { env, calls } = environment();
+  const response = await worker.fetch(request({
+    ...validPayload(),
+    topic: "Katalog / Numune talebi",
+    requestType: "Katalog talebi, Numune talebi",
+    company: "Bekamar Studio",
+    product: "Rinascenza",
+    message: "Please share catalog and sample information.",
+  }), env);
+  assert.equal(response.status, 200);
+  const message = JSON.parse(calls.find(call => call.url.includes("api.resend.com")).init.body);
+  assert.match(message.text, /Katalog talebi, Numune talebi/);
+  assert.match(message.text, /Firma: Bekamar Studio/);
+  assert.match(message.text, /Rinascenza/);
+});
+
+test("Florim requests require at least one valid request type", async () => {
+  const { env, calls } = environment();
+  const response = await worker.fetch(request({ ...validPayload(), topic: "Katalog / Numune talebi" }), env);
+  assert.equal(response.status, 400);
+  assert.equal(calls.length, 0);
+});
+
 test("missing required field is rejected", async () => {
   const { env, calls } = environment();
   const payload = validPayload(); delete payload.message;

@@ -85,7 +85,7 @@ def main() -> None:
     shared_catalogs = ROOT / "assets" / "catalog"
     for item in sorted((item for item in [*SOURCE.rglob("*"), *shared_catalogs.glob("*")] if item.is_file() and item.suffix.casefold() == ".pdf" and "cimstone" in item.stem.casefold()), key=lambda item: item.name.casefold()):
         preview = shared_catalogs / "cimstone-catalog-cover.webp"
-        catalogs.append({"title": "Cimstone Dijital Kataloğu", "file": item.relative_to(ROOT).as_posix(), "preview": preview.relative_to(ROOT).as_posix() if preview else ""})
+        catalogs.append({"title": "Çimstone Dijital Kataloğu", "file": item.relative_to(ROOT).as_posix(), "preview": preview.relative_to(ROOT).as_posix() if preview else ""})
     (OUTPUT / "products.json").write_text(json.dumps({"products": products, "catalogs": catalogs}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(products)} Cimstone products and {len(catalogs)} catalogs.")
 

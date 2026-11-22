@@ -1,0 +1,332 @@
+[
+  {
+    "name": "hector",
+    "mediaId": "1759490446/1739",
+    "source": "assets/florim-series-source/superfici/superfici-hector.jpg",
+    "sourceBytes": 385360,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-hector-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 45554
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-hector-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 157438
+      }
+    ]
+  },
+  {
+    "name": "ambrogio",
+    "mediaId": "1759490448/1751",
+    "source": "assets/florim-series-source/superfici/superfici-ambrogio.jpg",
+    "sourceBytes": 279618,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-ambrogio-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 22300
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-ambrogio-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 71648
+      }
+    ]
+  },
+  {
+    "name": "mr-big",
+    "mediaId": "1759490448/1753",
+    "source": "assets/florim-series-source/superfici/superfici-mr-big.jpg",
+    "sourceBytes": 252516,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-mr-big-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 24758
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-mr-big-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 78576
+      }
+    ]
+  },
+  {
+    "name": "alfred",
+    "mediaId": "1759490449/1758",
+    "source": "assets/florim-series-source/superfici/superfici-alfred.jpg",
+    "sourceBytes": 678678,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-alfred-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 92424
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-alfred-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 301844
+      }
+    ]
+  },
+  {
+    "name": "kairos",
+    "mediaId": "1759490450/1766",
+    "source": "assets/florim-series-source/superfici/superfici-kairos.jpg",
+    "sourceBytes": 220858,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-kairos-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 19196
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-kairos-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 56792
+      }
+    ]
+  },
+  {
+    "name": "origine",
+    "mediaId": "1759490451/1770",
+    "source": "assets/florim-series-source/superfici/superfici-origine.jpg",
+    "sourceBytes": 327059,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-origine-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 36478
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-origine-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 124186
+      }
+    ]
+  },
+  {
+    "name": "cross",
+    "mediaId": "1759490451/1771",
+    "source": "assets/florim-series-source/superfici/superfici-cross.jpg",
+    "sourceBytes": 718567,
+    "width": 2000,
+    "height": 2000,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-cross-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 103766
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-cross-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 354430
+      }
+    ]
+  },
+  {
+    "name": "magnum",
+    "mediaId": "1759490451/1772",
+    "source": "assets/florim-series-source/superfici/superfici-magnum.jpg",
+    "sourceBytes": 243544,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-magnum-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 22448
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-magnum-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 67592
+      }
+    ]
+  },
+  {
+    "name": "filo",
+    "mediaId": "1759490452/1777",
+    "source": "assets/florim-series-source/superfici/superfici-filo.jpg",
+    "sourceBytes": 220836,
+    "width": 2000,
+    "height": 1331,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-filo-800.webp",
+        "width": 800,
+        "height": 532,
+        "bytes": 20980
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-filo-1600.webp",
+        "width": 1600,
+        "height": 1065,
+        "bytes": 48288
+      }
+    ]
+  },
+  {
+    "name": "oto-pop",
+    "mediaId": "1759490452/1780",
+    "source": "assets/florim-series-source/superfici/superfici-oto-pop.jpg",
+    "sourceBytes": 219533,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-pop-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 21526
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-pop-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 60594
+      }
+    ]
+  },
+  {
+    "name": "oto-pop-reverse",
+    "mediaId": "1759490453/1786",
+    "source": "assets/florim-series-source/superfici/superfici-oto-pop-reverse.jpg",
+    "sourceBytes": 217022,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-pop-reverse-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 22618
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-pop-reverse-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 65376
+      }
+    ]
+  },
+  {
+    "name": "oto-rock",
+    "mediaId": "1759490454/1790",
+    "source": "assets/florim-series-source/superfici/superfici-oto-rock.jpg",
+    "sourceBytes": 211790,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-rock-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 21672
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-oto-rock-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 59046
+      }
+    ]
+  },
+  {
+    "name": "komos",
+    "mediaId": "1759490455/1799",
+    "source": "assets/florim-series-source/superfici/superfici-komos.jpg",
+    "sourceBytes": 300581,
+    "width": 2000,
+    "height": 1334,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-komos-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 33214
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-komos-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 93510
+      }
+    ]
+  },
+  {
+    "name": "torii",
+    "mediaId": "1759490455/1801",
+    "source": "assets/florim-series-source/superfici/superfici-torii.jpg",
+    "sourceBytes": 315728,
+    "width": 2000,
+    "height": 1829,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-torii-800.webp",
+        "width": 800,
+        "height": 732,
+        "bytes": 30042
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-torii-1600.webp",
+        "width": 1600,
+        "height": 1463,
+        "bytes": 91854
+      }
+    ]
+  },
+  {
+    "name": "spider",
+    "mediaId": "1759490456/1807",
+    "source": "assets/florim-series-source/superfici/superfici-spider.jpg",
+    "sourceBytes": 355809,
+    "width": 2000,
+    "height": 1415,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/special-series/superfici-spider-800.webp",
+        "width": 800,
+        "height": 566,
+        "bytes": 41180
+      },
+      {
+        "path": "assets/optimized/florim/special-series/superfici-spider-1600.webp",
+        "width": 1600,
+        "height": 1132,
+        "bytes": 143584
+      }
+    ]
+  }
+]

@@ -8,6 +8,22 @@
   const endpoint = typeof config.apiUrl === 'string' ? config.apiUrl.trim() : '';
   const siteKey = typeof config.turnstileSiteKey === 'string' ? config.turnstileSiteKey.trim() : '';
   const turnstileContainer = form.querySelector('[data-contact-turnstile]');
+  const params = new URLSearchParams(window.location.search);
+  const requestedStone = params.get('urun')?.trim().slice(0, 100);
+  if (params.get('konu') === 'granit' && requestedStone) {
+    form.elements.namedItem('topic').value = 'Doğal taş ürünleri';
+    form.elements.namedItem('message').value = `Granit ürünü hakkında bilgi almak istiyorum: ${requestedStone}`;
+  }
+  if (params.get('konu') === 'florim') {
+    form.elements.namedItem('topic').value = 'Proje ve fiyat teklifi';
+    form.elements.namedItem('message').value = `Florim ${params.get('urun')?.trim().slice(0, 100) || 'koleksiyonları'} için fiyat teklifi almak istiyorum.`;
+  }
+  const requestedBrand = params.get('marka')?.trim().slice(0, 40) || '';
+  const requestedProduct = params.get('urun')?.trim().slice(0, 100) || '';
+  if (requestedProduct && ['T-One', 'Kale', 'Kalebodur'].includes(requestedBrand)) {
+    form.elements.namedItem('topic').value = 'Proje ve fiyat teklifi';
+    form.elements.namedItem('message').value = requestedBrand + ' ' + requestedProduct + ' ürünü hakkında bilgi ve teklif almak istiyorum.';
+  }
   let widgetId = null;
   let token = '';
   let turnstileReady = false;
@@ -20,11 +36,11 @@
   };
 
   if (!endpoint || !siteKey) {
-    setState('error', 'Form g\u00f6nderimi ge\u00e7ici olarak kullan\u0131lam\u0131yor. E-posta ile ula\u015fmak i\u00e7in ');
+    setState('error', 'G\u00fcvenli form g\u00f6nderimi hen\u00fcz etkin de\u011fil. Talebinizi e-posta uygulaman\u0131zda a\u00e7\u0131n: ');
     const fallback = document.createElement('a');
     fallback.href = 'mailto:info@bekamar.com';
-    fallback.textContent = 'info@bekamar.com';
-    feedback.append(fallback, document.createTextNode(' adresini kullanabilirsiniz.'));
+    fallback.textContent = 'E-posta tasla\u011f\u0131 olu\u015ftur';
+    feedback.append(fallback, document.createTextNode(' ba\u011flant\u0131s\u0131n\u0131 kullanabilirsiniz.'));
     submitButton.disabled = true;
     return;
   }
@@ -57,10 +73,19 @@
       return;
     }
 
-    const fields = ['name', 'email', 'topic', 'message'].map(name => form.elements.namedItem(name));
+    const structured = Boolean(form.elements.namedItem('firstName') && form.elements.namedItem('lastName'));
+    const fields = (structured ? ['firstName', 'lastName', 'email', 'phone'] : ['name', 'email', 'topic', 'message']).map(name => form.elements.namedItem(name));
+    const validPhone = value => /^[+()\d\s.-]{7,40}$/.test(value) && (value.match(/\d/g) || []).length >= 7;
+    const requestTypeInputs = [...form.querySelectorAll('[name="requestType"]')];
+    const requestTypes = requestTypeInputs.filter(field => field.checked).map(field => field.value);
+    if (requestTypeInputs.length && !requestTypes.length) {
+      setState('error', 'En az bir talep t\u00fcr\u00fc se\u00e7in.');
+      requestTypeInputs[0].focus();
+      return;
+    }
     const invalid = fields.filter(field => {
       const value = field.value.trim();
-      return !value || ((field.name === 'name' || field.name === 'message') && value.length < 2) || (field.type === 'email' && !field.validity.valid);
+      return !value || ((field.name === 'name' || field.name === 'message' || field.name === 'firstName' || field.name === 'lastName') && value.length < 2) || (field.type === 'email' && !field.validity.valid) || (field.type === 'tel' && !validPhone(value));
     });
     form.querySelectorAll('[aria-invalid="true"]').forEach(field => field.removeAttribute('aria-invalid'));
     form.querySelectorAll('.field-error').forEach(error => { error.textContent = ''; });
@@ -68,7 +93,7 @@
       for (const field of invalid) {
         field.setAttribute('aria-invalid', 'true');
         const error = document.getElementById(`${field.name}-error`);
-        if (error) error.textContent = field.type === 'email' ? 'Ge\u00e7erli bir e-posta adresi girin.' : (field.name === 'name' || field.name === 'message') && field.value.trim().length < 2 ? 'En az iki karakter girin.' : 'Bu alan\u0131 doldurun.';
+        if (error) error.textContent = field.type === 'email' ? 'Ge\u00e7erli bir e-posta adresi girin.' : field.type === 'tel' && !validPhone(field.value.trim()) ? 'En az 7 rakam i\u00e7eren ge\u00e7erli bir telefon girin.' : (field.name === 'name' || field.name === 'message' || field.name === 'firstName' || field.name === 'lastName') && field.value.trim().length < 2 ? 'En az iki karakter girin.' : 'Bu alan\u0131 doldurun.';
       }
       setState('error', 'L\u00fctfen i\u015faretli alanlar\u0131 kontrol edin.');
       invalid[0].focus();
@@ -82,11 +107,14 @@
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: form.elements.namedItem('name').value,
+          name: structured ? `${form.elements.namedItem('firstName').value.trim()} ${form.elements.namedItem('lastName').value.trim()}` : form.elements.namedItem('name').value,
           email: form.elements.namedItem('email').value,
-          phone: form.elements.namedItem('phone').value,
+          phone: form.elements.namedItem('phone')?.value || '',
           topic: form.elements.namedItem('topic').value,
-          message: form.elements.namedItem('message').value,
+          message: form.elements.namedItem('message')?.value.trim() || (structured ? 'Katalog / numune talebi' : ''),
+          company: form.elements.namedItem('company')?.value || '',
+          product: form.elements.namedItem('product')?.value || '',
+          requestType: requestTypes.join(', '),
           turnstileToken: token,
         }),
       });

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kemalsarac.github.io/bekamar.github.io/sitemap.xml

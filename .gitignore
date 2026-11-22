@@ -4,3 +4,12 @@
 node_modules/
 .DS_Store
 Thumbs.db
+.tmp/ffmpeg-tools/
+.tmp/video-originals/
+.tmp/video-optimized/
+.tmp/pdf-originals/
+.tmp/pdf-optimization/
+
+.edge-cdp-final/
+__pycache__/
+*.pyc

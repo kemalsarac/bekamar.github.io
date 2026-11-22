@@ -59,7 +59,7 @@
 .florim-faq__items summary{position:relative;padding:19px 42px 19px 0;cursor:pointer;list-style:none;font:400 clamp(20px,2.3vw,28px)/1.15 var(--serif)}
 .florim-faq__items summary::-webkit-details-marker{display:none}
 .florim-faq__items summary::after{content:'+';position:absolute;right:4px;top:15px;color:#92764f;font:300 22px var(--sans)}
-.florim-faq__items details[open] summary::after{content:'−'}
+.florim-faq__items details[open] summary::after{content:'âˆ’'}
 .florim-faq__items details p{max-width:720px;margin:0;padding:0 35px 20px 0;color:#625e57;font:400 13px/1.85 var(--sans)}
 .florim-faq__items a{color:#715d40}
 .florim-closing{grid-template-columns:minmax(0,1fr) auto;align-items:center}
@@ -82,7 +82,7 @@
 .florim-info-item>summary{display:grid;grid-template-columns:52px 1fr 28px;align-items:center;gap:12px;padding:23px 4px;cursor:pointer;list-style:none;color:#292723;font:400 clamp(27px,3.2vw,42px)/1.05 var(--serif);transition:color .2s ease,padding .2s ease}
 .florim-info-item>summary::-webkit-details-marker{display:none}
 .florim-info-item>summary::after{content:'+';justify-self:end;color:#92764f;font:300 23px/1 var(--sans)}
-.florim-info-item[open]>summary::after{content:'−'}
+.florim-info-item[open]>summary::after{content:'-'}
 .florim-info-item>summary:hover{color:#92764f}
 .florim-info-item>summary:focus-visible{outline:2px solid #92764f;outline-offset:4px}
 .florim-info-item__number{color:#92764f;font:500 9px var(--sans);letter-spacing:.14em}
@@ -212,3 +212,381 @@
 .florim-page .florim-closing .section-deck{color:#c9bba8!important}
 .florim-page .florim-closing .source-topic p{color:rgba(242,240,234,.78)}
 .florim-page .florim-closing .eyebrow{color:#c9bba8}
+
+.florim-redesign .seo-breadcrumb{max-width:1440px;margin:0 auto;padding:14px clamp(22px,5vw,72px);color:#756f65;font:500 11px/1.5 var(--sans)}
+.seo-breadcrumb ol{display:flex;flex-wrap:wrap;gap:9px;margin:0;padding:0;list-style:none}
+.seo-breadcrumb li+li::before{content:"/";margin-right:9px;color:#b6ab99}
+.seo-breadcrumb a{color:inherit;text-decoration:none}
+.seo-breadcrumb a:hover{text-decoration:underline}
+.seo-breadcrumb [aria-current="page"]{color:#272521}
+.florim-quick-links{display:flex;flex-wrap:wrap;gap:24px;padding:22px clamp(20px,6vw,90px);background:#1d1c19}
+.florim-quick-links a,.florim-specials__grid a{color:#e8dfd1;text-decoration:none;border-bottom:1px solid rgba(201,187,168,.4);padding-bottom:8px;font-size:12px}
+.florim-specials,.florim-sample-request{padding:clamp(56px,8vw,110px) clamp(20px,8vw,120px);background:#f4f1eb;color:#282722}
+.florim-specials h2,.florim-sample-request h2{font:400 clamp(38px,6vw,68px)/1 var(--serif,Georgia,serif);margin:16px 0 30px}
+.florim-specials__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:28px 0}
+.florim-specials__grid a{display:flex;flex-direction:column;gap:24px;padding:24px;border:1px solid #d8d1c5;color:#282722;font:400 26px var(--serif,Georgia,serif)}
+.florim-specials__grid span{font:400 10px var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
+.florim-specials>p:last-child,.florim-sample-request>div>p:last-child{font-size:12px;line-height:1.8;color:#68645c;max-width:620px}
+.florim-sample-request{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;background:#e9e5dc}
+.florim-sample-request form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.florim-sample-request label{display:grid;gap:8px;font-size:11px;letter-spacing:.06em}
+.florim-sample-request input,.florim-sample-request select{width:100%;min-height:46px;padding:10px;border:1px solid #c8c0b4;background:#f8f6f1;font:inherit}
+.florim-sample-request form button{grid-column:1/-1;min-height:48px;border:0;background:#8c806b;color:#fff;font:inherit;letter-spacing:.07em}
+@media(max-width:700px){.florim-quick-links{gap:12px;padding:18px}.florim-specials__grid,.florim-sample-request{grid-template-columns:1fr}.florim-sample-request form{grid-template-columns:1fr}.florim-sample-request form button{grid-column:auto}}
+
+/* Match the T-One collection, catalog and product interaction system. */
+.florim-page .florim-redesign{background:#171715}
+.florim-page .seo-breadcrumb{color:#aaa69d}
+.florim-page .seo-breadcrumb [aria-current="page"]{color:#f2f0ea}
+.florim-page .florim-quick-links{background:#e9e5dc;color:#292723}
+.florim-page .florim-quick-links{gap:14px 26px;padding:12px clamp(22px,6vw,90px) 24px}
+.florim-page .florim-quick-links a{border-color:#9c8c74;color:#292723;font:600 9px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.florim-page .florim-archive-wrap{border:0;background:#e9e5dc}
+.florim-page .tone-catalog{padding:clamp(32px,4vw,56px) clamp(22px,8vw,120px);background:#e9e5dc;color:#292723}
+.florim-page .tone-catalog__head{border-color:rgba(41,39,35,.22)}
+.florim-page .tone-catalog__head h1{margin:16px 0 0;font:400 clamp(44px,5.5vw,72px)/.95 var(--serif);letter-spacing:-.025em}
+.florim-page .tone-catalog__lead{color:#625e57}
+.florim-page .tone-catalog__search input{border-color:rgba(41,39,35,.4);color:#292723}
+.florim-page .tone-catalog__search input::placeholder{color:rgba(41,39,35,.62)}
+.florim-page .tone-catalog__search input:focus{border-color:#756248}
+.florim-page .tone-catalog__count,.florim-page .tone-pagination{color:#625e57}
+.florim-page .tone-product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 18px;min-height:0}
+.florim-page .tone-product-card{display:block;min-width:0;color:#292723;text-decoration:none}
+.florim-page .tone-product-card__image{position:relative;display:block;width:100%;margin:0;overflow:hidden;aspect-ratio:4/3;background:#dedbd4}
+.florim-page .tone-product-card__image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.florim-page .tone-product-card:hover .tone-product-card__image img,.florim-page .tone-product-card:focus-visible .tone-product-card__image img{transform:scale(1.025)}
+.florim-page .tone-product-card::after{display:none}
+.florim-page .tone-product-card__meta{display:flex;width:100%;align-items:flex-start;justify-content:space-between;gap:12px;margin:0;padding:12px 2px 0}
+.florim-page .tone-product-card__name{display:flex;min-width:0;flex-direction:column;gap:5px;color:#292723;font:400 clamp(15px,1.4vw,19px)/1.08 var(--serif);letter-spacing:0;text-transform:none}
+.florim-page .tone-product-card__collection{display:block;color:#756f65;font:500 8px/1.4 var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.florim-page .tone-product-card__link{display:block;flex:none;padding-top:3px;color:#756248;font:600 8px/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;transition:color .2s}
+.florim-page .tone-product-card:hover .tone-product-card__link,.florim-page .tone-product-card:focus-visible .tone-product-card__link{color:#292723}
+.florim-page .tone-product-card:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-page .tone-catalog__empty,.florim-page .tone-catalog__error{color:#625e57}
+.florim-page .tone-pagination{flex-direction:column;gap:12px}
+.florim-page .tone-pagination__actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 18px}
+.florim-page .tone-pagination [data-load-more],.florim-page .tone-pagination [data-show-less]{padding:13px 22px;border:1px solid #9c8c74;transition:background .2s,color .2s}
+.florim-page .tone-pagination [data-load-more]:hover,.florim-page .tone-pagination [data-load-more]:focus-visible,.florim-page .tone-pagination [data-show-less]:hover,.florim-page .tone-pagination [data-show-less]:focus-visible{background:#756248;color:#fff}
+.florim-page .florim-catalog-wrap .tone-catalog-promo{display:flex;flex-direction:column;align-items:stretch;padding:clamp(48px,7vw,94px) clamp(22px,8vw,120px);background:#171715;color:#f2f0ea}
+.florim-page .florim-catalog-promo__layout{grid-template-columns:minmax(0,1.05fr) minmax(300px,.75fr)}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__eyebrow{color:#c9bba8}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__title{color:#f2f0ea;font-size:clamp(48px,6vw,82px);line-height:.88}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__title em{color:#c9bba8}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__description{color:rgba(242,240,234,.82)}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__action{color:#f2f0ea}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__action span{color:#c9bba8}
+.florim-page .florim-catalog-wrap .catalog-cover{background:#22211f}
+.florim-page .florim-catalog-wrap .catalog-cover .catalog-document span{background:#171715;color:#f2f0ea}
+.florim-page .florim-catalog-wrap .catalog-cover .catalog-document img{box-shadow:0 22px 56px rgba(0,0,0,.34)}
+.florim-page .florim-catalog-wrap .catalog-cover .catalog-document:focus-visible{outline-color:#c9bba8}
+.florim-page .florim-closing{background:#e9e5dc;color:#292723}
+.florim-page .florim-closing .eyebrow{color:#756248}
+.florim-page .florim-closing .section-deck,.florim-page .florim-closing .source-topic p{color:#625e57!important}
+.florim-page .florim-closing .florim-hero__link{border-color:#9c8c74;color:#292723}
+@media(max-width:1100px){.florim-page .tone-product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 14px}}
+@media(max-width:700px){.florim-page .florim-quick-links{gap:12px;padding:12px 18px 22px}.florim-page .tone-catalog{padding:32px 20px}.florim-page .tone-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 10px}.florim-page .tone-product-card__meta{align-items:flex-start;flex-direction:row;gap:6px;padding:9px 1px 0}.florim-page .tone-product-card__name{font-size:clamp(14px,4vw,16px)}.florim-page .tone-product-card__link{font-size:7px}.florim-page .florim-catalog-wrap .tone-catalog-promo__title{font-size:clamp(48px,13vw,66px)}.florim-page .florim-catalog-wrap .tone-catalog-promo__layout{grid-template-columns:1fr;gap:30px}.florim-page .florim-catalog-wrap .catalog-cover{min-height:390px;padding:18px}.florim-page .florim-catalog-wrap .catalog-cover .catalog-document img{height:354px;max-width:82%}.florim-page .florim-closing{grid-template-columns:1fr}}
+
+
+/* New verified editorial modules and request form. */
+.florim-editorial-showcase{padding:clamp(64px,8vw,112px) clamp(22px,8vw,120px);background:#f4f1eb;color:#292723}
+.florim-awards{background:#e9e5dc}
+.florim-editorial-showcase__heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.7fr);align-items:end;gap:12px 42px;margin:0 0 32px}
+.florim-editorial-showcase__heading .eyebrow{grid-column:1/-1;margin:0;color:#756248}
+.florim-editorial-showcase__heading h2{margin:0;font:400 clamp(40px,6vw,72px)/.96 var(--serif,Georgia,serif)}
+.florim-editorial-showcase__heading>p:last-child{max-width:520px;margin:0;color:#625e57;font:400 12px/1.8 var(--sans,Arial,sans-serif)}
+.florim-feature-card{position:relative;display:block;min-height:320px;overflow:hidden;background:#292723;color:#fff;text-decoration:none}
+.florim-feature-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.florim-feature-card:hover>img{transform:scale(1.035)}
+.florim-feature-card:after{position:absolute;inset:28% 0 0;background:linear-gradient(transparent,rgba(16,16,15,.88));content:""}
+.florim-feature-card__copy{position:absolute;z-index:1;right:clamp(20px,4vw,48px);bottom:clamp(20px,4vw,42px);left:clamp(20px,4vw,48px);display:flex;flex-direction:column;align-items:flex-start;gap:9px;max-width:660px}
+.florim-feature-card__copy small{font:600 9px var(--sans,Arial,sans-serif);letter-spacing:.16em}
+.florim-feature-card__copy strong{font:400 clamp(36px,5vw,60px)/1 var(--serif,Georgia,serif)}
+.florim-feature-card__copy>span{font:400 12px/1.7 var(--sans,Arial,sans-serif)}
+.florim-rinascenza-film{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(240px,.55fr);align-items:stretch;gap:clamp(28px,5vw,68px);max-width:1420px;margin:0 auto}
+.florim-rinascenza-film__player{position:relative;isolation:isolate;align-self:center;width:100%;min-width:0;aspect-ratio:8/3;overflow:hidden;background:#171715}
+.florim-rinascenza-film__player video{display:block;width:100%;height:100%;aspect-ratio:8/3;object-fit:cover;object-position:center;background:#171715}
+.florim-rinascenza-film__toggle{position:absolute;right:18px;bottom:18px;padding:10px 13px;border:1px solid rgba(255,255,255,.62);background:rgba(23,23,21,.58);color:#fff;font:600 9px/1 var(--sans,Arial,sans-serif);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(8px);transition:background .2s,border-color .2s}
+.florim-rinascenza-film__toggle:hover,.florim-rinascenza-film__toggle:focus-visible{border-color:#fff;background:rgba(23,23,21,.82)}
+.florim-rinascenza-film__toggle:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.florim-rinascenza-film__copy{align-self:center;max-width:360px;padding:20px 0}
+.florim-rinascenza-film__copy .eyebrow{margin:0 0 17px;color:#756248;font:600 9px/1.6 var(--sans,Arial,sans-serif);letter-spacing:.15em}
+.florim-rinascenza-film__copy h3{margin:0 0 14px;font:400 clamp(38px,4vw,58px)/.95 var(--serif,Georgia,serif)}
+.florim-rinascenza-film__copy>p:not(.eyebrow){margin:0;color:#625e57;font:400 12px/1.8 var(--sans,Arial,sans-serif)}
+.florim-rinascenza-film__copy>a{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:18px;padding:8px 0;border-bottom:1px solid #9c8c74;color:#514b42;text-decoration:none;font:600 9px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase;transition:color .2s ease,border-color .2s ease}
+.florim-rinascenza-film__copy>a span{color:#756248;font-size:14px;transition:transform .2s ease}
+.florim-rinascenza-film__copy>a:hover{color:#756248}
+.florim-rinascenza-film__copy>a:hover span{transform:translateX(3px)}
+.florim-rinascenza-film__copy>a:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-new-collections .florim-editorial-showcase__heading{grid-template-columns:minmax(0,1fr) minmax(260px,.6fr);column-gap:clamp(28px,6vw,92px);margin-bottom:clamp(32px,4vw,52px)}
+.florim-new-collections .florim-editorial-showcase__heading h2{max-width:720px;font-size:clamp(48px,6vw,78px);letter-spacing:-.03em}
+.florim-new-collections .florim-editorial-showcase__heading>p:last-child{max-width:410px;padding-bottom:4px;font-size:12px;line-height:1.9}
+.florim-new-collections .florim-editorial-showcase__heading,.florim-new-collections .florim-rinascenza-film__player,.florim-new-collections .florim-rinascenza-film__copy{transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1)}
+.florim-new-collections.is-reveal-ready .florim-editorial-showcase__heading,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__player,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__copy{opacity:0;transform:translateY(14px)}
+.florim-new-collections.is-revealed .florim-editorial-showcase__heading,.florim-new-collections.is-revealed .florim-rinascenza-film__player,.florim-new-collections.is-revealed .florim-rinascenza-film__copy{opacity:1;transform:translateY(0)}
+.florim-new-collections.is-revealed .florim-rinascenza-film__player{transition-delay:.06s}
+.florim-new-collections.is-revealed .florim-rinascenza-film__copy{transition-delay:.13s}
+.florim-award-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.florim-award-grid .florim-feature-card{min-height:340px}
+.florim-catalog-extra{box-sizing:border-box;display:grid;flex:0 0 100%;width:100%;min-width:0;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:28px;margin:26px auto 0;padding:28px clamp(20px,4vw,42px);max-width:1320px;border:1px solid rgba(201,187,168,.3);background:#22211f}
+.florim-catalog-extra .eyebrow{margin:0;color:#c9bba8;font:600 9px var(--sans);letter-spacing:.16em}
+.florim-catalog-extra h2{margin:10px 0;font:400 clamp(26px,3vw,38px) var(--serif,Georgia,serif);color:#f2f0ea}
+.florim-catalog-extra p:not(.eyebrow){max-width:610px;margin:0;color:rgba(242,240,234,.78);font:400 12px/1.7 var(--sans,Arial,sans-serif)}
+.florim-catalog-extra>a{padding:13px 17px;border:1px solid #9c8c74;color:#f2f0ea;text-decoration:none;font:600 9px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.florim-catalog-extra>a:hover{background:#756248}
+.florim-specials__unverified{display:flex;flex-direction:column;gap:24px;padding:24px;border:1px dashed #bcb3a4;color:#514b42;font:400 20px var(--serif,Georgia,serif)}
+.florim-specials__unverified span{font:400 11px/1.7 var(--sans,Arial,sans-serif)}
+.florim-sample-request__form-wrap{min-width:0}
+.florim-sample-request form{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;min-width:0}
+.florim-sample-request .florim-request-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.florim-sample-request label{min-width:0;letter-spacing:0}
+.florim-sample-request label em{font-style:normal;letter-spacing:0;opacity:.72}
+.florim-sample-request label>span,.florim-sample-request fieldset legend>span{color:#8c5d43}
+.florim-sample-request input,.florim-sample-request textarea{box-sizing:border-box;min-width:0;width:100%;min-height:46px;padding:11px;border:1px solid #c8c0b4;border-radius:0;background:#f8f6f1;color:#292723;font:400 13px var(--sans,Arial,sans-serif)}
+.florim-sample-request input:focus-visible,.florim-sample-request textarea:focus-visible{outline:2px solid #92764f;outline-offset:2px;border-color:#756248}
+.florim-sample-request [aria-invalid="true"]{border-color:#9a4c3b}
+.florim-sample-request .field-error{color:#8c4033;font:500 11px/1.5 var(--sans,Arial,sans-serif)}
+.florim-sample-request .field-error:empty{display:none}
+.florim-sample-request textarea{resize:vertical}
+.florim-sample-request fieldset{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px;border:1px solid #c8c0b4}
+.florim-sample-request fieldset legend{padding:0 6px;font-size:11px}
+.florim-sample-request fieldset label{display:flex;align-items:center;gap:8px;font-size:11px}
+.florim-sample-request fieldset input{width:16px;min-height:16px;margin:0;accent-color:#756248}
+.florim-sample-request .florim-request-fields__wide{grid-column:1/-1}
+.florim-sample-request .contact-submit{margin-top:18px;cursor:pointer}
+.florim-sample-request .contact-submit:disabled{opacity:.55;cursor:not-allowed}
+.florim-sample-request .contact-submit{width:100%;min-height:52px}
+.florim-sample-request .form-feedback{margin:0;padding:14px 16px;border-left:2px solid #9c8c74;background:rgba(244,241,235,.72);color:#514b42;font:400 12px/1.7 var(--sans,Arial,sans-serif)}
+.florim-sample-request .form-feedback[data-state="error"]{border-color:#9a4c3b}
+.florim-sample-request .form-feedback[data-state="success"]{border-color:#65785c}
+.florim-sample-request .form-feedback:empty{display:none}
+.florim-sample-request .form-note{display:none}
+@media(max-width:1000px){.florim-rinascenza-film{grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr);gap:clamp(24px,4vw,42px)}.florim-new-collections .florim-editorial-showcase__heading{grid-template-columns:minmax(0,1fr) minmax(220px,.7fr)}}
+@media(max-width:900px){.florim-rinascenza-film{grid-template-columns:1fr;gap:24px}.florim-rinascenza-film__player{align-self:start}.florim-rinascenza-film__copy{max-width:560px;padding:0}}
+@media(max-width:760px){.florim-editorial-showcase__heading{grid-template-columns:1fr;gap:12px}.florim-editorial-showcase__heading .eyebrow{grid-column:auto}.florim-new-collections .florim-editorial-showcase__heading{grid-template-columns:1fr;gap:12px;margin-bottom:28px}.florim-new-collections .florim-editorial-showcase__heading h2{font-size:clamp(42px,10vw,58px)}.florim-new-collections .florim-editorial-showcase__heading>p:last-child{padding:0}.florim-rinascenza-film{grid-template-columns:1fr;gap:24px}.florim-rinascenza-film__player{width:100%;aspect-ratio:16/9}.florim-rinascenza-film__player video{object-fit:cover}.florim-rinascenza-film__copy h3{font-size:clamp(38px,10vw,52px)}.florim-rinascenza-film__toggle{right:12px;bottom:12px}.florim-award-grid{grid-template-columns:1fr}.florim-feature-card{min-height:300px}.florim-catalog-extra{grid-template-columns:1fr}.florim-catalog-extra>a{justify-self:start}.florim-sample-request .florim-request-fields{grid-template-columns:1fr}.florim-sample-request .florim-request-fields__wide{grid-column:auto}.florim-sample-request fieldset{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.florim-new-collections .florim-editorial-showcase__heading,.florim-new-collections .florim-rinascenza-film__player,.florim-new-collections .florim-rinascenza-film__copy,.florim-rinascenza-film__toggle{transition:none}.florim-new-collections.is-reveal-ready .florim-editorial-showcase__heading,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__player,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__copy{opacity:1;transform:none}}
+
+
+.florim-feature-card:focus-visible{outline:3px solid #92764f;outline-offset:4px}
+.florim-brand-award{align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:14px;padding:clamp(24px,4vw,42px);border:1px solid rgba(41,39,35,.18);background:#f4f1eb;color:#292723}
+.florim-brand-award .eyebrow{color:#756248}
+.florim-brand-award strong{font:400 clamp(28px,3vw,40px) var(--serif,Georgia,serif)}
+.florim-brand-award p:not(.eyebrow){margin:0;color:#625e57;font:400 12px/1.75 var(--sans,Arial,sans-serif)}
+.florim-brand-award a{align-self:flex-start;padding-bottom:7px;border-bottom:1px solid #9c8c74;color:#514b42;text-decoration:none;font:600 9px var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
+.florim-brand-award a:hover{color:#756248}
+.florim-feature-card__copy{pointer-events:none}
+@media(max-width:700px){.florim-award-grid{grid-template-columns:1fr}.florim-brand-award{padding:24px}}
+
+.florim-page .florim-download-link{display:inline-flex;align-items:center;gap:12px;align-self:flex-start;margin-top:17px;padding-bottom:8px;border-bottom:1px solid #9c8c74;color:#f2f0ea;text-decoration:none;font:600 9px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.florim-page .florim-download-link:hover,.florim-page .florim-download-link:focus-visible{color:#c9bba8;border-color:#c9bba8}
+.florim-page .florim-specials__grid a{min-width:0;min-height:260px;justify-content:space-between;gap:16px;padding:clamp(20px,3vw,32px);border:1px solid #d8d1c5;transition:border-color .2s,background .2s}
+.florim-page .florim-specials__grid a:hover,.florim-page .florim-specials__grid a:focus-visible{border-color:#8e7a5d;background:#eeebe4}
+.florim-page .florim-specials__grid .florim-specials__image{display:block;width:100%;aspect-ratio:1.82;overflow:hidden;background:#ded8cc}
+.florim-page .florim-specials__grid .florim-specials__image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+@media(hover:hover){.florim-page .florim-specials__grid a:hover .florim-specials__image img{transform:scale(1.025)}}
+
+.florim-page .florim-specials__grid a:focus-visible{outline:3px solid #92764f;outline-offset:3px}
+.florim-page .florim-specials__grid .florim-specials__category{color:#756248;font:600 8px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.14em}
+.florim-page .florim-specials__grid strong{font:400 clamp(27px,3vw,38px)/1.05 var(--serif,Georgia,serif)}
+.florim-page .florim-specials__grid .florim-specials__description{max-width:460px;color:#625e57;font:400 12px/1.75 var(--sans,Arial,sans-serif);letter-spacing:0;text-transform:none}
+.florim-page .florim-specials__grid .florim-specials__action{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:12px;border-top:1px solid #d8d1c5;color:#514b42;font:600 8px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
+.florim-page .florim-specials__unverified{min-height:260px;justify-content:space-between;gap:16px;padding:clamp(20px,3vw,32px);background:#eeebe4}
+.florim-page .florim-specials__unverified .florim-specials__category{color:#756248;font:600 8px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.14em}
+.florim-page .florim-specials__unverified strong{font:400 clamp(27px,3vw,38px)/1.05 var(--serif,Georgia,serif)}
+.florim-page .florim-specials__unverified span{color:#625e57;font:400 12px/1.75 var(--sans,Arial,sans-serif);letter-spacing:0}
+.florim-page .tone-catalog .florim-quick-links{display:flex;flex-wrap:wrap;gap:10px 22px;margin:0 0 26px;padding:0;background:transparent}
+.florim-page .tone-catalog .florim-quick-links a{padding:0 0 6px;border-bottom:1px solid #9c8c74;color:#514b42;font:600 8px var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
+.florim-page .tone-catalog .florim-quick-links a:hover,.florim-page .tone-catalog .florim-quick-links a:focus-visible{color:#756248;border-color:#756248}
+/* Editorial Florim category navigation */
+.florim-page .tone-catalog .florim-type-switch{display:block;margin:22px 0 18px;padding:0;border:0;background:transparent}
+.florim-page .tone-catalog .florim-type-switch>.eyebrow{margin:0 0 8px;color:#756248;font:600 9px var(--sans,Arial,sans-serif);letter-spacing:.15em}
+.florim-page .tone-catalog .florim-type-switch__tabs{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid rgba(41,39,35,.2);border-bottom:1px solid rgba(41,39,35,.2)}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab{position:relative;display:flex;align-items:center;min-width:0;min-height:126px;padding:16px clamp(16px,2.5vw,32px);border:0;border-radius:0;background:transparent;box-shadow:none;color:#686257;text-align:left;cursor:pointer;transition:color .2s ease}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab+button.florim-category-tab{border-left:1px solid rgba(41,39,35,.18)}
+.florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy{display:flex;flex-direction:column;gap:7px;min-width:0;width:100%;margin:0;padding:0;background:transparent;color:inherit}
+.florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy strong{color:inherit;font:400 clamp(26px,3.4vw,48px)/1.04 var(--serif,Georgia,serif);letter-spacing:-.025em;text-transform:uppercase;transition:transform .2s cubic-bezier(.2,.7,.2,1),color .2s ease}
+.florim-page .tone-catalog .florim-type-switch .florim-category-tab__meta{display:flex;align-items:center;justify-content:space-between;gap:14px;color:#625e57;font:400 11px/1.45 var(--sans,Arial,sans-serif)}
+.florim-page .tone-catalog .florim-type-switch .florim-category-tab__meta>span{min-width:0}
+.florim-page .tone-catalog .florim-type-switch .florim-category-tab__count{flex:none;color:#6b593f;font:500 9px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.04em;white-space:nowrap}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab.is-active{background:transparent;color:#292723}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab.is-active .florim-category-tab__copy strong{font-weight:500}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab:hover{background:transparent;color:#51483c}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab:hover .florim-category-tab__copy strong{transform:translateX(2px)}
+.florim-page .tone-catalog .florim-type-switch button.florim-category-tab:focus-visible{z-index:1;outline:2px solid #92764f;outline-offset:-3px;background:transparent}
+.florim-page .tone-catalog .florim-type-switch__indicator{position:absolute;z-index:1;left:0;bottom:-1px;width:50%;height:2px;background:#a7895f;pointer-events:none;transform:translateX(0);transition:transform .34s cubic-bezier(.2,.7,.2,1)}
+.florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="ceramiche"] .florim-type-switch__indicator{transform:translateX(100%)}
+.florim-page #toneProductPanel .tone-product-grid{transition:opacity .18s ease,transform .18s ease}
+.florim-page #toneProductPanel.is-switching .tone-product-grid{opacity:.3;transform:translateY(4px)}
+@media(max-width:700px){
+  .florim-page .tone-catalog .florim-type-switch{margin:18px 0 16px}
+  .florim-page .tone-catalog .florim-type-switch__tabs{grid-template-columns:1fr;grid-template-rows:repeat(2,88px)}
+  .florim-page .tone-catalog .florim-type-switch button.florim-category-tab{min-height:88px;padding:10px 12px}
+  .florim-page .tone-catalog .florim-type-switch button.florim-category-tab+button.florim-category-tab{border-top:1px solid rgba(41,39,35,.18);border-left:0}
+  .florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy{gap:5px}
+  .florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy strong{font-size:clamp(22px,5.8vw,27px)}
+  .florim-page .tone-catalog .florim-type-switch .florim-category-tab__meta{font-size:10px}
+  .florim-page .tone-catalog .florim-type-switch__indicator{top:auto;bottom:0;width:100%;height:2px}
+  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="stone"] .florim-type-switch__indicator{transform:translateY(-88px)}
+  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="ceramiche"] .florim-type-switch__indicator{transform:translateY(0)}
+}
+@media(prefers-reduced-motion:reduce){
+  .florim-page .tone-catalog .florim-type-switch button.florim-category-tab,.florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy strong,.florim-page .tone-catalog .florim-type-switch__indicator,.florim-page #toneProductPanel .tone-product-grid{transition:none}
+}
+
+/* Awards carousel: editorial surfaces, native scrolling and restrained controls. */
+.florim-awards{overflow:hidden}
+.florim-awards__toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;max-width:1440px;margin:0 auto 18px}
+.florim-awards__position{margin:0;color:#756248;font:600 10px/1 var(--sans,Arial,sans-serif);letter-spacing:.14em}
+.florim-awards__position span:first-child{font-size:13px;color:#292723}
+.florim-awards__controls{display:flex;gap:8px}
+.florim-awards__controls button{display:grid;place-items:center;width:42px;height:42px;border:1px solid rgba(41,39,35,.36);border-radius:50%;background:transparent;color:#292723;font:400 17px/1 var(--sans,Arial,sans-serif);cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.florim-awards__controls button:hover:not(:disabled){border-color:#756248;background:#292723;color:#f4f1eb}
+.florim-awards__controls button:focus-visible,.florim-awards__viewport:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-awards__controls button:disabled{opacity:.36;cursor:default}
+.florim-awards__viewport{max-width:1440px;margin:0 auto;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain;touch-action:pan-x pan-y;cursor:grab;scrollbar-width:none;-ms-overflow-style:none}
+.florim-awards__viewport::-webkit-scrollbar{display:none}
+.florim-awards__viewport.is-dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.florim-awards__track{display:flex;align-items:stretch;gap:clamp(16px,2vw,28px);width:max-content;padding:3px 1px 8px}
+.florim-award-card{flex:0 0 clamp(340px,46vw,650px);min-width:0;scroll-snap-align:start;background:#f4f1eb;color:#292723}
+.florim-award-card{position:relative}.florim-award-card__detail-link{position:absolute;z-index:1;inset:0;display:block;color:inherit;text-decoration:none}.florim-award-card__copy>a{position:relative;z-index:2}.florim-award-card__detail-link:focus-visible{outline:3px solid #92764f;outline-offset:3px}
+
+.florim-award-card__image{position:relative;aspect-ratio:1.67;overflow:hidden;background:#d7d0c4}
+.florim-award-card__image:after{position:absolute;inset:0;border:1px solid rgba(41,39,35,.06);content:"";pointer-events:none}
+.florim-award-card__image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+@media(hover:hover){.florim-award-card:hover .florim-award-card__image img{transform:scale(1.025)}}
+.florim-award-card__number{position:absolute;left:16px;top:16px;z-index:1;display:grid;place-items:center;width:34px;height:34px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:rgba(35,34,31,.22);color:#fff;font:500 9px var(--sans,Arial,sans-serif);letter-spacing:.1em;backdrop-filter:blur(5px)}
+.florim-award-card__stamp{position:absolute;right:16px;top:16px;padding:10px 12px;background:#f4f1eb;color:#756248;font:600 8px var(--sans,Arial,sans-serif);letter-spacing:.13em}
+.florim-award-card__copy{display:flex;min-height:218px;flex-direction:column;align-items:flex-start;padding:22px clamp(20px,2.6vw,34px) 24px}
+.florim-award-card__eyebrow{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;width:100%;margin:0 0 12px;color:#756248;font:600 9px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.13em}
+.florim-award-card__eyebrow span{color:#8d887e;white-space:nowrap}
+.florim-award-card__copy h3{margin:0 0 8px;font:400 clamp(32px,3.2vw,43px)/1 var(--serif,Georgia,serif);letter-spacing:-.02em}
+.florim-award-card__copy>p:not(.florim-award-card__eyebrow){max-width:490px;margin:0;color:#625e57;font:400 12px/1.75 var(--sans,Arial,sans-serif)}
+.florim-award-card__copy>a{display:inline-flex;align-items:center;gap:14px;margin-top:auto;padding-top:18px;color:#514b42;text-decoration:none;font:600 9px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.1em;text-transform:uppercase}
+.florim-award-card__copy>a span{color:#92764f;font-size:15px;transition:transform .2s ease}
+.florim-award-card__copy>a:hover{color:#92764f}
+.florim-award-card__copy>a:hover span{transform:translate(2px,-2px)}
+.florim-award-card__copy>a:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-awards__progress{height:1px;max-width:1440px;margin:21px auto 0;background:rgba(41,39,35,.2)}
+.florim-awards__progress span{display:block;width:16.6667%;height:2px;background:#756248;transform-origin:left center;transition:transform .35s ease}
+@media(max-width:760px){.florim-awards{padding-right:0;padding-left:20px}.florim-awards .florim-editorial-showcase__heading,.florim-awards__toolbar,.florim-awards__progress{margin-right:20px}.florim-awards__toolbar{margin-bottom:14px}.florim-awards__controls button{width:38px;height:38px}.florim-awards__viewport{margin-right:0;padding-right:20px}.florim-awards__track{gap:14px;padding-right:20px}.florim-award-card{flex-basis:min(86vw,520px)}.florim-award-card__image{aspect-ratio:1.28}.florim-award-card__copy{min-height:220px;padding:19px 20px 21px}.florim-award-card__copy h3{font-size:36px}.florim-awards__progress{margin-top:17px}}
+@media(max-width:420px){.florim-award-card{flex-basis:84vw}.florim-award-card__image{aspect-ratio:1.2}.florim-award-card__copy{min-height:232px}.florim-award-card__eyebrow{font-size:8px;letter-spacing:.1em}}
+@media(prefers-reduced-motion:reduce){.florim-awards__viewport{scroll-behavior:auto}.florim-award-card__image img,.florim-award-card__copy>a span,.florim-awards__controls button,.florim-awards__progress span{transition:none}}
+.florim-request-options{padding:clamp(38px,5vw,68px) clamp(24px,10vw,150px) clamp(66px,8vw,104px);background:#e9e5dc;color:#292723}
+.florim-request-options__intro{max-width:1320px;margin:0 auto 24px}
+.florim-request-options__intro h2{margin:12px 0 8px;font:400 clamp(34px,4.5vw,56px)/.98 var(--serif,Georgia,serif);letter-spacing:-.02em}
+.florim-request-options__intro>p:last-child{margin:0;color:#625e57;font:400 12px/1.75 var(--sans,Arial,sans-serif)}
+.florim-request-options__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(14px,2vw,24px);max-width:1320px;margin:0 auto}
+.florim-request-card{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);min-width:0;min-height:270px;padding:0;border:1px solid rgba(41,39,35,.2);background:#f4f1eb;color:#292723;text-align:left;cursor:pointer;transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,background .3s}
+.florim-request-card__image{display:block;min-width:0;min-height:100%;overflow:hidden;background:#d9d2c6}
+.florim-request-card__image img{display:block;width:100%;height:100%;min-height:270px;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.florim-request-card__copy{display:flex;min-width:0;flex-direction:column;align-items:flex-start;padding:clamp(19px,2.4vw,32px)}
+.florim-request-card__copy>small{color:#756248;font:600 8px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.15em}
+.florim-request-card__copy>strong{display:block;margin:17px 0 10px;font:400 clamp(25px,2.7vw,36px)/.98 var(--serif,Georgia,serif);letter-spacing:-.015em}
+.florim-request-card__description{color:#625e57;font:400 11px/1.75 var(--sans,Arial,sans-serif)}
+.florim-request-card__action{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;margin-top:auto;padding-top:15px;border-top:1px solid rgba(41,39,35,.2);color:#514b42;font:600 8px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.12em;text-transform:uppercase}
+.florim-request-card__action b{color:#92764f;font-size:17px;font-weight:400;transition:transform .25s ease}
+@media(hover:hover){.florim-request-card:hover{transform:translateY(-3px);border-color:#92764f;background:#f8f6f1}.florim-request-card:hover .florim-request-card__image img{transform:scale(1.035)}.florim-request-card:hover .florim-request-card__action b{transform:translateX(4px)}}
+.florim-request-card:focus-visible,.florim-request-dialog__close:focus-visible{outline:3px solid #92764f;outline-offset:4px}
+.florim-request-dialog{width:min(980px,calc(100vw - 32px));max-width:none;max-height:min(90dvh,900px);padding:0;border:1px solid rgba(41,39,35,.24);background:#e9e5dc;color:#292723;overflow:auto}
+.florim-request-dialog::backdrop{background:rgba(24,24,22,.72);backdrop-filter:blur(4px)}
+.florim-request-dialog__close{position:sticky;z-index:5;top:12px;display:grid;place-items:center;width:38px;height:38px;margin:12px 12px -50px auto;border:1px solid rgba(41,39,35,.28);border-radius:50%;background:#f4f1eb;color:#292723;font:300 25px/1 var(--sans,Arial,sans-serif);cursor:pointer}
+.florim-request-dialog .florim-sample-request{margin:0;padding:58px clamp(22px,5vw,58px) 40px;background:#e9e5dc}
+@media(max-width:760px){.florim-request-options{padding:38px 20px 62px}.florim-request-options__grid{grid-template-columns:1fr;gap:14px}.florim-request-card{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);min-height:230px}.florim-request-card__image img{min-height:230px}.florim-request-card__copy{padding:19px}.florim-request-card__copy>strong{font-size:clamp(26px,6vw,34px)}.florim-request-dialog{width:calc(100vw - 18px);max-height:94dvh}.florim-request-dialog .florim-sample-request{grid-template-columns:1fr;gap:22px;padding:60px 20px 25px}.florim-request-dialog .florim-request-fields{grid-template-columns:1fr}.florim-request-dialog .florim-request-fields__wide{grid-column:auto}.florim-request-dialog .florim-sample-request fieldset{grid-template-columns:1fr}}
+@media(max-width:420px){.florim-request-card{grid-template-columns:minmax(0,.62fr) minmax(0,1.38fr);min-height:220px}.florim-request-card__image img{min-height:220px}.florim-request-card__copy{padding:15px}.florim-request-card__copy>strong{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.florim-request-card,.florim-request-card__image img,.florim-request-card__action b{transition:none!important}.florim-request-card:hover{transform:none}}
+/* Florim brand-separated catalogs, technical actions and care guide */
+.florim-catalogs{padding:clamp(66px,8vw,112px) clamp(24px,10vw,150px);background:#e9e5dc;color:#292723}
+.florim-catalogs__heading{max-width:1320px;margin:0 auto clamp(25px,4vw,44px)}
+.florim-catalogs__heading h2{margin:12px 0 12px;font:400 clamp(42px,5.4vw,72px)/.95 var(--serif,Georgia,serif);letter-spacing:-.03em}
+.florim-catalogs__heading>p:last-child{max-width:700px;color:#625e57;font:400 13px/1.8 var(--sans,Arial,sans-serif)}
+.florim-document-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,26px);max-width:1320px;margin:0 auto}
+.florim-document-card{display:grid;grid-template-columns:minmax(145px,.72fr) minmax(0,1.28fr);min-width:0;background:#f4f1eb}
+.florim-document-card__visual{position:relative;display:flex;min-height:360px;align-items:flex-end;overflow:hidden;background:#ded9cf}
+.florim-document-card__visual>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.florim-document-card__visual>span:last-child{position:relative;z-index:1;margin:16px;color:white;font:600 8px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.16em;text-shadow:0 1px 8px rgba(0,0,0,.7)}
+.florim-document-card__visual--type{flex-direction:column;align-items:center;justify-content:center;background:#d7d1c6;color:#37352f}
+.florim-document-card__monogram{font:400 clamp(31px,3.5vw,52px)/.95 var(--serif,Georgia,serif);letter-spacing:.03em;text-align:center}
+.florim-document-card__monogram b{font-size:1.35em;font-weight:400}
+.florim-document-card__visual--type>span:last-child{color:#756248;text-shadow:none}
+.florim-document-card__copy{align-self:center;min-width:0;padding:clamp(20px,3vw,38px)}
+.florim-document-card__copy h3{margin:10px 0;font:400 clamp(28px,3vw,42px)/.98 var(--serif,Georgia,serif);letter-spacing:-.02em}
+.florim-document-card__copy>p:not(.eyebrow){color:#625e57;font:400 12px/1.8 var(--sans,Arial,sans-serif)}
+.florim-document-card__actions{display:flex;flex-wrap:wrap;gap:12px 20px;margin-top:21px}
+.florim-document-card__actions a{display:inline-flex;align-items:center;gap:10px;padding-bottom:7px;border-bottom:1px solid #aa9b83;color:#292723;font:600 9px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.1em;text-decoration:none;text-transform:uppercase}
+.florim-document-card__actions a span{color:#92764f;font-size:14px}
+.florim-document-preview{margin-top:20px;border-top:1px solid rgba(41,39,35,.18)}
+.florim-document-preview summary{padding:13px 0;color:#625e57;font:600 9px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.08em;cursor:pointer}
+.florim-document-preview iframe{display:block;width:100%;height:420px;border:1px solid rgba(41,39,35,.15);background:white}
+.florim-document-preview summary:focus-visible,.florim-care-guide summary:focus-visible,.florim-page-action:focus-visible{outline:2px solid #92764f;outline-offset:4px}
+.florim-page-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:1320px;margin:clamp(25px,4vw,44px) auto 0;border-top:1px solid rgba(41,39,35,.2);border-bottom:1px solid rgba(41,39,35,.2)}
+.florim-page-action{position:relative;display:flex;min-width:0;min-height:112px;flex-direction:column;justify-content:center;gap:8px;padding:19px 44px 19px 18px;border-right:1px solid rgba(41,39,35,.18);color:#292723;text-decoration:none;transition:background .2s ease}
+.florim-page-action:last-child{border-right:0}
+.florim-page-action small{color:#756248;font:600 8px/1.4 var(--sans,Arial,sans-serif);letter-spacing:.14em}
+.florim-page-action strong{font:400 clamp(19px,2vw,27px)/1.05 var(--serif,Georgia,serif)}
+.florim-page-action>span{position:absolute;right:17px;top:50%;color:#92764f;font:400 18px/1 var(--sans,Arial,sans-serif);transform:translateY(-50%);transition:transform .2s ease}
+.florim-page-action:hover{background:rgba(255,255,255,.45)}
+.florim-page-action:hover>span{transform:translate(3px,-50%)}
+.florim-catalogs__note{max-width:1320px;margin:16px auto 0;color:#716c63;font:400 10px/1.7 var(--sans,Arial,sans-serif)}
+.florim-care-guide{display:grid;grid-template-columns:minmax(240px,.72fr) minmax(0,1.28fr);gap:clamp(34px,7vw,100px);padding:clamp(72px,9vw,124px) clamp(24px,10vw,150px);background:#f4f1eb;color:#292723}
+.florim-care-guide__intro{position:sticky;top:30px;align-self:start;max-width:440px}
+.florim-care-guide__intro h2{margin:14px 0 16px;font:400 clamp(42px,5.2vw,68px)/.95 var(--serif,Georgia,serif);letter-spacing:-.03em}
+.florim-care-guide__intro>p:last-child{color:#625e57;font:400 12px/1.85 var(--sans,Arial,sans-serif)}
+.florim-care-guide__items{min-width:0;border-top:1px solid rgba(41,39,35,.22)}
+.florim-care-guide__items details{border-bottom:1px solid rgba(41,39,35,.22)}
+.florim-care-guide__items summary{display:grid;grid-template-columns:34px minmax(0,1fr) 20px;align-items:center;gap:12px;padding:20px 0;list-style:none;cursor:pointer}
+.florim-care-guide__items summary::-webkit-details-marker{display:none}
+.florim-care-guide__items summary>span{color:#76684f;font:500 9px/1 var(--sans,Arial,sans-serif);letter-spacing:.12em}
+.florim-care-guide__items summary strong{font:400 clamp(20px,2vw,27px)/1.1 var(--serif,Georgia,serif)}
+.florim-care-guide__items summary:after{content:"+";color:#92764f;font:300 19px/1 var(--sans,Arial,sans-serif);text-align:right}
+.florim-care-guide__items details[open] summary:after{content:"−"}
+.florim-care-guide__items details>div{padding:0 32px 18px 46px}
+.florim-care-guide__items details p{margin:0;color:#625e57;font:400 12px/1.85 var(--sans,Arial,sans-serif)}
+.florim-care-guide__source{grid-column:2;margin:0;color:#716c63;font:400 10px/1.75 var(--sans,Arial,sans-serif)}
+@media(hover:hover){.florim-page-action:hover{background:rgba(255,255,255,.45)}}
+@media(max-width:1050px){.florim-document-grid{grid-template-columns:1fr}.florim-document-card__visual{min-height:340px}.florim-care-guide{grid-template-columns:minmax(210px,.65fr) minmax(0,1.35fr);gap:35px}.florim-page-actions{grid-template-columns:1fr 1fr}.florim-page-action:nth-child(2){border-right:0}.florim-page-action:last-child{grid-column:1/-1;border-top:1px solid rgba(41,39,35,.18)}}
+@media(max-width:760px){.florim-catalogs{padding:58px 20px}.florim-catalogs__heading h2{font-size:clamp(40px,11vw,56px)}.florim-document-card{grid-template-columns:minmax(100px,.58fr) minmax(0,1.42fr)}.florim-document-card__visual{min-height:275px}.florim-document-card__copy{padding:19px}.florim-document-card__copy h3{font-size:clamp(27px,7vw,36px)}.florim-document-preview iframe{height:360px}.florim-page-actions{grid-template-columns:1fr}.florim-page-action{min-height:82px;border-right:0;border-bottom:1px solid rgba(41,39,35,.18)}.florim-page-action:nth-child(2){border-bottom:1px solid rgba(41,39,35,.18)}.florim-page-action:last-child{grid-column:auto;border-top:0;border-bottom:0}.florim-care-guide{grid-template-columns:1fr;gap:26px;padding:62px 22px}.florim-care-guide__intro{position:static}.florim-care-guide__intro h2{font-size:clamp(42px,11vw,56px)}.florim-care-guide__source{grid-column:auto}.florim-care-guide__items summary{grid-template-columns:28px minmax(0,1fr) 18px;gap:8px;padding:17px 0}.florim-care-guide__items details>div{padding:0 20px 17px 36px}}
+@media(max-width:420px){.florim-document-card{grid-template-columns:1fr}.florim-document-card__visual{min-height:200px;max-height:240px}.florim-document-card__visual--type{min-height:180px}.florim-document-preview iframe{height:310px}.florim-care-guide__items summary strong{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.florim-page-action,.florim-page-action>span{transition:none}}
+.florim-request-options__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.florim-request-types{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;border:0;border-top:1px solid rgba(41,39,35,.18);padding:14px 0 0}
+.florim-request-types legend{padding:0 0 10px;font:500 10px/1.5 var(--sans,Arial,sans-serif)}
+.florim-request-types label{display:flex;align-items:center;gap:8px;min-width:0;font:400 11px/1.5 var(--sans,Arial,sans-serif)}
+.florim-request-types input{accent-color:#92764f}
+@media(max-width:760px){.florim-request-options__grid{grid-template-columns:1fr}.florim-request-dialog .florim-request-types{grid-template-columns:1fr}}
+
+/* Compact links to the two local Florim care PDFs. */
+.florim-care-guide__documents{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:22px;padding-top:13px;border-top:1px solid rgba(41,39,35,.18)}
+.florim-care-guide__documents a{display:inline-flex;align-items:center;gap:9px;padding:5px 0;color:#51483b;text-decoration:none;font:600 10px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.035em}
+.florim-care-guide__documents a span{color:#76684f;font-size:14px}
+.florim-care-guide__documents a:hover{color:#76684f}
+.florim-care-guide__documents a:focus-visible{outline:2px solid #76684f;outline-offset:4px}
+@media(max-width:420px){.florim-care-guide__documents{gap:5px 20px;margin-top:16px}}
+/* Florim inquiry dialog: consistent labels, controls and spacing. */
+.florim-request-dialog{width:min(1040px,calc(100vw - 40px));max-height:min(92dvh,900px);overscroll-behavior:contain}
+.florim-request-dialog .florim-sample-request{grid-template-columns:minmax(250px,.76fr) minmax(0,1.24fr);align-items:start;gap:clamp(30px,4.5vw,64px);padding:clamp(42px,5vw,62px) clamp(30px,5vw,68px) clamp(30px,4vw,48px)}
+.florim-request-dialog .florim-sample-request h2{max-width:360px;margin:12px 0 17px;font-size:clamp(42px,4.5vw,58px);line-height:.96}
+.florim-request-dialog .florim-sample-request>div:first-child>p:last-child{max-width:340px;margin:0;color:#5e5a52;font:400 12px/1.8 var(--sans,Arial,sans-serif)}
+.florim-request-dialog .florim-sample-request form{gap:14px}
+.florim-request-dialog .florim-request-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 15px}
+.florim-request-dialog .florim-sample-request label{align-content:start;gap:7px;color:#514b42;font:500 10px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.015em}
+.florim-request-dialog .florim-field-label{display:flex;align-items:baseline;gap:4px;min-height:16px;color:#514b42;font:500 10px/1.5 var(--sans,Arial,sans-serif);letter-spacing:.015em}
+.florim-request-dialog .florim-field-label>span{color:#8c5d43;font-size:10px}
+.florim-request-dialog .florim-field-label em{color:#777166;font:400 10px/1.5 var(--sans,Arial,sans-serif);letter-spacing:0}
+.florim-request-dialog .florim-sample-request input:not([type="radio"]),.florim-request-dialog .florim-sample-request textarea{min-height:48px;padding:12px 13px;border-color:#c9c2b6;background:#faf9f6;font:400 13px/1.5 var(--sans,Arial,sans-serif)}
+.florim-request-dialog .florim-sample-request input:focus-visible,.florim-request-dialog .florim-sample-request textarea:focus-visible{outline:2px solid #76684f;outline-offset:2px;border-color:#76684f}
+.florim-request-dialog .florim-sample-request textarea{min-height:96px;resize:vertical}
+.florim-request-dialog .florim-request-types{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:12px 0 0}
+.florim-request-dialog .florim-request-types legend{padding:0 8px 0 0;color:#514b42;font:500 10px/1.5 var(--sans,Arial,sans-serif)}
+.florim-request-dialog .florim-request-types label{display:flex;align-items:center;gap:8px;min-height:36px;padding:7px 9px;border:1px solid rgba(41,39,35,.12);background:rgba(250,249,246,.65);font:400 10px/1.4 var(--sans,Arial,sans-serif);cursor:pointer}
+.florim-request-dialog .florim-request-types input{flex:0 0 16px;width:16px;height:16px;min-height:16px;margin:0;accent-color:#76684f}
+.florim-request-dialog .florim-request-types label:focus-within{outline:2px solid #76684f;outline-offset:2px}
+.florim-request-dialog .florim-sample-request .contact-submit{min-height:52px;margin-top:4px}
+.florim-request-dialog .florim-sample-request .contact-submit:disabled{background:#81745f;border-color:#81745f;opacity:.72}
+.florim-request-dialog .florim-sample-request .form-feedback{padding:12px 14px;font-size:11px;line-height:1.65}
+.florim-request-dialog__close{margin:12px 12px -50px auto}
+@media(max-width:760px){.florim-request-dialog{width:calc(100vw - 24px);max-height:94dvh}.florim-request-dialog .florim-sample-request{grid-template-columns:minmax(0,1fr);gap:24px;padding:58px 24px 26px}.florim-request-dialog .florim-sample-request h2{font-size:clamp(40px,10vw,52px)}.florim-request-dialog .florim-request-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px}.florim-request-dialog .florim-request-types{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.florim-request-dialog{width:calc(100vw - 16px);max-height:96dvh}.florim-request-dialog .florim-sample-request{gap:20px;padding:55px 17px 22px}.florim-request-dialog .florim-request-fields{grid-template-columns:minmax(0,1fr);gap:13px}.florim-request-dialog .florim-request-types{grid-template-columns:minmax(0,1fr)}.florim-request-dialog .florim-sample-request textarea{min-height:88px}.florim-request-dialog__close{width:36px;height:36px;margin:10px 10px -46px auto}}
+@media(prefers-reduced-motion:reduce){.florim-request-dialog *{scroll-behavior:auto}}
+
+/* Align the Florim breadcrumb with the product-section content gutter. */
+.florim-page .seo-breadcrumb{max-width:none;margin:0;padding:14px clamp(22px,8vw,120px)}
+@media(max-width:700px){.florim-page .seo-breadcrumb{padding:14px 20px}}

@@ -2,14 +2,16 @@ const PATH = "/api/contact";
 const RECIPIENT = "info@bekamar.com";
 const MAX_BODY_BYTES = 16 * 1024;
 const MAX_TOKEN_LENGTH = 2048;
-const MAX_FIELD_LENGTHS = Object.freeze({ name: 100, email: 254, phone: 40, topic: 80, message: 5000 });
+const MAX_FIELD_LENGTHS = Object.freeze({ name: 120, email: 254, phone: 40, topic: 80, message: 5000, company: 120, product: 160, requestType: 80 });
 const ALLOWED_TOPICS = new Set([
   "Doğal taş ürünleri",
   "Proje ve fiyat teklifi",
   "Showroom ziyareti",
   "Bayilik ve iş ortaklığı",
   "Diğer",
+  "Katalog / Numune talebi",
 ]);
+const ALLOWED_REQUEST_TYPES = new Set(["Katalog talebi", "Numune talebi", "Katalog talebi, Numune talebi"]);
 const DEFAULT_ORIGINS = new Set(["https://bekamar.com", "https://www.bekamar.com"]);
 
 function json(data, status, headers = {}) {
@@ -50,9 +52,10 @@ function validEmail(value) {
 
 function validateFields(input) {
   if (!input || typeof input !== "object" || Array.isArray(input)) return null;
-  const allowedKeys = new Set(["name", "email", "phone", "topic", "message", "turnstileToken"]);
+  const allowedKeys = new Set(["name", "email", "phone", "topic", "message", "company", "product", "requestType", "turnstileToken"]);
   if (Object.keys(input).some(key => !allowedKeys.has(key))) return null;
   if (["name", "email", "topic", "message", "turnstileToken"].some(key => typeof input[key] !== "string")) return null;
+  if (["company", "product", "requestType"].some(key => input[key] !== undefined && typeof input[key] !== "string")) return null;
 
   const fields = {
     name: cleanSingleLine(input.name),
@@ -60,10 +63,15 @@ function validateFields(input) {
     phone: typeof input.phone === "string" ? cleanSingleLine(input.phone) : "",
     topic: cleanSingleLine(input.topic),
     message: cleanMessage(input.message),
+    company: cleanSingleLine(input.company || ""),
+    product: cleanSingleLine(input.product || ""),
+    requestType: cleanSingleLine(input.requestType || ""),
     turnstileToken: input.turnstileToken,
   };
   if (Object.entries(MAX_FIELD_LENGTHS).some(([key, limit]) => fields[key].length > limit)) return null;
   if (fields.name.length < 2 || !validEmail(fields.email) || !ALLOWED_TOPICS.has(fields.topic) || fields.message.length < 2) return null;
+  if (fields.topic === "Katalog / Numune talebi" && !ALLOWED_REQUEST_TYPES.has(fields.requestType)) return null;
+  if (fields.topic !== "Katalog / Numune talebi" && fields.requestType) return null;
   if (!fields.turnstileToken.trim() || fields.turnstileToken.length > MAX_TOKEN_LENGTH) return null;
   return fields;
 }
@@ -148,6 +156,9 @@ async function sendEmail(fields, env) {
     `E-posta: ${fields.email}`,
     `Telefon: ${fields.phone || "Belirtilmedi"}`,
     `Konu: ${fields.topic}`,
+    ...(fields.requestType ? [`Talep t\u00fcr\u00fc: ${fields.requestType}`] : []),
+    ...(fields.company ? [`Firma: ${fields.company}`] : []),
+    ...(fields.product ? [`\u0130lgilenilen \u00fcr\u00fcn / koleksiyon: ${fields.product}`] : []),
     "",
     "Mesaj:",
     fields.message,
@@ -216,3 +227,4 @@ export default {
     return json({ ok: true }, 200, cors);
   },
 };
+

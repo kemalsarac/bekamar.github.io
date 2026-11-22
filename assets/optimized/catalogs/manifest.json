@@ -1,0 +1,152 @@
+{
+  "images": [
+    {
+      "source": "assets/oblio-önizleme.png",
+      "sourceBytes": 653845,
+      "output": "assets/optimized/catalogs/oblio-catalog-preview.webp",
+      "outputBytes": 64620,
+      "width": 486,
+      "height": 765,
+      "format": "WebP"
+    },
+    {
+      "source": "assets/superfıcı-önizleme.png",
+      "sourceBytes": 484922,
+      "output": "assets/optimized/catalogs/superfici-di-incontro-catalog-preview.webp",
+      "outputBytes": 71980,
+      "width": 648,
+      "height": 830,
+      "format": "WebP"
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "assets/Cat_Neutra 6.0.pdf",
+      "sourceBytes": 9291289,
+      "outputBytes": 6908768,
+      "pages": 59,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/2026-T-One-Katalog.pdf",
+      "sourceBytes": 10984065,
+      "outputBytes": 9319989,
+      "pages": 136,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/bekamar-katalog-2020.pdf",
+      "sourceBytes": 21810168,
+      "outputBytes": 21810168,
+      "pages": 40,
+      "optimized": false,
+      "method": "Already efficient; retained unchanged"
+    },
+    {
+      "path": "assets/catalog/bekamar-mimari-catalogue-2020.pdf",
+      "sourceBytes": 16898636,
+      "outputBytes": 16898636,
+      "pages": 60,
+      "optimized": false,
+      "method": "Already efficient; retained unchanged"
+    },
+    {
+      "path": "assets/catalog/calisco-digital-katalog.pdf",
+      "sourceBytes": 18159481,
+      "outputBytes": 18159481,
+      "pages": 32,
+      "optimized": false,
+      "method": "Already efficient; retained unchanged"
+    },
+    {
+      "path": "assets/catalog/CATALOGO florim stone 05_2026.pdf",
+      "sourceBytes": 33495170,
+      "outputBytes": 27654362,
+      "pages": 122,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/cimstone-katalog.pdf",
+      "sourceBytes": 5322728,
+      "outputBytes": 5044081,
+      "pages": 42,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/kale/fold-pro-set-teknik-cizim-1590.pdf",
+      "sourceBytes": 237989,
+      "outputBytes": 237507,
+      "pages": 1,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/kale/fold-pro-set-teknik-cizim-1591.pdf",
+      "sourceBytes": 237071,
+      "outputBytes": 236587,
+      "pages": 1,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/kale/fold-pro-set-teknik-cizim-1592.pdf",
+      "sourceBytes": 241860,
+      "outputBytes": 241375,
+      "pages": 1,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/kale/fold-pro-set-teknik-cizim-1593.pdf",
+      "sourceBytes": 241221,
+      "outputBytes": 240733,
+      "pages": 1,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/catalog/kale/zero-2-0-lavabo-teknik-cizim-688.pdf",
+      "sourceBytes": 202455,
+      "outputBytes": 201976,
+      "pages": 1,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/florim-seramik-bakım-kılavuzu.pdf",
+      "sourceBytes": 7672674,
+      "outputBytes": 7558552,
+      "pages": 10,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/florim-stone-bakım-kılavuzu.pdf",
+      "sourceBytes": 348382,
+      "outputBytes": 329034,
+      "pages": 2,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    },
+    {
+      "path": "assets/oblıo.pdf",
+      "sourceBytes": 11311481,
+      "outputBytes": 6208918,
+      "pages": 12,
+      "optimized": true,
+      "method": "Image downsampling and PDF cleanup"
+    },
+    {
+      "path": "assets/Superficid’incontro.pdf",
+      "sourceBytes": 7565856,
+      "outputBytes": 7161687,
+      "pages": 98,
+      "optimized": true,
+      "method": "Lossless PDF object cleanup"
+    }
+  ]
+}

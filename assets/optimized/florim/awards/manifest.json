@@ -1,0 +1,136 @@
+{
+  "rinascenza-award": {
+    "source": "assets/rinescanza_odul.webp",
+    "width": 1200,
+    "height": 800,
+    "sourceBytes": 166326,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/rinascenza-award-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 91360
+      },
+      {
+        "path": "assets/optimized/florim/awards/rinascenza-award-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 166326
+      }
+    ]
+  },
+  "formatech": {
+    "source": "assets/formatech.jpg",
+    "width": 3840,
+    "height": 2532,
+    "sourceBytes": 1210237,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/formatech-800.webp",
+        "width": 800,
+        "height": 528,
+        "bytes": 41146
+      },
+      {
+        "path": "assets/optimized/florim/awards/formatech-1600.webp",
+        "width": 1600,
+        "height": 1055,
+        "bytes": 164264
+      }
+    ]
+  },
+  "sensietna": {
+    "source": "assets/sensietna.jpg",
+    "width": 1296,
+    "height": 860,
+    "sourceBytes": 177963,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/sensietna-800.webp",
+        "width": 800,
+        "height": 531,
+        "bytes": 73290
+      },
+      {
+        "path": "assets/optimized/florim/awards/sensietna-1296.webp",
+        "width": 1296,
+        "height": 860,
+        "bytes": 183596
+      }
+    ]
+  },
+  "segnature-cedit": {
+    "source": "assets/Segnature – CEDIT.jpg",
+    "width": 3840,
+    "height": 2559,
+    "sourceBytes": 1138052,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/segnature-cedit-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 72728
+      },
+      {
+        "path": "assets/optimized/florim/awards/segnature-cedit-1600.webp",
+        "width": 1600,
+        "height": 1066,
+        "bytes": 268414
+      }
+    ]
+  },
+  "sensi": {
+    "source": "assets/sensi.webp",
+    "width": 4096,
+    "height": 2730,
+    "sourceBytes": 2692290,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/sensi-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 111492
+      },
+      {
+        "path": "assets/optimized/florim/awards/sensi-1600.webp",
+        "width": 1600,
+        "height": 1066,
+        "bytes": 453506
+      }
+    ]
+  },
+  "sensiterra": {
+    "source": "assets/sensiterra.jpg",
+    "width": 1600,
+    "height": 900,
+    "sourceBytes": 214732,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/sensiterra-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 71068
+      },
+      {
+        "path": "assets/optimized/florim/awards/sensiterra-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 179496
+      }
+    ]
+  },
+  "florim-stone-award": {
+    "source": "assets/florim-ürünler/florim görseller 12 mm/Stone/784098_stone lucania_1024x768.jpg",
+    "width": 384,
+    "height": 768,
+    "sourceBytes": 69866,
+    "webp": [
+      {
+        "path": "assets/optimized/florim/awards/florim-stone-award-384.webp",
+        "width": 384,
+        "height": 768,
+        "bytes": 42840
+      }
+    ]
+  }
+}

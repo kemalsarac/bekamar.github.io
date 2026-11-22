@@ -74,7 +74,7 @@
 .blog-count span{color:#292826}
 .blog-count i{width:28px;height:1px;background:#b8ad9a}
 .blog-contact{position:relative;isolation:isolate;display:flex;align-items:flex-end;justify-content:space-between;gap:40px;min-height:300px;padding:58px var(--gutter) 62px;overflow:hidden;background:#211f1c;color:#f2f0ea}
-.blog-contact::before{position:absolute;z-index:-1;inset:0;content:"";background:linear-gradient(90deg,rgba(24,23,21,.96),rgba(24,23,21,.82)),url('../assets/images/dogaltaslar.png') center 48%/cover;opacity:.9}
+.blog-contact::before{position:absolute;z-index:-1;inset:0;content:"";background:linear-gradient(90deg,rgba(24,23,21,.96),rgba(24,23,21,.82)),url('../assets/optimized/site/dogaltaslar-1366.webp') center 48%/cover;opacity:.9}
 .blog-contact h2{font-size:clamp(48px,6vw,78px);line-height:.88;letter-spacing:-.03em}
 .blog-contact__copy{max-width:320px;padding-bottom:4px}
 .blog-contact__copy p{margin:0 0 22px;color:rgba(242,240,234,.78);font:400 13px/1.8 var(--sans)}
