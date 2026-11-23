@@ -31,6 +31,33 @@
 .tone-product-card__image{position:relative;display:grid;width:75%;margin-inline:auto;place-items:center;overflow:hidden;aspect-ratio:3/4;background:#22211f}
 .tone-product-card__image img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
 .tone-product-card:hover .tone-product-card__image img,.tone-product-card:focus-visible .tone-product-card__image img{transform:scale(1.035)}
+:is(.calisco-page,.cimstone-page) :is(.tone-product-card__image,.tone-detail__image-button,.tone-lightbox [data-kind="product"] picture){aspect-ratio:290/502}
+:is(.calisco-page,.cimstone-page) .tone-detail__image-button{
+  position:relative;
+  max-width:calc(70vh * 290 / 502);
+  margin-inline:auto;
+  overflow:hidden;
+}
+:is(.calisco-page,.cimstone-page) .tone-lightbox [data-kind="product"] picture{
+  position:relative;
+  display:block;
+  width:min(100%,calc(70vh * 290 / 502));
+  margin-inline:auto;
+  overflow:hidden;
+}
+/* Swap the swatch dimensions before rotating so the full slab fills its portrait frame. */
+:is(.calisco-page,.cimstone-page) :is(.tone-product-card__image img,.tone-detail__main,.tone-lightbox [data-kind="product"] img){
+  position:absolute;
+  inset:50% auto auto 50%;
+  width:calc(100% * 502 / 290);
+  height:calc(100% * 290 / 502);
+  max-height:none;
+  translate:-50% -50%;
+  rotate:90deg;
+}
+@media(max-width:680px){
+  :is(.calisco-page,.cimstone-page) .tone-detail__image-button{max-width:calc(52vh * 290 / 502)}
+}
 .tone-product-card__meta{display:flex;width:75%;align-items:center;justify-content:space-between;gap:8px;margin:0 auto;padding-top:14px}
 .tone-product-card__name{margin:0;font:400 clamp(14px,1.2vw,17px)/1.1 var(--serif)}
 .tone-product-card__link{flex:none;color:#c9bba8;font:500 7px var(--sans);letter-spacing:.1em;text-transform:uppercase}

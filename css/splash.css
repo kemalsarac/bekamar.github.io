@@ -15,6 +15,10 @@ html.splash-pending .brand-splash{display:flex}
 .brand-splash.is-tagline-visible .brand-splash__tagline{opacity:1;transform:translate(-50%,0)}
 .brand-splash.is-tagline-leaving .brand-splash__tagline{opacity:0;transform:translate(-50%,-5px)}
 body.splash-active .site-header .brand{visibility:hidden}
+.home-page .brand-splash{transition-duration:500ms}
+.home-page .brand-splash:not(.is-leaving){opacity:1}
+.home-page .brand-splash__group.is-visible .brand-splash__wordmark{animation-timing-function:cubic-bezier(.4,0,.2,1)}
+.home-page .brand-splash__tagline{transition:opacity 650ms ease-in-out,transform 650ms cubic-bezier(.22,1,.36,1)}
 @media(max-width:860px){.brand-splash__group{width:clamp(258px,64vw,370px)}}
 @media(max-width:480px){.brand-splash__group{width:min(84vw,330px)}}
 @media(prefers-reduced-motion:reduce){.brand-splash,.brand-splash__group,.brand-splash__wordmark,.brand-splash__tagline{transition:none!important;animation:none!important}}

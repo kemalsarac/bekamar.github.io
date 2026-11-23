@@ -21,8 +21,8 @@
   pagination.innerHTML = '<div class="tone-pagination__actions"><button class="tone-page-button" type="button" data-load-more>Daha fazlasını gör</button><button class="tone-page-button" type="button" data-show-less hidden>Daha azını gör</button></div><span id="tonePageStatus" aria-live="polite"></span>';
   const pageStatus = document.getElementById('tonePageStatus');
 
-  const PAGE_SIZE = document.body.dataset.catalogBrand === 'Florim' ? 12 : 15;
   let catalogBrand = document.body.dataset.catalogBrand || 'T-One';
+  const PAGE_SIZE = ['Florim', 'Calisco', 'Çimstone'].includes(catalogBrand) ? 12 : 15;
   let activeBrand = catalogBrand;
   if (catalogBrand === 'T-One') {
     activeBrand = new URL(window.location.href).searchParams.get('marka') || 'T-One';
@@ -30,6 +30,7 @@
   }
   const productNoun = document.body.dataset.productNoun || 'yüzey';
   const productsUrl = document.body.dataset.catalogProducts || '../assets/optimized/tone/products.json';
+  const skinProductsUrl = document.body.dataset.catalogSkinProducts;
   const partnerProductsUrl = '../assets/optimized/kale/products.json';
   const emptyMessage = document.body.dataset.emptyMessage || '';
   const catalogRequestUrl = document.body.dataset.catalogRequestUrl || '../bize-ulasin/index.html';
@@ -48,7 +49,17 @@
   let activeSlug = '';
   let applicationViewSlug = '';
   let showingApplications = false;
+  let applicationIndex = 0;
   let florimType = 'stone';
+  const florimGroups = {
+    stone: { name: 'FLORIM stone', thickness: '12 mm' },
+    ceramiche: { name: 'Florim Ceramiche', thickness: '6 mm' },
+    skin: { name: 'FLORIM skin', thickness: '3 mm' }
+  };
+  const getFlorimType = product => {
+    const thickness = product.specifications?.thickness;
+    return Object.keys(florimGroups).find(type => florimGroups[type].thickness === thickness) || 'ceramiche';
+  };
   const brandIntro = document.querySelector('[data-brand-intro]');
   const brandButtons = [...document.querySelectorAll('[data-brand]')];
   const brandCopy = {
@@ -78,23 +89,28 @@
   function visibleProducts() {
     const query = normalize(search.value);
     const categoryProducts = catalogBrand === 'Florim'
-      ? products.filter(product => (product.specifications?.thickness === '12 mm' ? 'stone' : 'ceramiche') === florimType)
+      ? products.filter(product => getFlorimType(product) === florimType)
       : products;
     return query ? categoryProducts.filter(product => normalize(`${product.name} ${product.collection || ''} ${product.code || ''} ${product.description || ''}`).includes(query)) : categoryProducts;
   }
 
   function cardMarkup(product) {
     const image = product.mainImage;
-    const collectionName = product.collection?.split(' · ').pop() || '';
-    const collectionLabel = catalogBrand === 'Florim'
-      ? `${product.specifications?.thickness === '12 mm' ? 'FLORIM stone · 12 mm' : 'Florim Ceramiche · 6 mm'}${collectionName ? ` · ${collectionName}` : ''}`
-      : product.collection;
+    let collectionLabel = product.collection;
+    if (catalogBrand === 'Florim') {
+      const group = florimGroups[getFlorimType(product)];
+      const collectionName = product.collection?.split(' · ').pop();
+      collectionLabel = `${group.name} · ${group.thickness}${collectionName && collectionName !== group.name ? ` · ${collectionName}` : ''}`;
+    }
     const cardSrcset = image.smallThumbnail && image.thumbnail && image.smallThumbnail !== image.thumbnail
       ? `srcset="${assetUrl(image.smallThumbnail)} ${image.smallThumbnailWidth}w, ${assetUrl(image.thumbnail)} ${image.thumbnailWidth}w"`
       : '';
+    const productLabel = activeBrand === 'T-One'
+      ? escapeHtml(product.name).replace(/\b(?:White|Line|Vein|Unique|Collection|Light|Cityscape|Ivory|Silver|Highway|Industrial|Innovation|Massive|Metallic)\b/g, '<span lang="en">$&</span>')
+      : escapeHtml(product.name);
     return `<a class="tone-product-card" href="?urun=${encodeURIComponent(product.slug)}" data-product-link="${escapeHtml(product.slug)}" aria-label="${escapeHtml(product.name)} ürününü incele">
       <span class="tone-product-card__image"><img src="${assetUrl(image.thumbnail)}" ${cardSrcset} sizes="${escapeHtml(image.sizes || '(max-width: 680px) 46vw, 22vw')}" width="${image.thumbnailWidth}" height="${image.thumbnailHeight}" alt="${escapeHtml(product.imageAlt || product.name)}" loading="lazy" decoding="async"></span>
-      <span class="tone-product-card__meta"><span class="tone-product-card__name">${escapeHtml(product.name)}${collectionLabel ? `<small class="tone-product-card__collection">${escapeHtml(collectionLabel)}</small>` : ''}</span><span class="tone-product-card__link">İncele&nbsp; ↗</span></span>
+      <span class="tone-product-card__meta"><span class="tone-product-card__name">${productLabel}${collectionLabel ? `<small class="tone-product-card__collection"${catalogBrand === 'Florim' ? ' lang="en"' : ''}>${escapeHtml(collectionLabel)}</small>` : ''}</span><span class="tone-product-card__link">İncele&nbsp; ↗</span></span>
     </a>`;
   }
 
@@ -104,6 +120,10 @@
     else url.searchParams.delete('marka');
     if (activeSlug) url.searchParams.set('urun', activeSlug);
     else url.searchParams.delete('urun');
+    if (catalogBrand === 'Florim') {
+      if (florimType !== 'stone') url.searchParams.set('grup', florimType);
+      else url.searchParams.delete('grup');
+    }
     if (currentPage > 1) url.searchParams.set('sayfa', String(currentPage));
     else url.searchParams.delete('sayfa');
     const method = push ? 'pushState' : 'replaceState';
@@ -125,33 +145,33 @@
     if (applicationViewSlug !== product.slug) {
       applicationViewSlug = product.slug;
       showingApplications = false;
+      applicationIndex = 0;
     }
     document.title = `${product.name} | ${catalogBrand} | BEKAMAR`;
     if (descriptionMeta) descriptionMeta.content = `${catalogBrand} ${product.name} ${productNoun}, teknik bilgileri ve mevcut görselleri. Bekamar'dan güncel bilgi alın.`;
 
     const image = product.mainImage;
     const applications = product.applications || [];
-    const productIndex = products.findIndex(item => item.slug === product.slug);
-    const otherProducts = products.slice(productIndex + 1, productIndex + 5).length
-      ? products.slice(productIndex + 1, productIndex + 5)
-      : products.slice(Math.max(0, productIndex - 4), productIndex);
+    const relatedProducts = catalogBrand === 'Florim' ? products.filter(item => getFlorimType(item) === getFlorimType(product)) : products;
+    const productIndex = relatedProducts.indexOf(product);
+    const nextProducts = relatedProducts.slice(productIndex + 1, productIndex + 5);
+    const otherProducts = nextProducts.length ? nextProducts : relatedProducts.slice(Math.max(0, productIndex - 4), productIndex);
     const galleryMarkup = applications.length
-      ? `<div class="tone-detail__gallery${applications.length === 1 ? ' tone-detail__gallery--single' : ''}" aria-label="${escapeHtml(product.name)} mekan uygulamaları">${applications.map((application, index) => `<button type="button" data-lightbox-kind="application" data-image-index="${index}" aria-label="${escapeHtml(product.name)} mekan görselini büyüt"><img src="${assetUrl(application.thumbnail)}" width="${application.thumbnailWidth}" height="${application.thumbnailHeight}" alt="${escapeHtml(product.name)} taşının mekan uygulaması" loading="lazy" decoding="async"></button>`).join('')}</div>`
+      ? `<div class="tone-detail__gallery${applications.length === 1 ? ' tone-detail__gallery--single' : ''}" aria-label="${escapeHtml(product.name)} mekân uygulamaları">${applications.map((application, index) => `<button type="button" data-lightbox-kind="application" data-image-index="${index}" aria-label="${escapeHtml(product.name)} mekân görselini büyüt"><img src="${assetUrl(application.thumbnail)}" width="${application.thumbnailWidth}" height="${application.thumbnailHeight}" alt="${escapeHtml(product.name)} taşının mekân uygulaması" loading="lazy" decoding="async"></button>`).join('')}</div>`
       : '';
-    const applicationStageMarkup = applications.length
-      ? `<div class="tone-detail__application-stage${applications.length === 1 ? ' tone-detail__application-stage--single' : ''}" aria-label="${escapeHtml(product.name)} uygulama görselleri">${applications.map((application, index) => `<button type="button" data-lightbox-kind="application" data-image-index="${index}" aria-label="${escapeHtml(product.name)} uygulama görselini büyüt"><img src="${assetUrl(application.detailWebp || application.thumbnail)}" width="${application.width || application.thumbnailWidth}" height="${application.height || application.thumbnailHeight}" alt="${escapeHtml(product.name)} taşının uygulama görseli" loading="lazy" decoding="async"></button>`).join('')}</div>`
-      : '';
+    const applicationImage = application => `<img src="${assetUrl(application.detailWebp || application.thumbnail)}" width="${application.width || application.thumbnailWidth}" height="${application.height || application.thumbnailHeight}" alt="${escapeHtml(product.name)} taşının uygulama görseli" decoding="async">`;
+    const applicationButton = (application, index) => `<button type="button" data-lightbox-kind="application" data-image-index="${index}" aria-label="${escapeHtml(product.name)} uygulama görselini büyüt">${applicationImage(application)}</button>`;
 
     const productSpecifications = { ...(product.specifications || {}) };
     if (catalogBrand === 'Florim') {
-      productSpecifications.thickness = productSpecifications.thickness === '12 mm' ? '12 mm' : '6 mm';
+      productSpecifications.thickness = florimGroups[getFlorimType(product)].thickness;
     }
     if (catalogBrand === 'Florim' && !productSpecifications.dimensions && /120\s*[x×]\s*280/i.test(product.name)) {
       productSpecifications.dimensions = '120 × 280 cm';
     }
     const specifications = Object.entries(productSpecifications)
       .filter(([, value]) => value !== null && value !== undefined && String(value).trim())
-      .map(([label, value]) => `<span><strong>${escapeHtml(({dimensions: 'Ebat', thickness: 'Kalınlık', surface: 'Yüzey', size: 'Ölçü', slipResistance: 'Kayma direnci', color: 'Renk', shape: 'Şekil', productGroup: 'Ürün grubu'})[label] || label)}:</strong> ${escapeHtml(value)}</span>`).join('');
+      .map(([label, value]) => `<span><strong>${escapeHtml(({dimensions: 'Ebat', thickness: 'Kalınlık', surface: 'Yüzey', size: 'Ölçü', slipResistance: 'Kayma direnci', color: 'Renk', shape: 'Şekil', productGroup: 'Ürün grubu', edge: 'Kenar', material: 'Malzeme', code: 'Ürün kodu'})[label] || label)}:</strong> ${escapeHtml(value)}</span>`).join('');
     const descriptionMarkup = product.description
       ? `<p>${escapeHtml(product.description)}</p>`
       : (catalogBrand === 'T-One' ? '<p>Yüzey ve proje bilgisi için Bekamar ekibinden güncel bilgi alın.</p>' : '');
@@ -160,16 +180,25 @@
       ? `<div class="tone-detail__documents"><p class="eyebrow">ÜRÜN DOKÜMANLARI</p>${product.documents.map(document => `<p><a href="${assetUrl(document.file)}" target="_blank" rel="noopener">${escapeHtml(document.label)} <span aria-hidden="true">↗</span></a> <a class="tone-detail__download" href="${assetUrl(document.file)}" download>PDF indir <span aria-hidden="true">↓</span></a></p>`).join('')}</div>`
       : '';
     const sharesApplicationStage = catalogBrand === 'T-One' || catalogBrand === 'Florim';
+    const showSingleApplication = catalogBrand === 'Florim';
+    const applicationStageMarkup = showingApplications && applications.length
+      ? `<div class="tone-detail__application-stage${showSingleApplication || applications.length === 1 ? ' tone-detail__application-stage--single' : ''}" aria-label="${escapeHtml(product.name)} uygulama görselleri">${showSingleApplication ? applicationImage(applications[applicationIndex]) : applications.map(applicationButton).join('')}</div>`
+      : '';
+    const applicationNavigation = showSingleApplication && showingApplications && applications.length > 1
+      ? `<div class="tone-detail__application-navigation"><button type="button" data-step-application="-1" aria-label="Önceki uygulama görseli">←</button><span role="status">${applicationIndex + 1} / ${applications.length}</span><button type="button" data-step-application="1" aria-label="Sonraki uygulama görseli">→</button></div>`
+      : '';
+    const applicationLabel = showSingleApplication ? 'Uygulama görselini görüntüle' : 'Uygulama görsellerini göster';
     const applicationsMarkup = sharesApplicationStage
-      ? (applications.length ? `<div class="tone-detail__applications"><button class="tone-detail__applications-toggle" type="button" data-toggle-applications aria-pressed="${showingApplications}">${showingApplications ? 'Plaka görselini göster' : 'Uygulama görsellerini göster'} <span aria-hidden="true">${showingApplications ? '↶' : '+'}</span></button></div>` : '')
-      : applications.length ? `<div class="tone-detail__applications"><p class="eyebrow">Mekan uygulamaları</p>${galleryMarkup}</div>` : '';
+      ? (applications.length ? `<div class="tone-detail__applications"><button class="tone-detail__applications-toggle" type="button" data-toggle-applications aria-pressed="${showingApplications}">${showingApplications ? 'Plaka görselini göster' : applicationLabel} <span aria-hidden="true">${showingApplications ? '↶' : '+'}</span></button>${applicationNavigation}</div>` : '')
+      : applications.length ? `<div class="tone-detail__applications"><p class="eyebrow">Mekân uygulamaları</p>${galleryMarkup}</div>` : '';
     const productVisual = sharesApplicationStage && showingApplications
       ? applicationStageMarkup
       : `<button class="tone-detail__image-button" type="button" data-lightbox-kind="product" aria-label="${escapeHtml(product.name)} görselini büyüt" style="display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in"><img class="tone-detail__main" src="${assetUrl(image.thumbnail)}" width="${image.thumbnailWidth}" height="${image.thumbnailHeight}" alt="${escapeHtml(product.name)} ${escapeHtml(productNoun)} dokusu" decoding="async"></button>`;
     const requestUrl = `../bize-ulasin/index.html?marka=${encodeURIComponent(catalogBrand)}&amp;urun=${encodeURIComponent(product.name)}`;
+    const sourceLink = product.sourceUrl ? `<a href="${escapeHtml(product.sourceUrl)}" target="_blank" rel="noopener">Florim ürün sayfası ↗</a>` : '';
     detail.innerHTML = `<button class="tone-detail__close" type="button" data-close-detail aria-label="Ürün detayını kapat">×</button><div class="tone-detail__layout">
       ${productVisual}
-      <div class="tone-detail__copy"><p class="eyebrow">${escapeHtml(catalogBrand)} / Ürün detayı</p><h3 tabindex="-1">${escapeHtml(product.name)}</h3>${collectionMarkup}${descriptionMarkup}${specifications ? `<div class="tone-detail__specs">${specifications}</div>` : ''}${documentsMarkup}<div class="tone-detail__actions"><button type="button" data-close-detail>← Koleksiyona dön</button><a href="${requestUrl}">Bekamar’dan bilgi alın ↗</a></div>${applicationsMarkup}</div></div>
+      <div class="tone-detail__copy"><p class="eyebrow">${escapeHtml(catalogBrand)} / Ürün detayı</p><h3 tabindex="-1">${escapeHtml(product.name)}</h3>${collectionMarkup}${descriptionMarkup}${specifications ? `<div class="tone-detail__specs">${specifications}</div>` : ''}${documentsMarkup}<div class="tone-detail__actions"><button type="button" data-close-detail>← Koleksiyona dön</button><a href="${requestUrl}">Bekamar’dan bilgi alın ↗</a>${sourceLink}</div>${applicationsMarkup}</div></div>
     <div class="tone-detail__similar"><h4>Koleksiyondan diğer yüzeyler</h4><div class="tone-detail__similar-links">${otherProducts.map(item => `<a href="?urun=${encodeURIComponent(item.slug)}" data-product-link="${escapeHtml(item.slug)}">${escapeHtml(item.name)} ↗</a>`).join('')}</div></div>`;
     if (!detail.open) detail.showModal();
   }
@@ -205,11 +234,12 @@
     const image = kind === 'application' ? product.applications[index] : product.mainImage;
     if (!image) return;
     const alt = kind === 'application'
-      ? `${product.name} taşının mekan uygulaması`
+      ? `${product.name} taşının mekân uygulaması`
       : `${product.name} ${productNoun} görseli`;
     const avif = image.detailAvif
       ? `<source type="image/avif" srcset="${assetUrl(image.detailAvif)}">`
       : '';
+    lightboxContent.dataset.kind = kind;
     lightboxContent.innerHTML = `<picture>${avif}<img src="${assetUrl(image.detailWebp)}" width="${image.width}" height="${image.height}" alt="${escapeHtml(alt)}" decoding="async"></picture>`;
     lightboxCaption.textContent = alt;
     lightbox.showModal();
@@ -238,6 +268,16 @@
       showingApplications = !showingApplications;
       renderDetail();
       detail.querySelector('[data-toggle-applications]')?.focus();
+      return;
+    }
+    const applicationStep = event.target.closest('[data-step-application]');
+    if (applicationStep) {
+      const applications = products.find(item => item.slug === activeSlug)?.applications;
+      if (!applications?.length) return;
+      const step = Number(applicationStep.dataset.stepApplication);
+      applicationIndex = (applicationIndex + step + applications.length) % applications.length;
+      renderDetail();
+      detail.querySelector(`[data-step-application="${step}"]`)?.focus({ preventScroll: true });
       return;
     }
     const link = event.target.closest('[data-product-link]');
@@ -288,6 +328,24 @@
 
   const florimTabs = [...document.querySelectorAll('[data-florim-type]')];
   const florimTablist = document.querySelector('[data-florim-tablist]');
+  const productPanel = document.getElementById('toneProductPanel');
+  function setFlorimType(type) {
+    florimType = type;
+    florimTabs.forEach(tab => {
+      const selected = tab.dataset.florimType === type;
+      tab.classList.toggle('is-active', selected);
+      tab.setAttribute('aria-selected', String(selected));
+      tab.tabIndex = selected ? 0 : -1;
+      if (selected) productPanel?.setAttribute('aria-labelledby', tab.id);
+    });
+    if (florimTablist) florimTablist.dataset.activeTab = type;
+  }
+  function restoreFlorimType(params) {
+    if (catalogBrand !== 'Florim') return;
+    const product = products.find(item => item.slug === activeSlug);
+    const type = params.get('grup');
+    setFlorimType(product ? getFlorimType(product) : Object.hasOwn(florimGroups, type) ? type : 'stone');
+  }
   florimTablist?.addEventListener('keydown', event => {
     const currentIndex = florimTabs.indexOf(event.target.closest('[role="tab"]'));
     if (currentIndex < 0) return;
@@ -304,16 +362,7 @@
 
   florimTabs.forEach(button => button.addEventListener('click', event => {
     event.preventDefault();
-    florimType = button.dataset.florimType;
-    florimTabs.forEach(item => {
-      const selected = item === button;
-      item.classList.toggle('is-active', selected);
-      item.setAttribute('aria-selected', String(selected));
-      item.tabIndex = selected ? 0 : -1;
-    });
-    const productPanel = document.getElementById('toneProductPanel');
-    if (florimTablist) florimTablist.dataset.activeTab = florimType;
-    productPanel?.setAttribute('aria-labelledby', button.id);
+    setFlorimType(button.dataset.florimType);
     productPanel?.classList.add('is-switching');
     currentPage = 1;
     activeSlug = '';
@@ -348,6 +397,7 @@
     const brand = catalogBrand === 'T-One' ? (url.searchParams.get('marka') || 'T-One') : catalogBrand;
     if (brand !== activeBrand) selectBrand(brand);
     activeSlug = url.searchParams.get('urun') || '';
+    restoreFlorimType(url.searchParams);
     currentPage = Number(url.searchParams.get('sayfa') || 1);
     render();
   });
@@ -356,15 +406,23 @@
   Promise.all([
     fetch(productsUrl).then(response => { if (!response.ok) throw new Error('T-ONE data unavailable'); return response.json(); }),
     fetch(partnerProductsUrl).then(response => { if (!response.ok) throw new Error('Kale data unavailable'); return response.json(); }),
+    skinProductsUrl ? fetch(skinProductsUrl).then(response => {
+      if (!response.ok) throw new Error('Florim skin data unavailable');
+      return response.json();
+    }) : [],
   ])
-    .then(([toneData, partnerData]) => {
+    .then(([toneData, partnerData, skinProducts]) => {
       productSets = {
         'T-One': toneData.products || [],
         'Kale': (partnerData.products || []).filter(product => product.brand === 'Kale'),
         'Kalebodur': (partnerData.products || []).filter(product => product.brand === 'Kalebodur'),
       };
-      if (!productSets[catalogBrand]) productSets[catalogBrand] = toneData.products || [];
+      if (!productSets[catalogBrand]) productSets[catalogBrand] = [...(toneData.products || []), ...skinProducts];
       selectBrand(activeBrand);
+      florimTabs.forEach(tab => {
+        const badge = tab.querySelector('[data-category-count]');
+        if (badge) badge.textContent = `${products.filter(product => getFlorimType(product) === tab.dataset.florimType).length} ürün`;
+      });
       catalogDocuments = toneData.catalogs || [];
       const catalogLink = document.getElementById(document.body.dataset.catalogLinksId || 'florimCatalogLinks');
       if (catalogLink) {
@@ -374,8 +432,9 @@
       }
       const url = new URL(window.location.href);
       activeSlug = url.searchParams.get('urun') || '';
+      restoreFlorimType(url.searchParams);
       currentPage = Number(url.searchParams.get('sayfa') || 1);
-      const activeIndex = products.findIndex(product => product.slug === activeSlug);
+      const activeIndex = visibleProducts().findIndex(product => product.slug === activeSlug);
       if (activeIndex >= 0 && !url.searchParams.has('sayfa')) currentPage = Math.floor(activeIndex / PAGE_SIZE) + 1;
       render();
       updateUrl();

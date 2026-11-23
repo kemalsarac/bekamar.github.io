@@ -20,7 +20,7 @@ if (navRoot && megaMenu && mobileSubmenus) {
       ] }]
     },
     natural: {
-      label: 'DO\u011EAL TA\u015ELAR', image: `${assetPrefix}assets/images/dogaltaslar.png`,
+      label: 'DO\u011EAL TA\u015ELAR', image: `${assetPrefix}assets/optimized/site/dogaltaslar-1366.webp`,
       imageAlt: 'Do\u011Fal ta\u015F plakas\u0131n\u0131n do\u011Fal damarlar\u0131',
       groups: [{ heading: 'DO\u011EAL TA\u015ELAR', items: [
         { label: 'Quartzite (Kuvarsit)', href: `${assetPrefix}dogal-taslar/index.html#quartzite`, image: `${assetPrefix}assets/optimized/tone/products/quarzite-j-adore-162x323cm-12mm-1600.webp`, imageAlt: 'Quartzite g\u00f6r\u00fcn\u00fcml\u00fc y\u00fczey' },

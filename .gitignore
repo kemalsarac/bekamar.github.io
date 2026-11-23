@@ -13,3 +13,7 @@ Thumbs.db
 .edge-cdp-final/
 __pycache__/
 *.pyc
+
+.edge-cdp-final/
+__pycache__/
+*.pyc

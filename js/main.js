@@ -7,10 +7,10 @@ const bg = o => o.img ? `${siteImages ? siteImages.background(o.img) : `url("${o
 
 const stones = [
   { name:'Elazığ Vişne', note:'Derin zemini ve ince damarlarıyla dramatik bir sahne kurar.', img:'assets/images/elazıg_visne.png', applicationImg:'assets/optimized/site/new-elazig-visne-1402.webp', bg:stone(70,'#2b2a28','rgba(220,210,190,.35)','#555049') },
-  { name:'Panda White', note:'Sıcak tonları ve doğal gözenekli dokusuyla ferah mekanlar yaratır.', img:'assets/images/pandawhite.png', applicationImg:'assets/optimized/site/new-pandawhite-1448.webp', bg:stone(95,'#d8c7a8','rgba(150,120,80,.4)','#b49c78') },
+  { name:'Panda White', lang:'en', note:'Sıcak tonları ve doğal gözenekli dokusuyla ferah mekânlar yaratır.', img:'assets/images/pandawhite.png', applicationImg:'assets/optimized/site/new-pandawhite-1448.webp', bg:stone(95,'#d8c7a8','rgba(150,120,80,.4)','#b49c78') },
   { name:'Carrara', note:'Yumuşak geçişleriyle sakin ve zarif yüzeyler sunar.', img:'assets/images/carrarawhite.png', applicationImg:'assets/optimized/site/new-carrara-1534.webp', bg:stone(120,'#e0d5c3','rgba(130,110,85,.3)','#bfae94') },
   { name:'Avakado', note:'Işığı geçiren yoğun dokusuyla özel projelere değer katar.', img:'assets/images/avakadourun.png', applicationImg:'assets/optimized/site/new-avacado-1412.webp', bg:stone(50,'#46564b','rgba(210,225,205,.35)','#2c382f') },
-  { name:'Bal Onyx', note:'Zamansız zarafetiyle mekanlara benzersiz bir karakter kazandırır.', img:'assets/images/bal-onyx_536_485.jpg', applicationImg:'assets/optimized/site/new-onyx-1448.webp', bg:stone(65,'#d9c9b0','rgba(110,80,50,.55)','#a89478') }
+  { name:'Bal Onyx', note:'Zamansız zarafetiyle mekânlara benzersiz bir karakter kazandırır.', img:'assets/images/bal-onyx_536_485.jpg', applicationImg:'assets/optimized/site/new-onyx-1448.webp', bg:stone(65,'#d9c9b0','rgba(110,80,50,.55)','#a89478') }
 ];
 const cats = [
   ['Doğal Taşlar','Mermer, Traverten, Granit ve daha fazlası',0], ['Porselen Yüzeyler','Estetik ve dayanıklılığı buluşturan modern çözümler',3],
@@ -24,7 +24,7 @@ const catImages = [
 ];
 const apps = [
   ['Mutfak','linear-gradient(180deg,#5a4d40,#2c2723)'], ['Banyo',stone(100,'#cbbba2','rgba(90,70,50,.4)','#8c7b62')],
-  ['İç Mekan','linear-gradient(200deg,#a58a68,#2a231d)'], ['Dış Mekan','linear-gradient(180deg,#d8cdbb,#4d5c66 70%,#1f2a31)']
+  ['İç Mekân','linear-gradient(200deg,#a58a68,#2a231d)'], ['Dış Mekân','linear-gradient(180deg,#d8cdbb,#4d5c66 70%,#1f2a31)']
 ].map(([t, g]) => ({ t, img:'', bg:g }));
 apps[0].img = 'assets/images/mutfak.png';
 apps[1].img = 'assets/images/banyo.png';
@@ -59,6 +59,7 @@ let c = 0;
 const thumbsEl = $('thumbs');
 stones.forEach((s, i) => {
   const b = el('button', { className:'thumb', ariaLabel:s.name, onclick:() => { c = i; renderCol(); } });
+  if (s.lang) b.lang = s.lang;
   b.style.background = s.img && siteImages ? `${siteImages.background(s.img, '', true)} center/cover` : bg(s); thumbsEl.append(b);
 });
 function renderCol() {
@@ -69,7 +70,9 @@ function renderCol() {
   const application = $('colApplication');
   application.hidden = !s.applicationImg;
   if (s.applicationImg) { application.alt = s.name + ' uygulama \u00f6rne\u011fi'; application.loading = 'lazy'; application.src = s.applicationImg; if (siteImages) siteImages.attach(application, s.applicationImg, '', '(max-width:700px) 100vw, 45vw'); }
-  $('colName').textContent = s.name; $('colNote').textContent = s.note; $('colIdx').textContent = `0${c + 1} / 0${stones.length}`;
+  const name = $('colName');
+  name.lang = s.lang || document.documentElement.lang;
+  name.textContent = s.name; $('colNote').textContent = s.note; $('colIdx').textContent = `0${c + 1} / 0${stones.length}`;
   [...thumbsEl.children].forEach((b, i) => b.setAttribute('aria-current', i === c));
 }
 $('cPrev').onclick = () => { c = mod(c - 1, stones.length); renderCol(); };
@@ -87,7 +90,7 @@ $('apps').append(...apps.map(a => {
 /* Brands and projects */
 $('brands').append(...brandLogos.map(({ name, src }) => {
   const destinations = { FLORIM:'florim/index.html', CALISCO:'calisco/index.html', 'ÇİMSTONE':'cimstone/index.html', 'T-ONE':'t-one/index.html' };
-  const item = el('a', { className:'brands__logo', href:destinations[name], 'aria-label':`${name} marka detay sayfasi` });
+  const item = el('a', { className:'brands__logo', href:destinations[name], ariaLabel:`${name} marka detay sayfası` });
   if (src) item.append(el('img', { src:siteImages ? siteImages.path(src) : src, alt:name, width:120, height:48, className:`brands__logo-image brands__logo-image--${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`, loading:'lazy', decoding:'async' }));
   else item.append(el('span', { className:`brands__wordmark brands__wordmark--${name.toLowerCase()}`, textContent:name }));
   return item;

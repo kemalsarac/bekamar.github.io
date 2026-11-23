@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "assets" / "optimized" / "tone" / "manifest.json"
 OUTPUT = ROOT / "assets" / "optimized" / "tone"
+DISPLAY_NAMES = {"hollywood-brown": "Hollywood Kahve"}
 
 
 def slugify(value: str) -> str:
@@ -68,10 +69,11 @@ def main() -> None:
     products = []
     for index, item in enumerate(manifest["products"], start=1):
         name = re.sub(r"_162x323cm_12mm$", "", item["name"])
+        slug = slugify(name)
         products.append({
             "id": f"tone-{index:03}",
-            "slug": slugify(name),
-            "name": name.replace("_", " "),
+            "slug": slug,
+            "name": DISPLAY_NAMES.get(slug, name.replace("_", " ")),
             "mainImage": image_record(item),
             "description": "",
             "specifications": {"dimensions": "162 × 323 cm", "thickness": "12 mm"},

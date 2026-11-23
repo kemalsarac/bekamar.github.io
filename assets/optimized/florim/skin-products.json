@@ -1,0 +1,396 @@
+[
+  {
+    "id": "florim-skin-780661",
+    "slug": "3mm-cement-white",
+    "name": "Cement White",
+    "collection": "FLORIM skin",
+    "code": "780661",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/cement-white",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/e90d2677-fb25-4bc6-a2b9-83431cf4e16e/image/780661.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/cement-white-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/cement-white-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/cement-white-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780661"
+    }
+  },
+  {
+    "id": "florim-skin-780662",
+    "slug": "3mm-cement-ivory",
+    "name": "Cement Ivory",
+    "collection": "FLORIM skin",
+    "code": "780662",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/cement-ivory",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/79c0bd78-4f9a-4b33-9702-280c3838eab1/image/780662.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/cement-ivory-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/cement-ivory-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/cement-ivory-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780662"
+    }
+  },
+  {
+    "id": "florim-skin-780663",
+    "slug": "3mm-cement-light-gray",
+    "name": "Cement Light Gray",
+    "collection": "FLORIM skin",
+    "code": "780663",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/cement-light-gray",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/0e9350f3-25ac-418d-8c8a-384d9661a1d2/image/780663.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/cement-light-gray-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/cement-light-gray-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/cement-light-gray-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780663"
+    }
+  },
+  {
+    "id": "florim-skin-780664",
+    "slug": "3mm-cement-dark-gray",
+    "name": "Cement Dark Gray",
+    "collection": "FLORIM skin",
+    "code": "780664",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/cement-dark-gray",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/088f3339-cdd4-45f9-9e82-28ecfb7e9f02/image/780664.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/cement-dark-gray-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/cement-dark-gray-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/cement-dark-gray-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780664"
+    },
+    "applications": [
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin cement dark gray/Florim-skin-13-D1_Cement dark grey_Grey Salt 120x120_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-01.webp",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 682,
+        "detailWebp": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-01.webp",
+        "width": 1024,
+        "height": 682
+      },
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin cement dark gray/Florim-skin-14-D2_Cement dark grey_Grey Salt 120x120_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-02.webp",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 682,
+        "detailWebp": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-02.webp",
+        "width": 1024,
+        "height": 682
+      },
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin cement dark gray/Florim-skin-15-D3_Cement dark grey_Grey Salt 120x120_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-03.webp",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 682,
+        "detailWebp": "assets/optimized/florim/applications/ince-cement-dark-gray-florim-090-03.webp",
+        "width": 1024,
+        "height": 682
+      }
+    ]
+  },
+  {
+    "id": "florim-skin-780658",
+    "slug": "3mm-stone-dordogne",
+    "name": "Stone Dordogne",
+    "collection": "FLORIM skin",
+    "code": "780658",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/stone-dordogne",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/435213db-81ef-437f-a598-42322479b5ce/image/780658.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/stone-dordogne-262.webp",
+      "thumbnailWidth": 262,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/stone-dordogne-131.webp",
+      "smallThumbnailWidth": 131,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/stone-dordogne-262.webp",
+      "width": 262,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte Leather",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780658"
+    }
+  },
+  {
+    "id": "florim-skin-780659",
+    "slug": "3mm-stone-chablis",
+    "name": "Stone Chablis",
+    "collection": "FLORIM skin",
+    "code": "780659",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/stone-chablis",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/13b371aa-e845-4040-a876-69806304c73d/image/780659.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/stone-chablis-262.webp",
+      "thumbnailWidth": 262,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/stone-chablis-131.webp",
+      "smallThumbnailWidth": 131,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/stone-chablis-262.webp",
+      "width": 262,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte Leather",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780659"
+    }
+  },
+  {
+    "id": "florim-skin-780666",
+    "slug": "3mm-dust-brown",
+    "name": "Dust Brown",
+    "collection": "FLORIM skin",
+    "code": "780666",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/dust-brown",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/4fea1f17-d0cf-4b66-8d00-693adf69fba3/image/780666.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/dust-brown-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/dust-brown-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/dust-brown-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780666"
+    }
+  },
+  {
+    "id": "florim-skin-780665",
+    "slug": "3mm-wood-plank",
+    "name": "Wood Plank",
+    "collection": "FLORIM skin",
+    "code": "780665",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/wood-plank",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/3185a2cc-e345-4b5c-9aa3-23c8a92e2812/image/780665.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/wood-plank-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/wood-plank-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/wood-plank-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780665"
+    }
+  },
+  {
+    "id": "florim-skin-780670",
+    "slug": "3mm-marble-statuario",
+    "name": "Marble Statuario",
+    "collection": "FLORIM skin",
+    "code": "780670 (Matte), 785115 (Glossy)",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/marble-statuario",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/e664a5c9-d8a3-465f-b5f9-b1383d69c4fa/image/780670.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/marble-statuario-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/marble-statuario-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/marble-statuario-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte / Glossy",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780670 (Matte), 785115 (Glossy)"
+    }
+  },
+  {
+    "id": "florim-skin-780669",
+    "slug": "3mm-metal-bronze",
+    "name": "Metal Bronze",
+    "collection": "FLORIM skin",
+    "code": "780669",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/metal-bronze",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/e0d58524-e942-4a55-b613-840ba958349d/image/780669.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/metal-bronze-262.webp",
+      "thumbnailWidth": 262,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/metal-bronze-131.webp",
+      "smallThumbnailWidth": 131,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/metal-bronze-262.webp",
+      "width": 262,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780669"
+    }
+  },
+  {
+    "id": "florim-skin-780667",
+    "slug": "3mm-metal-burnished",
+    "name": "Metal Burnished",
+    "collection": "FLORIM skin",
+    "code": "780667",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/metal-burnished",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/9bd30252-f3c2-408b-8276-2eb01e367732/image/780667.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/metal-burnished-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/metal-burnished-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/metal-burnished-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780667"
+    },
+    "applications": [
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin metal burnished/Florim-skin-09-C2_Light grey_Burnished_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-01.webp",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 768,
+        "detailWebp": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-01.webp",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin metal burnished/Florim-skin-10-C3_Light grey_Burnished_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-02.webp",
+        "thumbnailWidth": 512,
+        "thumbnailHeight": 768,
+        "detailWebp": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-02.webp",
+        "width": 512,
+        "height": 768
+      },
+      {
+        "source": "assets/6 mm uygulanmışlar florim/skin metal burnished/Florim-skin-11-C4_Light grey_Burnished_1024x768.jpg",
+        "thumbnail": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-03.webp",
+        "thumbnailWidth": 1024,
+        "thumbnailHeight": 682,
+        "detailWebp": "assets/optimized/florim/applications/ince-metal-burnished-florim-091-03.webp",
+        "width": 1024,
+        "height": 682
+      }
+    ]
+  },
+  {
+    "id": "florim-skin-780668",
+    "slug": "3mm-metal-corten",
+    "name": "Metal Corten",
+    "collection": "FLORIM skin",
+    "code": "780668",
+    "sourceUrl": "https://www.florim.com/en/products/all-collections/florim-skin/metal-corten",
+    "mainImage": {
+      "source": "https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/947d77ec-550a-46dd-991a-49774fda274a/image/780668.jpg?w=640&format=webp&q=95",
+      "thumbnail": "assets/optimized/florim/skin/metal-corten-272.webp",
+      "thumbnailWidth": 272,
+      "thumbnailHeight": 640,
+      "smallThumbnail": "assets/optimized/florim/skin/metal-corten-136.webp",
+      "smallThumbnailWidth": 136,
+      "smallThumbnailHeight": 320,
+      "detailWebp": "assets/optimized/florim/skin/metal-corten-272.webp",
+      "width": 272,
+      "height": 640
+    },
+    "specifications": {
+      "thickness": "3 mm",
+      "dimensions": "120 × 300 cm",
+      "surface": "Matte",
+      "edge": "Rektifiyeli",
+      "material": "Cam elyaf takviyeli porselen",
+      "code": "780668"
+    }
+  }
+]

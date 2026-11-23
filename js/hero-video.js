@@ -3,16 +3,17 @@
   if (!videos.length) return;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const saveData = navigator.connection?.saveData || /(^|-)2g$/.test(navigator.connection?.effectiveType || '');
-  // Keep the lightweight poster for users who requested reduced motion or data use.
+  // Leave the hero background visible when motion or data use is limited.
   if (reducedMotion.matches || saveData) return;
   const loadVideo = video => {
     if (video.dataset.loaded) return;
     video.dataset.loaded = 'true';
     video.preload = 'auto';
     video.load();
-    video.play().catch(() => {
-      // The poster remains a useful hero fallback when autoplay is unavailable.
-      video.classList.add('is-unavailable');
+    video.play().then(() => {
+      video.classList.add('is-playing');
+    }).catch(() => {
+      // Keep the hero background visible if playback cannot start.
     });
   };
   if (!('IntersectionObserver' in window)) {

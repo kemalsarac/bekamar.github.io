@@ -21,7 +21,8 @@ def display_name(filename: str) -> str:
     stem = Path(filename).stem
     stem = SUFFIX.sub("", stem).replace("_", " ").replace("-", " ")
     words = stem.split()
-    words = ["Türkiye" if word.casefold() == "turkiye" else word.capitalize() for word in words]
+    turkish_words = {"turkiye": "Türkiye", "cilali": "Cilalı", "elazig": "Elazığ", "visne": "Vişne"}
+    words = [turkish_words.get(word.casefold(), word.capitalize()) for word in words]
     return " ".join(words)
 
 

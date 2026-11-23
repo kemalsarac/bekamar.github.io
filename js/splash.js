@@ -7,6 +7,7 @@
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const headerBrand = document.querySelector('.site-header .brand');
   const storageKey = 'bekamarBrandIntroSeen';
+  const isHomePage = document.body.classList.contains('home-page');
   let finished = false;
   let moveTimer;
   let taglineTimer;
@@ -60,13 +61,14 @@
     };
     if (immediate || reduceMotion.matches) cleanup();
     else {
+      if (isHomePage) document.body.classList.remove('splash-active');
       overlay.classList.add('is-leaving');
-      window.setTimeout(cleanup, 340);
+      window.setTimeout(cleanup, isHomePage ? 520 : 340);
     }
   }
 
   function onMotionChange(event) {
-    if (event.matches) finish();
+    if (event.matches) finish(true);
   }
 
   function reposition() {
@@ -95,8 +97,7 @@
     requestAnimationFrame(() => group.classList.add('is-visible'));
   });
 
-  const isHomePage = document.body.classList.contains('home-page');
-  taglineTimer = window.setTimeout(() => overlay.classList.add('is-tagline-visible'), isHomePage ? 650 : 1510);
+  taglineTimer = window.setTimeout(() => overlay.classList.add('is-tagline-visible'), isHomePage ? 850 : 1510);
   moveTimer = window.setTimeout(() => {
     if (finished) return;
     overlay.classList.add('is-tagline-leaving');
@@ -106,8 +107,8 @@
       return;
     }
     moveTimer = window.setTimeout(finish, 1120);
-  }, isHomePage ? 1250 : 2650);
-  fallbackTimer = window.setTimeout(finish, isHomePage ? 3200 : 5200);
+  }, isHomePage ? 3200 : 2650);
+  fallbackTimer = window.setTimeout(finish, 5200);
   window.addEventListener('resize', reposition, { passive: true });
   window.visualViewport?.addEventListener('resize', reposition, { passive: true });
   reduceMotion.addEventListener?.('change', onMotionChange);

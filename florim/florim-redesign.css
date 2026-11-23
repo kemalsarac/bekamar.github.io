@@ -51,7 +51,6 @@
 .florim-story .source-topics,.florim-turkiye .source-topics{grid-template-columns:1fr}
 .florim-why .source-topics{grid-template-columns:repeat(2,minmax(0,1fr))}
 .florim-archive-wrap{border-top:1px solid rgba(201,187,168,.25)}
-.florim-catalog-wrap .florim-catalog-promo{min-height:0}
 .florim-catalog-wrap .tone-catalog-promo__title{font:400 clamp(42px,5vw,68px)/.94 var(--serif)}
 .florim-faq{grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);align-items:start;background:#e9e5dc}
 .florim-faq__items details{border-top:1px solid rgba(41,39,35,.2)}
@@ -67,7 +66,7 @@
 .florim-closing .source-topics{max-width:850px}
 .florim-closing .florim-hero__link{white-space:nowrap}
 @media(max-width:900px){.florim-section-nav{justify-content:flex-start}.content-section{gap:32px;padding-inline:7vw}.section-copy--full .source-topics,.florim-technical .source-topics{grid-template-columns:repeat(2,minmax(0,1fr))}.florim-closing{grid-template-columns:1fr}.florim-closing .florim-hero__link{justify-self:start}}
-@media(max-width:680px){.florim-page{scroll-padding-top:60px}.florim-page [id]{scroll-margin-top:64px}.florim-hero{height:76svh;min-height:540px;max-height:760px}.florim-hero__picture img{object-position:58% center}.florim-hero__copy{left:24px;right:22px;width:auto;transform:translateY(-42%)}.florim-hero h1{font-size:clamp(76px,19vw,112px)}.florim-hero__intro{font-size:12px}.florim-section-nav{gap:22px;padding:14px 20px}.florim-section-nav a{font-size:8px}.content-section{grid-template-columns:1fr;gap:28px;padding:68px 23px}.section-copy h2,.florim-faq h2{font-size:clamp(43px,12vw,58px)}.source-topics,.section-copy--full .source-topics,.florim-technical .source-topics,.florim-why .source-topics{grid-template-columns:1fr;gap:23px}.section-copy h3{margin-top:22px}.section-image img,.section-image--application img{min-height:280px;max-height:420px}.section-image--brand{padding:22px}.section-image--brand span{margin-top:24px}.florim-collections{gap:30px}.wide-image img{height:300px;min-height:0}.florim-applications .section-image{grid-row:1}.florim-faq{grid-template-columns:1fr;gap:10px}.florim-faq__items summary{font-size:23px}.florim-catalog-wrap .florim-catalog-promo__layout{grid-template-columns:1fr}.florim-closing{gap:20px}.florim-closing h2{font-size:clamp(42px,11vw,55px)}}
+@media(max-width:680px){.florim-page{scroll-padding-top:60px}.florim-page [id]{scroll-margin-top:64px}.florim-hero{height:76svh;min-height:540px;max-height:760px}.florim-hero__picture img{object-position:58% center}.florim-hero__copy{left:24px;right:22px;width:auto;transform:translateY(-42%)}.florim-hero h1{font-size:clamp(76px,19vw,112px)}.florim-hero__intro{font-size:12px}.florim-section-nav{gap:22px;padding:14px 20px}.florim-section-nav a{font-size:8px}.content-section{grid-template-columns:1fr;gap:28px;padding:68px 23px}.section-copy h2,.florim-faq h2{font-size:clamp(43px,12vw,58px)}.source-topics,.section-copy--full .source-topics,.florim-technical .source-topics,.florim-why .source-topics{grid-template-columns:1fr;gap:23px}.section-copy h3{margin-top:22px}.section-image img,.section-image--application img{min-height:280px;max-height:420px}.section-image--brand{padding:22px}.section-image--brand span{margin-top:24px}.florim-collections{gap:30px}.wide-image img{height:300px;min-height:0}.florim-applications .section-image{grid-row:1}.florim-faq{grid-template-columns:1fr;gap:10px}.florim-faq__items summary{font-size:23px}.florim-closing{gap:20px}.florim-closing h2{font-size:clamp(42px,11vw,55px)}}
 @media(prefers-reduced-motion:reduce){.florim-hero__link,.florim-section-nav a{transition:none}}
 
 /* Product-first Florim page and optional editorial information */
@@ -267,25 +266,55 @@
 .florim-page .tone-pagination__actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 18px}
 .florim-page .tone-pagination [data-load-more],.florim-page .tone-pagination [data-show-less]{padding:13px 22px;border:1px solid #9c8c74;transition:background .2s,color .2s}
 .florim-page .tone-pagination [data-load-more]:hover,.florim-page .tone-pagination [data-load-more]:focus-visible,.florim-page .tone-pagination [data-show-less]:hover,.florim-page .tone-pagination [data-show-less]:focus-visible{background:#756248;color:#fff}
-.florim-page .florim-catalog-wrap .tone-catalog-promo{display:flex;flex-direction:column;align-items:stretch;padding:clamp(48px,7vw,94px) clamp(22px,8vw,120px);background:#171715;color:#f2f0ea}
-.florim-page .florim-catalog-promo__layout{grid-template-columns:minmax(0,1.05fr) minmax(300px,.75fr)}
 .florim-page .florim-catalog-wrap .tone-catalog-promo__eyebrow{color:#c9bba8}
-.florim-page .florim-catalog-wrap .tone-catalog-promo__title{color:#f2f0ea;font-size:clamp(48px,6vw,82px);line-height:.88}
+.florim-page .florim-catalog-wrap .tone-catalog-promo__title{color:#f2f0ea}
 .florim-page .florim-catalog-wrap .tone-catalog-promo__title em{color:#c9bba8}
 .florim-page .florim-catalog-wrap .tone-catalog-promo__description{color:rgba(242,240,234,.82)}
 .florim-page .florim-catalog-wrap .tone-catalog-promo__action{color:#f2f0ea}
 .florim-page .florim-catalog-wrap .tone-catalog-promo__action span{color:#c9bba8}
-.florim-page .florim-catalog-wrap .catalog-cover{background:#22211f}
-.florim-page .florim-catalog-wrap .catalog-cover .catalog-document span{background:#171715;color:#f2f0ea}
-.florim-page .florim-catalog-wrap .catalog-cover .catalog-document img{box-shadow:0 22px 56px rgba(0,0,0,.34)}
-.florim-page .florim-catalog-wrap .catalog-cover .catalog-document:focus-visible{outline-color:#c9bba8}
+
+.florim-catalog-wrap{
+  padding:clamp(48px,7vw,94px) clamp(22px,6vw,96px);
+  background:#171715;color:#f2f0ea;
+}
+.florim-catalog-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(20px,3vw,48px);max-width:1560px;margin-inline:auto;
+}
+.florim-catalog-card{
+  display:grid;grid-template-rows:auto 1fr;gap:24px;
+  padding:clamp(20px,2.6vw,40px);border:1px solid rgba(201,187,168,.22);
+  background:#22211f;
+}
+.florim-page .florim-catalog-card .tone-catalog-promo__title{font-size:clamp(34px,3.2vw,54px);line-height:1}
+.florim-catalog-card__cover{
+  display:grid;place-items:center;align-self:stretch;padding:16px;
+  background:#1b1a18;color:inherit;
+}
+.florim-catalog-card__cover img{
+  display:block;width:min(100%,270px);height:auto;
+  box-shadow:0 16px 40px rgba(0,0,0,.38);
+}
+@media(min-width:701px){
+  .florim-catalog-card{grid-row:span 5;grid-template-rows:subgrid;row-gap:0}
+  .florim-catalog-card .tone-catalog-promo__copy{display:contents}
+  .florim-catalog-card .tone-catalog-promo__copy>*{align-self:start;justify-self:start}
+  .florim-catalog-card__cover{margin-top:24px}
+}
+@media(min-width:1360px){
+  .florim-catalog-card{grid-row:span 4;grid-template-columns:minmax(0,1fr) minmax(0,.9fr)}
+  .florim-catalog-card .tone-catalog-promo__copy>*{grid-column:1}
+  .florim-catalog-card__cover{grid-area:1 / 2 / span 4;margin-top:0}
+}
+@media(max-width:700px){
+  .florim-catalog-grid{grid-template-columns:1fr}
+}
 .florim-page .florim-closing{background:#e9e5dc;color:#292723}
 .florim-page .florim-closing .eyebrow{color:#756248}
 .florim-page .florim-closing .section-deck,.florim-page .florim-closing .source-topic p{color:#625e57!important}
 .florim-page .florim-closing .florim-hero__link{border-color:#9c8c74;color:#292723}
 @media(max-width:1100px){.florim-page .tone-product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 14px}}
-@media(max-width:700px){.florim-page .florim-quick-links{gap:12px;padding:12px 18px 22px}.florim-page .tone-catalog{padding:32px 20px}.florim-page .tone-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 10px}.florim-page .tone-product-card__meta{align-items:flex-start;flex-direction:row;gap:6px;padding:9px 1px 0}.florim-page .tone-product-card__name{font-size:clamp(14px,4vw,16px)}.florim-page .tone-product-card__link{font-size:7px}.florim-page .florim-catalog-wrap .tone-catalog-promo__title{font-size:clamp(48px,13vw,66px)}.florim-page .florim-catalog-wrap .tone-catalog-promo__layout{grid-template-columns:1fr;gap:30px}.florim-page .florim-catalog-wrap .catalog-cover{min-height:390px;padding:18px}.florim-page .florim-catalog-wrap .catalog-cover .catalog-document img{height:354px;max-width:82%}.florim-page .florim-closing{grid-template-columns:1fr}}
-
+@media(max-width:700px){.florim-page .florim-quick-links{gap:12px;padding:12px 18px 22px}.florim-page .tone-catalog{padding:32px 20px}.florim-page .tone-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 10px}.florim-page .tone-product-card__meta{align-items:flex-start;flex-direction:row;gap:6px;padding:9px 1px 0}.florim-page .tone-product-card__name{font-size:clamp(14px,4vw,16px)}.florim-page .tone-product-card__link{font-size:7px}.florim-page .florim-closing{grid-template-columns:1fr}}
 
 /* New verified editorial modules and request form. */
 .florim-editorial-showcase{padding:clamp(64px,8vw,112px) clamp(22px,8vw,120px);background:#f4f1eb;color:#292723}
@@ -365,7 +394,6 @@
 @media(max-width:760px){.florim-editorial-showcase__heading{grid-template-columns:1fr;gap:12px}.florim-editorial-showcase__heading .eyebrow{grid-column:auto}.florim-new-collections .florim-editorial-showcase__heading{grid-template-columns:1fr;gap:12px;margin-bottom:28px}.florim-new-collections .florim-editorial-showcase__heading h2{font-size:clamp(42px,10vw,58px)}.florim-new-collections .florim-editorial-showcase__heading>p:last-child{padding:0}.florim-rinascenza-film{grid-template-columns:1fr;gap:24px}.florim-rinascenza-film__player{width:100%;aspect-ratio:16/9}.florim-rinascenza-film__player video{object-fit:cover}.florim-rinascenza-film__copy h3{font-size:clamp(38px,10vw,52px)}.florim-rinascenza-film__toggle{right:12px;bottom:12px}.florim-award-grid{grid-template-columns:1fr}.florim-feature-card{min-height:300px}.florim-catalog-extra{grid-template-columns:1fr}.florim-catalog-extra>a{justify-self:start}.florim-sample-request .florim-request-fields{grid-template-columns:1fr}.florim-sample-request .florim-request-fields__wide{grid-column:auto}.florim-sample-request fieldset{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.florim-new-collections .florim-editorial-showcase__heading,.florim-new-collections .florim-rinascenza-film__player,.florim-new-collections .florim-rinascenza-film__copy,.florim-rinascenza-film__toggle{transition:none}.florim-new-collections.is-reveal-ready .florim-editorial-showcase__heading,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__player,.florim-new-collections.is-reveal-ready .florim-rinascenza-film__copy{opacity:1;transform:none}}
 
-
 .florim-feature-card:focus-visible{outline:3px solid #92764f;outline-offset:4px}
 .florim-brand-award{align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:14px;padding:clamp(24px,4vw,42px);border:1px solid rgba(41,39,35,.18);background:#f4f1eb;color:#292723}
 .florim-brand-award .eyebrow{color:#756248}
@@ -399,7 +427,7 @@
 /* Editorial Florim category navigation */
 .florim-page .tone-catalog .florim-type-switch{display:block;margin:22px 0 18px;padding:0;border:0;background:transparent}
 .florim-page .tone-catalog .florim-type-switch>.eyebrow{margin:0 0 8px;color:#756248;font:600 9px var(--sans,Arial,sans-serif);letter-spacing:.15em}
-.florim-page .tone-catalog .florim-type-switch__tabs{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid rgba(41,39,35,.2);border-bottom:1px solid rgba(41,39,35,.2)}
+.florim-page .tone-catalog .florim-type-switch__tabs{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(41,39,35,.2);border-bottom:1px solid rgba(41,39,35,.2)}
 .florim-page .tone-catalog .florim-type-switch button.florim-category-tab{position:relative;display:flex;align-items:center;min-width:0;min-height:126px;padding:16px clamp(16px,2.5vw,32px);border:0;border-radius:0;background:transparent;box-shadow:none;color:#686257;text-align:left;cursor:pointer;transition:color .2s ease}
 .florim-page .tone-catalog .florim-type-switch button.florim-category-tab+button.florim-category-tab{border-left:1px solid rgba(41,39,35,.18)}
 .florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy{display:flex;flex-direction:column;gap:7px;min-width:0;width:100%;margin:0;padding:0;background:transparent;color:inherit}
@@ -412,21 +440,23 @@
 .florim-page .tone-catalog .florim-type-switch button.florim-category-tab:hover{background:transparent;color:#51483c}
 .florim-page .tone-catalog .florim-type-switch button.florim-category-tab:hover .florim-category-tab__copy strong{transform:translateX(2px)}
 .florim-page .tone-catalog .florim-type-switch button.florim-category-tab:focus-visible{z-index:1;outline:2px solid #92764f;outline-offset:-3px;background:transparent}
-.florim-page .tone-catalog .florim-type-switch__indicator{position:absolute;z-index:1;left:0;bottom:-1px;width:50%;height:2px;background:#a7895f;pointer-events:none;transform:translateX(0);transition:transform .34s cubic-bezier(.2,.7,.2,1)}
+.florim-page .tone-catalog .florim-type-switch__indicator{position:absolute;z-index:1;left:0;bottom:-1px;width:calc(100% / 3);height:2px;background:#a7895f;pointer-events:none;transform:translateX(0);transition:transform .34s cubic-bezier(.2,.7,.2,1)}
 .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="ceramiche"] .florim-type-switch__indicator{transform:translateX(100%)}
+.florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="skin"] .florim-type-switch__indicator{transform:translateX(200%)}
 .florim-page #toneProductPanel .tone-product-grid{transition:opacity .18s ease,transform .18s ease}
 .florim-page #toneProductPanel.is-switching .tone-product-grid{opacity:.3;transform:translateY(4px)}
 @media(max-width:700px){
   .florim-page .tone-catalog .florim-type-switch{margin:18px 0 16px}
-  .florim-page .tone-catalog .florim-type-switch__tabs{grid-template-columns:1fr;grid-template-rows:repeat(2,88px)}
+  .florim-page .tone-catalog .florim-type-switch__tabs{grid-template-columns:1fr;grid-template-rows:repeat(3,88px)}
   .florim-page .tone-catalog .florim-type-switch button.florim-category-tab{min-height:88px;padding:10px 12px}
   .florim-page .tone-catalog .florim-type-switch button.florim-category-tab+button.florim-category-tab{border-top:1px solid rgba(41,39,35,.18);border-left:0}
   .florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy{gap:5px}
   .florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy strong{font-size:clamp(22px,5.8vw,27px)}
   .florim-page .tone-catalog .florim-type-switch .florim-category-tab__meta{font-size:10px}
   .florim-page .tone-catalog .florim-type-switch__indicator{top:auto;bottom:0;width:100%;height:2px}
-  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="stone"] .florim-type-switch__indicator{transform:translateY(-88px)}
-  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="ceramiche"] .florim-type-switch__indicator{transform:translateY(0)}
+  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="stone"] .florim-type-switch__indicator{transform:translateY(-176px)}
+  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="ceramiche"] .florim-type-switch__indicator{transform:translateY(-88px)}
+  .florim-page .tone-catalog .florim-type-switch__tabs[data-active-tab="skin"] .florim-type-switch__indicator{transform:translateY(0)}
 }
 @media(prefers-reduced-motion:reduce){
   .florim-page .tone-catalog .florim-type-switch button.florim-category-tab,.florim-page .tone-catalog .florim-type-switch .florim-category-tab__copy strong,.florim-page .tone-catalog .florim-type-switch__indicator,.florim-page #toneProductPanel .tone-product-grid{transition:none}
@@ -590,3 +620,14 @@
 /* Align the Florim breadcrumb with the product-section content gutter. */
 .florim-page .seo-breadcrumb{max-width:none;margin:0;padding:14px clamp(22px,8vw,120px)}
 @media(max-width:700px){.florim-page .seo-breadcrumb{padding:14px 20px}}
+.florim-page .tone-detail__application-stage>img{
+  min-width:0;min-height:0;object-fit:contain;
+}
+.florim-page .tone-detail__application-navigation{
+  display:flex;align-items:center;gap:12px;margin-top:12px;
+  font:500 11px var(--sans);
+}
+.florim-page .tone-detail__application-navigation button{
+  display:grid;place-items:center;width:36px;height:36px;
+  border:1px solid currentColor;background:none;color:inherit;font-size:16px;cursor:pointer;
+}
